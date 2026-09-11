@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StoryLearn (prototype) — The Song No One Could Hear</title>
+<style>
+  :root {
+    --blue: #1565C0;
+    --blue-light: #1976D2;
+    --blue-pale: #E3F2FD;
+    --cream: #FFF8EE;
+    --text: #1A1A2E;
+    --text-sub: #555;
+    --border: #E0E0E0;
+    --white: #FFFFFF;
+    --radius: 12px;
+    --shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans", sans-serif;
+    background: linear-gradient(135deg, #EEF6FF 0%, var(--cream) 100%);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    padding: 16px 24px;
+    background: rgba(255,255,255,0.9);
+    border-bottom: 1px solid var(--border);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  header .badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: var(--blue-pale);
+    color: var(--blue);
+    padding: 3px 10px;
+    border-radius: 999px;
+  }
+  .wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 20px 80px;
+  }
+  .video-box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .video-box iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .narration-card {
+    margin-top: 20px;
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 24px 28px;
+    font-size: 1.15rem;
+    line-height: 1.9;
+  }
+  .narration-card .frame-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 10px;
+  }
+  .word {
+    cursor: default;
+    padding: 1px 1px;
+    border-radius: 4px;
+  }
+  .word.vocab {
+    cursor: pointer;
+    color: var(--blue);
+    font-weight: 700;
+    border-bottom: 2px dotted var(--blue);
+  }
+  .word.vocab:hover {
+    background: var(--blue-pale);
+  }
+  .hint {
+    margin-top: 14px;
+    font-size: 0.85rem;
+    color: var(--text-sub);
+  }
+  .vocab-list {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .vocab-chip {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--blue);
+    cursor: pointer;
+  }
+  .vocab-chip:hover {
+    background: var(--blue-pale);
+  }
+
+  /* popup card */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+  }
+  .overlay.open { display: flex; }
+  .popup {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 28px 30px;
+    width: min(360px, 90vw);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  }
+  .popup h2 {
+    margin: 0 0 4px;
+    font-size: 1.6rem;
+  }
+  .popup .close {
+    float: right;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--text-sub);
+  }
+  .lang-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid var(--border);
+  }
+  .lang-row .lang-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--text-sub);
+    width: 42px;
+  }
+  .lang-row .lang-word {
+    flex: 1;
+    font-size: 1.05rem;
+  }
+  .lang-row button {
+    border: none;
+    background: var(--blue-pale);
+    color: var(--blue);
+    border-radius: 999px;
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .lang-row button:hover { background: var(--blue); color: var(--white); }
+</style>
+</head>
+<body>
+
+<header>
+  🌱 Nova Nursery <span class="badge">StoryLearn — prototype</span>
+</header>
+
+<div class="wrap">
+  <div class="video-box">
+    <div id="player"></div>
+  </div>
+
+  <div class="narration-card">
+    <div class="frame-label">Frame <span id="frameNum">1</span> / 12</div>
+    <div id="narrationText"></div>
+    <div class="hint">藍色底線的字有五語言對照卡，點它試試。影片播到哪一幀，這段文字會自動跟著換。</div>
+  </div>
+
+  <div class="vocab-list" id="vocabList"></div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="popup">
+    <span class="close" id="closeBtn">✕</span>
+    <h2 id="popupWord"></h2>
+    <div id="popupLangs"></div>
+  </div>
+</div>
+
+<script>
+/* ── Data: MLAS001 "The Song No One Could Hear" (English audio track) ──
+   Source: D:\video-factory\fables_en\song_no_one_could_hear\captions.srt
+   Vocabulary: D:\video-factory\fables_en\catalog.json (story_id MLAS001)
+   NOTE: caption timing is per-FRAME (whole paragraph), not per-word —
+   captions.srt only has this precision. See StoryLearn/README.md. */
+
+const VIDEO_ID = "nwYljp_tDrA"; // en track, MLAS001
+
+const FRAMES = [
+  { start: 0.2,   end: 15.2,  text: "In the heart of the forest lived a nightingale prince whose voice, everyone agreed, was the finest sound between the treetops and the stars. On the eve of his coronation, the whole wood was already gathering, weeks early, just to be sure of a good seat." },
+  { start: 15.6,  end: 30.32, text: "A traveling cuckoo passed through that spring with news too wonderful to keep quiet: the moon herself had blessed the prince's throat with a song so rare, only true lovers of music could hear it at all. Ordinary ears, the cuckoo said, would hear nothing but silence." },
+  { start: 30.72, end: 43.88, text: "What the cuckoo did not know was that the prince had lost his voice to a chill three weeks before, and hadn't managed a single note since. He told no one. A prince who cannot sing is hardly a prince at all, he thought, and said nothing." },
+  { start: 44.28, end: 59.6,  text: "When word of the blessing spread, every creature in the wood began listening very hard whenever the prince opened his beak. And when they heard nothing, each one smiled, and each one sighed how moved they were, because no one wanted to admit their ears were merely ordinary." },
+  { start: 60.0,  end: 71.54, text: "The prince practiced alone every night, opening his beak to the moon and finding nothing there. But when anyone passed by, he simply opened it anyway, and let them believe whatever they needed to believe." },
+  { start: 71.94, end: 85.72, text: "On the night of the concert, the whole forest came — beetles and badgers, owls and otters, every creature that had ever claimed to hear the unhearable song. They settled onto branches and mossy stones, and waited for the moon to rise." },
+  { start: 86.12, end: 96.52, text: "The prince opened his beak. Nothing came out at all. But a ripple of blissful sighs rolled through the crowd anyway, and somewhere near the back, someone even claimed to be crying." },
+  { start: 96.92, end: 111.06,text: "Near the front sat a cricket, freshly hatched that very week, who had not yet learned that some silences are supposed to be applauded. He looked at the swooning crowd, and then at the prince's silent, moving beak, and could not make sense of it at all." },
+  { start: 111.46,end: 120.28,text: "Excuse me, he chirped, in the small uncertain voice of something only a week old. But I don't think the prince is singing anything at all." },
+  { start: 120.68,end: 133.94,text: "For a long moment nobody moved. The prince looked down at all those waiting faces. And somewhere in the crowd, the cuckoo went very quiet, realizing perhaps a blessing repeated enough times stops being a rumor and starts being a problem." },
+  { start: 134.34,end: 147.30,text: "So the prince told them the truth: not about moons or blessings, but about a chill three weeks old, and a voice he had been too frightened to admit was gone. The forest, it turned out, was far kinder than his fear had guessed." },
+  { start: 147.70,end: 160.06,text: "Then, with nothing left to hide, he tried anyway — and out came a voice thin and cracked and completely unmagical. The forest had never heard anything so real, and they loved it instantly, notes and all." },
+];
+
+const VOCAB = [
+  { en: "nightingale", zh: "夜鶯",   ja: "ナイチンゲール", ko: "나이팅게일", vi: "họa mi" },
+  { en: "cuckoo",      zh: "杜鵑",   ja: "カッコウ",       ko: "뻐꾸기",     vi: "chim cúc cu" },
+  { en: "voice",       zh: "嗓音",   ja: "声",             ko: "목소리",     vi: "giọng hát" },
+  { en: "silence",     zh: "寂靜",   ja: "静寂",           ko: "침묵",       vi: "sự im lặng" },
+  { en: "cricket",     zh: "蟋蟀",   ja: "コオロギ",       ko: "귀뚜라미",   vi: "dế" },
+  { en: "truth",       zh: "真相",   ja: "真実",           ko: "진실",       vi: "sự thật" },
+  { en: "forest",      zh: "森林",   ja: "森",             ko: "숲",         vi: "rừng" },
+  { en: "moon",        zh: "月亮",   ja: "月",             ko: "달",         vi: "mặt trăng" },
+];
+
+const LANG_META = {
+  en: { label: "EN", speechLang: "en-US" },
+  zh: { label: "ZH", speechLang: "zh-TW" },
+  ja: { label: "JA", speechLang: "ja-JP" },
+  ko: { label: "KO", speechLang: "ko-KR" },
+  vi: { label: "VI", speechLang: "vi-VN" },
+};
+
+const vocabByWord = {};
+VOCAB.forEach(v => { vocabByWord[v.en.toLowerCase()] = v; });
+
+function renderFrame(index) {
+  const frame = FRAMES[index];
+  document.getElementById("frameNum").textContent = index + 1;
+  const container = document.getElementById("narrationText");
+  container.innerHTML = "";
+  frame.text.split(/(\s+)/).forEach(token => {
+    if (/^\s+$/.test(token) || token === "") {
+      container.appendChild(document.createTextNode(token));
+      return;
+    }
+    const clean = token.toLowerCase().replace(/[^a-z']/g, "");
+    const span = document.createElement("span");
+    span.className = "word";
+    span.textContent = token;
+    if (vocabByWord[clean]) {
+      span.classList.add("vocab");
+      span.addEventListener("click", () => openPopup(vocabByWord[clean]));
+    }
+    container.appendChild(span);
+  });
+}
+
+function renderVocabList() {
+  const list = document.getElementById("vocabList");
+  VOCAB.forEach(v => {
+    const chip = document.createElement("div");
+    chip.className = "vocab-chip";
+    chip.textContent = v.en;
+    chip.addEventListener("click", () => openPopup(v));
+    list.appendChild(chip);
+  });
+}
+
+function speak(text, lang) {
+  if (!("speechSynthesis" in window)) return;
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = lang;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utter);
+}
+
+function openPopup(vocab) {
+  document.getElementById("popupWord").textContent = vocab.en;
+  const langs = document.getElementById("popupLangs");
+  langs.innerHTML = "";
+  Object.keys(LANG_META).forEach(code => {
+    const row = document.createElement("div");
+    row.className = "lang-row";
+    const tag = document.createElement("div");
+    tag.className = "lang-tag";
+    tag.textContent = LANG_META[code].label;
+    const word = document.createElement("div");
+    word.className = "lang-word";
+    word.textContent = vocab[code];
+    const btn = document.createElement("button");
+    btn.textContent = "🔊";
+    btn.addEventListener("click", () => speak(vocab[code], LANG_META[code].speechLang));
+    row.appendChild(tag);
+    row.appendChild(word);
+    row.appendChild(btn);
+    langs.appendChild(row);
+  });
+  document.getElementById("overlay").classList.add("open");
+}
+
+document.getElementById("closeBtn").addEventListener("click", () => {
+  document.getElementById("overlay").classList.remove("open");
+});
+document.getElementById("overlay").addEventListener("click", (e) => {
+  if (e.target.id === "overlay") e.target.classList.remove("open");
+});
+
+/* ── YouTube IFrame API ── */
+let player;
+let currentFrameIndex = -1;
+
+window.onYouTubeIframeAPIReady = function () {
+  player = new YT.Player("player", {
+    videoId: VIDEO_ID,
+    playerVars: { rel: 0 },
+    events: {
+      onReady: () => {
+        renderFrame(0);
+        setInterval(pollTime, 300);
+      },
+    },
+  });
+};
+
+function pollTime() {
+  if (!player || typeof player.getCurrentTime !== "function") return;
+  const t = player.getCurrentTime();
+  const idx = FRAMES.findIndex(f => t >= f.start && t < f.end);
+  if (idx !== -1 && idx !== currentFrameIndex) {
+    currentFrameIndex = idx;
+    renderFrame(idx);
+  }
+}
+
+renderVocabList();
+
+const tag = document.createElement("script");
+tag.src = "https://www.youtube.com/iframe_api";
+document.body.appendChild(tag);
+</script>
+
+</body>
+</html>
