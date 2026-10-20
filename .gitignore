@@ -14,6 +14,10 @@ gemini-downloads/
 # TOCFL 官方素材庫（6.7GB+，含版權 PDF/MP3/RAR，絕不可推上 GitHub）
 tocfl_bank/
 
+# 版權書籍 OCR 文字稿（內容來自付費出版品，不可推上 GitHub，比照原始 PDF 待遇）
+tocfl-material-gen/vocabulary/*_text.txt
+tocfl-material-gen/vocabulary/*_searchable.pdf
+
 # IDE / build artifacts
 .vs/
 .wrangler/
