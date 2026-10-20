@@ -10,7 +10,7 @@
 | 軸 | 座標 | 說明 |
 |----|------|------|
 | 空間軸 | **對外品牌** | 直面市場的子品牌，主要客群是中文學習者（英文/越南文母語） |
-| 時間軸 | **重啟中、官網已上線** | 官網 [novanursery.leaflune.org](https://novanursery.leaflune.org)（暫定網域，待確認實際部署網址）已上線（英文版 + 越南文版 `/vi`），Sentence Summoner 已在 strategy-space.leaflune.org 上線；其餘產品線（Pinyin Poker、Chinese Flashcard）仍在推進 |
+| 時間軸 | **重啟中、官網已上線** | 官網 [nova-nursery.leaflune.org](https://nova-nursery.leaflune.org) 已上線（英文版 + 越南文版 `/vi`），Sentence Summoner 已在 strategy-space.leaflune.org 上線；其餘產品線（Pinyin Poker、Chinese Flashcard）仍在推進 |
 | 內容軸 | **學習軸（主）+ 玩樂軸（副）** | XX 是 LL 整體中「學習」的對外旗艦；玩樂副線體現在卡牌/遊戲化（Pinyin Poker、Sentence Summoner） |
 
 XX 在 LL 宇宙中的角色：**「學習」這條軸目前對外只有 XX 一個品牌**——XX 走得起來，LL 整體的「Edutainment」才真正完整。
@@ -191,7 +191,7 @@ nova-nursery/
 
 - **語言**：純 HTML/CSS/JS（無框架、無 build）
 - **工具腳本**：Python（Neocities 下載、Playwright）
-- **部署**：Cloudflare Pages，已上線 `novanursery.leaflune.org`（暫定網域，待確認實際部署網址，英文版 + `/vi` 越南文版）
+- **部署**：Cloudflare Pages，已上線 `nova-nursery.leaflune.org`（英文版 + `/vi` 越南文版）
   - `wrangler pages deploy . --project-name=nova-nursery --branch=master`
   - **⚠️ 絕不可對 repo 根目錄直接跑 `wrangler pages deploy .`**——根目錄過去混有 LL 內部文件與 25MB+ 大型素材檔，會導致外流與部署卡關。固定流程：複製 `index.html` / `Card/` / `vi/` 到乾淨的暫存資料夾（例：`C:\Users\USER\_nova-nursery_deploy`）再部署，部署完刪除暫存資料夾
 - **卡牌印刷規格**：CMYK 300dpi PDF、出血 3mm

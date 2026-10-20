@@ -2,7 +2,7 @@
 
 **LeafLune 宇宙** 旗下的漢語學習品牌，面向英文/越南文母語的外國學習者，致力於以「寓教於樂」的方式讓語言學習更有趣、更有效。簡體繁體皆可學，從教材、評量測驗到應考輔助，一路陪伴學習者到中文流利、能銜接學校深造或企業工作。
 
-🀄 官網：[novanursery.leaflune.org](https://novanursery.leaflune.org)（暫定網域，待確認實際部署網址，英文版）／`/vi`（越南文版）
+🀄 官網：[nova-nursery.leaflune.org](https://nova-nursery.leaflune.org)（英文版）／`/vi`（越南文版）
 
 ---
 
