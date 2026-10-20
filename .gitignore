@@ -22,6 +22,7 @@ tocfl-material-gen/vocabulary/*_final.md
 tocfl-material-gen/vocabulary/*_vlm_text.txt
 tocfl-material-gen/vocabulary/*_final_clean.pdf
 tocfl-material-gen/vocabulary/*_true_searchable.pdf
+tocfl-material-gen/vocabulary/*_pinyin_fixed.pdf
 
 # IDE / build artifacts
 .vs/
