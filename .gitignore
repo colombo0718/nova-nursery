@@ -20,6 +20,7 @@ tocfl-material-gen/vocabulary/*_searchable.pdf
 tocfl-material-gen/vocabulary/*_corrected.md
 tocfl-material-gen/vocabulary/*_final.md
 tocfl-material-gen/vocabulary/*_vlm_text.txt
+tocfl-material-gen/vocabulary/*_final_clean.pdf
 
 # IDE / build artifacts
 .vs/
