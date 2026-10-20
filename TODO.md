@@ -36,7 +36,7 @@
 ## Nova Nursery 官網
 
 - [x] 建立 GitHub repo，串接 Cloudflare Pages 自動部署 — 網域已確認為 `nova-nursery.leaflune.org`
-- [ ] **部署改名內容到線上**：git 上的品牌改名/內容修正都還沒真的跑 wrangler 部署，`nova-nursery.leaflune.org` 目前仍顯示舊版 XuanXuexi 內容（2026-09-11 發現）
+- [x] **部署改名內容到線上** — 2026-09-11 已跑 `wrangler pages deploy . --project-name=nova-nursery --branch=master` 部署完成；之後若再改 index.html/Card/vi/en/StoryLearn，記得同樣流程重新部署（git push 不會自動觸發）
 - [x] 規劃頁面結構（首頁 / 課程 / 周邊產品 / 關於）
 - [x] 實作首頁 HTML/CSS（Hero、品牌介紹、課程預覽區、三支柱、products grid）
 - [x] 越南文版首頁（`/vi`）— 2026-07-26 上線，字體修正（Be Vietnam Pro）已套用
