@@ -71,7 +71,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "She points out that the contract clearly required delivery three days before the opening, so the delay breaches the agreed deadline. She explicitly says assigning blame is pointless, which rules out the other options.",
-      "vi": "Cô ấy nhấn mạnh hợp đồng ghi rõ phải giao hàng trước ngày khai mạc ba ngày, nên việc chậm trễ là vi phạm thời hạn. Cô cũng nói truy cứu trách nhiệm lúc này là vô ích."
+      "vi": "Cô ấy nhấn mạnh hợp đồng ghi rõ phải giao hàng trước ngày khai mạc ba ngày, nên việc chậm trễ là vi phạm thời hạn. Cô cũng nói truy cứu trách nhiệm lúc này là vô ích.",
+      "zh": "女士說合約白紙黑字寫明開幕前三天要到貨，所以不滿的是到貨時間違反合約規定；她也明說追究責任無濟於事，因此不是怪運輸公司拒絕負責。"
      }
     },
     {
@@ -92,7 +93,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「寧缺毋濫」 means preferring to have nothing rather than something of lower quality, so the director is likely to dislike showing replicas.",
-      "vi": "「寧缺毋濫」 nghĩa là thà không có còn hơn có thứ kém chất lượng, nên giám đốc nhiều khả năng không thích trưng bày bản sao."
+      "vi": "「寧缺毋濫」 nghĩa là thà không có còn hơn có thứ kém chất lượng, nên giám đốc nhiều khả năng không thích trưng bày bản sao.",
+      "zh": "「寧缺毋濫」的意思是寧可沒有，也不要品質不好的東西，因此館長多半不願意用複製品將就。"
      }
     }
    ]
@@ -159,7 +161,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "He says the workload has kept growing for three years with no extra staff, and he can no longer leave work on time. Pay is explicitly not the issue.",
-      "vi": "Anh ấy nói ba năm qua công việc ngày càng nhiều mà không bổ sung nhân sự, đã nhiều tháng không về đúng giờ. Anh nói rõ vấn đề không phải là tiền."
+      "vi": "Anh ấy nói ba năm qua công việc ngày càng nhiều mà không bổ sung nhân sự, đã nhiều tháng không về đúng giờ. Anh nói rõ vấn đề không phải là tiền.",
+      "zh": "他說三年來案子越接越多、人手卻沒補，好幾個月沒準時下班；並且明說問題不是錢。"
      }
     },
     {
@@ -184,7 +187,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "He politely declines (「心領了」) and explains that new assistants would still need training, so he would end up carrying the load. In other words, the plan does not solve the real problem.",
-      "vi": "Anh ấy từ chối một cách lịch sự (「心領了」) và giải thích rằng trợ lý mới vẫn cần được đào tạo, cuối cùng anh vẫn gánh việc. Tức là phương án không giải quyết được vấn đề thực sự."
+      "vi": "Anh ấy từ chối một cách lịch sự (「心領了」) và giải thích rằng trợ lý mới vẫn cần được đào tạo, cuối cùng anh vẫn gánh việc. Tức là phương án không giải quyết được vấn đề thực sự.",
+      "zh": "他先客氣婉拒（心領了），再說就算多了助理也要花時間訓練，到頭來還是他在扛，也就是這個方案無法真正解決問題。"
      }
     }
    ]
@@ -243,7 +247,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The father says the light stays on until eleven or twelve and he guesses his son is playing on his phone.",
-      "vi": "Người cha nói đèn phòng sáng đến mười một, mười hai giờ và đoán con đang chơi điện thoại."
+      "vi": "Người cha nói đèn phòng sáng đến mười một, mười hai giờ và đoán con đang chơi điện thoại.",
+      "zh": "家長說房間的燈亮到十一、十二點，猜他是在玩手機。"
      }
     },
     {
@@ -268,7 +273,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The teacher recommends agreeing on usage times and letting the child take part in setting the rules, because confiscating the phone may increase his anxiety.",
-      "vi": "Giáo viên khuyên thỏa thuận thời gian sử dụng và cho con tham gia đặt quy tắc, vì tịch thu điện thoại có thể làm con lo lắng hơn."
+      "vi": "Giáo viên khuyên thỏa thuận thời gian sử dụng và cho con tham gia đặt quy tắc, vì tịch thu điện thoại có thể làm con lo lắng hơn.",
+      "zh": "老師建議和孩子約定使用時間，並讓他參與訂規則；因為直接收走手機可能讓他更焦慮。"
      }
     }
    ]
@@ -331,7 +337,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "She supports the idea in principle but worries about the cost and about whether it is fair for residents without electric cars to share it.",
-      "vi": "Cô ủng hộ về nguyên tắc nhưng lo về chi phí và việc cư dân không có xe điện cũng phải chia sẻ có công bằng không."
+      "vi": "Cô ủng hộ về nguyên tắc nhưng lo về chi phí và việc cư dân không có xe điện cũng phải chia sẻ có công bằng không.",
+      "zh": "王小姐原則上贊成，但擔心費用由全體住戶分攤，沒有電動車的人覺得不公平。"
      }
     },
     {
@@ -360,7 +367,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Owners pay according to the electricity they use, while the construction cost is advanced from the public fund, which she calls a reasonable compromise.",
-      "vi": "Chủ xe trả theo số điện sử dụng, còn chi phí thi công được quỹ chung ứng trước; cô gọi đây là phương án dung hòa hợp lý."
+      "vi": "Chủ xe trả theo số điện sử dụng, còn chi phí thi công được quỹ chung ứng trước; cô gọi đây là phương án dung hòa hợp lý.",
+      "zh": "「使用者付費」是有車的住戶依用電度數付費，工程費則先由公共基金墊付，她也稱這是合理的折衷方案。"
      }
     }
    ]
@@ -423,7 +431,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "He starts by calling the plan a good thing, then agrees that the city must first propose a relocation plan for the vendors.",
-      "vi": "Anh ấy mở đầu bằng việc cho rằng kế hoạch là điều tốt, rồi đồng ý rằng thành phố cần đưa ra phương án tái định cư cho tiểu thương trước."
+      "vi": "Anh ấy mở đầu bằng việc cho rằng kế hoạch là điều tốt, rồi đồng ý rằng thành phố cần đưa ra phương án tái định cư cho tiểu thương trước.",
+      "zh": "他一開始說改建是好事，後來也同意市政府應先提出安置辦法，所以是大致贊成、但要求配套。"
      }
     },
     {
@@ -448,7 +457,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "She explicitly says she does not want everything left untouched; she proposes keeping some stalls and blending the old market's character into the new design.",
-      "vi": "Cô nói rõ không chủ trương giữ nguyên mọi thứ; cô đề xuất giữ lại một số quầy và đưa nét đặc trưng của chợ cũ vào thiết kế mới."
+      "vi": "Cô nói rõ không chủ trương giữ nguyên mọi thứ; cô đề xuất giữ lại một số quầy và đưa nét đặc trưng của chợ cũ vào thiết kế mới.",
+      "zh": "她明說並不主張原封不動，而是保留部分攤位，把老市場的風味融入新設計。"
      }
     }
    ]
@@ -488,7 +498,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The report says average daily ridership rose by 12% compared with diesel buses. The 20% figure refers to the drop in battery range in winter.",
-      "vi": "Bản tin nói lượng hành khách trung bình mỗi ngày tăng 12% so với xe buýt dầu. Con số 20% là mức giảm quãng đường pin vào mùa đông."
+      "vi": "Bản tin nói lượng hành khách trung bình mỗi ngày tăng 12% so với xe buýt dầu. Con số 20% là mức giảm quãng đường pin vào mùa đông.",
+      "zh": "報導說載客量比柴油公車增加百分之十二；兩成是冬季電池續航力下降的幅度，要小心別混淆。"
      }
     },
     {
@@ -517,7 +528,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Operators say electric buses cost about twice as much as diesel ones and charging stations add more cost, which is hard to bear without subsidies.",
-      "vi": "Đơn vị vận hành cho biết xe buýt điện đắt gấp đôi xe dầu, cộng thêm chi phí trạm sạc, khó tự gánh nếu không có trợ cấp."
+      "vi": "Đơn vị vận hành cho biết xe buýt điện đắt gấp đôi xe dầu, cộng thêm chi phí trạm sạc, khó tự gánh nếu không có trợ cấp.",
+      "zh": "營運單位說電動公車的購置成本約為柴油車的兩倍，再加上充電站的費用，沒有補助很難負擔。"
      }
     },
     {
@@ -538,7 +550,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Low winter temperatures cut battery range by about 20%, so some trips have to return to the depot early to recharge.",
-      "vi": "Nhiệt độ thấp mùa đông làm giảm quãng đường pin khoảng 20%, nên một số chuyến phải về bãi sớm để sạc."
+      "vi": "Nhiệt độ thấp mùa đông làm giảm quãng đường pin khoảng 20%, nên một số chuyến phải về bãi sớm để sạc.",
+      "zh": "冬季低溫使電池續航力下降約兩成，所以部分班次得提早回場充電。"
      }
     }
    ]
@@ -578,7 +591,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The participants were randomly divided into a nap group and an awake group.",
-      "vi": "Người tham gia được chia ngẫu nhiên thành nhóm ngủ trưa và nhóm tỉnh táo."
+      "vi": "Người tham gia được chia ngẫu nhiên thành nhóm ngủ trưa và nhóm tỉnh táo.",
+      "zh": "研究人員讓受試者隨機分成「小睡」與「保持清醒」兩組。"
      }
     },
     {
@@ -599,7 +613,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The nap group remembered about 30% more words than the awake group. The study did not compare different nap lengths.",
-      "vi": "Nhóm ngủ trưa nhớ nhiều hơn nhóm tỉnh táo khoảng 30%. Nghiên cứu không so sánh thời gian ngủ khác nhau."
+      "vi": "Nhóm ngủ trưa nhớ nhiều hơn nhóm tỉnh táo khoảng 30%. Nghiên cứu không so sánh thời gian ngủ khác nhau.",
+      "zh": "小睡組平均記得的詞語比清醒組多約三成；研究沒有比較不同的小睡時間長短。"
      }
     },
     {
@@ -624,7 +639,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "All participants were young people, so it is unclear whether the result applies to other age groups; further verification is needed.",
-      "vi": "Tất cả người tham gia đều là người trẻ nên chưa rõ kết quả có áp dụng cho nhóm tuổi khác không; cần kiểm chứng thêm."
+      "vi": "Tất cả người tham gia đều là người trẻ nên chưa rõ kết quả có áp dụng cho nhóm tuổi khác không; cần kiểm chứng thêm.",
+      "zh": "實驗對象全是年輕人，結果是否適用於其他年齡層還有待驗證，所以不宜直接推廣。"
      }
     }
    ]
@@ -668,7 +684,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The speaker reports preliminary observations of the four-day-week trial; the final decision is postponed for three months.",
-      "vi": "Người nói trình bày những quan sát ban đầu về đợt thử nghiệm tuần làm việc bốn ngày; quyết định cuối cùng sẽ hoãn ba tháng."
+      "vi": "Người nói trình bày những quan sát ban đầu về đợt thử nghiệm tuần làm việc bốn ngày; quyết định cuối cùng sẽ hoãn ba tháng.",
+      "zh": "說話者是在報告「週休三日」試行的初步觀察，正式的長期決定要等三個月後。"
      }
     },
     {
@@ -693,7 +710,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "With nobody on duty on Fridays, calls pile up until the following Monday, delaying replies.",
-      "vi": "Không có ai trực vào thứ Sáu nên cuộc gọi dồn đến thứ Hai tuần sau mới xử lý, gây chậm phản hồi."
+      "vi": "Không có ai trực vào thứ Sáu nên cuộc gọi dồn đến thứ Hai tuần sau mới xử lý, gây chậm phản hồi.",
+      "zh": "週五沒人值班，客戶來電會累積到下週一才處理，造成回覆延遲。"
      }
     },
     {
@@ -718,7 +736,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The system will continue as a trial, and a long-term decision will be made in three months based on complete data.",
-      "vi": "Chế độ tiếp tục thử nghiệm và ba tháng sau sẽ quyết định có thực hiện lâu dài hay không dựa trên dữ liệu đầy đủ."
+      "vi": "Chế độ tiếp tục thử nghiệm và ba tháng sau sẽ quyết định có thực hiện lâu dài hay không dựa trên dữ liệu đầy đủ.",
+      "zh": "制度仍在試行，三個月後會依完整數據再決定是否長期實施。"
      }
     }
    ]
@@ -762,7 +781,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The hall uses almost no iron nails; its structure is held together by interlocking mortise-and-tenon joints (榫卯).",
-      "vi": "Gian nhà gần như không dùng đinh sắt; kết cấu được giữ bằng kỹ thuật mộng (榫卯) khớp vào nhau."
+      "vi": "Gian nhà gần như không dùng đinh sắt; kết cấu được giữ bằng kỹ thuật mộng (榫卯) khớp vào nhau.",
+      "zh": "這座廳堂最特別的是幾乎不用鐵釘，靠榫卯（凹槽與凸榫咬合）支撐結構。"
      }
     },
     {
@@ -787,7 +807,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The joints keep some elasticity, which absorbs part of the shaking and makes total collapse less likely. It does not eliminate movement.",
-      "vi": "Các mối ghép giữ độ đàn hồi nên hấp thụ một phần chấn động, khó sụp đổ hoàn toàn; nhưng không phải hoàn toàn không rung lắc."
+      "vi": "Các mối ghép giữ độ đàn hồi nên hấp thụ một phần chấn động, khó sụp đổ hoàn toàn; nhưng không phải hoàn toàn không rung lắc.",
+      "zh": "榫卯讓木料之間保有彈性，能吸收部分震動、不易整個崩塌；並不是完全不晃動。"
      }
     },
     {
@@ -812,7 +833,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Because even one mismatched piece could make the load uneven across the whole structure, each part had to be reassembled in its original position.",
-      "vi": "Vì chỉ cần một chi tiết sai kích thước là cả kết cấu có thể chịu lực không đều, nên mỗi bộ phận phải lắp lại đúng vị trí cũ."
+      "vi": "Vì chỉ cần một chi tiết sai kích thước là cả kết cấu có thể chịu lực không đều, nên mỗi bộ phận phải lắp lại đúng vị trí cũ.",
+      "zh": "因為只要有一處尺寸不合，整體就可能受力不均，所以要先記錄位置、按原樣組裝。"
      }
     }
    ]
@@ -852,7 +874,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The grounds are dried and pressed into eco-friendly coasters. Building materials are only being researched.",
-      "vi": "Bã cà phê được sấy khô và ép thành lót ly thân thiện môi trường. Vật liệu xây dựng mới chỉ đang nghiên cứu."
+      "vi": "Bã cà phê được sấy khô và ép thành lót ly thân thiện môi trường. Vật liệu xây dựng mới chỉ đang nghiên cứu.",
+      "zh": "咖啡渣經乾燥與壓製後做成環保杯墊；建材只是正在研究的方向。"
      }
     },
     {
@@ -877,7 +900,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The founder says the hardest part was not the technology but persuading cafés, who worried about extra labor and space.",
-      "vi": "Người sáng lập nói khó nhất không phải công nghệ mà là thuyết phục các quán, vì họ sợ tốn thêm nhân lực và không gian."
+      "vi": "Người sáng lập nói khó nhất không phải công nghệ mà là thuyết phục các quán, vì họ sợ tốn thêm nhân lực và không gian.",
+      "zh": "創辦人說最難的不是技術，而是說服店家，因為回收要額外的人力與空間，店家怕增加負擔。"
      }
     },
     {
@@ -902,7 +926,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The speaker says this technology is still experimental and far from mass production.",
-      "vi": "Người nói cho biết công nghệ này vẫn trong giai đoạn thử nghiệm, còn xa mới sản xuất hàng loạt."
+      "vi": "Người nói cho biết công nghệ này vẫn trong giai đoạn thử nghiệm, còn xa mới sản xuất hàng loạt.",
+      "zh": "咖啡渣用在建材仍處於實驗階段，距離量產還有一段距離。"
      }
     }
    ]
@@ -931,7 +956,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「不僅……也……」 is a progressive pair: the practice not only preserves the building but also brings crowds. The other options do not pair with 「也」.",
-      "vi": "「不僅……也……」 là cặp quan hệ tăng tiến: không chỉ giữ gìn công trình mà còn mang lại dòng khách. Các lựa chọn khác không đi với 「也」."
+      "vi": "「不僅……也……」 là cặp quan hệ tăng tiến: không chỉ giữ gìn công trình mà còn mang lại dòng khách. Các lựa chọn khác không đi với 「也」.",
+      "zh": "「不僅……也……」是遞進關係：不僅保留風貌，也帶來人潮；其他選項無法和「也」搭配。"
      }
     },
     {
@@ -952,7 +978,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The previous sentence is positive and this one introduces controversy, so a contrastive connector 「然而」 is needed.",
-      "vi": "Câu trước nói điều tích cực, câu này nêu tranh cãi, nên cần liên từ chuyển ý 「然而」."
+      "vi": "Câu trước nói điều tích cực, câu này nêu tranh cãi, nên cần liên từ chuyển ý 「然而」.",
+      "zh": "前一句是正面的說法，這句要引出爭議，所以用表示轉折的「然而」。"
      }
     },
     {
@@ -977,7 +1004,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「恐怕」 expresses a worried guess, matching 「居民擔心」. 「不妨」 and 「索性」 express suggestion/decisiveness and do not fit.",
-      "vi": "「恐怕」 diễn tả phỏng đoán lo ngại, hợp với 「居民擔心」. 「不妨」 và 「索性」 mang nghĩa đề nghị/dứt khoát nên không phù hợp."
+      "vi": "「恐怕」 diễn tả phỏng đoán lo ngại, hợp với 「居民擔心」. 「不妨」 và 「索性」 mang nghĩa đề nghị/dứt khoát nên không phù hợp.",
+      "zh": "「恐怕」表示擔心的推測，呼應前面的「居民擔心」；「不妨」「索性」語氣不合。"
      }
     },
     {
@@ -1002,7 +1030,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「難免」 means it is hard to avoid: if businesses only chase profit, the building's story will inevitably be drowned out.",
-      "vi": "「難免」 nghĩa là khó tránh khỏi: nếu chỉ chạy theo lợi nhuận, câu chuyện của công trình khó tránh bị lấn át."
+      "vi": "「難免」 nghĩa là khó tránh khỏi: nếu chỉ chạy theo lợi nhuận, câu chuyện của công trình khó tránh bị lấn át.",
+      "zh": "「難免」表示難以避免：業者若只看商業利益，建築背後的故事難免會被淹沒。"
      }
     },
     {
@@ -1027,7 +1056,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "To make the new life of old houses benefit locals, businesses should be required to consult (徵詢) residents' opinions.",
-      "vi": "Để việc tái sinh nhà cũ mang lại lợi ích cho địa phương, doanh nghiệp cần được yêu cầu tham vấn (徵詢) ý kiến cư dân."
+      "vi": "Để việc tái sinh nhà cũ mang lại lợi ích cho địa phương, doanh nghiệp cần được yêu cầu tham vấn (徵詢) ý kiến cư dân.",
+      "zh": "要讓老屋的新生命回饋在地，應要求業者「徵詢」居民的意見；其他選項語意相反或不合理。"
      }
     }
    ]
@@ -1054,7 +1084,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「即使……仍……」 is a concessive pair: even when the vehicle is scrapped, the battery still has most of its capacity.",
-      "vi": "「即使……仍……」 là cặp nhượng bộ: dù xe bị loại bỏ, pin vẫn còn phần lớn dung lượng."
+      "vi": "「即使……仍……」 là cặp nhượng bộ: dù xe bị loại bỏ, pin vẫn còn phần lớn dung lượng.",
+      "zh": "「即使……仍……」是讓步關係：就算車輛報廢，電池仍有大部分電容量。"
      }
     },
     {
@@ -1079,7 +1110,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「不僅浪費，而且……」 adds a further reason (heavy metals). 「然而」 would wrongly contrast the two points.",
-      "vi": "「不僅浪費，而且……」 bổ sung thêm lý do (kim loại nặng). 「然而」 sẽ tạo sự đối lập sai."
+      "vi": "「不僅浪費，而且……」 bổ sung thêm lý do (kim loại nặng). 「然而」 sẽ tạo sự đối lập sai.",
+      "zh": "「不僅浪費，而且……」補充另一個理由（含重金屬）；用「然而」會變成錯誤的轉折。"
      }
     },
     {
@@ -1104,7 +1136,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Retired batteries are put to use again (重新) for storing solar power. The other adverbs do not make sense here.",
-      "vi": "Pin đã nghỉ hưu được đem dùng lại (重新) để tích trữ điện mặt trời. Các phó từ khác không hợp nghĩa."
+      "vi": "Pin đã nghỉ hưu được đem dùng lại (重新) để tích trữ điện mặt trời. Các phó từ khác không hợp nghĩa.",
+      "zh": "退役電池「重新」拿來儲存太陽能電力，語意通順；其他副詞放在這裡不合邏輯。"
      }
     },
     {
@@ -1125,7 +1158,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「雖然……，但……」 is the standard concessive pair; the second half states the drawback.",
-      "vi": "「雖然……，但……」 là cặp từ chuyển ý quen thuộc; vế sau nêu nhược điểm."
+      "vi": "「雖然……，但……」 là cặp từ chuyển ý quen thuộc; vế sau nêu nhược điểm.",
+      "zh": "「雖然……，但……」是常見的轉折搭配，後半句說出缺點。"
      }
     },
     {
@@ -1150,7 +1184,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "To reduce the burden at the source, designers must take future dismantling and reuse into consideration (考量).",
-      "vi": "Để giảm gánh nặng từ gốc, nhà thiết kế phải cân nhắc (考量) việc tháo rã và tái sử dụng sau này."
+      "vi": "Để giảm gánh nặng từ gốc, nhà thiết kế phải cân nhắc (考量) việc tháo rã và tái sử dụng sau này.",
+      "zh": "要從源頭減輕環境負擔，設計電池時就得「考量」日後的拆解與再利用。"
      }
     }
    ]
@@ -1183,7 +1218,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The passage says fast reading makes us remember only conclusions and overlook how the author reasons and argues.",
-      "vi": "Bài viết nói đọc nhanh khiến ta chỉ nhớ kết luận mà bỏ qua cách tác giả suy luận, lập luận."
+      "vi": "Bài viết nói đọc nhanh khiến ta chỉ nhớ kết luận mà bỏ qua cách tác giả suy luận, lập luận.",
+      "zh": "文章說快閱讀讓人只記得結論，忽略作者如何推理、論證。"
      }
     },
     {
@@ -1204,7 +1240,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Slow reading means reading one piece at a time and thinking while reading, even noting questions in the margin.",
-      "vi": "Đọc chậm là mỗi lần chỉ đọc một bài, vừa đọc vừa suy nghĩ, thậm chí ghi thắc mắc bên lề."
+      "vi": "Đọc chậm là mỗi lần chỉ đọc một bài, vừa đọc vừa suy nghĩ, thậm chí ghi thắc mắc bên lề.",
+      "zh": "慢閱讀主張一次只讀一篇、邊讀邊思考，甚至在書頁邊寫下疑問。"
      }
     },
     {
@@ -1229,7 +1266,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The author says slow reading does not mean abandoning convenience; it reminds us that truly important content deserves more time.",
-      "vi": "Tác giả nói đọc chậm không có nghĩa là từ bỏ sự tiện lợi, mà nhắc rằng nội dung quan trọng đáng bỏ thêm thời gian."
+      "vi": "Tác giả nói đọc chậm không có nghĩa là từ bỏ sự tiện lợi, mà nhắc rằng nội dung quan trọng đáng bỏ thêm thời gian.",
+      "zh": "最後一句是說慢閱讀不必放棄快速取得資訊的便利，但重要的內容值得多花時間。"
      }
     }
    ]
@@ -1260,7 +1298,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Arabica prefers cool temperatures; as average temperatures rise, farmers have to move to higher ground.",
-      "vi": "Cà phê Arabica ưa khí hậu mát mẻ; khi nhiệt độ trung bình tăng, nông dân buộc phải dời lên vùng cao hơn."
+      "vi": "Cà phê Arabica ưa khí hậu mát mẻ; khi nhiệt độ trung bình tăng, nông dân buộc phải dời lên vùng cao hơn.",
+      "zh": "阿拉比卡咖啡樹偏好涼爽氣溫，氣溫上升使原產區不再適合，農民只好往更高的山區遷移。"
      }
     },
     {
@@ -1285,7 +1324,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Mountaintop land is limited and is often a protected native forest, so clearing it may damage the ecosystem.",
-      "vi": "Đất trên đỉnh núi có hạn và thường là rừng nguyên sinh được bảo vệ, nên khai hoang có thể phá hoại hệ sinh thái."
+      "vi": "Đất trên đỉnh núi có hạn và thường là rừng nguyên sinh được bảo vệ, nên khai hoang có thể phá hoại hệ sinh thái.",
+      "zh": "山頂土地有限，又常是原生林保護區，開墾可能破壞生態。"
      }
     },
     {
@@ -1310,7 +1350,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Breeders are developing heat-tolerant varieties and some farmers plant taller shade trees beside coffee plants.",
-      "vi": "Các chuyên gia lai tạo giống chịu nhiệt, và một số nông dân trồng cây che bóng cao bên cạnh cây cà phê."
+      "vi": "Các chuyên gia lai tạo giống chịu nhiệt, và một số nông dân trồng cây che bóng cao bên cạnh cây cà phê.",
+      "zh": "文中提到育種專家培育耐熱新品種，以及農民種植較高的遮蔭樹。"
      }
     }
    ]
@@ -1341,7 +1382,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "At first Ah-Zhen was uneasy and complained that the changes were troublesome.",
-      "vi": "Lúc đầu bà Trân không yên tâm và miệng thì chê phiền phức."
+      "vi": "Lúc đầu bà Trân không yên tâm và miệng thì chê phiền phức.",
+      "zh": "阿珍起初很不放心，嘴上嫌麻煩。"
      }
     },
     {
@@ -1362,7 +1404,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The passage says more young customers came, and office workers who rarely visited before became regulars.",
-      "vi": "Bài viết nói khách trẻ đông hơn, cả nhân viên văn phòng trước đây ít đến cũng thành khách quen."
+      "vi": "Bài viết nói khách trẻ đông hơn, cả nhân viên văn phòng trước đây ít đến cũng thành khách quen.",
+      "zh": "文中說年輕客人變多了，連過去不常來的上班族也成了常客。"
      }
     },
     {
@@ -1387,7 +1430,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "After hearing 「there is no secret, just no cutting corners」, he nods and joins her at 4 a.m., showing he accepts and will carry on her diligence.",
-      "vi": "Nghe câu 「không có bí quyết, chỉ là không được lười」, anh gật đầu và hôm sau cùng dậy lúc 4 giờ, cho thấy anh đồng tình và sẽ kế thừa sự chăm chỉ ấy."
+      "vi": "Nghe câu 「không có bí quyết, chỉ là không được lười」, anh gật đầu và hôm sau cùng dậy lúc 4 giờ, cho thấy anh đồng tình và sẽ kế thừa sự chăm chỉ ấy.",
+      "zh": "聽完「沒有秘方，就是不能偷懶」後，兒子點頭並隔天跟著凌晨四點進廚房，表示他認同並願意承襲這份堅持。"
      }
     }
    ]
@@ -1418,7 +1462,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The limit rises from 10 to 15 books; the loan period stays at 21 days, renewals increase to three, and study-room hours are extended.",
-      "vi": "Số sách mượn tăng từ 10 lên 15; thời hạn vẫn là 21 ngày, số lần gia hạn tăng lên ba, giờ mở phòng tự học được kéo dài."
+      "vi": "Số sách mượn tăng từ 10 lên 15; thời hạn vẫn là 21 ngày, số lần gia hạn tăng lên ba, giờ mở phòng tự học được kéo dài.",
+      "zh": "借閱冊數由十本增為十五本；借期仍是二十一天，續借增為三次，自習區開放時間延長。"
      }
     },
     {
@@ -1443,7 +1488,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "「已被他人預約的書籍不得續借」 means books reserved by others cannot be renewed.",
-      "vi": "「已被他人預約的書籍不得續借」 nghĩa là sách đã có người đặt trước thì không được gia hạn."
+      "vi": "「已被他人預約的書籍不得續借」 nghĩa là sách đã có người đặt trước thì không được gia hạn.",
+      "zh": "公告說「已被他人預約的書籍不得續借」。"
      }
     },
     {
@@ -1468,7 +1514,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The fine is 10 per book per day, and after the total reaches 100 the borrowing privilege is suspended for one month.",
-      "vi": "Tiền phạt là 10 mỗi cuốn mỗi ngày, khi tích lũy đến 100 thì tạm ngưng quyền mượn sách một tháng."
+      "vi": "Tiền phạt là 10 mỗi cuốn mỗi ngày, khi tích lũy đến 100 thì tạm ngưng quyền mượn sách một tháng.",
+      "zh": "罰款每本每日十元，累計達一百元後暫停借閱權利一個月。"
      }
     }
    ]
@@ -1499,7 +1546,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "Supporters argue the carriage is enclosed so others cannot escape, and call noise disturbs their rest.",
-      "vi": "Người ủng hộ cho rằng toa tàu kín, người khác không thể tránh, tiếng nói chuyện điện thoại làm phiền sự nghỉ ngơi."
+      "vi": "Người ủng hộ cho rằng toa tàu kín, người khác không thể tránh, tiếng nói chuyện điện thoại làm phiền sự nghỉ ngơi.",
+      "zh": "支持者認為車廂密閉、旁人無處可躲，通話聲會干擾他人休息。"
      }
     },
     {
@@ -1524,7 +1572,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "They do not outlaw calls; instead they use advertisements and announcements to encourage speaking softly.",
-      "vi": "Họ không cấm bằng luật mà dùng quảng cáo và phát thanh để khuyến khích nói nhỏ nhẹ."
+      "vi": "Họ không cấm bằng luật mà dùng quảng cáo và phát thanh để khuyến khích nói nhỏ nhẹ.",
+      "zh": "許多國家不立法禁止，而是透過廣告與廣播倡導輕聲細語。"
      }
     },
     {
@@ -1553,7 +1602,8 @@ window.MOCK_EXAM = {
      ],
      "explain": {
       "en": "The 「與其……不如……」 pattern in the last sentence shows the author prefers building mutual consideration over relying on strict punishment.",
-      "vi": "Cấu trúc 「與其……不如……」 ở câu cuối cho thấy tác giả thiên về xây dựng sự thấu hiểu lẫn nhau hơn là dựa vào hình phạt nghiêm."
+      "vi": "Cấu trúc 「與其……不如……」 ở câu cuối cho thấy tác giả thiên về xây dựng sự thấu hiểu lẫn nhau hơn là dựa vào hình phạt nghiêm.",
+      "zh": "最後一句的「與其……不如……」顯示作者認為先建立彼此體諒的共識，比嚴格處罰更好。"
      }
     }
    ]

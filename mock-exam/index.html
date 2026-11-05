@@ -64,7 +64,7 @@
 <header>
   <div class="bar">
     <div class="brand"><img src="../Card/nova-nursery_emoji.png" alt="" /> Nova Nursery · Mock Exam</div>
-    <div class="langs"><button data-l="en">EN</button> <button data-l="vi">VI</button></div>
+    <div class="langs"><button data-l="zh">中文</button> <button data-l="en">EN</button> <button data-l="vi">VI</button></div>
   </div>
   <div class="status" id="status"></div>
 </header>
@@ -129,7 +129,33 @@ const I18N = {
     playPassage: "Âm thanh đoạn nghe", playQ: "Âm thanh câu hỏi"
   }
 };
-let lang = localStorage.getItem("mockLang") || ((navigator.language || "").toLowerCase().startsWith("vi") ? "vi" : "en");
+I18N.zh = {
+  title: "TOCFL 流利精通級（Band C）模擬考試", sub: "第 1 套 · 原創練習題",
+  disclaimer: "本頁題目是 Nova Nursery 參考 TOCFL Band C 題型自行編寫的原創練習題，並非官方試題，也與國家華語測驗推動工作委員會（SC-TOP）無關。這裡的分數只是練習用的原始分數，不是官方 TOCFL 成績。",
+  fullMock: "完整模擬（聽力＋閱讀）", fullMockD: "先考 25 題聽力，再考 25 題閱讀。比照正式考試：音檔只播一遍、閱讀限時。",
+  listenOnly: "只考聽力", readOnly: "只考閱讀", practice: "分題型練習", practiceD: "不限時間，音檔可重複播放。請選一種題型：",
+  dialogue: "對話", monologue: "段落（獨白）", gap: "選詞填空", comprehension: "閱讀理解",
+  qs: "題", start: "開始", back: "回到選單",
+  lInstrT: "聽力測驗　作答說明",
+  lRules: ["每段話只播放一遍，接著會念出問題與四個選項。", "選項會顯示在畫面上，問題本身只有聲音。", "選項念完後有 5 秒作答時間，接著進入下一題。", "不能重播，也不能回上一題。請確認音量正常後再按「開始」。"],
+  rInstrT: "閱讀測驗　作答說明",
+  rRules: ["每個空格或每個問題，請選出最適合的答案。", "交卷或時間結束前，都可以修改答案。", "按下「開始」後開始計時。"],
+  startL: "開始聽力測驗", startR: "開始閱讀測驗",
+  passage: "段落", question: "題目", blank: "空格", of: "／",
+  playingPassage: "正在播放…", playingQ: "正在念題目與選項…", nextIn: "下一題倒數", sec: " 秒",
+  audioErr: "音檔無法播放（已略過）。", groupDone: "進入下一段…",
+  listenDone: "聽力測驗結束。", toReading: "繼續閱讀測驗",
+  time: "剩餘時間", submit: "交卷", confirmSubmit: "確定交卷嗎？未作答的題目會算錯。",
+  results: "測驗結果", total: "總分", listening: "聽力", reading: "閱讀", correct: "答對",
+  byType: "各題型表現", bySkill: "各能力表現", byLevel: "依目標詞彙等級（華語八千詞表）",
+  notInList: "不在八千詞表內", review: "逐題檢討", yours: "你的答案", right: "正確答案", none: "（未作答）",
+  expl: "解析", transcript: "聽力逐字稿", retake: "再考一次", targetWords: "目標詞彙", rawNote: "練習用原始分數（非 TOCFL 官方成績）。",
+  skills: {detail:"細節理解", inference:"推論", attitude:"態度與立場", "main-idea":"主旨", connector:"連接詞", adverb:"副詞／語氣", vocabulary:"詞彙辨析"},
+  vNote: "越南文說明為機器輔助的初稿，尚未經母語者審閱。",
+  playPassage: "段落音檔", playQ: "題目音檔"
+};
+const nav = (navigator.language || "").toLowerCase();
+let lang = localStorage.getItem("mockLang") || (nav.startsWith("vi") ? "vi" : nav.startsWith("en") ? "en" : "zh");
 const T = () => I18N[lang];
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const LET = ["A", "B", "C", "D"];
@@ -198,7 +224,7 @@ function home() {
   };
   renderFoot();
 }
-function renderFoot() { $("foot").innerHTML = lang === "vi" ? esc(I18N.vi.vNote) : esc(I18N.en.vNote); }
+function renderFoot() { $("foot").innerHTML = esc(T().vNote); }
 
 /* exam entry */
 function startExam(kind) {
@@ -410,7 +436,7 @@ function reviewGroup(g, gi) {
 /* ───────────── boot ───────────── */
 function setLang(l) {
   lang = l; localStorage.setItem("mockLang", l);
-  document.documentElement.lang = l === "vi" ? "vi" : "en";
+  document.documentElement.lang = l === "vi" ? "vi" : l === "zh" ? "zh-Hant" : "en";
   document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.l === l));
   renderFoot();
   if (!S) home();

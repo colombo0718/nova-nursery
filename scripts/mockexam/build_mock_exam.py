@@ -30,6 +30,7 @@ ORD_ZH = {1: "第一題", 2: "第二題", 3: "第三題", 4: "第四題"}
 LEVEL_ABBR = ["準1", "準2", "入", "基", "進", "高", "流"]
 
 NO_AUDIO = "--no-audio" in sys.argv
+ZH_EXPLAIN = json.loads((HERE / "explain_zh.json").read_text(encoding="utf-8"))
 
 
 def load_levels():
@@ -90,7 +91,7 @@ def build_question(q, key):
         "answer": ans,
         "skill": q.get("skill", ""),
         "focus": tag_focus(q.get("focus", [])),
-        "explain": q["explain"],
+        "explain": {**q["explain"], "zh": ZH_EXPLAIN[key]},
     }
 
 
