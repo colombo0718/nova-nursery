@@ -1,6 +1,6 @@
 # PROJECT.md — Nova Nursery 星苑（XX，原 xuanxuexi 宣學習 → HanHub 漢匯 → Nova Nursery 星苑）
 
-> 最後更新：2026-09-11
+> 最後更新：2026-11-05
 > 本檔供 Claude（AI）閱讀，了解本專案在 LL 宇宙中的位置、架構與開發規範。
 
 ---
@@ -142,9 +142,6 @@ nova-nursery/
 │
 ├── StoryLearn/                              ← 聽故事學語言（NN 底下產品線，影片工廠 MLAS 素材；雛形，見 §7.4）
 ├── MockExam/                                ← TOCFL Band C 模擬考試（原創題＋edge-tts 音檔；見 §7.5）
-├── mock-exam/                               ← TOCFL Band C 模擬考試網頁（聽力 25＋閱讀 25，原創題；index.html + data/bandc-set1.js + audio/*.mp3）
-├── StoryLearn/                              ← 聽故事學語言（雛形，NN 底下產品線）
-├── scripts/mockexam/                        ← 模擬考題庫來源（content_*.json，第一個選項是正解）＋ build_mock_exam.py（洗牌、標詞彙等級、edge-tts 產音檔、輸出 data.js）
 │
 ├── curriculum/                              ← 逐冊教材大綱（規劃中、尚未建檔，見 §13）
 ├── tocfl_bank/                              ← TOCFL 官方素材庫（2026-07-26 從 C:\Users\USER\tocfl_bank 移入，554 檔）
@@ -202,7 +199,7 @@ nova-nursery/
 ### 7.5 MockExam TOCFL Band C 模擬考試（2026-11-05 起）
 
 - 依官方 Band C 題型（聽力：對話／段落；閱讀：選詞填空／閱讀理解；四選一）**原創**出題，非官方，頁面明示；官方題庫與《趣學TOCFL》只當格式與難度參考，不照抄
-- 現況：`mini01` 題組＝聽力 25＋閱讀 25，引擎含完整考試流程（聽力只播一遍、選項後倒數 5 秒、閱讀計時）、分題型練習模式、成績與能力分析；音檔由 edge-tts 產生（labs 的 GPT-SoVITS 備用）；詳見 `MockExam/README.md`
+- 現況：兩個半套題組 `mini01`＋`mini02`（各聽力 25＋閱讀 25，原創），用 `set=full100` 合成官方長度的 **100 題**（聽力 50＋閱讀 50，閱讀限時 60 分鐘）；也可單考半套（`set=mini01`／`set=mini02`）。引擎含完整考試流程（聽力只播一遍、選項後倒數 5 秒、閱讀計時）、分題型練習模式（作答即顯示答案與解析）、成績與能力分析；解析提供中／英／越三語（英越為機器輔助初稿，越南文尚待母語者審閱）；音檔由 edge-tts 產生（labs 的 GPT-SoVITS 備用）；詳見 `MockExam/README.md`
 - 題庫與建置：`MockExam/tools/items_*.json`（原始題）→ `python MockExam/tools/build.py items_xxx.json` → `data/`、`audio/`
 - 命題的詞彙參考：華語八千詞表 2.0（`tocfl-material-gen/vocabulary/`）；書《趣學TOCFL流利精通級詞彙》用的是國教院詞表 6、7 級，大多在八千詞表之外（2026-11-05 交叉比對：323 詞僅 63 詞在八千詞表內）
 

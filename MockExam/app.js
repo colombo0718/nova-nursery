@@ -1,9 +1,10 @@
 /* Mock exam engine — Nova Nursery. No framework, no build. */
 const params = new URLSearchParams(location.search);
 const SET = params.get("set") || "mini01";
+const SET_IDS = SET === "full100" ? ["mini01", "mini02"] : SET.split("+");   // full100 = both half sets: 50 listening + 50 reading
 const MODE = params.get("mode") || "full";
 const FAST = params.get("fast") === "1"; // test hook: 16x audio, short countdown
-const READING_SECONDS = 30 * 60;
+const SECONDS_PER_READING_Q = 72;       // official: 50 questions / 60 minutes
 const L = "ABCD";
 
 const app = document.getElementById("app");
@@ -16,6 +17,24 @@ const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 /* ---------- data helpers ---------- */
+// explanation may be a plain string (zh) or {zh, en, vi}
+const expl = r => (r.explain && typeof r.explain === "object") ? (r.explain[LANG] || r.explain.zh || "") : (r.explain || "");
+
+function mergeSets(parts) {
+  const d = { set_id: parts.map(p => p.set_id).join("+"), listening: [], reading: { gap: [], comp: [] } };
+  parts.forEach(p => {
+    d.listening.push(...p.listening);
+    d.reading.gap.push(...p.reading.gap);
+    d.reading.comp.push(...p.reading.comp);
+  });
+  // listening numbers are baked into the audio (mini02 starts at 26); reading is renumbered: gaps first, then comprehension
+  let no = 0;
+  d.reading.gap.forEach(g => g.blanks.forEach(b => { b.no = ++no; }));
+  d.reading.comp.forEach(g => g.questions.forEach(q => { q.no = ++no; }));
+  return d;
+}
+const countFill = (s, nL, nR) => s.replace("{nL}", nL).replace("{nR}", nR).replace("{min}", Math.round(nR * SECONDS_PER_READING_Q / 60));
+
 function recListening(type) {
   const out = [];
   DATA.listening.forEach(g => {
@@ -110,7 +129,7 @@ function revealAnswer(rec, container) {
   }
   const ex = document.createElement("div");
   ex.className = "explain";
-  ex.innerHTML = `${extra}<div>${t.explanation}: ${esc(rec.explain)}</div>`;
+  ex.innerHTML = `${extra}<div>${t.explanation}: ${esc(expl(rec))}</div>`;
   box.after(ex);
 }
 
@@ -120,13 +139,14 @@ function showListeningIntro(next) {
   const t = T();
   app.innerHTML = `<div class="card stage"><span class="badge">${t.listening}</span>
     <div class="big">${t.title}</div>
-    <ul class="rules">${t.listeningRules.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+    <ul class="rules">${t.listeningRules.map(r => `<li>${esc(countFill(r, recListening().length, recReading().length))}</li>`).join("")}</ul>
     <button class="btn" id="go">${t.startListening}</button></div>`;
   $("#go").onclick = () => { rerender = null; runListening(next); };
 }
 
 async function runListening(next) {
-  const total = DATA.listening.reduce((n, g) => n + g.questions.length, 0);
+  const lastGroup = DATA.listening[DATA.listening.length - 1];
+  const total = lastGroup.questions[lastGroup.questions.length - 1].no;   // numbers are baked into the audio
   for (let gi = 0; gi < DATA.listening.length; gi++) {
     const g = DATA.listening[gi];
     const first = g.questions[0].no, last = g.questions[g.questions.length - 1].no;
@@ -171,7 +191,7 @@ function showReadingIntro(next) {
   const t = T();
   app.innerHTML = `<div class="card stage"><span class="badge">${t.reading}</span>
     <div class="big">${t.title}</div>
-    <ul class="rules">${t.readingRules.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+    <ul class="rules">${t.readingRules.map(r => `<li>${esc(countFill(r, recListening().length, recReading().length))}</li>`).join("")}</ul>
     <button class="btn" id="go">${t.startReading}</button></div>`;
   $("#go").onclick = () => { rerender = null; renderReadingPage({ practice: false, onSubmit: next }); };
 }
@@ -226,7 +246,7 @@ function renderReadingPage({ practice, type, onSubmit }) {
     $("#sum").onclick = () => showResults(recs);
     return;
   }
-  let left = READING_SECONDS;
+  let left = recs.length * SECONDS_PER_READING_Q;
   const el = $("#timer");
   const draw = () => {
     const m = String(Math.floor(left / 60)).padStart(2, "0"), s = String(left % 60).padStart(2, "0");
@@ -322,7 +342,7 @@ function showResults(recs) {
       <span class="${good ? "mark-ok" : "mark-no"}">${good ? "✓" : "✗"}</span><span class="tag">${esc(t.skill[r.skill] || r.skill)}</span></div>
       <div class="opts">${opts}</div>
       <div class="explain">${t.yourAnswer}: ${user ? "(" + user + ")" : t.unanswered} · ${t.correctAnswer}: (${r.answer})
-        ${extra}<div>${t.explanation}: ${esc(r.explain)}</div>${script}</div></div>`;
+        ${extra}<div>${t.explanation}: ${esc(expl(r))}</div>${script}</div></div>`;
   });
   html += `<p style="text-align:center"><a class="btn secondary" href="index.html">${t.home}</a>
     <button class="btn" id="retry">${t.retry}</button></p>`;
@@ -336,8 +356,8 @@ async function boot() {
   const setBrand = () => { $("#brand").textContent = T().brand; document.title = T().title + " — Nova Nursery"; };
   mountLangSwitch($("#langSwitch"), () => { setBrand(); if (rerender) rerender(); });
   setBrand();
-  const res = await fetch(`data/${SET}.json`);
-  DATA = await res.json();
+  const parts = await Promise.all(SET_IDS.map(id => fetch(`data/${id}.json`).then(r => r.json())));
+  DATA = parts.length === 1 ? parts[0] : mergeSets(parts);
   const all = () => recListening().concat(recReading());
   switch (MODE) {
     case "full": showListeningIntro(() => showReadingIntro(() => showResults(all()))); break;

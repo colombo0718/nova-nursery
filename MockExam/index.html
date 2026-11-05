@@ -21,9 +21,8 @@
 
 <script src="i18n.js"></script>
 <script>
-const SET = "mini01";
-function link(mode, label, desc, secondary) {
-  return `<a class="card" href="exam.html?set=${SET}&mode=${mode}" style="display:block">
+function link(mode, label, desc, secondary, set = "full100") {
+  return `<a class="card" href="exam.html?set=${set}&mode=${mode}" style="display:block">
     <h2>${label}</h2>${desc ? `<p>${desc}</p>` : ""}<span class="btn ${secondary ? "secondary" : ""} small">${T().start} →</span></a>`;
 }
 function render() {
@@ -38,6 +37,11 @@ function render() {
     <div class="grid">
       ${link("listening", t.listeningOnly, "", true)}
       ${link("reading", t.readingOnly, "", true)}
+    </div>
+    <h2 style="margin-top:28px">${t.halfTitle}</h2>
+    <div class="grid">
+      ${link("full", t.halfA, "", true, "mini01")}
+      ${link("full", t.halfB, "", true, "mini02")}
     </div>
     <h2 style="margin-top:28px">${t.practiceTitle}</h2>
     <p class="sub">${t.practiceDesc}</p>

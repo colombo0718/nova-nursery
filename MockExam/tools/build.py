@@ -28,7 +28,19 @@ AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 V_M, V_F, V_NARR = "zh-TW-YunJheNeural", "zh-TW-HsiaoChenNeural", "zh-TW-HsiaoYuNeural"
-MONO_VOICE = {"LM1": V_M, "LM2": V_F, "LM3": V_M, "LM4": V_F, "LM5": V_NARR}
+MONO_VOICE = {"LM1": V_M, "LM2": V_F, "LM3": V_M, "LM4": V_F, "LM5": V_NARR,
+              "LM6": V_F, "LM7": V_M, "LM8": V_F, "LM9": V_M, "LM10": V_F}
+
+# optional English / Vietnamese explanations for sets whose items carry a Chinese-only string
+_i18n_file = HERE / f"explain_i18n_{SET}.json"
+I18N_EX = json.loads(_i18n_file.read_text(encoding="utf-8")) if _i18n_file.exists() else {}
+
+
+def ex(qid, e):
+    """explain may be a string (zh) or {zh,en,vi}; merge optional translations by question id."""
+    if isinstance(e, str):
+        return {"zh": e, **I18N_EX[qid]} if qid in I18N_EX else e
+    return e
 LETTERS = "ABCD"
 ZH_NUM = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]
 
@@ -139,7 +151,7 @@ async def main():
     out = {"set_id": SET, "title": items["title"], "listening": [], "reading": {"gap": [], "comp": []}}
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td)
-        qno = 0
+        qno = items.get("qno_offset", {}).get("listening", 0)
         for g in items["listening"]:
             gid = g["id"]
             # passage audio
@@ -165,7 +177,7 @@ async def main():
                 await build_audio(q_path, parts, tmp)
                 grp["questions"].append({
                     "id": f"{gid}_q{qi}", "no": qno, "stem": q["stem"], "options": q["options"],
-                    "answer": q["answer"], "skill": q["skill"], "explain": q["explain"],
+                    "answer": q["answer"], "skill": q["skill"], "explain": ex(f"{gid}_q{qi}", q["explain"]),
                     "audio": f"audio/{SET}/{gid}_q{qi}.mp3", "duration": duration(q_path)})
             out["listening"].append(grp)
             print("built", gid)
@@ -177,7 +189,7 @@ async def main():
                 rno += 1
                 ans_word = b["options"][LETTERS.index(b["answer"])]
                 blanks.append({"id": f"{g['id']}_b{b['n']}", "no": rno, "n": b["n"], "options": b["options"],
-                               "answer": b["answer"], "skill": b["skill"], "explain": b["explain"],
+                               "answer": b["answer"], "skill": b["skill"], "explain": ex(f"{g['id']}_b{b['n']}", b["explain"]),
                                "answer_word": ans_word, "vocab_level": word_level.get(ans_word, "outside-8000")})
             out["reading"]["gap"].append({"id": g["id"], "passage": g["passage"], "blanks": blanks})
         for g in items["reading"]["comp"]:
@@ -185,7 +197,8 @@ async def main():
             for q in g["questions"]:
                 rno += 1
                 qs.append({"id": f"{g['id']}_q{len(qs) + 1}", "no": rno, "stem": q["stem"], "options": q["options"],
-                           "answer": q["answer"], "skill": q["skill"], "explain": q["explain"]})
+                           "answer": q["answer"], "skill": q["skill"],
+                           "explain": ex(f"{g['id']}_q{len(qs) + 1}", q["explain"])})
             out["reading"]["comp"].append({"id": g["id"], "passage": g["passage"], "questions": qs})
 
     (DATA_DIR / f"{SET}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

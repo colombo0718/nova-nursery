@@ -47,7 +47,11 @@
      ],
      "answer": "A",
      "skill": "attitude",
-     "explain": "女士說「趕鴨子上架」，又說品質出問題最後得自己扛，表示擔心倉促上線影響品質。",
+     "explain": {
+      "zh": "女士說「趕鴨子上架」，又說品質出問題最後得自己扛，表示擔心倉促上線影響品質。",
+      "en": "She calls it 「趕鴨子上架」 (forcing a rushed launch) and says the team will have to bear the consequences if quality suffers, so she worries a hurried launch will hurt quality.",
+      "vi": "Cô ấy nói đó là 「趕鴨子上架」 (ép làm gấp) và rằng nếu chất lượng có vấn đề thì cả nhóm phải gánh, nên lo việc ra mắt vội vàng sẽ ảnh hưởng chất lượng."
+     },
      "audio": "audio/mini01/LD1_q1.mp3",
      "duration": 25.13
     },
@@ -63,7 +67,11 @@
      ],
      "answer": "B",
      "skill": "detail",
-     "explain": "男士說下午先整理一份風險評估，把可能延誤的環節列清楚。",
+     "explain": {
+      "zh": "男士說下午先整理一份風險評估，把可能延誤的環節列清楚。",
+      "en": "He says he will first prepare a risk assessment this afternoon, listing the steps that might be delayed.",
+      "vi": "Anh ấy nói chiều nay sẽ chuẩn bị bản đánh giá rủi ro, liệt kê rõ các khâu có thể bị chậm."
+     },
      "audio": "audio/mini01/LD1_q2.mp3",
      "duration": 21.38
     }
@@ -114,7 +122,11 @@
      ],
      "answer": "C",
      "skill": "detail",
-     "explain": "學生說「原來的範圍太大，我怕寫不完」。",
+     "explain": {
+      "zh": "學生說「原來的範圍太大，我怕寫不完」。",
+      "en": "The student says the original scope was too broad and she was afraid she could not finish.",
+      "vi": "Cô sinh viên nói phạm vi ban đầu quá rộng và cô sợ không viết xong."
+     },
      "audio": "audio/mini01/LD2_q1.mp3",
      "duration": 21.72
     },
@@ -130,7 +142,11 @@
      ],
      "answer": "C",
      "skill": "attitude",
-     "explain": "老師說「我就不攔你了」，但強調「期限不會因此往後延」。",
+     "explain": {
+      "zh": "老師說「我就不攔你了」，但強調「期限不會因此往後延」。",
+      "en": "The teacher says he will not stop her, but stresses that the deadline will not be postponed.",
+      "vi": "Thầy nói sẽ không ngăn cô nhưng nhấn mạnh hạn nộp sẽ không bị lùi."
+     },
      "audio": "audio/mini01/LD2_q2.mp3",
      "duration": 21.77
     }
@@ -181,7 +197,11 @@
      ],
      "answer": "C",
      "skill": "detail",
-     "explain": "男士轉述師傅的話：管線太老舊，只是暫時疏通，治標不治本。",
+     "explain": {
+      "zh": "男士轉述師傅的話：管線太老舊，只是暫時疏通，治標不治本。",
+      "en": "He relays the plumber's words: the pipes are too old, and clearing them is only a temporary fix that does not solve the root problem.",
+      "vi": "Anh ấy kể lại lời thợ: đường ống quá cũ, chỉ thông tạm thời, không giải quyết tận gốc."
+     },
      "audio": "audio/mini01/LD3_q1.mp3",
      "duration": 22.1
     },
@@ -197,7 +217,11 @@
      ],
      "answer": "A",
      "skill": "inference",
-     "explain": "「續約的事可能也得重新考慮」是委婉地暗示：問題不解決，可能不會續約。",
+     "explain": {
+      "zh": "「續約的事可能也得重新考慮」是委婉地暗示：問題不解決，可能不會續約。",
+      "en": "Saying he may have to reconsider renewing the lease is a polite hint that he may not renew if the problem is not solved.",
+      "vi": "Nói rằng có thể phải cân nhắc lại việc gia hạn hợp đồng là cách ngầm ý lịch sự: nếu vấn đề không được giải quyết, anh có thể sẽ không gia hạn."
+     },
      "audio": "audio/mini01/LD3_q2.mp3",
      "duration": 22.75
     }
@@ -248,7 +272,11 @@
      ],
      "answer": "A",
      "skill": "detail",
-     "explain": "她買了睡前專用的充電座，把手機放在客廳，這樣就不能在床上滑手機。",
+     "explain": {
+      "zh": "她買了睡前專用的充電座，把手機放在客廳，這樣就不能在床上滑手機。",
+      "en": "She bought a bedtime charging stand and keeps her phone in the living room, so she cannot scroll in bed.",
+      "vi": "Cô mua một đế sạc dùng trước khi ngủ và để điện thoại ở phòng khách nên không thể lướt điện thoại trên giường."
+     },
      "audio": "audio/mini01/LD4_q1.mp3",
      "duration": 22.99
     },
@@ -264,7 +292,11 @@
      ],
      "answer": "A",
      "skill": "main_idea",
-     "explain": "她說「意志力靠不住，所以才要靠環境」，把誘惑拿走習慣自然會改。",
+     "explain": {
+      "zh": "她說「意志力靠不住，所以才要靠環境」，把誘惑拿走習慣自然會改。",
+      "en": "She says willpower is unreliable, so you should rely on the environment: remove the temptation and the habit will follow.",
+      "vi": "Cô nói ý chí không đáng tin nên phải dựa vào môi trường: bỏ cám dỗ đi thì thói quen sẽ tự thay đổi."
+     },
      "audio": "audio/mini01/LD4_q2.mp3",
      "duration": 20.28
     }
@@ -315,7 +347,11 @@
      ],
      "answer": "C",
      "skill": "detail",
-     "explain": "飯店表示三天前通知可以免費改期。",
+     "explain": {
+      "zh": "飯店表示三天前通知可以免費改期。",
+      "en": "The hotel says free rescheduling is possible if notified three days ahead.",
+      "vi": "Khách sạn cho biết nếu báo trước ba ngày thì được đổi lịch miễn phí."
+     },
      "audio": "audio/mini01/LD5_q1.mp3",
      "duration": 21.86
     },
@@ -331,7 +367,11 @@
      ],
      "answer": "D",
      "skill": "detail",
-     "explain": "他說要把最後一天的購物時間砍掉，其他安排照舊。",
+     "explain": {
+      "zh": "他說要把最後一天的購物時間砍掉，其他安排照舊。",
+      "en": "He says he will cut the shopping time on the last day so the other plans can stay as they are.",
+      "vi": "Anh nói sẽ bỏ thời gian mua sắm ngày cuối để các kế hoạch khác giữ nguyên."
+     },
      "audio": "audio/mini01/LD5_q2.mp3",
      "duration": 21.77
     }
@@ -362,7 +402,11 @@
      ],
      "answer": "A",
      "skill": "detail",
-     "explain": "蜜源不遠時，牠跳的是圓圈舞。",
+     "explain": {
+      "zh": "蜜源不遠時，牠跳的是圓圈舞。",
+      "en": "When the nectar source is close, the bee dances the round dance.",
+      "vi": "Khi nguồn mật ở gần, ong nhảy điệu múa tròn."
+     },
      "audio": "audio/mini01/LM1_q1.mp3",
      "duration": 21.24
     },
@@ -378,7 +422,11 @@
      ],
      "answer": "D",
      "skill": "detail",
-     "explain": "搖擺的角度代表與太陽的夾角；持續時間愈長，表示蜜源距離愈遠。",
+     "explain": {
+      "zh": "搖擺的角度代表與太陽的夾角；持續時間愈長，表示蜜源距離愈遠。",
+      "en": "The angle of the waggle shows the angle to the sun; the longer the waggling lasts, the farther away the source is.",
+      "vi": "Góc lắc cho biết góc so với mặt trời; lắc càng lâu thì nguồn mật càng xa."
+     },
      "audio": "audio/mini01/LM1_q2.mp3",
      "duration": 20.71
     },
@@ -394,7 +442,11 @@
      ],
      "answer": "B",
      "skill": "main_idea",
-     "explain": "結尾點出這項發現讓人類知道昆蟲之間存在如此精細的溝通方式。",
+     "explain": {
+      "zh": "結尾點出這項發現讓人類知道昆蟲之間存在如此精細的溝通方式。",
+      "en": "The ending stresses that the discovery showed humans that insects communicate in such a precise way.",
+      "vi": "Phần kết nhấn mạnh phát hiện này cho con người thấy côn trùng giao tiếp với nhau tinh vi đến vậy."
+     },
      "audio": "audio/mini01/LM1_q3.mp3",
      "duration": 22.75
     }
@@ -425,7 +477,11 @@
      ],
      "answer": "D",
      "skill": "detail",
-     "explain": "二樓閱覽區將劃分為安靜區與討論區。",
+     "explain": {
+      "zh": "二樓閱覽區將劃分為安靜區與討論區。",
+      "en": "The second-floor reading area will be divided into a quiet zone and a discussion zone.",
+      "vi": "Khu đọc sách tầng hai sẽ được chia thành khu yên tĩnh và khu thảo luận."
+     },
      "audio": "audio/mini01/LM2_q1.mp3",
      "duration": 20.06
     },
@@ -441,7 +497,11 @@
      ],
      "answer": "C",
      "skill": "purpose",
-     "explain": "廣播說「期望藉此提高書籍的流通率」。",
+     "explain": {
+      "zh": "廣播說「期望藉此提高書籍的流通率」。",
+      "en": "The announcement says the aim is to raise the circulation rate of books.",
+      "vi": "Thông báo nói mục đích là nâng cao tỉ lệ luân chuyển của sách."
+     },
      "audio": "audio/mini01/LM2_q2.mp3",
      "duration": 21.0
     },
@@ -457,7 +517,11 @@
      ],
      "answer": "C",
      "skill": "detail",
-     "explain": "預計週三啟用，屆時有志工在現場協助操作。",
+     "explain": {
+      "zh": "預計週三啟用，屆時有志工在現場協助操作。",
+      "en": "It is expected to open on Wednesday, with volunteers on site to help.",
+      "vi": "Dự kiến khai trương vào thứ Tư, có tình nguyện viên hỗ trợ tại chỗ."
+     },
      "audio": "audio/mini01/LM2_q3.mp3",
      "duration": 21.72
     }
@@ -488,7 +552,11 @@
      ],
      "answer": "B",
      "skill": "main_idea",
-     "explain": "講者說重點不在身分的數量，而在每個身分是否都做出專業。",
+     "explain": {
+      "zh": "講者說重點不在身分的數量，而在每個身分是否都做出專業。",
+      "en": "The speaker says the point is not the number of roles but whether each role is done professionally.",
+      "vi": "Người nói cho rằng điểm mấu chốt không phải số lượng vai trò mà là mỗi vai trò có làm được chuyên nghiệp hay không."
+     },
      "audio": "audio/mini01/LM3_q1.mp3",
      "duration": 21.1
     },
@@ -504,7 +572,11 @@
      ],
      "answer": "D",
      "skill": "detail",
-     "explain": "他放棄許多社交活動，連睡眠都被壓縮。",
+     "explain": {
+      "zh": "他放棄許多社交活動，連睡眠都被壓縮。",
+      "en": "He gave up many social activities, and even his sleep was squeezed.",
+      "vi": "Anh ấy bỏ nhiều hoạt động xã hội, thậm chí giấc ngủ cũng bị cắt giảm."
+     },
      "audio": "audio/mini01/LM3_q2.mp3",
      "duration": 21.74
     },
@@ -520,7 +592,11 @@
      ],
      "answer": "B",
      "skill": "inference",
-     "explain": "「不是分散風險的保險，而是需要精挑細選的投資」，意思是要謹慎選擇。",
+     "explain": {
+      "zh": "「不是分散風險的保險，而是需要精挑細選的投資」，意思是要謹慎選擇。",
+      "en": "「Not insurance that spreads risk but an investment that needs careful selection」 means one must choose carefully.",
+      "vi": "「Không phải bảo hiểm phân tán rủi ro mà là khoản đầu tư cần chọn lọc kỹ」 nghĩa là phải lựa chọn thận trọng."
+     },
      "audio": "audio/mini01/LM3_q3.mp3",
      "duration": 22.34
     }
@@ -551,7 +627,11 @@
      ],
      "answer": "B",
      "skill": "detail",
-     "explain": "報導提到柏油與水泥吸熱、夜間釋放熱量、冷氣廢熱，沒有提到郊區森林減少。",
+     "explain": {
+      "zh": "報導提到柏油與水泥吸熱、夜間釋放熱量、冷氣廢熱，沒有提到郊區森林減少。",
+      "en": "The report mentions asphalt and concrete absorbing heat, heat released at night and air-conditioner exhaust, but not fewer forests in the suburbs.",
+      "vi": "Bản tin nhắc đến nhựa đường và bê tông hấp thụ nhiệt, nhiệt tỏa ra ban đêm và hơi nóng từ điều hòa, không nhắc đến rừng ngoại ô giảm."
+     },
      "audio": "audio/mini01/LM4_q1.mp3",
      "duration": 23.11
     },
@@ -567,7 +647,11 @@
      ],
      "answer": "D",
      "skill": "detail",
-     "explain": "試辦的二十棟大樓頂樓溫度平均下降六度；用電量只減少一成。",
+     "explain": {
+      "zh": "試辦的二十棟大樓頂樓溫度平均下降六度；用電量只減少一成。",
+      "en": "In the twenty pilot buildings the rooftop temperature dropped by six degrees on average; electricity use fell by only ten percent.",
+      "vi": "Ở hai mươi tòa nhà thử nghiệm, nhiệt độ sân thượng giảm trung bình sáu độ; điện năng chỉ giảm mười phần trăm."
+     },
      "audio": "audio/mini01/LM4_q2.mp3",
      "duration": 22.8
     },
@@ -583,7 +667,11 @@
      ],
      "answer": "D",
      "skill": "detail",
-     "explain": "專家提醒維護成本不低，缺乏長期管理成效恐難持續。",
+     "explain": {
+      "zh": "專家提醒維護成本不低，缺乏長期管理成效恐難持續。",
+      "en": "Experts warn that maintenance is costly and that without long-term management the effect may not last.",
+      "vi": "Chuyên gia nhắc rằng chi phí bảo trì không thấp, thiếu quản lý lâu dài thì hiệu quả khó duy trì."
+     },
      "audio": "audio/mini01/LM4_q3.mp3",
      "duration": 22.97
     }
@@ -614,7 +702,11 @@
      ],
      "answer": "A",
      "skill": "detail",
-     "explain": "報導說「將近三成從未被賣出」。",
+     "explain": {
+      "zh": "報導說「將近三成從未被賣出」。",
+      "en": "The report says nearly thirty percent are never sold.",
+      "vi": "Bản tin nói gần ba mươi phần trăm chưa bao giờ được bán."
+     },
      "audio": "audio/mini01/LM5_q1.mp3",
      "duration": 19.51
     },
@@ -630,7 +722,11 @@
      ],
      "answer": "B",
      "skill": "detail",
-     "explain": "許多捐出的衣物品質不佳，慈善機構得花額外人力與費用處理。",
+     "explain": {
+      "zh": "許多捐出的衣物品質不佳，慈善機構得花額外人力與費用處理。",
+      "en": "Much donated clothing is of poor quality, and charities must spend extra labour and money handling it.",
+      "vi": "Nhiều quần áo quyên góp chất lượng kém, các tổ chức từ thiện phải tốn thêm nhân lực và chi phí để xử lý."
+     },
      "audio": "audio/mini01/LM5_q2.mp3",
      "duration": 24.24
     },
@@ -646,7 +742,11 @@
      ],
      "answer": "A",
      "skill": "purpose",
-     "explain": "環保團體呼籲不如減少購買，並且選擇耐穿的品項。",
+     "explain": {
+      "zh": "環保團體呼籲不如減少購買，並且選擇耐穿的品項。",
+      "en": "Environmental groups urge people to buy less and choose durable items instead.",
+      "vi": "Các tổ chức môi trường kêu gọi mua ít đi và chọn món bền thay vì quyên góp."
+     },
      "audio": "audio/mini01/LM5_q3.mp3",
      "duration": 21.02
     }
@@ -671,7 +771,11 @@
       ],
       "answer": "B",
       "skill": "adverb",
-      "explain": "前後語意是肯定它確實有貢獻；「居然」帶意外語氣、「反倒」表相反、「莫非」是疑問推測，都不合。",
+      "explain": {
+       "zh": "前後語意是肯定它確實有貢獻；「居然」帶意外語氣、「反倒」表相反、「莫非」是疑問推測，都不合。",
+       "en": "The sentence affirms its real contribution. 「居然」 expresses surprise, 「反倒」 means on the contrary, 「莫非」 is a guess in question form; none fits.",
+       "vi": "Câu khẳng định đóng góp thực sự của nó. 「居然」 diễn tả bất ngờ, 「反倒」 nghĩa là ngược lại, 「莫非」 là phỏng đoán dạng nghi vấn; đều không hợp."
+      },
       "answer_word": "確實",
       "vocab_level": "Level4"
      },
@@ -687,7 +791,11 @@
       ],
       "answer": "C",
       "skill": "conjunction",
-      "explain": "前面講優點，後面轉折說出問題，要用「然而」。",
+      "explain": {
+       "zh": "前面講優點，後面轉折說出問題，要用「然而」。",
+       "en": "The previous part is positive and what follows turns to the problem, so 「然而」 is needed.",
+       "vi": "Vế trước nói ưu điểm, vế sau chuyển sang vấn đề nên cần 「然而」."
+      },
       "answer_word": "然而",
       "vocab_level": "Level4"
      },
@@ -703,7 +811,11 @@
       ],
       "answer": "C",
       "skill": "adverb",
-      "explain": "描述許多業者一個接一個倒閉，用「紛紛」。",
+      "explain": {
+       "zh": "描述許多業者一個接一個倒閉，用「紛紛」。",
+       "en": "Many operators going under one after another is expressed with 「紛紛」.",
+       "vi": "Nhiều đơn vị lần lượt phá sản được diễn đạt bằng 「紛紛」."
+      },
       "answer_word": "紛紛",
       "vocab_level": "Level4"
      },
@@ -719,7 +831,11 @@
       ],
       "answer": "A",
       "skill": "conjunction",
-      "explain": "政府意識到問題，因此採取行動，是順承關係，用「於是」。",
+      "explain": {
+       "zh": "政府意識到問題，因此採取行動，是順承關係，用「於是」。",
+       "en": "The government realises the problem and therefore acts: a sequential relation, so 「於是」.",
+       "vi": "Chính phủ nhận ra vấn đề rồi hành động: quan hệ nối tiếp nên dùng 「於是」."
+      },
       "answer_word": "於是",
       "vocab_level": "Level3"
      },
@@ -735,7 +851,11 @@
       ],
       "answer": "D",
       "skill": "adverb",
-      "explain": "「唯有……才能真正成為長久選項」，強調實質達成。",
+      "explain": {
+       "zh": "「唯有……才能真正成為長久選項」，強調實質達成。",
+       "en": "「唯有……才能真正……」 stresses that it must truly become a lasting option.",
+       "vi": "「唯有……才能真正……」 nhấn mạnh phải thực sự trở thành lựa chọn lâu dài."
+      },
       "answer_word": "真正",
       "vocab_level": "Level3"
      }
@@ -757,7 +877,11 @@
       ],
       "answer": "C",
       "skill": "adverb",
-      "explain": "由盛轉衰是慢慢發生的過程，用「逐漸」。",
+      "explain": {
+       "zh": "由盛轉衰是慢慢發生的過程，用「逐漸」。",
+       "en": "The decline from prosperity happens slowly, so 「逐漸」.",
+       "vi": "Sự suy tàn từ thịnh vượng diễn ra từ từ nên dùng 「逐漸」."
+      },
       "answer_word": "逐漸",
       "vocab_level": "Level4"
      },
@@ -773,7 +897,11 @@
       ],
       "answer": "A",
       "skill": "adverb",
-      "explain": "「並未選擇坐以待斃，而是主動……」是否定已發生的事實。",
+      "explain": {
+       "zh": "「並未選擇坐以待斃，而是主動……」是否定已發生的事實。",
+       "en": "「並未選擇坐以待斃，而是主動……」 denies something that did not happen.",
+       "vi": "「並未選擇坐以待斃，而是主動……」 phủ định một việc đã không xảy ra."
+      },
       "answer_word": "並未",
       "vocab_level": "outside-8000"
      },
@@ -789,7 +917,11 @@
       ],
       "answer": "D",
       "skill": "noun",
-      "explain": "前文說明居民採取的做法，用「舉措」概括。",
+      "explain": {
+       "zh": "前文說明居民採取的做法，用「舉措」概括。",
+       "en": "The preceding text describes what residents did, summarised by 「舉措」 (measure).",
+       "vi": "Đoạn trước mô tả việc cư dân đã làm, được tóm lại bằng 「舉措」 (biện pháp)."
+      },
       "answer_word": "舉措",
       "vocab_level": "outside-8000"
      },
@@ -805,7 +937,11 @@
       ],
       "answer": "D",
       "skill": "conjunction",
-      "explain": "「進而」表示在前一個結果上更進一步產生後果。",
+      "explain": {
+       "zh": "「進而」表示在前一個結果上更進一步產生後果。",
+       "en": "「進而」 means going one step further from the previous result.",
+       "vi": "「進而」 nghĩa là từ kết quả trước tiến thêm một bước nữa."
+      },
       "answer_word": "進而",
       "vocab_level": "Level5"
      },
@@ -821,7 +957,11 @@
       ],
       "answer": "B",
       "skill": "verb",
-      "explain": "遊客增加使房租上漲，用「攀升」。",
+      "explain": {
+       "zh": "遊客增加使房租上漲，用「攀升」。",
+       "en": "More tourists push rents up, so 「攀升」 (climb).",
+       "vi": "Khách du lịch đông làm tiền thuê tăng nên dùng 「攀升」 (leo thang)."
+      },
       "answer_word": "攀升",
       "vocab_level": "outside-8000"
      }
@@ -845,7 +985,11 @@
       ],
       "answer": "B",
       "skill": "main_idea",
-      "explain": "全文先說優點，再列舉設備維護、失竊、年長顧客等問題，主旨是營運並不如預期輕鬆。"
+      "explain": {
+       "zh": "全文先說優點，再列舉設備維護、失竊、年長顧客等問題，主旨是營運並不如預期輕鬆。",
+       "en": "The passage first lists advantages, then equipment upkeep, theft and elderly customers as problems; the main idea is that operation is harder than expected.",
+       "vi": "Bài viết nêu ưu điểm rồi liệt kê các vấn đề: bảo trì thiết bị, mất cắp, khách lớn tuổi; ý chính là vận hành không dễ như dự kiến."
+      }
      },
      {
       "id": "RC1_q2",
@@ -859,7 +1003,11 @@
       ],
       "answer": "A",
       "skill": "detail",
-      "explain": "文中說「省下的人事費用，往往被高昂的設備維護費抵銷」。"
+      "explain": {
+       "zh": "文中說「省下的人事費用，往往被高昂的設備維護費抵銷」。",
+       "en": "The text says the savings in labour are often offset by costly equipment maintenance.",
+       "vi": "Bài viết nói chi phí nhân sự tiết kiệm được thường bị chi phí bảo trì thiết bị cao bù trừ."
+      }
      },
      {
       "id": "RC1_q3",
@@ -873,7 +1021,11 @@
       ],
       "answer": "C",
       "skill": "inference",
-      "explain": "年長顧客不熟悉操作而寧可去有店員的店，說明操作不便會讓部分顧客卻步。"
+      "explain": {
+       "zh": "年長顧客不熟悉操作而寧可去有店員的店，說明操作不便會讓部分顧客卻步。",
+       "en": "Elderly customers who are unfamiliar with the process go to staffed stores instead, showing that difficult operation can put some customers off.",
+       "vi": "Khách lớn tuổi không quen thao tác thà sang cửa hàng có nhân viên, cho thấy thao tác khó có thể khiến một số khách ngại."
+      }
      }
     ]
    },
@@ -893,7 +1045,11 @@
       ],
       "answer": "A",
       "skill": "detail",
-      "explain": "文中說他們不是為了便宜，而是為了「人情味」。"
+      "explain": {
+       "zh": "文中說他們不是為了便宜，而是為了「人情味」。",
+       "en": "The text says they come not for low prices but for the human touch.",
+       "vi": "Bài viết nói họ đến không phải vì rẻ mà vì 「人情味」 (sự ấm áp giữa người với người)."
+      }
      },
      {
       "id": "RC2_q2",
@@ -907,7 +1063,11 @@
       ],
       "answer": "A",
       "skill": "reference",
-      "explain": "「這些互動」指前面描述的攤販記得顧客、教人料理、與種植者聊天等交流。"
+      "explain": {
+       "zh": "「這些互動」指前面描述的攤販記得顧客、教人料理、與種植者聊天等交流。",
+       "en": "「這些互動」 refers to the exchanges just described: vendors remembering customers, teaching them to cook and chatting with growers.",
+       "vi": "「這些互動」 chỉ những trao đổi vừa nêu: người bán nhớ khách, chỉ cách nấu và trò chuyện với người trồng."
+      }
      },
      {
       "id": "RC2_q3",
@@ -921,7 +1081,11 @@
       ],
       "answer": "A",
       "skill": "main_idea",
-      "explain": "學者主張把人與人之間的連結轉化為獨特的競爭優勢。"
+      "explain": {
+       "zh": "學者主張把人與人之間的連結轉化為獨特的競爭優勢。",
+       "en": "The scholar says markets should turn human connection into a distinctive competitive advantage.",
+       "vi": "Học giả cho rằng chợ nên biến sự kết nối giữa người với người thành lợi thế cạnh tranh độc đáo."
+      }
      }
     ]
    },
@@ -941,7 +1105,11 @@
       ],
       "answer": "D",
       "skill": "detail",
-      "explain": "講解影片在家看，課堂時間用來討論與實作。"
+      "explain": {
+       "zh": "講解影片在家看，課堂時間用來討論與實作。",
+       "en": "The explanatory video is watched at home; class time is used for discussion and hands-on work.",
+       "vi": "Video giảng bài xem ở nhà; thời gian trên lớp dùng để thảo luận và thực hành."
+      }
      },
      {
       "id": "RC3_q2",
@@ -955,7 +1123,11 @@
       ],
       "answer": "A",
       "skill": "detail",
-      "explain": "批評者指出缺乏自律的學生會落後得更多。"
+      "explain": {
+       "zh": "批評者指出缺乏自律的學生會落後得更多。",
+       "en": "Critics point out that students who lack self-discipline fall even further behind.",
+       "vi": "Người phản đối chỉ ra học sinh thiếu tự giác sẽ tụt lại xa hơn."
+      }
      },
      {
       "id": "RC3_q3",
@@ -969,7 +1141,11 @@
       ],
       "answer": "B",
       "skill": "inference",
-      "explain": "「萬靈丹」指能解決一切問題的辦法；並非萬靈丹，表示不能解決所有問題，成效還要看條件。"
+      "explain": {
+       "zh": "「萬靈丹」指能解決一切問題的辦法；並非萬靈丹，表示不能解決所有問題，成效還要看條件。",
+       "en": "A 「萬靈丹」 is a cure-all; saying it is not one means it cannot solve every problem and results depend on conditions.",
+       "vi": "「萬靈丹」 là thuốc chữa bách bệnh; nói nó không phải nghĩa là không giải quyết được mọi vấn đề, hiệu quả còn tùy điều kiện."
+      }
      }
     ]
    },
@@ -989,7 +1165,11 @@
       ],
       "answer": "B",
       "skill": "detail",
-      "explain": "適應型會訂定高標準並享受達成目標的過程。"
+      "explain": {
+       "zh": "適應型會訂定高標準並享受達成目標的過程。",
+       "en": "The adaptive type sets high standards and enjoys the process of reaching goals.",
+       "vi": "Kiểu thích ứng đặt tiêu chuẩn cao và tận hưởng quá trình đạt mục tiêu."
+      }
      },
      {
       "id": "RC4_q2",
@@ -1003,7 +1183,11 @@
       ],
       "answer": "D",
       "skill": "detail",
-      "explain": "文中說他們因為擔心做不好而遲遲不敢動手，陷入拖延的惡性循環。"
+      "explain": {
+       "zh": "文中說他們因為擔心做不好而遲遲不敢動手，陷入拖延的惡性循環。",
+       "en": "They are afraid of doing badly and hesitate to start, falling into a vicious circle of procrastination.",
+       "vi": "Họ sợ làm không tốt nên chần chừ không dám bắt tay vào làm, rơi vào vòng luẩn quẩn trì hoãn."
+      }
      },
      {
       "id": "RC4_q3",
@@ -1017,7 +1201,11 @@
       ],
       "answer": "B",
       "skill": "purpose",
-      "explain": "「與其問……不如問……」是建議用高標準帶來動力或壓力來判斷自己的狀態。"
+      "explain": {
+       "zh": "「與其問……不如問……」是建議用高標準帶來動力或壓力來判斷自己的狀態。",
+       "en": "The 「與其問……不如問……」 pattern suggests judging oneself by whether high standards bring motivation or pressure.",
+       "vi": "Cấu trúc 「與其問……不如問……」 gợi ý dùng việc tiêu chuẩn cao mang lại động lực hay áp lực để tự đánh giá."
+      }
      }
     ]
    },
@@ -1037,7 +1225,11 @@
       ],
       "answer": "C",
       "skill": "detail",
-      "explain": "文中說「企業也發現生產力並未下降」。"
+      "explain": {
+       "zh": "文中說「企業也發現生產力並未下降」。",
+       "en": "The text says companies found that productivity did not fall.",
+       "vi": "Bài viết nói các công ty nhận thấy năng suất không giảm."
+      }
      },
      {
       "id": "RC5_q2",
@@ -1051,7 +1243,11 @@
       ],
       "answer": "D",
       "skill": "detail",
-      "explain": "文中沒有提到薪資被調降。"
+      "explain": {
+       "zh": "文中沒有提到薪資被調降。",
+       "en": "Salary cuts are not mentioned anywhere in the text.",
+       "vi": "Bài viết không hề nhắc đến việc cắt giảm lương."
+      }
      },
      {
       "id": "RC5_q3",
@@ -1065,7 +1261,11 @@
       ],
       "answer": "C",
       "skill": "detail",
-      "explain": "混合辦公是每週安排部分天數到辦公室。"
+      "explain": {
+       "zh": "混合辦公是每週安排部分天數到辦公室。",
+       "en": "Hybrid work means going to the office on part of the days each week.",
+       "vi": "Làm việc kết hợp là mỗi tuần đến văn phòng một số ngày."
+      }
      }
     ]
    }
