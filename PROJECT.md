@@ -140,6 +140,8 @@ nova-nursery/
 │   ├── 拼音學習卡_*.md                      ← Pinyin Poker 多版本規劃
 │   └── 漢語拼音 Emoji 學習卡（64 張）.md
 │
+├── StoryLearn/                              ← 聽故事學語言（NN 底下產品線，影片工廠 MLAS 素材；雛形，見 §7.4）
+├── MockExam/                                ← TOCFL Band C 模擬考試（原創題＋edge-tts 音檔；見 §7.5）
 ├── curriculum/                              ← 逐冊教材大綱（規劃中、尚未建檔，見 §13）
 ├── tocfl_bank/                              ← TOCFL 官方素材庫（2026-07-26 從 C:\Users\USER\tocfl_bank 移入，554 檔）
 ├── tocfl-material-gen/                      ← TOCFL 教材生成工具（暫不擴充）
@@ -187,13 +189,28 @@ nova-nursery/
 
 ---
 
+### 7.4 StoryLearn 聽故事學語言（雛形，2026-09-11 起）
+
+- 定位比照 Sentence Summoner 之於 strategy-space：NN 底下的獨立產品線。以 `D:\video-factory` 的多語言有聲故事書（MLAS）為原料（上游內容生產、YouTube 上架仍歸 video-factory，不重工）
+- 現況：`StoryLearn/index.html` 只做一篇（MLAS001）、英文音軌、YouTube iframe 嵌入＋整幀級字幕同步＋點字看五語言卡；詳見 `StoryLearn/README.md`
+- 預覽網址（非正式導覽）：`https://storylearn-preview.nova-nursery.pages.dev/StoryLearn/`
+
+### 7.5 MockExam TOCFL Band C 模擬考試（2026-11-05 起）
+
+- 依官方 Band C 題型（聽力：對話／段落；閱讀：選詞填空／閱讀理解；四選一）**原創**出題，非官方，頁面明示；官方題庫與《趣學TOCFL》只當格式與難度參考，不照抄
+- 現況：`mini01` 題組＝聽力 25＋閱讀 25，引擎含完整考試流程（聽力只播一遍、選項後倒數 5 秒、閱讀計時）、分題型練習模式、成績與能力分析；音檔由 edge-tts 產生（labs 的 GPT-SoVITS 備用）；詳見 `MockExam/README.md`
+- 題庫與建置：`MockExam/tools/items_*.json`（原始題）→ `python MockExam/tools/build.py items_xxx.json` → `data/`、`audio/`
+- 命題的詞彙參考：華語八千詞表 2.0（`tocfl-material-gen/vocabulary/`）；書《趣學TOCFL流利精通級詞彙》用的是國教院詞表 6、7 級，大多在八千詞表之外（2026-11-05 交叉比對：323 詞僅 63 詞在八千詞表內）
+
+---
+
 ## 9. 技術細節
 
 - **語言**：純 HTML/CSS/JS（無框架、無 build）
 - **工具腳本**：Python（Neocities 下載、Playwright）
 - **部署**：Cloudflare Pages，已上線 `nova-nursery.leaflune.org`（英文版 + `/vi` 越南文版）
   - `wrangler pages deploy . --project-name=nova-nursery --branch=master`
-  - **⚠️ 絕不可對 repo 根目錄直接跑 `wrangler pages deploy .`**——根目錄過去混有 LL 內部文件與 25MB+ 大型素材檔，會導致外流與部署卡關。固定流程：複製 `index.html` / `Card/` / `vi/` 到乾淨的暫存資料夾（例：`C:\Users\USER\_nova-nursery_deploy`）再部署，部署完刪除暫存資料夾
+  - **⚠️ 絕不可對 repo 根目錄直接跑 `wrangler pages deploy .`**——根目錄過去混有 LL 內部文件與 25MB+ 大型素材檔，會導致外流與部署卡關。固定流程：複製 `index.html` / `Card/` / `vi/` / `en/` / `StoryLearn/` / `MockExam/`（排除 `MockExam/tools/`）到乾淨的暫存資料夾（例：`C:\Users\USER\_nova-nursery_deploy`）再部署，部署完刪除暫存資料夾
 - **卡牌印刷規格**：CMYK 300dpi PDF、出血 3mm
 - **越南文支援**：已上線（`vi/` 資料夾，字體用 Google Fonts「Be Vietnam Pro」確保聲調符號正確渲染，女友協助翻譯與校對）
 

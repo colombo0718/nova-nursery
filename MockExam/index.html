@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TOCFL Band C Mock Exam — Nova Nursery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site">
+  <div class="site-inner">
+    <a class="brand" href="../en/"><img src="../Card/nova-nursery_emoji.png" alt="Nova Nursery" /><span id="brand"></span></a>
+    <div class="lang-switch" id="langSwitch"></div>
+  </div>
+</header>
+<main id="home"></main>
+<footer class="site">© 2026 LeafLune Universe</footer>
+
+<script src="i18n.js"></script>
+<script>
+const SET = "mini01";
+function link(mode, label, desc, secondary) {
+  return `<a class="card" href="exam.html?set=${SET}&mode=${mode}" style="display:block">
+    <h2>${label}</h2>${desc ? `<p>${desc}</p>` : ""}<span class="btn ${secondary ? "secondary" : ""} small">${T().start} →</span></a>`;
+}
+function render() {
+  const t = T();
+  document.title = t.title + " — Nova Nursery";
+  document.getElementById("brand").textContent = t.brand;
+  document.getElementById("home").innerHTML = `
+    <span class="badge">TOCFL · Band C</span>
+    <h1>${t.title}</h1>
+    <p class="sub">${t.subtitle}</p>
+    ${link("full", t.fullExam, t.fullExamDesc)}
+    <div class="grid">
+      ${link("listening", t.listeningOnly, "", true)}
+      ${link("reading", t.readingOnly, "", true)}
+    </div>
+    <h2 style="margin-top:28px">${t.practiceTitle}</h2>
+    <p class="sub">${t.practiceDesc}</p>
+    <div class="grid">
+      ${link("p-dialogue", t.pDialogue, "", true)}
+      ${link("p-monologue", t.pMonologue, "", true)}
+      ${link("p-gap", t.pGap, "", true)}
+      ${link("p-comp", t.pComp, "", true)}
+    </div>
+    <p class="notice" style="margin-top:24px">${t.disclaimer}</p>`;
+}
+mountLangSwitch(document.getElementById("langSwitch"), render);
+render();
+</script>
+</body>
+</html>
