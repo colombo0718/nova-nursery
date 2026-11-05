@@ -142,6 +142,10 @@ nova-nursery/
 │
 ├── StoryLearn/                              ← 聽故事學語言（NN 底下產品線，影片工廠 MLAS 素材；雛形，見 §7.4）
 ├── MockExam/                                ← TOCFL Band C 模擬考試（原創題＋edge-tts 音檔；見 §7.5）
+├── mock-exam/                               ← TOCFL Band C 模擬考試網頁（聽力 25＋閱讀 25，原創題；index.html + data/bandc-set1.js + audio/*.mp3）
+├── StoryLearn/                              ← 聽故事學語言（雛形，NN 底下產品線）
+├── scripts/mockexam/                        ← 模擬考題庫來源（content_*.json，第一個選項是正解）＋ build_mock_exam.py（洗牌、標詞彙等級、edge-tts 產音檔、輸出 data.js）
+│
 ├── curriculum/                              ← 逐冊教材大綱（規劃中、尚未建檔，見 §13）
 ├── tocfl_bank/                              ← TOCFL 官方素材庫（2026-07-26 從 C:\Users\USER\tocfl_bank 移入，554 檔）
 ├── tocfl-material-gen/                      ← TOCFL 教材生成工具（暫不擴充）

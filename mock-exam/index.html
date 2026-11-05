@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nova Nursery — TOCFL Band C Mock Exam</title>
+<style>
+  :root {
+    --blue:#1565C0; --blue-light:#1976D2; --blue-pale:#E3F2FD; --cream:#FFF8EE;
+    --text:#1A1A2E; --sub:#555; --border:#E0E0E0; --white:#fff;
+    --green:#2E7D32; --green-pale:#E8F5E9; --red:#C62828; --red-pale:#FDECEA; --gold:#F9A825;
+    --radius:12px; --shadow:0 4px 20px rgba(0,0,0,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI","Noto Sans TC","Noto Sans",sans-serif;
+       color:var(--text);background:linear-gradient(135deg,#EEF6FF 0%,var(--cream) 100%);min-height:100vh;line-height:1.6}
+  header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+  .bar{max-width:980px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .brand{font-weight:800;color:var(--blue);display:flex;align-items:center;gap:8px}
+  .brand img{width:30px;height:30px}
+  .langs button{border:1px solid var(--border);background:var(--white);padding:4px 12px;border-radius:999px;cursor:pointer;font-weight:600;color:var(--sub)}
+  .langs button.on{background:var(--blue);color:var(--white);border-color:var(--blue)}
+  .status{max-width:980px;margin:0 auto;padding:0 20px 8px;display:flex;gap:16px;font-size:.9rem;color:var(--sub);flex-wrap:wrap}
+  .status b{color:var(--blue)}
+  main{max-width:980px;margin:0 auto;padding:24px 20px 80px}
+  h1{font-size:clamp(1.5rem,4vw,2.2rem);font-weight:900;margin-bottom:6px}
+  h2{font-size:1.25rem;font-weight:800;margin:0 0 10px}
+  .lead{color:var(--sub);margin-bottom:20px}
+  .card{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px 24px;margin-bottom:18px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .btn{display:inline-block;background:var(--blue);color:var(--white);border:none;border-radius:999px;padding:11px 26px;font-weight:700;font-size:1rem;cursor:pointer}
+  .btn:hover{background:var(--blue-light)} .btn.ghost{background:var(--white);color:var(--blue);border:2px solid var(--blue)}
+  .btn[disabled]{opacity:.5;cursor:not-allowed}
+  .notice{background:var(--blue-pale);border-radius:10px;padding:12px 16px;font-size:.92rem;color:#0d3c78;margin-bottom:16px}
+  ul.rules{margin:8px 0 18px 20px} ul.rules li{margin:4px 0}
+  .passage{font-size:1.1rem;line-height:2;background:var(--cream);border-radius:10px;padding:16px 20px;margin-bottom:14px;letter-spacing:.02em}
+  .blank{display:inline-block;min-width:26px;text-align:center;font-weight:800;color:var(--blue);border-bottom:2px solid var(--blue);margin:0 3px}
+  .q{padding:12px 0;border-top:1px dashed var(--border)} .q:first-of-type{border-top:none}
+  .qh{font-weight:700;margin-bottom:6px}
+  .opts{display:grid;gap:6px}
+  .opts.inline{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+  .opt{display:flex;gap:8px;align-items:flex-start;border:1.5px solid var(--border);border-radius:10px;padding:8px 12px;cursor:pointer;background:var(--white)}
+  .opt:hover{border-color:var(--blue-light)} .opt input{margin-top:5px}
+  .opt.sel{border-color:var(--blue);background:var(--blue-pale)}
+  .opt.correct{border-color:var(--green);background:var(--green-pale)} .opt.wrong{border-color:var(--red);background:var(--red-pale)}
+  .opt .l{font-weight:800;color:var(--blue)}
+  .player{display:flex;align-items:center;gap:14px;background:var(--blue-pale);border-radius:10px;padding:12px 16px;margin-bottom:12px;flex-wrap:wrap}
+  .pulse{width:12px;height:12px;border-radius:50%;background:var(--gold);animation:p 1s infinite}
+  @keyframes p{50%{opacity:.25}}
+  .locked{opacity:.55;pointer-events:none}
+  .chip{display:inline-block;font-size:.78rem;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--blue-pale);color:var(--blue);margin:2px 4px 2px 0}
+  .chip.lv{background:#FFF8E1;color:#8d6000}
+  table{width:100%;border-collapse:collapse;margin-top:8px} th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--border);font-size:.95rem}
+  .bigscore{font-size:2.6rem;font-weight:900;color:var(--blue)}
+  .bar2{height:10px;background:var(--border);border-radius:999px;overflow:hidden;min-width:80px} .bar2>i{display:block;height:100%;background:var(--blue)}
+  .exp{background:var(--blue-pale);border-radius:8px;padding:8px 12px;margin-top:8px;font-size:.92rem}
+  details{margin-top:8px} summary{cursor:pointer;font-weight:600;color:var(--blue)}
+  .tr{background:var(--cream);border-radius:8px;padding:10px 14px;margin-top:6px;font-size:1rem;line-height:1.9}
+  footer{max-width:980px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-size:.82rem}
+  audio{width:100%;margin:6px 0}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand"><img src="../Card/nova-nursery_emoji.png" alt="" /> Nova Nursery · Mock Exam</div>
+    <div class="langs"><button data-l="en">EN</button> <button data-l="vi">VI</button></div>
+  </div>
+  <div class="status" id="status"></div>
+</header>
+<main id="app"></main>
+<footer id="foot"></footer>
+
+<script src="data/bandc-set1.js"></script>
+<script>
+"use strict";
+const D = window.MOCK_EXAM;
+
+/* ───────────── i18n ───────────── */
+const I18N = {
+  en: {
+    title: "TOCFL Band C Mock Exam", sub: "Fluent–Mastery level · Set 1 · original practice items",
+    disclaimer: "These questions are original practice items written by Nova Nursery in the style of TOCFL Band C. They are not official TOCFL questions and are not affiliated with or endorsed by SC-TOP. Scores here are raw practice scores, not official TOCFL scores.",
+    fullMock: "Full mock (Listening + Reading)", fullMockD: "25 listening questions, then 25 reading questions. Exam conditions: audio plays once; timed reading.",
+    listenOnly: "Listening only", readOnly: "Reading only", practice: "Practice by question type", practiceD: "No time limit. Audio can be replayed. Pick one type:",
+    dialogue: "Dialogue", monologue: "Monologue / passage", gap: "Gap filling", comprehension: "Reading comprehension",
+    qs: "questions", start: "Start", back: "Back to menu",
+    lInstrT: "Listening section — instructions",
+    lRules: ["Each passage is played once only. Then each question and its four options are read aloud.", "The options are shown on screen; the question itself is audio only.", "After the options are read there are 5 seconds before the next question.", "You cannot replay or go back. Click Start only when your sound is ready."],
+    rInstrT: "Reading section — instructions",
+    rRules: ["Choose the best answer for every blank or question.", "You can change answers until you submit or time runs out.", "The timer starts when you click Start."],
+    startL: "Start listening", startR: "Start reading",
+    passage: "Passage", question: "Question", blank: "Blank", of: "of",
+    playingPassage: "Playing the passage…", playingQ: "Reading the question and options…", nextIn: "Next in", sec: "s",
+    audioErr: "Audio could not be played (skipped).", groupDone: "Moving on…",
+    listenDone: "Listening finished.", toReading: "Continue to the reading section",
+    time: "Time left", submit: "Submit answers", confirmSubmit: "Submit now? Unanswered questions count as wrong.",
+    results: "Results", total: "Total", listening: "Listening", reading: "Reading", correct: "correct",
+    byType: "By question type", bySkill: "By skill", byLevel: "By target vocabulary level (TOCFL 8000-word list)",
+    notInList: "not in 8000 list", review: "Review", yours: "Your answer", right: "Correct answer", none: "(no answer)",
+    expl: "Why", transcript: "Transcript", retake: "Take again", targetWords: "Target words", rawNote: "Raw practice score (not an official TOCFL score).",
+    skills: {detail:"Detail", inference:"Inference", attitude:"Attitude", "main-idea":"Main idea", connector:"Connectors", adverb:"Adverbs / nuance", vocabulary:"Vocabulary"},
+    vNote: "Vietnamese text is a machine-assisted first draft and has not yet been reviewed by a native speaker.",
+    playPassage: "Passage audio", playQ: "Question audio"
+  },
+  vi: {
+    title: "Thi thử TOCFL Band C", sub: "Cấp Lưu loát–Tinh thông · Bộ 1 · câu hỏi tự biên soạn",
+    disclaimer: "Các câu hỏi này do Nova Nursery tự biên soạn theo phong cách TOCFL Band C. Đây không phải đề thi chính thức và không liên kết hay được SC-TOP xác nhận. Điểm ở đây chỉ là điểm luyện tập thô, không phải điểm TOCFL chính thức.",
+    fullMock: "Thi thử đầy đủ (Nghe + Đọc)", fullMockD: "25 câu nghe, sau đó 25 câu đọc. Điều kiện như thi thật: âm thanh chỉ phát một lần; phần đọc có giới hạn thời gian.",
+    listenOnly: "Chỉ phần Nghe", readOnly: "Chỉ phần Đọc", practice: "Luyện theo dạng câu hỏi", practiceD: "Không giới hạn thời gian. Có thể nghe lại. Chọn một dạng:",
+    dialogue: "Hội thoại", monologue: "Đoạn văn nói", gap: "Chọn từ điền chỗ trống", comprehension: "Đọc hiểu",
+    qs: "câu", start: "Bắt đầu", back: "Về menu",
+    lInstrT: "Phần Nghe — hướng dẫn",
+    lRules: ["Mỗi đoạn chỉ phát một lần. Sau đó từng câu hỏi và bốn đáp án được đọc lên.", "Đáp án hiển thị trên màn hình; câu hỏi chỉ có ở dạng âm thanh.", "Sau khi đọc xong đáp án có 5 giây trước câu tiếp theo.", "Không thể nghe lại hay quay lại. Chỉ bấm Bắt đầu khi âm thanh đã sẵn sàng."],
+    rInstrT: "Phần Đọc — hướng dẫn",
+    rRules: ["Chọn đáp án tốt nhất cho mỗi chỗ trống hoặc câu hỏi.", "Có thể đổi đáp án cho đến khi nộp bài hoặc hết giờ.", "Đồng hồ bắt đầu khi bạn bấm Bắt đầu."],
+    startL: "Bắt đầu nghe", startR: "Bắt đầu đọc",
+    passage: "Đoạn", question: "Câu", blank: "Chỗ trống", of: "/",
+    playingPassage: "Đang phát đoạn nghe…", playingQ: "Đang đọc câu hỏi và đáp án…", nextIn: "Câu tiếp theo sau", sec: "giây",
+    audioErr: "Không phát được âm thanh (đã bỏ qua).", groupDone: "Chuyển tiếp…",
+    listenDone: "Đã xong phần Nghe.", toReading: "Tiếp tục sang phần Đọc",
+    time: "Còn lại", submit: "Nộp bài", confirmSubmit: "Nộp bài ngay? Câu chưa trả lời tính là sai.",
+    results: "Kết quả", total: "Tổng", listening: "Nghe", reading: "Đọc", correct: "đúng",
+    byType: "Theo dạng câu hỏi", bySkill: "Theo kỹ năng", byLevel: "Theo cấp độ từ vựng mục tiêu (danh sách 8000 từ TOCFL)",
+    notInList: "không có trong danh sách 8000 từ", review: "Xem lại", yours: "Bạn chọn", right: "Đáp án đúng", none: "(chưa chọn)",
+    expl: "Giải thích", transcript: "Bản ghi âm", retake: "Làm lại", targetWords: "Từ mục tiêu", rawNote: "Điểm luyện tập thô (không phải điểm TOCFL chính thức).",
+    skills: {detail:"Chi tiết", inference:"Suy luận", attitude:"Thái độ", "main-idea":"Ý chính", connector:"Liên từ", adverb:"Phó từ / sắc thái", vocabulary:"Từ vựng"},
+    vNote: "Phần tiếng Việt là bản nháp đầu do máy hỗ trợ, chưa được người bản ngữ rà soát.",
+    playPassage: "Âm thanh đoạn nghe", playQ: "Âm thanh câu hỏi"
+  }
+};
+let lang = localStorage.getItem("mockLang") || ((navigator.language || "").toLowerCase().startsWith("vi") ? "vi" : "en");
+const T = () => I18N[lang];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const LET = ["A", "B", "C", "D"];
+const $ = id => document.getElementById(id);
+
+/* ───────────── state ───────────── */
+let S = null;          // current session
+const audio = new Audio();
+
+function newSession(mode, groups, sectionsOrder) {
+  return { mode, groups, answers: {}, runId: Date.now(), cancelled: false, order: sectionsOrder || [] };
+}
+function cancelSession() {
+  if (S) { S.cancelled = true; if (S.abort) S.abort(); clearInterval(S.timer); }
+  audio.pause();
+  S = null;
+}
+const dead = run => !S || S.cancelled || S.runId !== run;
+
+/* ───────────── exam model ───────────── */
+function listeningGroups(type) {
+  return D.listening.filter(g => !type || g.type === type).map(g => ({ ...g, section: "listening", ctype: g.type }));
+}
+function readingGroups(type) {
+  const gaps = D.gaps.map(g => ({ ...g, section: "reading", ctype: "gap" }));
+  const comp = D.passages.map(g => ({ ...g, section: "reading", ctype: "comprehension" }));
+  let all = [...gaps, ...comp];
+  if (type) all = all.filter(g => g.ctype === type);
+  return all;
+}
+const countQ = gs => gs.reduce((n, g) => n + g.questions.length, 0);
+const qid = (g, i) => g.id + ":" + i;
+
+/* ───────────── screens ───────────── */
+function setStatus(html) { $("status").innerHTML = html || ""; }
+
+function home() {
+  cancelSession();
+  setStatus("");
+  const t = T();
+  const nL = countQ(listeningGroups()), nR = countQ(readingGroups());
+  $("app").innerHTML = `
+    <h1>${esc(t.title)}</h1><p class="lead">${esc(t.sub)}</p>
+    <div class="notice">${esc(t.disclaimer)}</div>
+    <div class="grid">
+      <div class="card"><h2>${esc(t.fullMock)}</h2><p>${esc(t.fullMockD)}</p><br>
+        <button class="btn" data-act="full">${esc(t.start)} (${nL + nR} ${esc(t.qs)})</button></div>
+      <div class="card"><h2>${esc(t.listenOnly)}</h2><p>${nL} ${esc(t.qs)}</p><br>
+        <button class="btn ghost" data-act="listen">${esc(t.start)}</button></div>
+      <div class="card"><h2>${esc(t.readOnly)}</h2><p>${nR} ${esc(t.qs)}</p><br>
+        <button class="btn ghost" data-act="read">${esc(t.start)}</button></div>
+    </div>
+    <div class="card"><h2>${esc(t.practice)}</h2><p>${esc(t.practiceD)}</p><br>
+      ${["dialogue", "monologue", "gap", "comprehension"].map(k => {
+        const gs = (k === "dialogue" || k === "monologue") ? listeningGroups(k) : readingGroups(k);
+        return `<button class="btn ghost" style="margin:4px 6px 4px 0" data-act="prac" data-k="${k}">${esc(t[k])} · ${countQ(gs)} ${esc(t.qs)}</button>`;
+      }).join("")}
+    </div>`;
+  $("app").onclick = e => {
+    const b = e.target.closest("button[data-act]"); if (!b) return;
+    const a = b.dataset.act;
+    if (a === "full") startExam("full");
+    else if (a === "listen") startExam("listen");
+    else if (a === "read") startExam("read");
+    else if (a === "prac") startPractice(b.dataset.k);
+  };
+  renderFoot();
+}
+function renderFoot() { $("foot").innerHTML = lang === "vi" ? esc(I18N.vi.vNote) : esc(I18N.en.vNote); }
+
+/* exam entry */
+function startExam(kind) {
+  const order = kind === "full" ? ["listening", "reading"] : kind === "listen" ? ["listening"] : ["reading"];
+  S = newSession("exam", { listening: listeningGroups(), reading: readingGroups() }, order);
+  S.kind = kind;
+  nextSection();
+}
+function nextSection() {
+  const sec = S.order.shift();
+  if (!sec) return finish();
+  S.currentSection = sec;
+  if (sec === "listening") listeningIntro(); else readingIntro();
+}
+function instrScreen(titleKey, rulesKey, startKey, onStart) {
+  const t = T();
+  $("app").innerHTML = `<div class="card"><h2>${esc(t[titleKey])}</h2><ul class="rules">${t[rulesKey].map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+    <button class="btn" id="go">${esc(t[startKey])}</button> <button class="btn ghost" id="bk">${esc(t.back)}</button></div>`;
+  $("go").onclick = onStart; $("bk").onclick = home;
+}
+
+/* ───────────── listening (exam: audio-driven) ───────────── */
+function listeningIntro() { instrScreen("lInstrT", "lRules", "startL", runListening); }
+
+function playFile(src) {
+  return new Promise(res => {
+    const run = S.runId;
+    audio.onended = () => res(true);
+    audio.onerror = () => res(false);
+    audio.src = src;
+    audio.play().catch(() => res(false));
+    S.abort = () => { audio.pause(); res(false); };
+  });
+}
+function wait(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function runListening() {
+  const run = S.runId, gs = S.groups.listening, t = T();
+  let qn = 0; const total = countQ(gs);
+  for (let gi = 0; gi < gs.length; gi++) {
+    if (dead(run)) return;
+    const g = gs[gi];
+    $("app").innerHTML = `<div class="card" id="gcard">
+      <h2>${esc(t.passage)} ${gi + 1} ${esc(t.of)} ${gs.length} · ${esc(g.kind)}</h2>
+      <div class="player"><span class="pulse"></span><span id="pstat">${esc(t.playingPassage)}</span></div>
+      ${g.questions.map((q, i) => `<div class="q"><div class="qh">${esc(t.question)} ${i + 1}</div>${optsHtml(qid(g, i), q.options)}</div>`).join("")}
+    </div>`;
+    wireOpts();
+    setStatus(`<span>${esc(t.listening)}: <b>${qn + 1}–${qn + g.questions.length}</b> / ${total}</span>`);
+    let ok = await playFile(g.audioPassage);
+    if (dead(run)) return;
+    if (!ok) $("pstat").textContent = t.audioErr;
+    for (let qi = 0; qi < g.questions.length; qi++) {
+      $("pstat").textContent = `${t.question} ${qi + 1} — ${t.playingQ}`;
+      ok = await playFile(g.audioQuestions[qi]);
+      if (dead(run)) return;
+      for (let s = 5; s >= 1; s--) {
+        $("pstat").textContent = `${t.question} ${qi + 1} — ${t.nextIn} ${s}${t.sec}`;
+        await wait(1000);
+        if (dead(run)) return;
+      }
+    }
+    qn += g.questions.length;
+    $("pstat").textContent = t.groupDone;
+    document.querySelectorAll("#gcard .opt").forEach(o => o.classList.add("locked"));
+    await wait(1200);
+  }
+  setStatus("");
+  if (S.order.length) {
+    $("app").innerHTML = `<div class="card"><h2>${esc(t.listenDone)}</h2><button class="btn" id="go">${esc(t.toReading)}</button></div>`;
+    $("go").onclick = nextSection;
+  } else finish();
+}
+
+/* ───────────── reading ───────────── */
+function readingIntro() { instrScreen("rInstrT", "rRules", "startR", () => runReading(S.groups.reading, S.mode === "exam")); }
+
+function renderGap(g) {
+  const t = T();
+  const text = esc(g.text).replace(/\{(\d+)\}/g, (m, n) => `<span class="blank">${n}</span>`);
+  return `<div class="card"><div class="passage">${text}</div>
+    ${g.questions.map((q, i) => `<div class="q"><div class="qh">${esc(t.blank)} ${i + 1}</div>${optsHtml(qid(g, i), q.options, true)}</div>`).join("")}</div>`;
+}
+function renderComp(g, startNo) {
+  const t = T();
+  return `<div class="card"><div class="passage">${esc(g.text)}</div>
+    ${g.questions.map((q, i) => `<div class="q"><div class="qh">${esc(t.question)} ${i + 1}. ${esc(q.stem)}</div>${optsHtml(qid(g, i), q.options)}</div>`).join("")}</div>`;
+}
+function optsHtml(name, options, inline) {
+  return `<div class="opts${inline ? " inline" : ""}">${options.map((o, i) =>
+    `<label class="opt"><input type="radio" name="${name}" value="${i}"><span><span class="l">${LET[i]}.</span> ${esc(o)}</span></label>`).join("")}</div>`;
+}
+function wireOpts() {
+  $("app").onchange = e => {
+    if (e.target.type !== "radio") return;
+    S.answers[e.target.name] = Number(e.target.value);
+    document.querySelectorAll(`input[name="${CSS.escape(e.target.name)}"]`).forEach(r =>
+      r.closest(".opt").classList.toggle("sel", r.checked));
+  };
+}
+function runReading(gs, timed, practiceNote) {
+  const t = T();
+  S.readingGroups = gs;
+  $("app").innerHTML = (practiceNote || "") + gs.map(g => g.ctype === "gap" ? renderGap(g) : renderComp(g)).join("") +
+    `<div style="text-align:center"><button class="btn" id="sub">${esc(t.submit)}</button></div>`;
+  wireOpts();
+  $("sub").onclick = () => { if (confirm(t.confirmSubmit)) endReading(); };
+  if (timed) {
+    let left = Math.round(countQ(gs) * 72);   // 1.2 min per question (official: 50 q / 60 min)
+    const tick = () => {
+      const m = String(Math.floor(left / 60)).padStart(2, "0"), s = String(left % 60).padStart(2, "0");
+      setStatus(`<span>${esc(t.reading)}</span><span>${esc(t.time)}: <b>${m}:${s}</b></span>`);
+      if (left <= 0) { clearInterval(S.timer); endReading(); }
+      left--;
+    };
+    tick(); S.timer = setInterval(tick, 1000);
+  } else setStatus("");
+  window.scrollTo(0, 0);
+}
+function endReading() { clearInterval(S.timer); setStatus(""); nextSection(); }
+
+/* ───────────── practice ───────────── */
+function startPractice(k) {
+  const isL = k === "dialogue" || k === "monologue";
+  const gs = isL ? listeningGroups(k) : readingGroups(k);
+  S = newSession("practice", { listening: isL ? gs : [], reading: isL ? [] : gs }, []);
+  S.practiceType = k;
+  const t = T();
+  if (isL) {
+    $("app").innerHTML = gs.map((g, gi) => `<div class="card"><h2>${esc(t.passage)} ${gi + 1} ${esc(t.of)} ${gs.length} · ${esc(g.kind)}</h2>
+      <div>${esc(t.playPassage)}</div><audio controls preload="none" src="${g.audioPassage}"></audio>
+      ${g.questions.map((q, i) => `<div class="q"><div class="qh">${esc(t.question)} ${i + 1}</div>
+        <div style="font-size:.85rem;color:var(--sub)">${esc(t.playQ)}</div><audio controls preload="none" src="${g.audioQuestions[i]}"></audio>
+        ${optsHtml(qid(g, i), q.options)}</div>`).join("")}</div>`).join("") +
+      `<div style="text-align:center"><button class="btn" id="sub">${esc(t.submit)}</button></div>`;
+    wireOpts();
+    $("sub").onclick = () => { if (confirm(t.confirmSubmit)) finish(); };
+    S.practiceHasBack = true;
+  } else {
+    runReading(gs, false);
+    $("sub").onclick = () => { if (confirm(t.confirmSubmit)) finish(); };
+  }
+  setStatus(`<button class="btn ghost" style="padding:2px 14px" id="bk2">${esc(t.back)}</button>`);
+  $("bk2").onclick = home;
+  window.scrollTo(0, 0);
+}
+
+/* ───────────── results ───────────── */
+function pct(a, b) { return b ? Math.round(100 * a / b) : 0; }
+function finish() {
+  clearInterval(S.timer); audio.pause();
+  const t = T();
+  const all = [...(S.groups.listening || []), ...(S.groups.reading || [])];
+  // only include sections that were part of this session
+  const used = S.mode === "practice" ? all : (S.kind === "full" ? all : S.kind === "listen" ? S.groups.listening : S.groups.reading);
+  const types = {}, skills = {}, levels = {};
+  let sec = { listening: [0, 0], reading: [0, 0] };
+  const bump = (m, k, ok) => { (m[k] = m[k] || [0, 0]); m[k][1]++; if (ok) m[k][0]++; };
+  used.forEach(g => g.questions.forEach((q, i) => {
+    const a = S.answers[qid(g, i)], ok = a === q.answer;
+    bump(types, g.ctype, ok); bump(skills, q.skill, ok);
+    sec[g.section][1]++; if (ok) sec[g.section][0]++;
+    new Set(q.focus.map(f => f.lv)).forEach(lv => bump(levels, lv, ok));
+  }));
+  const tot = [sec.listening[0] + sec.reading[0], sec.listening[1] + sec.reading[1]];
+  S.report = { used, types, skills, levels, sec, tot };
+  localStorage.setItem("mockLast", JSON.stringify({ at: Date.now(), tot, sec }));
+
+  const row = (label, [c, n]) => `<tr><td>${esc(label)}</td><td>${c}/${n}</td><td style="width:40%"><div class="bar2"><i style="width:${pct(c, n)}%"></i></div></td><td>${pct(c, n)}%</td></tr>`;
+  const lvOrder = ["準1", "準2", "入", "基", "進", "高", "流", "-"];
+  $("app").innerHTML = `
+    <h1>${esc(t.results)}</h1>
+    <div class="card"><div class="bigscore">${tot[0]} / ${tot[1]} <span style="font-size:1.2rem">(${pct(tot[0], tot[1])}%)</span></div>
+      <p class="lead">${esc(t.rawNote)}</p>
+      ${sec.listening[1] ? `<div>${esc(t.listening)}: <b>${sec.listening[0]}/${sec.listening[1]}</b></div>` : ""}
+      ${sec.reading[1] ? `<div>${esc(t.reading)}: <b>${sec.reading[0]}/${sec.reading[1]}</b></div>` : ""}
+    </div>
+    <div class="card"><h2>${esc(t.byType)}</h2><table>${Object.keys(types).map(k => row(t[k], types[k])).join("")}</table>
+      <h2 style="margin-top:18px">${esc(t.bySkill)}</h2><table>${Object.keys(skills).map(k => row(t.skills[k] || k, skills[k])).join("")}</table>
+      <h2 style="margin-top:18px">${esc(t.byLevel)}</h2><table>${lvOrder.filter(k => levels[k]).map(k => row(k === "-" ? t.notInList : k, levels[k])).join("")}</table></div>
+    <h2>${esc(t.review)}</h2>
+    ${used.map((g, gi) => reviewGroup(g, gi)).join("")}
+    <div style="text-align:center;margin-top:20px"><button class="btn" id="again">${esc(t.retake)}</button> <button class="btn ghost" id="hm">${esc(t.back)}</button></div>`;
+  $("again").onclick = home; $("hm").onclick = home;
+  $("app").onclick = null; $("app").onchange = null;
+  setStatus("");
+  window.scrollTo(0, 0);
+}
+function reviewGroup(g, gi) {
+  const t = T();
+  const head = g.section === "listening"
+    ? `${esc(t.passage)} · ${esc(g.kind)}`
+    : esc(t[g.ctype]);
+  const trans = g.section === "listening"
+    ? `<details><summary>${esc(t.transcript)}</summary><div class="tr">${g.transcript.map(l => `<div>${l.s === "M" ? "（男）" : l.s === "F" ? "（女）" : ""}${esc(l.t)}</div>`).join("")}</div></details>`
+    : (g.ctype === "gap" ? `<div class="passage">${esc(g.text).replace(/\{(\d+)\}/g, (m, n) => `<span class="blank">${n}</span>`)}</div>` : "");
+  return `<div class="card"><h2>${head}</h2>${trans}${g.questions.map((q, i) => {
+    const a = S.answers[qid(g, i)], ok = a === q.answer;
+    const stem = g.section === "listening" ? "" : (g.ctype === "gap" ? `${esc(t.blank)} ${i + 1}` : esc(q.stem));
+    return `<div class="q"><div class="qh">${ok ? "✅" : "❌"} ${esc(t.question)} ${i + 1}${stem ? ". " + stem : ""}${g.section === "listening" ? ". " + esc(q.stem) : ""}</div>
+      <div class="opts${g.ctype === "gap" ? " inline" : ""}">${q.options.map((o, k) =>
+        `<div class="opt ${k === q.answer ? "correct" : (k === a ? "wrong" : "")}"><span><span class="l">${LET[k]}.</span> ${esc(o)}${k === a ? " ← " + esc(t.yours) : ""}${k === q.answer ? " ✔" : ""}</span></div>`).join("")}</div>
+      ${a === undefined ? `<div style="color:var(--red);font-size:.9rem">${esc(t.none)}</div>` : ""}
+      <div class="exp"><b>${esc(t.expl)}:</b> ${esc(q.explain[lang] || q.explain.en)}</div>
+      <div>${q.focus.map(f => `<span class="chip">${esc(f.w)}</span><span class="chip lv">${f.lv === "-" ? esc(t.notInList) : esc(f.lv)}</span>`).join("")}</div></div>`;
+  }).join("")}</div>`;
+}
+
+/* ───────────── boot ───────────── */
+function setLang(l) {
+  lang = l; localStorage.setItem("mockLang", l);
+  document.documentElement.lang = l === "vi" ? "vi" : "en";
+  document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.l === l));
+  renderFoot();
+  if (!S) home();
+  else if (S.report) finish();
+}
+document.querySelectorAll(".langs button").forEach(b => b.onclick = () => setLang(b.dataset.l));
+setLang(lang);
+</script>
+</body>
+</html>
