@@ -127,3 +127,11 @@ main.wide .part-title { margin: 4px 0 6px; font-size: 0.98rem; }
 .navbar .btn { padding: 8px 22px; font-size: 0.95rem; }
   
 @media (min-height: 850px) { .pcol .passage { font-size: 1.15rem; line-height: 2; } .qcol .opt { font-size: 1rem; padding: 6px 10px; } .qcol .qhead { font-size: 1rem; } }  
+
+/* stacked layout: passage on top, questions below (colombo 2026-11-08) */
+.split { grid-template-columns: 1fr; gap: 8px; }
+.pcol .passage { max-height: 38vh; }
+.qcol { max-height: none; overflow: visible; }
+.qcol .opts.two { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 860px) { .pcol .passage { max-height: none; } .qcol .opts.two, .opts.four { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
