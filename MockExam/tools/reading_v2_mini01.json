@@ -1,0 +1,178 @@
+{
+  "gap": [
+    {
+      "id": "RG1",
+      "passage": "少子化早已不是危言聳聽的預言，而是{1}的現實：出生人口逐年下滑，勞動力缺口隨之擴大。面對這項挑戰，政府雖然陸續祭出育兒補助，但成效{2}，許多年輕夫妻坦言，高房價與不穩定的工時，才是讓他們對生育{3}的真正原因。專家指出，若只在津貼上做文章，不過是{4}，唯有從住宅、職場與托育體系同步改革，才可能{5}這個結構性的難題。",
+      "blanks": [
+        {"n": 1, "options": ["迫在眉睫", "遙不可及", "無關痛癢", "事過境遷"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「迫在眉睫」形容事情十分緊迫、已到眼前，符合「早已不是危言聳聽」的語氣；其餘三個都表示不緊迫或與己無關。",
+                     "en": "「迫在眉睫」 means imminent and urgent, matching 「not alarmist」. The others mean remote, trivial or already over.",
+                     "vi": "「迫在眉睫」 nghĩa là cấp bách ngay trước mắt, hợp với ý 「không phải lời dọa suông」. Ba từ còn lại có nghĩa xa vời, không đáng kể hoặc đã qua."}},
+        {"n": 2, "options": ["差強人意", "立竿見影", "一蹴可幾", "綽綽有餘"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「差強人意」指勉強令人滿意、不算理想；後文用「雖然……但……」且夫妻仍有顧慮，可見成效只是勉強。「立竿見影」是效果立刻出現，與語意相反。",
+                     "en": "「差強人意」 means barely satisfactory. 「立竿見影」 (instant results) contradicts the 「雖然……但……」 turn.",
+                     "vi": "「差強人意」 nghĩa là tạm chấp nhận được, chưa lý tưởng. 「立竿見影」 (có hiệu quả ngay) trái với ý chuyển 「雖然……但……」."}},
+        {"n": 3, "options": ["卻步", "讓步", "駐足", "啟齒"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "「對生育卻步」指因顧慮而不敢前進；「讓步」是退讓、「駐足」是停下腳步、「啟齒」是開口，搭配「對生育」都不通。",
+                     "en": "「卻步」 means to shrink back out of worry. 「讓步」 (concede), 「駐足」 (stop) and 「啟齒」 (open one's mouth) do not collocate with 「對生育」.",
+                     "vi": "「卻步」 là chùn bước vì e ngại. 「讓步」, 「駐足」, 「啟齒」 không đi với 「對生育」."}},
+        {"n": 4, "options": ["治標不治本", "一視同仁", "眾志成城", "見微知著"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "只發津貼、不改房價與職場，是只處理表面症狀，正是「治標不治本」；其餘三個成語意思與此無關。",
+                     "en": "Giving subsidies without fixing housing and workplaces treats symptoms, not causes: 「治標不治本」.",
+                     "vi": "Chỉ phát trợ cấp mà không sửa nhà ở và môi trường làm việc là chữa ngọn không chữa gốc: 「治標不治本」."}},
+        {"n": 5, "options": ["化解", "助長", "沿襲", "擱置"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "「化解難題」是使難題消除；「助長」「沿襲」「擱置」放在「才可能……這個結構性的難題」中語意不合。",
+                     "en": "「化解」 means to resolve; 「助長」 (fuel), 「沿襲」 (follow) and 「擱置」 (shelve) do not fit 「才可能……難題」.",
+                     "vi": "「化解」 là giải quyết, làm tan biến; 「助長」, 「沿襲」, 「擱置」 không hợp với 「才可能……難題」."}}
+      ]
+    },
+    {
+      "id": "RG2",
+      "passage": "人工智慧能在幾秒鐘內{1}一幅畫作，卻也引發了前所未有的爭議：這些作品所仰賴的訓練資料，往往來自未經授權的創作。創作者對此{2}，認為這無異於變相剽竊；科技業者則辯稱，機器學習與人類觀摩前人作品並無本質差別，{3}主張應放寬使用限制。這場{4}尚無定論，各國立法機關也{5}地觀望，唯恐一步走錯，既扼殺創新，又犧牲了創作者的權益。",
+      "blanks": [
+        {"n": 1, "options": ["生成", "修繕", "收藏", "典當"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "AI「生成」畫作是指自動產出；「修繕」「收藏」「典當」都不是 AI 憑空產出作品的動作。",
+                     "en": "AI 「生成」 (generates) an image; repairing, collecting or pawning are not what AI does here.",
+                     "vi": "AI 「生成」 (tạo ra) một bức tranh; sửa chữa, sưu tầm, cầm cố không phải việc AI làm ở đây."}},
+        {"n": 2, "options": ["不以為然", "不以為意", "無動於衷", "心安理得"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「不以為然」是不認同；創作者認為這是變相剽竊，所以是不認同。「不以為意」是不放在心上、「無動於衷」是毫不感動、「心安理得」是自覺理所當然，都與「認為這無異於剽竊」矛盾。",
+                     "en": "「不以為然」 means disagreeing. 「不以為意」 (not caring), 「無動於衷」 (unmoved) and 「心安理得」 (feeling at ease) contradict creators calling it plagiarism.",
+                     "vi": "「不以為然」 là không đồng tình. 「不以為意」 (không để tâm), 「無動於衷」 (thờ ơ), 「心安理得」 (thấy yên tâm) mâu thuẫn với việc coi đó là đạo văn."}},
+        {"n": 3, "options": ["進而", "何況", "以免", "乃至"], "answer": "A", "skill": "conjunction",
+         "explain": {"zh": "「進而」表示在前一步的基礎上更進一步：辯稱無本質差別，接著主張放寬限制。「何況」「以免」「乃至」語意不合。",
+                     "en": "「進而」 means going one step further from the previous point. 「何況」, 「以免」 and 「乃至」 do not fit.",
+                     "vi": "「進而」 nghĩa là tiến thêm một bước từ ý trước. 「何況」, 「以免」, 「乃至」 không hợp."}},
+        {"n": 4, "options": ["論戰", "論壇", "論文", "論斷"], "answer": "A", "skill": "noun",
+         "explain": {"zh": "雙方各執一詞、互相爭辯，稱為「論戰」；「論壇」是討論的場所、「論文」是文章、「論斷」是結論，搭配「尚無定論」不通。",
+                     "en": "A dispute where both sides argue is a 「論戰」. 「論壇」 (forum), 「論文」 (thesis) and 「論斷」 (verdict) do not fit.",
+                     "vi": "Cuộc tranh luận giữa hai phía gọi là 「論戰」. 「論壇」 (diễn đàn), 「論文」 (luận văn), 「論斷」 (kết luận) không hợp."}},
+        {"n": 5, "options": ["審慎", "草率", "張揚", "猖狂"], "answer": "A", "skill": "adverb",
+         "explain": {"zh": "「唯恐一步走錯」說明立法機關小心謹慎，所以用「審慎」；其餘三個是草率或囂張，語意相反。",
+                     "en": "「唯恐一步走錯」 shows caution, so 「審慎」. The others mean hasty or flaunting.",
+                     "vi": "「唯恐一步走錯」 cho thấy sự thận trọng nên dùng 「審慎」. Các từ còn lại mang nghĩa hấp tấp hoặc ngang ngược."}}
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "id": "RC1",
+      "passage": "經濟學家以「囚徒困境」描述一種弔詭的處境：兩名嫌犯被分開審訊，若彼此保持沉默，各判輕刑；但只要有一方供出對方，自己就能獲釋，沉默者則重判。從個人利益出發，兩人都會選擇背叛，結果卻雙雙入獄，下場比合作更糟。這個模型之所以廣受引用，是因為它揭示了一個令人不安的事實：個體的理性選擇，未必能導出集體的最佳結果。然而，現實中的人際關係並非一次性的博弈。當互動反覆發生，彼此便有了建立信任的籌碼，背叛的代價隨之升高，合作反而成為長遠的上策。",
+      "questions": [
+        {"stem": "根據文章，「囚徒困境」最令人不安之處是什麼？",
+         "options": ["個人各自做出理性選擇，整體結果卻可能更差", "嫌犯一定會被判處重刑", "保持沉默永遠是最好的策略", "審訊者掌握了最後的決定權"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文章明說這個模型揭示「個體的理性選擇，未必能導出集體的最佳結果」。",
+                     "en": "The text says the model shows that individually rational choices may not lead to the best collective outcome.",
+                     "vi": "Bài viết nói mô hình cho thấy lựa chọn hợp lý của từng cá nhân chưa chắc dẫn đến kết quả tốt nhất cho tập thể."}},
+        {"stem": "為什麼反覆互動能促成合作？",
+         "options": ["背叛的代價升高，彼此也有機會建立信任", "嫌犯會被迫保持沉默", "法律會因此減輕刑期", "雙方不再需要任何溝通"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "互動反覆發生時，彼此有了建立信任的籌碼，背叛的代價隨之升高，合作反而成為上策。",
+                     "en": "With repeated interaction people can build trust and betrayal becomes costlier, so cooperation pays off.",
+                     "vi": "Khi tương tác lặp lại, người ta có thể xây dựng niềm tin và cái giá của phản bội tăng lên, nên hợp tác thành thượng sách."}},
+        {"stem": "作者提到「現實中的人際關係並非一次性的博弈」，主要用意是什麼？",
+         "options": ["說明這個模型在現實中有其限制與修正", "否定經濟學模型的價值", "證明人性本來就是善良的", "建議廢除審訊制度"],
+         "answer": "A", "skill": "purpose",
+         "explain": {"zh": "作者在肯定模型價值後，用「然而」指出現實是反覆互動，說明模型的適用限制與修正。",
+                     "en": "After acknowledging the model's value, the author uses 「然而」 to point out its limits in repeated real-life interaction.",
+                     "vi": "Sau khi thừa nhận giá trị của mô hình, tác giả dùng 「然而」 để chỉ ra giới hạn của nó trong quan hệ lặp lại ngoài đời."}}
+      ]
+    },
+    {
+      "id": "RC2",
+      "passage": "新藥從實驗室走到病患手中，往往得歷經十年以上的漫長歷程：先在動物身上驗證安全性，再分三期進行人體試驗，最後還得通過主管機關的嚴格審查。這套程序看似繁瑣，實則是前人以慘痛教訓換來的防線。上世紀中葉，一種用於緩解孕吐的藥物因缺乏周全的檢驗而上市，導致數以千計的畸形兒誕生，成為醫藥史上永難抹滅的傷痛。然而，面對疫情這類迫在眉睫的危機，社會難免要求縮短等待時間。對此，專家主張：加速不等於放寬，應當是在不犧牲安全標準的前提下，讓各階段的審查平行進行，而非草草跳過任何一個環節。",
+      "questions": [
+        {"stem": "「這套程序看似繁瑣，實則是前人以慘痛教訓換來的防線」，意思是什麼？",
+         "options": ["繁瑣的審查有其必要，源自過去的重大傷害", "審查程序應該盡量簡化", "前人從不重視用藥安全", "審查制度可有可無"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "後文舉孕吐藥的悲劇，說明嚴格審查是從慘痛教訓中得來，所以有其必要。",
+                     "en": "The later example of the morning-sickness drug shows strict review was born from painful lessons, so it is necessary.",
+                     "vi": "Ví dụ thuốc trị ốm nghén cho thấy việc thẩm định nghiêm ngặt có từ bài học đau thương nên là cần thiết."}},
+        {"stem": "專家所說的「加速不等於放寬」，指的是什麼？",
+         "options": ["讓各階段審查平行進行，但不降低安全標準", "省略動物實驗以節省時間", "放寬主管機關的審查規定", "延後新藥的上市時間"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "專家主張在不犧牲安全標準的前提下，讓各階段審查平行進行，而非跳過環節。",
+                     "en": "Experts propose running review stages in parallel without lowering safety standards, not skipping any step.",
+                     "vi": "Chuyên gia đề xuất cho các giai đoạn thẩm định chạy song song mà không hạ chuẩn an toàn, không bỏ bước nào."}},
+        {"stem": "下列何者最能概括本文主旨？",
+         "options": ["藥物審查必須兼顧速度與安全，不能以犧牲標準換取效率", "疫情期間應完全取消臨床試驗", "新藥研發只需要三年就能完成", "動物試驗已經不再重要"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "全文先說明審查的必要，再說明面對危機時如何加速而不放寬標準，主旨是兼顧速度與安全。",
+                     "en": "The passage explains why review is necessary and how to speed it up without relaxing standards: balance speed and safety.",
+                     "vi": "Bài viết giải thích vì sao cần thẩm định và cách tăng tốc mà không hạ chuẩn: cân bằng tốc độ và an toàn."}}
+      ]
+    },
+    {
+      "id": "RC3",
+      "passage": "每逢春節，總有人感嘆「年味淡了」。過去，除夕前的幾天，家家戶戶忙著灑掃、蒸糕、貼春聯，全家老小各司其職，儀式感在忙碌中不言而喻。如今，年菜可以預購，紅包能以手機傳送，團圓飯甚至移師餐廳，省下的時間，卻似乎沒有換來更多的溫情。有學者指出，節慶的價值不在形式本身，而在於「共同勞動」所凝聚的情感連結：當忙碌從集體參與變成個人消費，儀式便容易流於形式。不過，也有人認為不必一味緬懷過去，傳統若要延續，就得允許它隨著生活方式而演變，關鍵在於是否還保有彼此相聚、互相牽掛的核心。",
+      "questions": [
+        {"stem": "根據文章，過去的「年味」主要來自什麼？",
+         "options": ["全家一起勞動所累積的情感連結", "昂貴豐盛的年菜", "高級餐廳的團圓飯", "手機傳送的紅包"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "學者指出節慶的價值在於「共同勞動」所凝聚的情感連結。",
+                     "en": "The scholar says the value of festivals lies in the emotional bonds built through shared labour.",
+                     "vi": "Học giả cho rằng giá trị của lễ hội nằm ở sự gắn kết tình cảm nhờ cùng lao động."}},
+        {"stem": "「儀式便容易流於形式」的意思是什麼？",
+         "options": ["儀式只剩表面做法，失去原本的意義", "儀式變得更加隆重", "儀式被正式取消", "儀式變得更省錢"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「流於形式」指只剩表面的做法，缺少實質內容與感情。",
+                     "en": "「流於形式」 means becoming a mere formality, with the substance gone.",
+                     "vi": "「流於形式」 nghĩa là chỉ còn hình thức bề ngoài, mất đi nội dung thực chất."}},
+        {"stem": "文末「也有人認為」所代表的看法是什麼？",
+         "options": ["傳統可隨生活演變，重點是保留相聚牽掛的核心", "應該完全恢復過去的過年方式", "春節這個節日應該被廢除", "儀式愈複雜，傳統愈能延續"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "這種看法認為不必一味緬懷過去，傳統可以演變，關鍵是保有相聚、牽掛的核心。",
+                     "en": "This view says tradition may evolve as long as the core of gathering and caring is kept.",
+                     "vi": "Quan điểm này cho rằng truyền thống có thể thay đổi, miễn là giữ được cốt lõi sum họp và quan tâm nhau."}}
+      ]
+    },
+    {
+      "id": "RC4",
+      "passage": "一杯咖啡看似只用了一杯水，實際上，從咖啡豆的栽種、加工到運輸，背後消耗的水量高達一百多公升。這種隱藏在商品生產過程中的水資源，被稱為「虛擬水」。這個概念提醒我們，缺水國家雖然境內水源有限，卻可能透過進口大量耗水的農產品，間接「輸入」水資源，緩解本地壓力。然而，這並非萬靈丹。長期仰賴進口，等於把糧食與水資源的命脈交到他人手中，一旦國際局勢動盪，後果不堪設想。因此，水資源的管理不能只著眼於「開源」，更要「節流」，並且從消費端反思：我們每天的選擇，究竟隱含了多少看不見的代價？",
+      "questions": [
+        {"stem": "「虛擬水」指的是什麼？",
+         "options": ["商品生產過程中隱含消耗的水資源", "憑空想像出來的水源", "網路上提供的用水資訊", "儲存在水庫裡的備用水"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中定義：隱藏在商品生產過程中的水資源，稱為「虛擬水」。",
+                     "en": "The text defines it as water hidden in the production process of goods.",
+                     "vi": "Bài viết định nghĩa đó là lượng nước ẩn trong quá trình sản xuất hàng hóa."}},
+        {"stem": "作者認為長期仰賴進口虛擬水有什麼風險？",
+         "options": ["糧食與水資源受制於人，國際局勢動盪時後果嚴重", "本地水源會因此大幅增加", "農產品價格一定會下降", "運輸時間會變得更短"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說這等於把命脈交到他人手中，一旦國際局勢動盪，後果不堪設想。",
+                     "en": "It hands the lifeline to others; if the international situation turns unstable, the consequences are dire.",
+                     "vi": "Điều đó giao huyết mạch cho người khác; nếu tình hình quốc tế bất ổn, hậu quả khôn lường."}},
+        {"stem": "文末的提問，主要是想引導讀者做什麼？",
+         "options": ["從消費行為反思背後隱含的資源代價", "立刻停止飲用咖啡", "計算每杯水的實際價格", "要求政府增建水庫"],
+         "answer": "A", "skill": "purpose",
+         "explain": {"zh": "提問「我們每天的選擇隱含了多少看不見的代價」，是引導讀者從消費端反思。",
+                     "en": "The question invites readers to reflect on the hidden resource costs of everyday consumption.",
+                     "vi": "Câu hỏi dẫn dắt người đọc suy ngẫm về cái giá tài nguyên ẩn sau lựa chọn tiêu dùng hằng ngày."}}
+      ]
+    },
+    {
+      "id": "RC5",
+      "passage": "企業遭遇危機時，一句道歉往往決定了信譽是止血還是失血。公關學者歸納出有效道歉的三個要素：承認錯誤、說明補救、承擔責任。其中最容易被輕忽的是第一步。許多企業習慣使用「若造成困擾，深感抱歉」這類模稜兩可的說法，彷彿錯誤只是旁人的感受問題，而非自身的疏失，反而激起輿論更強烈的撻伐。相反地，坦率指出「我們做錯了什麼」，雖然短期內得面對批評，卻能迅速切斷謠言的蔓延。更重要的是，道歉之後的行動必須言行一致，否則再誠懇的措辭，也不過是粉飾太平。",
+      "questions": [
+        {"stem": "為什麼「若造成困擾，深感抱歉」這類說法容易招來批評？",
+         "options": ["把錯誤說成他人的感受，沒有承認自身疏失", "道歉的篇幅過於冗長", "語氣過於強硬，令人反感", "沒有提到具體的補償金額"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "文中說這種說法彷彿錯誤只是旁人的感受問題，而非自身疏失，因此激起撻伐。",
+                     "en": "It makes the mistake sound like others' feelings rather than the company's own fault, provoking criticism.",
+                     "vi": "Cách nói này khiến lỗi như chỉ là cảm nhận của người khác chứ không phải lỗi của mình, nên bị chỉ trích."}},
+        {"stem": "「粉飾太平」在文中的意思最接近下列何者？",
+         "options": ["用表面的話掩飾問題、製造沒事的假象", "使社會恢復和平安定", "真誠地改正自己的錯誤", "大方公開事件的真相"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「粉飾太平」是用表面功夫掩飾問題，裝出一切平安的樣子；文中指言行不一的道歉只是做表面功夫。",
+                     "en": "「粉飾太平」 means whitewashing problems to look peaceful; here an insincere apology is just a façade.",
+                     "vi": "「粉飾太平」 là tô vẽ bề ngoài để che giấu vấn đề; ở đây là lời xin lỗi hình thức, không đi đôi với hành động."}},
+        {"stem": "本文對企業道歉的建議是什麼？",
+         "options": ["坦承錯誤，並以一致的行動兌現承諾", "盡量避免道歉以免承擔責任", "只強調企業過去的貢獻", "等輿論平息後再回應"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文章主張坦率承認錯誤，並且道歉之後必須言行一致。",
+                     "en": "The article advises frankly admitting the mistake and following through with consistent action.",
+                     "vi": "Bài viết khuyên thẳng thắn nhận lỗi và hành động nhất quán sau lời xin lỗi."}}
+      ]
+    }
+  ]
+}

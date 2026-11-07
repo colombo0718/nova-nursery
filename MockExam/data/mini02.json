@@ -769,213 +769,213 @@
   "gap": [
    {
     "id": "RG3",
-    "passage": "現代人獲取資訊的方式，愈來愈依賴社群平台的推薦演算法。這套機制{1}能依照使用者的喜好，推送他們感興趣的內容，大幅提高閱讀效率；{2}長期只接觸立場相近的意見，視野也會{3}變得狹隘，形成所謂的「資訊繭房」。當人們習慣只聽見與自己相近的聲音，一旦遇到不同的看法，便{4}直覺地排斥，{5}社會上的對立愈演愈烈。",
+    "passage": "都市更新向來是一把雙面刃。老舊社區經過重建，居住環境煥然一新，地方稅收也水漲船高；然而，原住戶卻往往得{1}遷出，因為翻新後的房價與租金遠非他們所能負擔，這種現象被稱為「仕紳化」。部分居民不甘心長年累積的人情網絡就此瓦解，於是組成自救會，向主管機關{2}，要求保障就地安置的權利。開發商則強調，若無法回收成本，更新計畫將{3}。雙方各執一詞，{4}，使工程一再延宕。有學者呼籲，與其讓衝突持續{5}，不如在規劃初期就邀請居民參與，共同擬定兼顧效益與公平的方案。",
     "blanks": [
      {
       "id": "RG3_b1",
       "no": 1,
       "n": 1,
       "options": [
-       "縱使",
-       "固然",
-       "何必",
-       "以免"
+       "自願",
+       "被迫",
+       "嚮往",
+       "樂意"
       ],
       "answer": "B",
-      "skill": "conjunction",
+      "skill": "adverb",
       "explain": {
-       "zh": "「固然……，只是……」先承認優點、再轉出另一面；「縱使」要搭配「也」，「何必」「以免」語意不合。",
-       "en": "「固然……，只是……」 concedes a benefit and then turns to the other side. 「縱使」 needs 「也」; 「何必」 and 「以免」 do not fit.",
-       "vi": "「固然……，只是……」 thừa nhận một ưu điểm rồi chuyển sang mặt khác. 「縱使」 cần đi với 「也」; 「何必」, 「以免」 không hợp nghĩa."
+       "zh": "房價租金遠超負擔，居民遷出並非出於本意，所以是「被迫」；其餘三項都表示心甘情願。",
+       "en": "Unaffordable prices mean residents leave against their will: 「被迫」. The others imply willingness.",
+       "vi": "Giá nhà tăng khiến cư dân phải rời đi ngoài ý muốn: 「被迫」. Các từ còn lại hàm ý tự nguyện."
       },
-      "answer_word": "固然",
-      "vocab_level": "Level5"
+      "answer_word": "被迫",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG3_b2",
       "no": 2,
       "n": 2,
       "options": [
-       "於是",
-       "幸而",
-       "只是",
-       "何況"
+       "寒暄",
+       "交班",
+       "陳情",
+       "應酬"
       ],
       "answer": "C",
-      "skill": "conjunction",
+      "skill": "vocab",
       "explain": {
-       "zh": "接在「固然」後面表示轉折、引出缺點的是「只是」；「於是」表因果，「幸而」「何況」不合。",
-       "en": "After 「固然」, 「只是」 marks the turn that introduces the drawback. 「於是」 expresses cause and effect; 「幸而」 and 「何況」 do not fit.",
-       "vi": "Sau 「固然」, 「只是」 đánh dấu chỗ chuyển ý nêu nhược điểm. 「於是」 chỉ nhân quả; 「幸而」, 「何況」 không hợp."
+       "zh": "向主管機關表達訴求稱為「陳情」；「寒暄」「交班」「應酬」都不是向機關提出要求的行為。",
+       "en": "Presenting demands to an authority is 「陳情」 (petition); the others are small talk, shift handover and social entertaining.",
+       "vi": "Trình bày yêu cầu với cơ quan chức năng gọi là 「陳情」 (kiến nghị); các từ còn lại là xã giao, bàn giao ca, tiếp khách."
       },
-      "answer_word": "只是",
-      "vocab_level": "Level3"
+      "answer_word": "陳情",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG3_b3",
       "no": 3,
       "n": 3,
       "options": [
-       "猛然",
-       "偶爾",
-       "逐漸",
-       "暫且"
+       "水到渠成",
+       "後來居上",
+       "胎死腹中",
+       "一氣呵成"
       ],
       "answer": "C",
-      "skill": "adverb",
+      "skill": "idiom",
       "explain": {
-       "zh": "視野是慢慢變狹隘的過程，用「逐漸」；「猛然」是突然，「偶爾」「暫且」語意不合。",
-       "en": "Narrowing of one's view is a gradual process, so 「逐漸」. 「猛然」 means suddenly; 「偶爾」 and 「暫且」 do not fit.",
-       "vi": "Tầm nhìn hẹp dần là một quá trình từ từ nên dùng 「逐漸」. 「猛然」 là đột ngột; 「偶爾」, 「暫且」 không hợp."
+       "zh": "「胎死腹中」比喻計畫尚未實現就失敗；前面「若無法回收成本」是假設不利，所以接此成語。其餘三個都是順利或成功之意。",
+       "en": "「胎死腹中」 means a plan dies before it begins; the other idioms all denote smooth success.",
+       "vi": "「胎死腹中」 chỉ kế hoạch thất bại trước khi thực hiện; các thành ngữ còn lại đều mang nghĩa suôn sẻ, thành công."
       },
-      "answer_word": "逐漸",
-      "vocab_level": "Level4"
+      "answer_word": "胎死腹中",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG3_b4",
       "no": 4,
       "n": 4,
       "options": [
-       "往往",
-       "從未",
-       "不妨",
-       "何嘗"
+       "僵持不下",
+       "一拍即合",
+       "不謀而合",
+       "心照不宣"
       ],
       "answer": "A",
-      "skill": "adverb",
+      "skill": "idiom",
       "explain": {
-       "zh": "表示常常出現的傾向用「往往」；「從未」「何嘗」帶否定，「不妨」是建議語氣。",
-       "en": "A frequent tendency is expressed with 「往往」. 「從未」 and 「何嘗」 are negative; 「不妨」 is a suggestion.",
-       "vi": "Xu hướng thường xảy ra dùng 「往往」. 「從未」, 「何嘗」 mang nghĩa phủ định; 「不妨」 là lời gợi ý."
+       "zh": "雙方各執一詞導致工程延宕，是「僵持不下」；其餘三個都表示意見一致或默契。",
+       "en": "Both sides sticking to their views and delaying work is 「僵持不下」 (deadlock); the rest mean agreement.",
+       "vi": "Hai bên giữ nguyên lập trường làm công trình chậm trễ là 「僵持不下」 (giằng co); các từ còn lại chỉ sự đồng thuận."
       },
-      "answer_word": "往往",
-      "vocab_level": "Level3"
+      "answer_word": "僵持不下",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG3_b5",
       "no": 5,
       "n": 5,
       "options": [
-       "以便",
-       "以免",
-       "以為",
-       "以致"
+       "淨化",
+       "強化",
+       "同化",
+       "惡化"
       ],
       "answer": "D",
-      "skill": "conjunction",
+      "skill": "verb",
       "explain": {
-       "zh": "「以致」引出不好的結果（對立愈演愈烈）；「以便」表目的、「以免」表避免、「以為」表認為，語意都不通。",
-       "en": "「以致」 introduces an undesirable result (growing division). 「以便」 expresses purpose, 「以免」 avoidance and 「以為」 belief; none fits.",
-       "vi": "「以致」 dẫn ra kết quả không tốt (mâu thuẫn ngày càng gay gắt). 「以便」 chỉ mục đích, 「以免」 chỉ tránh, 「以為」 chỉ cho rằng; đều không hợp."
+       "zh": "「衝突持續惡化」是變得更糟；學者的意思是避免衝突愈演愈烈。其餘三項語意不合。",
+       "en": "「衝突持續惡化」 means the conflict keeps worsening, which the scholar wants to avoid.",
+       "vi": "「衝突持續惡化」 nghĩa là xung đột ngày càng xấu đi, điều học giả muốn tránh."
       },
-      "answer_word": "以致",
+      "answer_word": "惡化",
       "vocab_level": "Level5"
      }
     ]
    },
    {
     "id": "RG4",
-    "passage": "電動車的普及讓空氣品質有機會改善，但另一個問題也隨之浮現：用過的電池該如何處理？一顆電動車電池的壽命約為八到十年，{1}車輛報廢，電池中仍有七成左右的電容量，直接丟棄不僅浪費，{2}電池含有重金屬，處理不當會汙染土壤與水源。目前業界有兩種主要做法：一是「梯次利用」，把退役電池{3}拿來儲存太陽能發電的電力；二是拆解後回收鋰、鈷等稀有金屬。後者雖然能減少開採新礦的需求，{4}回收過程需要大量能源，成本也居高不下。專家指出，唯有在設計電池時就{5}日後的拆解與再利用，才能從源頭降低環境負擔。",
+    "passage": "古人云：「紙上得來終覺淺，絕知此事要躬行。」這句話在數位時代更顯得{1}。網路上資訊垂手可得，許多人因而誤以為讀過幾篇文章便已{2}，但缺乏實作的知識，往往只是空中樓閣。以學習語言為例，背誦再多單字，倘若從不開口，遇到真實對話時仍會{3}，無法流暢表達。有經驗的老師因此主張「做中學」，鼓勵學生走出教室，在生活中{4}所學。當然，實踐並非要{5}理論，而是讓兩者相輔相成：理論提供方向，實踐則檢驗並修正方向。",
     "blanks": [
      {
       "id": "RG4_b1",
       "no": 6,
       "n": 1,
       "options": [
-       "既然",
-       "以免",
-       "即使",
-       "乃至"
+       "不足為奇",
+       "司空見慣",
+       "發人深省",
+       "無可厚非"
       ],
       "answer": "C",
-      "skill": "conjunction",
+      "skill": "idiom",
       "explain": {
-       "zh": "「即使……仍……」是讓步關係：就算車輛報廢，電池仍有大部分電容量。",
-       "en": "「即使……仍……」 is a concessive pair: even when the vehicle is scrapped, the battery still has most of its capacity.",
-       "vi": "「即使……仍……」 là cặp nhượng bộ: dù xe bị loại bỏ, pin vẫn còn phần lớn dung lượng."
+       "zh": "引用名言後說它在今日更能「發人深省」（引人深思）；其餘三項語意不貼切。",
+       "en": "The quote is even more thought-provoking now: 「發人深省」. The others do not fit.",
+       "vi": "Câu danh ngôn càng đáng suy ngẫm hơn: 「發人深省」. Các từ còn lại không hợp."
       },
-      "answer_word": "即使",
-      "vocab_level": "Level4"
+      "answer_word": "發人深省",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG4_b2",
       "no": 7,
       "n": 2,
       "options": [
-       "而且",
-       "然而",
-       "於是",
-       "至於"
+       "融會貫通",
+       "半途而廢",
+       "舉棋不定",
+       "忍氣吞聲"
       ],
       "answer": "A",
-      "skill": "conjunction",
+      "skill": "idiom",
       "explain": {
-       "zh": "「不僅浪費，而且……」補充另一個理由（含重金屬）；用「然而」會變成錯誤的轉折。",
-       "en": "「不僅浪費，而且……」 adds a further reason (heavy metals). 「然而」 would wrongly contrast the two points.",
-       "vi": "「不僅浪費，而且……」 bổ sung thêm lý do (kim loại nặng). 「然而」 sẽ tạo sự đối lập sai."
+       "zh": "「誤以為已融會貫通」指以為已徹底理解；其餘三個成語與「以為讀過就懂」無關。",
+       "en": "They wrongly believe they have 「融會貫通」 (mastered it thoroughly). The others are unrelated.",
+       "vi": "Họ lầm tưởng đã 「融會貫通」 (thông suốt). Các thành ngữ còn lại không liên quan."
       },
-      "answer_word": "而且",
-      "vocab_level": "Level2"
+      "answer_word": "融會貫通",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG4_b3",
       "no": 8,
       "n": 3,
       "options": [
-       "一再",
-       "勉強",
-       "輪流",
-       "重新"
+       "語重心長",
+       "語無倫次地",
+       "語帶雙關",
+       "語塞"
       ],
       "answer": "D",
-      "skill": "adverb",
+      "skill": "vocab",
       "explain": {
-       "zh": "退役電池「重新」拿來儲存太陽能電力，語意通順；其他副詞放在這裡不合邏輯。",
-       "en": "Retired batteries are put to use again (重新) for storing solar power. The other adverbs do not make sense here.",
-       "vi": "Pin đã nghỉ hưu được đem dùng lại (重新) để tích trữ điện mặt trời. Các phó từ khác không hợp nghĩa."
+       "zh": "「語塞」指想說卻說不出來，與「無法流暢表達」呼應；「語重心長」是誠懇勸告，「語帶雙關」是話中有雙層意思。",
+       "en": "「語塞」 means being lost for words, matching 「cannot speak fluently」. The others mean earnest advice or double meaning.",
+       "vi": "「語塞」 là nghẹn lời, khớp với 「không diễn đạt trôi chảy」. Các từ còn lại là lời khuyên tha thiết hoặc nói có hai nghĩa."
       },
-      "answer_word": "重新",
-      "vocab_level": "Level3"
+      "answer_word": "語塞",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG4_b4",
       "no": 9,
       "n": 4,
       "options": [
-       "因而",
-       "所以",
-       "況且",
-       "但"
+       "懷疑",
+       "遺忘",
+       "敷衍",
+       "印證"
       ],
       "answer": "D",
-      "skill": "conjunction",
+      "skill": "verb",
       "explain": {
-       "zh": "「雖然……，但……」是常見的轉折搭配，後半句說出缺點。",
-       "en": "「雖然……，但……」 is the standard concessive pair; the second half states the drawback.",
-       "vi": "「雖然……，但……」 là cặp từ chuyển ý quen thuộc; vế sau nêu nhược điểm."
+       "zh": "在生活中「印證」所學是用實際經驗驗證知識；其餘三項不符合「做中學」的鼓勵。",
+       "en": "Verifying what is learned through real life is 「印證」. The others contradict learning by doing.",
+       "vi": "Dùng thực tế để kiểm chứng điều đã học là 「印證」. Các từ còn lại trái với học qua làm."
       },
-      "answer_word": "但",
-      "vocab_level": "Level1"
+      "answer_word": "印證",
+      "vocab_level": "Level5"
      },
      {
       "id": "RG4_b5",
       "no": 10,
       "n": 5,
       "options": [
-       "推翻",
-       "考量",
-       "遺忘",
-       "排斥"
+       "全力支持",
+       "全盤否定",
+       "逐步完善",
+       "仔細研讀"
       ],
       "answer": "B",
       "skill": "verb",
       "explain": {
-       "zh": "要從源頭減輕環境負擔，設計電池時就得「考量」日後的拆解與再利用。",
-       "en": "To reduce the burden at the source, designers must take future dismantling and reuse into consideration (考量).",
-       "vi": "Để giảm gánh nặng từ gốc, nhà thiết kế phải cân nhắc (考量) việc tháo rã và tái sử dụng sau này."
+       "zh": "「並非要全盤否定理論，而是讓兩者相輔相成」，語意通順；其餘選項放入後語意重複或矛盾。",
+       "en": "「並非要全盤否定理論」 (not to reject theory wholesale) fits the contrast with 「相輔相成」.",
+       "vi": "「並非要全盤否定理論」 (không phải phủ nhận hoàn toàn lý thuyết) khớp với ý 「相輔相成」."
       },
-      "answer_word": "考量",
-      "vocab_level": "Level5"
+      "answer_word": "全盤否定",
+      "vocab_level": "outside-8000"
      }
     ]
    }
@@ -983,300 +983,300 @@
   "comp": [
    {
     "id": "RC6",
-    "passage": "在資訊爆炸的時代，許多人習慣用瀏覽的方式閱讀：快速滑過標題、抓取重點，十分鐘能看完幾十篇文章。這種「快閱讀」確實讓人迅速掌握訊息，卻也常使我們只記得結論，忽略了作者如何推理、論證。相對地，「慢閱讀」主張一次只讀一篇，邊讀邊思考，甚至在書頁邊寫下自己的疑問。實踐者發現，這樣不僅記憶更深刻，也比較不容易被片面的觀點牽著走。當然，慢閱讀並不是要我們放棄快速取得資訊的便利，而是提醒我們：面對真正重要的內容，值得多花一點時間。",
+    "passage": "「破窗效應」源自一項社會心理學實驗：一輛車的車窗被打破後無人理會，不久整輛車便遭到洗劫。研究者據此推論，環境中的失序跡象會暗示規範已失效，進而誘發更多違規行為。這個理論後來被運用在城市治理上，例如迅速清除塗鴉、修復損壞的設施，以防止更大的破壞。然而，批評者指出，把犯罪率下降單純歸功於整頓環境，未免過於簡化，因為經濟、人口結構等因素同樣不容忽視。換言之，破窗效應揭示了環境線索的影響力，卻不宜被奉為放諸四海皆準的萬能法則。",
     "questions": [
      {
       "id": "RC6_q1",
       "no": 11,
-      "stem": "根據本文，「快閱讀」的缺點是什麼？",
+      "stem": "根據文章，「破窗效應」的核心觀點是什麼？",
       "options": [
-       "閱讀的速度太慢，無法掌握訊息",
-       "容易只記得結論，忽略作者的推理過程",
-       "讓人完全失去閱讀的興趣",
-       "使人不再購買紙本書籍"
+       "窗戶破損是犯罪的直接原因",
+       "失序的環境會暗示規範失效，引發更多違規",
+       "車輛最容易成為竊盜目標",
+       "人口結構決定犯罪率"
       ],
       "answer": "B",
-      "skill": "detail",
+      "skill": "main_idea",
       "explain": {
-       "zh": "文章說快閱讀讓人只記得結論，忽略作者如何推理、論證。",
-       "en": "The passage says fast reading makes us remember only conclusions and overlook how the author reasons and argues.",
-       "vi": "Bài viết nói đọc nhanh khiến ta chỉ nhớ kết luận mà bỏ qua cách tác giả suy luận, lập luận."
+       "zh": "文章說環境中的失序跡象會暗示規範已失效，進而誘發更多違規行為。",
+       "en": "Signs of disorder suggest norms no longer apply and invite more violations.",
+       "vi": "Dấu hiệu mất trật tự ngụ ý quy tắc không còn hiệu lực và kích thích thêm vi phạm."
       }
      },
      {
       "id": "RC6_q2",
       "no": 12,
-      "stem": "「慢閱讀」主張怎麼閱讀？",
+      "stem": "批評者為何認為將犯罪率下降單純歸功於整頓環境過於簡化？",
       "options": [
-       "一次只讀一篇，邊讀邊思考",
-       "每天至少讀完十篇文章",
-       "只讀紙本書，不讀網路文章",
-       "只閱讀文章的結論部分"
+       "經濟與人口結構等因素也有影響",
+       "整頓環境需要太多經費",
+       "塗鴉與犯罪毫無關聯",
+       "城市治理與犯罪無關"
       ],
       "answer": "A",
       "skill": "detail",
       "explain": {
-       "zh": "慢閱讀主張一次只讀一篇、邊讀邊思考，甚至在書頁邊寫下疑問。",
-       "en": "Slow reading means reading one piece at a time and thinking while reading, even noting questions in the margin.",
-       "vi": "Đọc chậm là mỗi lần chỉ đọc một bài, vừa đọc vừa suy nghĩ, thậm chí ghi thắc mắc bên lề."
+       "zh": "批評者指出經濟、人口結構等因素同樣不容忽視。",
+       "en": "Critics note that economic and demographic factors also matter.",
+       "vi": "Giới phê bình chỉ ra các yếu tố kinh tế, cơ cấu dân số cũng quan trọng."
       }
      },
      {
       "id": "RC6_q3",
       "no": 13,
-      "stem": "作者在最後一句話中想表達什麼？",
+      "stem": "「放諸四海皆準」在文中的意思最接近下列何者？",
       "options": [
-       "應該完全放棄快速取得資訊",
-       "閱讀的速度越快越好",
-       "重要的內容值得多花時間細讀",
-       "慢閱讀只適合用來做筆記"
+       "只適用於沿海城市",
+       "只適用於實驗室",
+       "在任何情況都適用",
+       "已經被證明錯誤"
       ],
       "answer": "C",
-      "skill": "main_idea",
+      "skill": "idiom",
       "explain": {
-       "zh": "最後一句是說慢閱讀不必放棄快速取得資訊的便利，但重要的內容值得多花時間。",
-       "en": "The author says slow reading does not mean abandoning convenience; it reminds us that truly important content deserves more time.",
-       "vi": "Tác giả nói đọc chậm không có nghĩa là từ bỏ sự tiện lợi, mà nhắc rằng nội dung quan trọng đáng bỏ thêm thời gian."
+       "zh": "「放諸四海皆準」指在任何地方、任何情況都適用；文中說它不宜被奉為這樣的法則。",
+       "en": "「放諸四海皆準」 means universally applicable; the text says it should not be treated as such.",
+       "vi": "「放諸四海皆準」 nghĩa là đúng ở mọi nơi; bài viết nói không nên coi nó như thế."
       }
      }
     ]
    },
    {
     "id": "RC7",
-    "passage": "咖啡是全球交易量最大的農產品之一，但氣候變遷正在改寫它的版圖。阿拉比卡咖啡樹偏好涼爽、穩定的氣溫，適合種植的高度通常在海拔一千公尺以上。隨著平均氣溫上升，許多產區的農民不得不把咖啡園往更高的山區遷移。然而，山頂的土地有限，而且往往是原生林的保護區，開墾可能破壞生態。研究預測，若升溫趨勢持續，到本世紀中葉，適合種植阿拉比卡咖啡的土地可能減少近一半。為此，育種專家正嘗試培育耐熱的新品種，同時也有農民在咖啡樹旁種植較高的遮蔭樹，降低烈日直射的影響。",
+    "passage": "近年來，「斷捨離」風潮席捲各地。倡議者主張，人們被過多的物品綁架，唯有果斷捨棄不必要的東西，才能找回生活的主導權。這個觀點吸引了不少受夠雜亂的現代人，整理書籍也一度成為暢銷題材。然而，有心理學者提醒，物品並非都只是負擔，有些承載著記憶與情感，貿然丟棄可能留下遺憾。更值得留意的是，若把「少即是多」變成新的消費口號，人們反而可能為了追求極簡而購買昂貴的收納用品，與初衷背道而馳。真正的重點，或許不在於留下多少，而在於清楚知道自己為何留下。",
     "questions": [
      {
       "id": "RC7_q1",
       "no": 14,
-      "stem": "農民為什麼要把咖啡園遷往更高的山區？",
+      "stem": "倡議者主張斷捨離的主要理由是什麼？",
       "options": [
-       "平均氣溫上升，原本的產區不再適合",
-       "山區的土地價格比較便宜",
-       "政府規定所有農民都必須遷移",
-       "低地出現了嚴重的病蟲害"
+       "過多物品會讓人失去生活的主導權",
+       "舊物品一定沒有價值",
+       "丟東西能省下很多錢",
+       "整理書籍能增加收入"
       ],
       "answer": "A",
       "skill": "detail",
       "explain": {
-       "zh": "阿拉比卡咖啡樹偏好涼爽氣溫，氣溫上升使原產區不再適合，農民只好往更高的山區遷移。",
-       "en": "Arabica prefers cool temperatures; as average temperatures rise, farmers have to move to higher ground.",
-       "vi": "Cà phê Arabica ưa khí hậu mát mẻ; khi nhiệt độ trung bình tăng, nông dân buộc phải dời lên vùng cao hơn."
+       "zh": "倡議者認為人被物品綁架，捨棄才能找回生活主導權。",
+       "en": "Advocates say people are held hostage by possessions and must discard to regain control.",
+       "vi": "Người đề xướng cho rằng con người bị đồ vật trói buộc, phải bỏ bớt để lấy lại quyền chủ động."
       }
      },
      {
       "id": "RC7_q2",
       "no": 15,
-      "stem": "把咖啡園開墾到山頂，可能造成什麼問題？",
+      "stem": "「與初衷背道而馳」在文中指的是什麼情形？",
       "options": [
-       "可能破壞原生林的生態",
-       "使咖啡的價格大幅下跌",
-       "使山區的氣溫繼續升高",
-       "讓咖啡樹不再需要遮蔭"
+       "為了極簡反而購買昂貴的收納用品",
+       "把全部物品都丟掉",
+       "不再閱讀任何書籍",
+       "拒絕整理房間"
       ],
       "answer": "A",
-      "skill": "detail",
+      "skill": "inference",
       "explain": {
-       "zh": "山頂土地有限，又常是原生林保護區，開墾可能破壞生態。",
-       "en": "Mountaintop land is limited and is often a protected native forest, so clearing it may damage the ecosystem.",
-       "vi": "Đất trên đỉnh núi có hạn và thường là rừng nguyên sinh được bảo vệ, nên khai hoang có thể phá hoại hệ sinh thái."
+       "zh": "追求極簡卻消費收納用品，結果與減少負擔的初衷相反。",
+       "en": "Buying expensive storage to pursue minimalism defeats the original purpose.",
+       "vi": "Mua đồ lưu trữ đắt tiền để theo đuổi tối giản đi ngược mục đích ban đầu."
       }
      },
      {
       "id": "RC7_q3",
       "no": 16,
-      "stem": "下列何者是文中提到的因應方法？",
+      "stem": "作者最後的看法是什麼？",
       "options": [
-       "培育耐熱的新品種，並種植遮蔭樹",
-       "改種不怕熱的茶樹",
-       "減少咖啡的產量以提高價格",
-       "把咖啡園全部遷到平地"
+       "重點在於清楚自己為何留下物品",
+       "應該盡量減少所有物品",
+       "不應該整理任何東西",
+       "收納用品愈貴愈好"
       ],
       "answer": "A",
-      "skill": "detail",
+      "skill": "main_idea",
       "explain": {
-       "zh": "文中提到育種專家培育耐熱新品種，以及農民種植較高的遮蔭樹。",
-       "en": "Breeders are developing heat-tolerant varieties and some farmers plant taller shade trees beside coffee plants.",
-       "vi": "Các chuyên gia lai tạo giống chịu nhiệt, và một số nông dân trồng cây che bóng cao bên cạnh cây cà phê."
+       "zh": "結尾強調重點不在留下多少，而在知道為何留下。",
+       "en": "The ending stresses knowing why you keep things rather than how many.",
+       "vi": "Phần kết nhấn mạnh quan trọng là biết vì sao giữ lại chứ không phải giữ bao nhiêu."
       }
      }
     ]
    },
    {
     "id": "RC8",
-    "passage": "巷口那家麵店開了三十年，老闆娘阿珍每天凌晨四點起床熬湯。去年她的兒子辭去科技業的工作，回來接手。起初，阿珍很不放心，因為兒子總想改變：把手寫菜單換成掃碼點餐，還增加了素食選項。阿珍嘴上嫌麻煩，卻在某天發現，年輕客人變多了，連過去不常來的上班族也成了常客。有一回，兒子問她湯頭的秘方，她遲疑了一會兒才說：「沒有秘方，就是不能偷懶。」兒子點點頭，隔天也跟著凌晨四點進了廚房。",
+    "passage": "傳統觀念常把「天才」視為天生，彷彿成就全憑資質。但長期研究專家表現的心理學者發現，真正拉開差距的是「刻意練習」：針對自己的弱點設定明確目標，在略超出舒適圈的難度下反覆訓練，並立即取得回饋。單純重複已經熟練的動作，即使耗時再久，也只是原地踏步。這項發現讓人振奮，因為它意味著卓越並非遙不可及；卻也令人無處躲藏，因為它同時說明，缺乏成長往往不是因為能力不足，而是練習的方式不對。",
     "questions": [
      {
       "id": "RC8_q1",
       "no": 17,
-      "stem": "阿珍起初對兒子的改變有什麼反應？",
+      "stem": "根據文章，「刻意練習」的特點是什麼？",
       "options": [
-       "立刻表示全力支持",
-       "氣得想把麵店關掉",
-       "覺得無所謂，完全不過問",
-       "不放心，嘴上嫌麻煩"
+       "每天重複熟練的動作",
+       "完全依靠天生資質",
+       "避免任何困難的任務",
+       "針對弱點，在略超出舒適圈的難度下反覆訓練並取得回饋"
       ],
       "answer": "D",
       "skill": "detail",
       "explain": {
-       "zh": "阿珍起初很不放心，嘴上嫌麻煩。",
-       "en": "At first Ah-Zhen was uneasy and complained that the changes were troublesome.",
-       "vi": "Lúc đầu bà Trân không yên tâm và miệng thì chê phiền phức."
+       "zh": "文中列出：針對弱點、略超出舒適圈、反覆訓練、立即回饋。",
+       "en": "It targets weaknesses, stretches slightly beyond comfort, repeats, and gets feedback.",
+       "vi": "Nhắm vào điểm yếu, vượt nhẹ vùng an toàn, lặp lại và nhận phản hồi ngay."
       }
      },
      {
       "id": "RC8_q2",
       "no": 18,
-      "stem": "兒子的改變帶來了什麼結果？",
+      "stem": "「原地踏步」在文中的意思是什麼？",
       "options": [
-       "年輕客人與上班族都變多了",
-       "老客人全部不再光顧",
-       "麵的價格大幅降低",
-       "店租因此減少了一半"
+       "花很多時間卻沒有進步",
+       "快速取得進展",
+       "改變練習地點",
+       "停止所有訓練"
       ],
       "answer": "A",
-      "skill": "detail",
+      "skill": "idiom",
       "explain": {
-       "zh": "文中說年輕客人變多了，連過去不常來的上班族也成了常客。",
-       "en": "The passage says more young customers came, and office workers who rarely visited before became regulars.",
-       "vi": "Bài viết nói khách trẻ đông hơn, cả nhân viên văn phòng trước đây ít đến cũng thành khách quen."
+       "zh": "「原地踏步」比喻沒有進展；文中指重複熟練動作即使耗時再久也沒有進步。",
+       "en": "「原地踏步」 means making no progress despite effort.",
+       "vi": "「原地踏步」 nghĩa là dậm chân tại chỗ, không tiến bộ dù mất nhiều thời gian."
       }
      },
      {
       "id": "RC8_q3",
       "no": 19,
-      "stem": "「隔天也跟著凌晨四點進了廚房」，暗示兒子怎麼想？",
+      "stem": "作者為何說這項發現「令人無處躲藏」？",
       "options": [
-       "他想證明自己比母親更厲害",
-       "他認同母親的堅持，願意承襲這份態度",
-       "他打算把麵店轉讓給別人",
-       "他認為熬湯的方法應該改變"
+       "因為天才確實存在",
+       "因為缺乏成長多半是練習方式的問題，而非能力不足",
+       "因為練習必須在公開場合進行",
+       "因為成功需要運氣"
       ],
       "answer": "B",
       "skill": "inference",
       "explain": {
-       "zh": "聽完「沒有秘方，就是不能偷懶」後，兒子點頭並隔天跟著凌晨四點進廚房，表示他認同並願意承襲這份堅持。",
-       "en": "After hearing 「there is no secret, just no cutting corners」, he nods and joins her at 4 a.m., showing he accepts and will carry on her diligence.",
-       "vi": "Nghe câu 「không có bí quyết, chỉ là không được lười」, anh gật đầu và hôm sau cùng dậy lúc 4 giờ, cho thấy anh đồng tình và sẽ kế thừa sự chăm chỉ ấy."
+       "zh": "既然卓越可以靠正確練習達成，缺乏成長就不能再歸咎於能力，等於失去藉口。",
+       "en": "If excellence comes from right practice, lack of growth can no longer be blamed on ability—no excuses.",
+       "vi": "Nếu xuất sắc đến từ luyện tập đúng cách thì không thể đổ lỗi cho năng lực nữa—hết cớ."
       }
      }
     ]
    },
    {
     "id": "RC9",
-    "passage": "【城市路跑活動交通管制公告】為舉辦本市年度路跑活動，下列路段將於十二月七日（星期日）實施交通管制：一、起跑區（市政府前廣場）自凌晨四時起封閉，路跑選手請於清晨六時前完成集合；二、比賽路線經中山路、河濱大道至體育場，管制時間為上午六時至十一時，期間禁止一般車輛通行，公車改道行駛，並於活動結束後恢復原路線；三、緊急車輛不受管制，但須由交通警察引導通行；四、居民如有特殊需求，請事先向里辦公室登記，以便協助。主辦單位呼籲民眾提前規劃行程，改搭大眾運輸工具，共同維護活動順暢。",
+    "passage": "海洋塑膠污染已成為全球難題。大型垃圾在海浪與日曬下逐漸碎裂成直徑不到五毫米的「微塑膠」，不僅難以回收，還會被浮游生物誤食，沿著食物鏈層層累積，最終可能回到人類的餐桌。為此，多國陸續祭出限塑政策，但成效參差不齊：有些地區因配套不全，民眾轉而使用更耗資源的替代品，反而得不償失。專家強調，減量必須從源頭著手，並建立完善的回收體系，單靠宣導呼籲，無異於杯水車薪。",
     "questions": [
      {
       "id": "RC9_q1",
       "no": 20,
-      "stem": "根據這則公告，起跑區從什麼時候開始封閉？",
+      "stem": "微塑膠為何對人類也可能造成影響？",
       "options": [
-       "清晨六時",
-       "凌晨四時",
-       "上午六時",
-       "上午十一時"
+       "會讓海水溫度上升",
+       "會被生物誤食並沿食物鏈累積",
+       "會阻擋陽光進入海中",
+       "會使魚類體型變大"
       ],
       "answer": "B",
       "skill": "detail",
       "explain": {
-       "zh": "公告寫「起跑區自凌晨四時起封閉」；清晨六時是選手集合時間，上午六時至十一時是道路管制時間。",
-       "en": "The notice says the start area closes from 4 a.m. Six in the morning is when runners must assemble, and 6–11 a.m. is the road-closure period.",
-       "vi": "Thông báo ghi khu xuất phát đóng từ 4 giờ sáng. 6 giờ sáng là giờ vận động viên tập trung, còn 6–11 giờ là thời gian cấm đường."
+       "zh": "微塑膠被浮游生物誤食，沿食物鏈累積，最終可能回到人類餐桌。",
+       "en": "Microplastics are eaten by plankton and accumulate up the food chain to our tables.",
+       "vi": "Vi nhựa bị sinh vật phù du ăn nhầm, tích tụ theo chuỗi thức ăn và có thể quay lại bàn ăn."
       }
      },
      {
       "id": "RC9_q2",
       "no": 21,
-      "stem": "道路管制期間，公車會怎麼行駛？",
+      "stem": "「得不償失」在文中指的是什麼情況？",
       "options": [
-       "全面停駛一整天",
-       "照常行駛，不受影響",
-       "只在上午六時前行駛",
-       "改道行駛，活動結束後恢復原路線"
+       "限塑政策成效極佳",
+       "民眾完全不再使用塑膠",
+       "回收體系已經建立",
+       "改用更耗資源的替代品，付出的代價大於好處"
       ],
       "answer": "D",
-      "skill": "detail",
+      "skill": "idiom",
       "explain": {
-       "zh": "公告說公車改道行駛，並於活動結束後恢復原路線。",
-       "en": "Buses are rerouted and return to their normal routes after the event.",
-       "vi": "Xe buýt đi đường vòng và trở lại tuyến cũ sau khi sự kiện kết thúc."
+       "zh": "「得不償失」指所得不如所失；替代品更耗資源，反而代價更大。",
+       "en": "「得不償失」 means the loss outweighs the gain, as with costlier alternatives.",
+       "vi": "「得不償失」 nghĩa là cái mất lớn hơn cái được, như khi dùng vật thay thế tốn tài nguyên hơn."
       }
      },
      {
       "id": "RC9_q3",
       "no": 22,
-      "stem": "關於緊急車輛，下列何者正確？",
+      "stem": "專家為什麼說「單靠宣導呼籲，無異於杯水車薪」？",
       "options": [
-       "和一般車輛一樣禁止通行",
-       "不受管制，但須由交通警察引導通行",
-       "可以自行通行，不需要任何引導",
-       "須事先向里辦公室登記才能通行"
+       "宣導的費用太昂貴",
+       "只靠宣導力量太小，無法解決問題",
+       "民眾不願意聽取建議",
+       "宣導會造成更多污染"
       ],
       "answer": "B",
-      "skill": "detail",
+      "skill": "inference",
       "explain": {
-       "zh": "緊急車輛不受管制，但須由交通警察引導通行；向里辦公室登記的是居民的特殊需求。",
-       "en": "Emergency vehicles are exempt but must be guided by traffic police. Registering with the neighbourhood office is for residents' special needs.",
-       "vi": "Xe khẩn cấp không bị hạn chế nhưng phải do cảnh sát giao thông dẫn đường. Đăng ký với văn phòng phường là dành cho nhu cầu đặc biệt của cư dân."
+       "zh": "「杯水車薪」比喻力量太小，無濟於事。",
+       "en": "「杯水車薪」 is a drop in the bucket—too little to help.",
+       "vi": "「杯水車薪」 là muối bỏ bể—quá nhỏ để giải quyết vấn đề."
       }
      }
     ]
    },
    {
     "id": "RC10",
-    "passage": "在捷運車廂裡接聽電話，是否該被禁止？支持者認為，車廂空間密閉，旁人無處可躲，講電話的聲音會干擾他人休息；反對者則認為，電話有時涉及緊急事務，完全禁止並不合理。其實，許多國家採取的是折衷作法：不立法禁止，而是透過廣告與廣播倡導「輕聲細語」的禮儀。研究發現，這種柔性勸導雖然短期效果有限，但長期下來能逐漸改變乘客的習慣，比起罰款更不容易引起反彈。換句話說，要營造良好的公共空間，與其依賴嚴格的處罰，不如先建立彼此體諒的共識。",
+    "passage": "遠距工作在疫情期間成為常態，許多人原本期待能因此兼顧家庭與事業。實際上，工作與生活的界線卻變得模糊：訊息隨時可能彈出，下班後仍被期待迅速回覆，「隨時待命」逐漸內化為默契。有研究顯示，這種狀態會削弱員工的專注力，並提高倦怠的風險。因此，部分企業開始明訂「離線權」，規定非上班時間不得要求員工回覆訊息。這項措施看似限制了彈性，實則是以制度保護員工的休息，讓高效率建立在可持續的基礎上。",
     "questions": [
      {
       "id": "RC10_q1",
       "no": 23,
-      "stem": "支持禁止在車廂接聽電話的人，理由是什麼？",
+      "stem": "遠距工作帶來的主要問題是什麼？",
       "options": [
-       "通話的內容可能洩漏個人隱私",
-       "手機的訊號會影響列車運行",
-       "車廂空間密閉，通話聲會干擾旁人",
-       "電話的費用應該由乘客分攤"
+       "薪水明顯降低",
+       "無法使用通訊軟體",
+       "工作與生活界線模糊，隨時待命",
+       "通勤時間大幅增加"
       ],
       "answer": "C",
-      "skill": "detail",
+      "skill": "main_idea",
       "explain": {
-       "zh": "支持者認為車廂密閉、旁人無處可躲，通話聲會干擾他人休息。",
-       "en": "Supporters argue the carriage is enclosed so others cannot escape, and call noise disturbs their rest.",
-       "vi": "Người ủng hộ cho rằng toa tàu kín, người khác không thể tránh, tiếng nói chuyện điện thoại làm phiền sự nghỉ ngơi."
+       "zh": "文中指出訊息隨時彈出、下班後仍被期待回覆，界線變得模糊。",
+       "en": "Messages can arrive any time and replies are expected after hours; the boundary blurs.",
+       "vi": "Tin nhắn đến bất cứ lúc nào và ngoài giờ vẫn bị kỳ vọng trả lời; ranh giới mờ đi."
       }
      },
      {
       "id": "RC10_q2",
       "no": 24,
-      "stem": "許多國家採取了什麼折衷作法？",
+      "stem": "「離線權」的目的為何？",
       "options": [
-       "在車廂中設置隔音的通話間",
-       "對講電話的乘客開出重罰",
-       "完全禁止並設立專門的電話車廂",
-       "不立法禁止，改以宣導倡導輕聲細語"
+       "增加員工的工作時數",
+       "禁止員工遠距工作",
+       "降低公司的營運成本",
+       "以制度保障員工在非上班時間的休息"
       ],
       "answer": "D",
       "skill": "detail",
       "explain": {
-       "zh": "許多國家不立法禁止，而是透過廣告與廣播倡導輕聲細語。",
-       "en": "They do not outlaw calls; instead they use advertisements and announcements to encourage speaking softly.",
-       "vi": "Họ không cấm bằng luật mà dùng quảng cáo và phát thanh để khuyến khích nói nhỏ nhẹ."
+       "zh": "離線權規定非上班時間不得要求回覆，以制度保護休息。",
+       "en": "The right to disconnect protects rest by barring after-hours demands.",
+       "vi": "Quyền ngắt kết nối bảo vệ thời gian nghỉ bằng cách cấm yêu cầu trả lời ngoài giờ."
       }
      },
      {
       "id": "RC10_q3",
       "no": 25,
-      "stem": "作者的結論傾向於什麼？",
+      "stem": "「隨時待命逐漸內化為默契」的意思是什麼？",
       "options": [
-       "只有嚴格的處罰才能真正解決問題",
-       "車廂內的手機通話應完全不受限制",
-       "營造良好的公共空間，應先建立彼此體諒的共識",
-       "廣播宣導對乘客完全沒有效果"
+       "公司正式要求加班",
+       "員工喜歡在家工作",
+       "大家漸漸把隨時要回應當成理所當然",
+       "工作量因此減少"
       ],
       "answer": "C",
-      "skill": "main_idea",
+      "skill": "inference",
       "explain": {
-       "zh": "最後一句的「與其……不如……」顯示作者認為先建立彼此體諒的共識，比嚴格處罰更好。",
-       "en": "The 「與其……不如……」 pattern in the last sentence shows the author prefers building mutual consideration over relying on strict punishment.",
-       "vi": "Cấu trúc 「與其……不如……」 ở câu cuối cho thấy tác giả thiên về xây dựng sự thấu hiểu lẫn nhau hơn là dựa vào hình phạt nghiêm."
+       "zh": "「內化為默契」指不需明說，大家就把隨時回應視為理所當然。",
+       "en": "It means everyone silently takes being always available for granted.",
+       "vi": "Nghĩa là mọi người ngầm coi việc luôn sẵn sàng là điều đương nhiên."
       }
      }
     ]

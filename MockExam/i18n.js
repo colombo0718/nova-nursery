@@ -26,7 +26,7 @@ const I18N = {
     explanation: "Explanation", showScript: "Show script", check: "Check answer", showAnswer: "Show answer",
     home: "Back to menu", retry: "Try again", wordLevel: "Word level (TOCFL 8000 list)", outside: "outside the 8000 list",
     explainNote: "Explanations are available in Chinese, English and Vietnamese. The English and Vietnamese texts are machine-assisted drafts; the Vietnamese has not yet been reviewed by a native speaker.",
-    summary: "See summary",
+    summary: "See summary", prevGroup: "Previous set", nextGroup2: "Next set",
     type: { dialogue: "Dialogue", monologue: "Monologue", gap: "Gap Filling", comp: "Reading Comprehension" },
     skill: { detail: "Detail", inference: "Inference", main_idea: "Main idea", attitude: "Attitude / tone", purpose: "Purpose", reference: "Reference",
              adverb: "Adverbs", conjunction: "Conjunctions", noun: "Nouns", verb: "Verbs" }
@@ -57,7 +57,7 @@ const I18N = {
     explanation: "Giải thích", showScript: "Xem lời thoại", check: "Kiểm tra", showAnswer: "Xem đáp án",
     home: "Về menu", retry: "Làm lại", wordLevel: "Cấp độ từ (danh sách 8000 từ TOCFL)", outside: "ngoài danh sách 8000 từ",
     explainNote: "Phần giải thích có bằng tiếng Trung, tiếng Anh và tiếng Việt. Bản tiếng Anh và tiếng Việt do máy hỗ trợ soạn thảo; bản tiếng Việt chưa được người bản ngữ rà soát.",
-    summary: "Xem tổng kết",
+    summary: "Xem tổng kết", prevGroup: "Nhóm trước", nextGroup2: "Nhóm tiếp",
     type: { dialogue: "Hội thoại", monologue: "Đoạn văn", gap: "Điền từ", comp: "Đọc hiểu" },
     skill: { detail: "Chi tiết", inference: "Suy luận", main_idea: "Ý chính", attitude: "Thái độ / giọng điệu", purpose: "Mục đích", reference: "Đại từ thay thế",
              adverb: "Phó từ", conjunction: "Liên từ", noun: "Danh từ", verb: "Động từ" }
@@ -88,7 +88,7 @@ const I18N = {
     explanation: "解析", showScript: "顯示腳本", check: "核對答案", showAnswer: "顯示答案",
     home: "回選單", retry: "再試一次", wordLevel: "詞彙等級（華語八千詞表）", outside: "八千詞表以外",
     explainNote: "解析提供中、英、越三語；英文與越南文為機器輔助初稿，越南文尚未經母語者審閱。",
-    summary: "查看總結",
+    summary: "查看總結", prevGroup: "上一大題", nextGroup2: "下一大題",
     type: { dialogue: "對話", monologue: "段落", gap: "選詞填空", comp: "閱讀理解" },
     skill: { detail: "細節理解", inference: "推論", main_idea: "主旨", attitude: "態度語氣", purpose: "目的", reference: "指代",
              adverb: "副詞", conjunction: "連詞", noun: "名詞", verb: "動詞" }

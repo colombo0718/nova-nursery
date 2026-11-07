@@ -66,35 +66,56 @@ function playAudio(src, onProgress) {
     player.defaultPlaybackRate = FAST ? 16 : 1;
     player.src = src;
     player.playbackRate = FAST ? 16 : 1;
+    let last = -1, lastAt = Date.now(), retries = 0, finished = false, btn = null;
     const done = () => {
+      if (finished) return;
+      finished = true;
+      clearInterval(wd);
+      if (btn) btn.remove();
       player.removeEventListener("ended", done);
       player.removeEventListener("error", done);
       player.ontimeupdate = null;
       resolve();
     };
+    const tapButton = () => {
+      if (btn || finished) return;
+      btn = document.createElement("button");
+      btn.className = "btn";
+      btn.textContent = "▶ " + T().tapToPlay;
+      btn.style.margin = "12px auto";
+      btn.style.display = "block";
+      btn.onclick = () => { btn.remove(); btn = null; player.play().catch(tapButton); };
+      app.appendChild(btn);
+    };
+    const start = () => player.play().catch(e => {
+      if (e && e.name === "NotAllowedError") tapButton();
+      else if (retries++ < 3) setTimeout(start, 500);
+      else done();
+    });
     player.addEventListener("ended", done);
     player.addEventListener("error", done);
     player.ontimeupdate = () => { if (onProgress && player.duration) onProgress(player.currentTime / player.duration); };
-    player.play().catch(() => {
-      const b = document.createElement("button");
-      b.className = "btn";
-      b.textContent = "▶ " + T().tapToPlay;
-      b.style.margin = "12px auto";
-      b.style.display = "block";
-      b.onclick = () => { b.remove(); player.play().catch(done); };
-      app.appendChild(b);
-    });
+    // watchdog: if playback stops advancing (stalled network / dropped media), nudge it, then skip ahead
+    const wd = setInterval(() => {
+      if (finished || btn) return;
+      if (player.currentTime !== last) { last = player.currentTime; lastAt = Date.now(); return; }
+      const idle = (Date.now() - lastAt) / 1000;
+      if (player.duration && player.currentTime >= player.duration - 0.3) return done();
+      if (idle > 4 && retries < 3) { retries++; lastAt = Date.now(); const t = player.currentTime; player.load(); player.currentTime = t; start(); }
+      else if (idle > 8) done();
+    }, 1000);
+    start();
   });
 }
 const setBar = p => { const i = $("#bar i"); if (i) i.style.width = Math.round(p * 100) + "%"; };
 function countdown(sec) {
   return new Promise(res => {
-    let left = sec;
+    const end = Date.now() + sec * 1000; // wall-clock based: unaffected by throttled timers
     const el = $("#cd");
     const tick = () => {
+      const left = (end - Date.now()) / 1000;
       if (el) el.textContent = Math.max(0, Math.ceil(left));
       if (left <= 0) { clearInterval(h); res(); }
-      left -= 0.1;
     };
     const h = setInterval(tick, 100);
     tick();
@@ -103,9 +124,9 @@ function countdown(sec) {
 const sleep = ms => new Promise(r => setTimeout(r, FAST ? Math.min(ms, 200) : ms));
 
 /* ---------- option widgets ---------- */
-function optsHtml(rec) {
-  return `<div class="opts" data-qid="${rec.id}">${rec.options.map((o, i) =>
-    `<button class="opt" data-l="${L[i]}"><span class="l">(${L[i]})</span><span>${esc(o)}</span></button>`).join("")}</div>`;
+function optsHtml(rec, cls = "") {
+  return `<div class="opts ${cls}" data-qid="${rec.id}">${rec.options.map((o, i) =>
+    `<button class="opt${answers[rec.id] === L[i] ? " sel" : ""}" data-l="${L[i]}"><span class="l">(${L[i]})</span><span>${esc(o)}</span></button>`).join("")}</div>`;
 }
 function markSelected(qid, letter) {
   const box = document.querySelector(`.opts[data-qid="${qid}"]`);
@@ -135,6 +156,7 @@ function revealAnswer(rec, container) {
 
 /* ---------- LISTENING (exam) ---------- */
 function showListeningIntro(next) {
+  app.classList.remove("wide");
   rerender = () => showListeningIntro(next);
   const t = T();
   app.innerHTML = `<div class="card stage"><span class="badge">${t.listening}</span>
@@ -163,7 +185,7 @@ async function runListening(next) {
         <div class="big">${LANG === "zh" ? `${t.question}${q.no}${t.questions}` : `${t.question} ${q.no} / ${total}`}</div>
         <div>${t.playingQuestion}</div><div class="bar" id="bar"><i></i></div>
         <div style="margin:6px 0">${t.nextIn} <span class="countdown" id="cd">–</span></div>
-        <div style="text-align:left">${optsHtml(rec)}</div></div>`;
+        <div style="text-align:left">${optsHtml(rec, "two")}</div></div>`;
       const box = $(`.opts[data-qid="${q.id}"]`);
       box.querySelectorAll(".opt").forEach(b => b.onclick = () => {
         if (locked) return;
@@ -197,37 +219,76 @@ function showReadingIntro(next) {
 }
 
 function renderReadingPage({ practice, type, onSubmit }) {
-  const t = T();
   const recs = recReading(type);
   const byId = Object.fromEntries(recs.map(r => [r.id, r]));
-  let html = practice ? "" : `<div class="topbar"><span class="badge">${t.reading}</span><div class="timer" id="timer"></div></div>`;
+  const groups = [];
+  if (!type || type === "gap") DATA.reading.gap.forEach(g => groups.push({ kind: "gap", g }));
+  if (!type || type === "comp") DATA.reading.comp.forEach(g => groups.push({ kind: "comp", g }));
+  const recsOf = grp => (grp.kind === "gap" ? grp.g.blanks : grp.g.questions).map(x => byId[x.id]);
+  const rangeOf = grp => { const n = recsOf(grp).map(r => r.no); return [Math.min(...n), Math.max(...n)]; };
+  let cur = 0;
+  let timerHandle = null;
 
-  if (!type || type === "gap") {
-    html += `<div class="part-title">${t.partGap}</div>`;
-    DATA.reading.gap.forEach(g => {
-      const numOf = Object.fromEntries(g.blanks.map(b => [b.n, b.no]));
-      const text = esc(g.passage).replace(/\{(\d+)\}/g, (m, n) => `<span class="blank">${numOf[n]}</span>`);
-      html += `<div class="passage">${text}</div>`;
-      g.blanks.forEach(b => {
-        html += `<div class="q"><div class="qhead"><span class="qno">${b.no}.</span></div>${optsHtml(byId[b.id])}</div>`;
-      });
-    });
+  app.classList.add("wide");
+  app.innerHTML = `<div class="rtop"><span id="rtopl"></span><div class="nav" id="rnav"></div></div><div id="rbody"></div><div class="navbar" id="rbar"></div>`;
+
+  const drawNav = () => {
+    $("#rnav").innerHTML = groups.map((gp, i) => {
+      const [a, b] = rangeOf(gp), rr = recsOf(gp), done = rr.filter(r => answers[r.id]).length;
+      const cls = i === cur ? "cur" : done === rr.length ? "done" : done ? "part" : "";
+      return `<button class="navb ${cls}" data-i="${i}">${a}${a === b ? "" : "–" + b}</button>`;
+    }).join("");
+  };
+
+  const draw = () => {
+    const t = T(), grp = groups[cur], rs = recsOf(grp);
+    $("#rtopl").innerHTML = practice ? "" : `<span class="badge">${t.reading}</span><div class="timer" id="timer"></div>`;
+    drawNav();
+    let left, right;
+    if (grp.kind === "gap") {
+      const numOf = Object.fromEntries(grp.g.blanks.map(b => [b.n, b.no]));
+      left = `<div class="passage">${esc(grp.g.passage).replace(/\{(\d+)\}/g, (m, n) => `<span class="blank">${numOf[n]}</span>`)}</div>`;
+      right = rs.map(r => `<div class="q gap"><span class="qno">${r.no}.</span>${optsHtml(r, "four")}</div>`).join("");
+    } else {
+      left = `<div class="passage">${esc(grp.g.passage)}</div>`;
+      right = rs.map(r => `<div class="q"><div class="qhead"><span class="qno">${r.no}.</span>${esc(r.stem)}</div>${optsHtml(r, "two")}</div>`).join("");
+    }
+    $("#rbody").innerHTML = `<div class="part-title">${grp.kind === "gap" ? t.partGap : t.partComp} · ${cur + 1}/${groups.length}</div>
+      <div class="split"><div class="pcol">${left}</div><div class="qcol">${right}</div></div>`;
+    if (practice) rs.forEach(r => { if (answers[r.id]) revealAnswer(r, document.querySelector(`.opts[data-qid="${r.id}"]`).parentElement); });
+    const last = cur === groups.length - 1;
+    $("#rbar").innerHTML = `<button class="btn secondary" id="prev" ${cur === 0 ? "disabled" : ""}>‹ ${t.prevGroup}</button>
+      <span style="flex:1"></span>
+      <button class="btn secondary" id="next" ${last ? "disabled" : ""}>${t.nextGroup2} ›</button>
+      <button class="btn" id="fin">${practice ? t.summary : t.submit}</button>`;
+    tick();
+  };
+
+  const finish = () => { clearInterval(timerHandle); app.onclick = null; rerender = null; app.classList.remove("wide"); (practice ? () => showResults(recs) : onSubmit)(); };
+  let left = recs.length * SECONDS_PER_READING_Q;
+  const tick = () => {
+    const el = $("#timer");
+    if (!el) return;
+    const m = String(Math.floor(left / 60)).padStart(2, "0"), s = String(left % 60).padStart(2, "0");
+    el.textContent = `${T().timeLeft} ${m}:${s}`;
+    el.classList.toggle("low", left <= 300);
+  };
+  if (!practice) {
+    timerHandle = setInterval(() => { left -= 1; tick(); if (left <= 0) finish(); }, 1000);
   }
-  if (!type || type === "comp") {
-    html += `<div class="part-title">${t.partComp}</div>`;
-    DATA.reading.comp.forEach(g => {
-      html += `<div class="passage">${esc(g.passage)}</div>`;
-      g.questions.forEach(q => {
-        html += `<div class="q"><div class="qhead"><span class="qno">${q.no}.</span>${esc(q.stem)}</div>${optsHtml(byId[q.id])}</div>`;
-      });
-    });
-  }
-  html += practice
-    ? `<p style="text-align:center"><button class="btn" id="sum">${t.summary}</button></p>`
-    : `<p style="text-align:center"><button class="btn" id="submit">${t.submit}</button></p>`;
-  app.innerHTML = html;
+  rerender = draw;
 
   app.onclick = e => {
+    const nb = e.target.closest(".navb");
+    if (nb) { cur = Number(nb.dataset.i); draw(); window.scrollTo(0, 0); return; }
+    if (e.target.closest("#prev")) { if (cur > 0) { cur--; draw(); window.scrollTo(0, 0); } return; }
+    if (e.target.closest("#next")) { if (cur < groups.length - 1) { cur++; draw(); window.scrollTo(0, 0); } return; }
+    if (e.target.closest("#fin")) {
+      const un = recs.filter(r => !answers[r.id]).length;
+      if (!practice && un && !FAST && !confirm(`${T().unanswered}: ${un}`)) return;
+      finish();
+      return;
+    }
     const b = e.target.closest(".opt");
     if (!b) return;
     const box = b.closest(".opts");
@@ -240,27 +301,9 @@ function renderReadingPage({ practice, type, onSubmit }) {
       answers[qid] = b.dataset.l;
       markSelected(qid, b.dataset.l);
     }
-  };
-
-  if (practice) {
-    $("#sum").onclick = () => showResults(recs);
-    return;
-  }
-  let left = recs.length * SECONDS_PER_READING_Q;
-  const el = $("#timer");
-  const draw = () => {
-    const m = String(Math.floor(left / 60)).padStart(2, "0"), s = String(left % 60).padStart(2, "0");
-    el.textContent = `${t.timeLeft} ${m}:${s}`;
-    el.classList.toggle("low", left <= 300);
+    drawNav();
   };
   draw();
-  const h = setInterval(() => { left -= 1; draw(); if (left <= 0) finish(); }, 1000);
-  const finish = () => { clearInterval(h); app.onclick = null; onSubmit(); };
-  $("#submit").onclick = () => {
-    const un = recs.filter(r => !answers[r.id]).length;
-    if (un && !FAST && !confirm(`${t.unanswered}: ${un}`)) return;
-    finish();
-  };
 }
 
 /* ---------- LISTENING (practice) ---------- */
@@ -296,6 +339,7 @@ function renderListeningPractice(type) {
 
 /* ---------- RESULTS ---------- */
 function showResults(recs) {
+  app.classList.remove("wide");
   rerender = () => showResults(recs);
   app.onclick = null;
   const t = T();

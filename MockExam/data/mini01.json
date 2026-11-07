@@ -757,152 +757,152 @@
   "gap": [
    {
     "id": "RG1",
-    "passage": "近年來，共享單車在各大城市迅速崛起，{1}解決了「最後一哩路」的交通難題，也減少了短程通勤對汽機車的依賴。{2}，隨著車輛數量暴增，亂停亂放的問題也接踵而至，不少業者{3}倒閉，留下大量廢棄的車輛。政府部門意識到，若不加以規範，共享單車恐怕只會製造更多混亂，{4}開始要求業者提高保證金，並劃設停車區。專家認為，唯有業者、使用者與政府三方共同努力，共享單車才能{5}成為都市交通的長久選項。",
+    "passage": "少子化早已不是危言聳聽的預言，而是{1}的現實：出生人口逐年下滑，勞動力缺口隨之擴大。面對這項挑戰，政府雖然陸續祭出育兒補助，但成效{2}，許多年輕夫妻坦言，高房價與不穩定的工時，才是讓他們對生育{3}的真正原因。專家指出，若只在津貼上做文章，不過是{4}，唯有從住宅、職場與托育體系同步改革，才可能{5}這個結構性的難題。",
     "blanks": [
      {
       "id": "RG1_b1",
       "no": 1,
       "n": 1,
       "options": [
-       "居然",
-       "確實",
-       "反倒",
-       "莫非"
+       "遙不可及",
+       "迫在眉睫",
+       "無關痛癢",
+       "事過境遷"
       ],
       "answer": "B",
-      "skill": "adverb",
+      "skill": "idiom",
       "explain": {
-       "zh": "前後語意是肯定它確實有貢獻；「居然」帶意外語氣、「反倒」表相反、「莫非」是疑問推測，都不合。",
-       "en": "The sentence affirms its real contribution. 「居然」 expresses surprise, 「反倒」 means on the contrary, 「莫非」 is a guess in question form; none fits.",
-       "vi": "Câu khẳng định đóng góp thực sự của nó. 「居然」 diễn tả bất ngờ, 「反倒」 nghĩa là ngược lại, 「莫非」 là phỏng đoán dạng nghi vấn; đều không hợp."
+       "zh": "「迫在眉睫」形容事情十分緊迫、已到眼前，符合「早已不是危言聳聽」的語氣；其餘三個都表示不緊迫或與己無關。",
+       "en": "「迫在眉睫」 means imminent and urgent, matching 「not alarmist」. The others mean remote, trivial or already over.",
+       "vi": "「迫在眉睫」 nghĩa là cấp bách ngay trước mắt, hợp với ý 「không phải lời dọa suông」. Ba từ còn lại có nghĩa xa vời, không đáng kể hoặc đã qua."
       },
-      "answer_word": "確實",
-      "vocab_level": "Level4"
+      "answer_word": "迫在眉睫",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG1_b2",
       "no": 2,
       "n": 2,
       "options": [
-       "因此",
-       "況且",
-       "然而",
-       "於是"
+       "立竿見影",
+       "一蹴可幾",
+       "差強人意",
+       "綽綽有餘"
       ],
       "answer": "C",
-      "skill": "conjunction",
+      "skill": "idiom",
       "explain": {
-       "zh": "前面講優點，後面轉折說出問題，要用「然而」。",
-       "en": "The previous part is positive and what follows turns to the problem, so 「然而」 is needed.",
-       "vi": "Vế trước nói ưu điểm, vế sau chuyển sang vấn đề nên cần 「然而」."
+       "zh": "「差強人意」指勉強令人滿意、不算理想；後文用「雖然……但……」且夫妻仍有顧慮，可見成效只是勉強。「立竿見影」是效果立刻出現，與語意相反。",
+       "en": "「差強人意」 means barely satisfactory. 「立竿見影」 (instant results) contradicts the 「雖然……但……」 turn.",
+       "vi": "「差強人意」 nghĩa là tạm chấp nhận được, chưa lý tưởng. 「立竿見影」 (có hiệu quả ngay) trái với ý chuyển 「雖然……但……」."
       },
-      "answer_word": "然而",
-      "vocab_level": "Level4"
+      "answer_word": "差強人意",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG1_b3",
       "no": 3,
       "n": 3,
       "options": [
-       "偶爾",
-       "向來",
-       "紛紛",
-       "何嘗"
+       "讓步",
+       "駐足",
+       "卻步",
+       "啟齒"
       ],
       "answer": "C",
-      "skill": "adverb",
+      "skill": "vocab",
       "explain": {
-       "zh": "描述許多業者一個接一個倒閉，用「紛紛」。",
-       "en": "Many operators going under one after another is expressed with 「紛紛」.",
-       "vi": "Nhiều đơn vị lần lượt phá sản được diễn đạt bằng 「紛紛」."
+       "zh": "「對生育卻步」指因顧慮而不敢前進；「讓步」是退讓、「駐足」是停下腳步、「啟齒」是開口，搭配「對生育」都不通。",
+       "en": "「卻步」 means to shrink back out of worry. 「讓步」 (concede), 「駐足」 (stop) and 「啟齒」 (open one's mouth) do not collocate with 「對生育」.",
+       "vi": "「卻步」 là chùn bước vì e ngại. 「讓步」, 「駐足」, 「啟齒」 không đi với 「對生育」."
       },
-      "answer_word": "紛紛",
-      "vocab_level": "Level4"
+      "answer_word": "卻步",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG1_b4",
       "no": 4,
       "n": 4,
       "options": [
-       "於是",
-       "何況",
-       "即使",
-       "除非"
+       "治標不治本",
+       "一視同仁",
+       "眾志成城",
+       "見微知著"
       ],
       "answer": "A",
-      "skill": "conjunction",
+      "skill": "idiom",
       "explain": {
-       "zh": "政府意識到問題，因此採取行動，是順承關係，用「於是」。",
-       "en": "The government realises the problem and therefore acts: a sequential relation, so 「於是」.",
-       "vi": "Chính phủ nhận ra vấn đề rồi hành động: quan hệ nối tiếp nên dùng 「於是」."
+       "zh": "只發津貼、不改房價與職場，是只處理表面症狀，正是「治標不治本」；其餘三個成語意思與此無關。",
+       "en": "Giving subsidies without fixing housing and workplaces treats symptoms, not causes: 「治標不治本」.",
+       "vi": "Chỉ phát trợ cấp mà không sửa nhà ở và môi trường làm việc là chữa ngọn không chữa gốc: 「治標不治本」."
       },
-      "answer_word": "於是",
-      "vocab_level": "Level3"
+      "answer_word": "治標不治本",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG1_b5",
       "no": 5,
       "n": 5,
       "options": [
-       "勉強",
-       "暫且",
-       "偶然",
-       "真正"
+       "助長",
+       "沿襲",
+       "擱置",
+       "化解"
       ],
       "answer": "D",
-      "skill": "adverb",
+      "skill": "verb",
       "explain": {
-       "zh": "「唯有……才能真正成為長久選項」，強調實質達成。",
-       "en": "「唯有……才能真正……」 stresses that it must truly become a lasting option.",
-       "vi": "「唯有……才能真正……」 nhấn mạnh phải thực sự trở thành lựa chọn lâu dài."
+       "zh": "「化解難題」是使難題消除；「助長」「沿襲」「擱置」放在「才可能……這個結構性的難題」中語意不合。",
+       "en": "「化解」 means to resolve; 「助長」 (fuel), 「沿襲」 (follow) and 「擱置」 (shelve) do not fit 「才可能……難題」.",
+       "vi": "「化解」 là giải quyết, làm tan biến; 「助長」, 「沿襲」, 「擱置」 không hợp với 「才可能……難題」."
       },
-      "answer_word": "真正",
-      "vocab_level": "Level3"
+      "answer_word": "化解",
+      "vocab_level": "outside-8000"
      }
     ]
    },
    {
     "id": "RG2",
-    "passage": "老街曾是城市最熱鬧的商業中心，如今卻{1}被新興商圈取代，許多百年老店面臨關門的命運。面對這樣的處境，居民與店家{2}選擇坐以待斃，而是主動籌組協會，把老街的歷史故事整理成導覽路線，吸引遊客前來。這項{3}不僅讓老店重新有了客源，也讓年輕人看見傳統行業的價值，{4}回流創業。不過，過度商業化也帶來隱憂：遊客一多，房租隨之{5}，原本的小店反而負擔不起，這是政策制定者必須審慎面對的課題。",
+    "passage": "人工智慧能在幾秒鐘內{1}一幅畫作，卻也引發了前所未有的爭議：這些作品所仰賴的訓練資料，往往來自未經授權的創作。創作者對此{2}，認為這無異於變相剽竊；科技業者則辯稱，機器學習與人類觀摩前人作品並無本質差別，{3}主張應放寬使用限制。這場{4}尚無定論，各國立法機關也{5}地觀望，唯恐一步走錯，既扼殺創新，又犧牲了創作者的權益。",
     "blanks": [
      {
       "id": "RG2_b1",
       "no": 6,
       "n": 1,
       "options": [
-       "驟然",
-       "暫時",
-       "逐漸",
-       "偏偏"
+       "修繕",
+       "收藏",
+       "生成",
+       "典當"
       ],
       "answer": "C",
-      "skill": "adverb",
+      "skill": "vocab",
       "explain": {
-       "zh": "由盛轉衰是慢慢發生的過程，用「逐漸」。",
-       "en": "The decline from prosperity happens slowly, so 「逐漸」.",
-       "vi": "Sự suy tàn từ thịnh vượng diễn ra từ từ nên dùng 「逐漸」."
+       "zh": "AI「生成」畫作是指自動產出；「修繕」「收藏」「典當」都不是 AI 憑空產出作品的動作。",
+       "en": "AI 「生成」 (generates) an image; repairing, collecting or pawning are not what AI does here.",
+       "vi": "AI 「生成」 (tạo ra) một bức tranh; sửa chữa, sưu tầm, cầm cố không phải việc AI làm ở đây."
       },
-      "answer_word": "逐漸",
-      "vocab_level": "Level4"
+      "answer_word": "生成",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG2_b2",
       "no": 7,
       "n": 2,
       "options": [
-       "並未",
-       "未必",
-       "不妨",
-       "何妨"
+       "不以為然",
+       "不以為意",
+       "無動於衷",
+       "心安理得"
       ],
       "answer": "A",
-      "skill": "adverb",
+      "skill": "idiom",
       "explain": {
-       "zh": "「並未選擇坐以待斃，而是主動……」是否定已發生的事實。",
-       "en": "「並未選擇坐以待斃，而是主動……」 denies something that did not happen.",
-       "vi": "「並未選擇坐以待斃，而是主動……」 phủ định một việc đã không xảy ra."
+       "zh": "「不以為然」是不認同；創作者認為這是變相剽竊，所以是不認同。「不以為意」是不放在心上、「無動於衷」是毫不感動、「心安理得」是自覺理所當然，都與「認為這無異於剽竊」矛盾。",
+       "en": "「不以為然」 means disagreeing. 「不以為意」 (not caring), 「無動於衷」 (unmoved) and 「心安理得」 (feeling at ease) contradict creators calling it plagiarism.",
+       "vi": "「不以為然」 là không đồng tình. 「不以為意」 (không để tâm), 「無動於衷」 (thờ ơ), 「心安理得」 (thấy yên tâm) mâu thuẫn với việc coi đó là đạo văn."
       },
-      "answer_word": "並未",
+      "answer_word": "不以為然",
       "vocab_level": "outside-8000"
      },
      {
@@ -910,60 +910,60 @@
       "no": 8,
       "n": 3,
       "options": [
-       "傳說",
-       "場面",
-       "次序",
-       "舉措"
+       "何況",
+       "以免",
+       "乃至",
+       "進而"
       ],
       "answer": "D",
-      "skill": "noun",
+      "skill": "conjunction",
       "explain": {
-       "zh": "前文說明居民採取的做法，用「舉措」概括。",
-       "en": "The preceding text describes what residents did, summarised by 「舉措」 (measure).",
-       "vi": "Đoạn trước mô tả việc cư dân đã làm, được tóm lại bằng 「舉措」 (biện pháp)."
+       "zh": "「進而」表示在前一步的基礎上更進一步：辯稱無本質差別，接著主張放寬限制。「何況」「以免」「乃至」語意不合。",
+       "en": "「進而」 means going one step further from the previous point. 「何況」, 「以免」 and 「乃至」 do not fit.",
+       "vi": "「進而」 nghĩa là tiến thêm một bước từ ý trước. 「何況」, 「以免」, 「乃至」 không hợp."
       },
-      "answer_word": "舉措",
-      "vocab_level": "outside-8000"
+      "answer_word": "進而",
+      "vocab_level": "Level5"
      },
      {
       "id": "RG2_b4",
       "no": 9,
       "n": 4,
       "options": [
-       "以免",
-       "縱然",
-       "況且",
-       "進而"
+       "論壇",
+       "論文",
+       "論斷",
+       "論戰"
       ],
       "answer": "D",
-      "skill": "conjunction",
+      "skill": "noun",
       "explain": {
-       "zh": "「進而」表示在前一個結果上更進一步產生後果。",
-       "en": "「進而」 means going one step further from the previous result.",
-       "vi": "「進而」 nghĩa là từ kết quả trước tiến thêm một bước nữa."
+       "zh": "雙方各執一詞、互相爭辯，稱為「論戰」；「論壇」是討論的場所、「論文」是文章、「論斷」是結論，搭配「尚無定論」不通。",
+       "en": "A dispute where both sides argue is a 「論戰」. 「論壇」 (forum), 「論文」 (thesis) and 「論斷」 (verdict) do not fit.",
+       "vi": "Cuộc tranh luận giữa hai phía gọi là 「論戰」. 「論壇」 (diễn đàn), 「論文」 (luận văn), 「論斷」 (kết luận) không hợp."
       },
-      "answer_word": "進而",
-      "vocab_level": "Level5"
+      "answer_word": "論戰",
+      "vocab_level": "outside-8000"
      },
      {
       "id": "RG2_b5",
       "no": 10,
       "n": 5,
       "options": [
-       "下滑",
-       "攀升",
-       "凝結",
-       "迴避"
+       "草率",
+       "審慎",
+       "張揚",
+       "猖狂"
       ],
       "answer": "B",
-      "skill": "verb",
+      "skill": "adverb",
       "explain": {
-       "zh": "遊客增加使房租上漲，用「攀升」。",
-       "en": "More tourists push rents up, so 「攀升」 (climb).",
-       "vi": "Khách du lịch đông làm tiền thuê tăng nên dùng 「攀升」 (leo thang)."
+       "zh": "「唯恐一步走錯」說明立法機關小心謹慎，所以用「審慎」；其餘三個是草率或囂張，語意相反。",
+       "en": "「唯恐一步走錯」 shows caution, so 「審慎」. The others mean hasty or flaunting.",
+       "vi": "「唯恐一步走錯」 cho thấy sự thận trọng nên dùng 「審慎」. Các từ còn lại mang nghĩa hấp tấp hoặc ngang ngược."
       },
-      "answer_word": "攀升",
-      "vocab_level": "outside-8000"
+      "answer_word": "審慎",
+      "vocab_level": "Level5"
      }
     ]
    }
@@ -971,300 +971,300 @@
   "comp": [
    {
     "id": "RC1",
-    "passage": "近年來，無人商店在各大城市陸續出現。顧客只要用手機掃描入口的條碼，就能進門挑選商品，離開時由天花板上的感應器自動結算。業者宣稱，這種模式能省下人事成本，也能二十四小時營業。然而，實際營運後卻發現，省下的人事費用，往往被高昂的設備維護費抵銷。此外，不少商品被順手牽羊的情形比預期嚴重，使得業者必須增設監視器與警示系統，成本因而又往上加。更令業者意外的是，部分年長顧客因為不熟悉操作流程，寧可繞到有店員的商店消費。",
+    "passage": "經濟學家以「囚徒困境」描述一種弔詭的處境：兩名嫌犯被分開審訊，若彼此保持沉默，各判輕刑；但只要有一方供出對方，自己就能獲釋，沉默者則重判。從個人利益出發，兩人都會選擇背叛，結果卻雙雙入獄，下場比合作更糟。這個模型之所以廣受引用，是因為它揭示了一個令人不安的事實：個體的理性選擇，未必能導出集體的最佳結果。然而，現實中的人際關係並非一次性的博弈。當互動反覆發生，彼此便有了建立信任的籌碼，背叛的代價隨之升高，合作反而成為長遠的上策。",
     "questions": [
      {
       "id": "RC1_q1",
       "no": 11,
-      "stem": "這段文字主要在討論什麼？",
+      "stem": "根據文章，「囚徒困境」最令人不安之處是什麼？",
       "options": [
-       "如何吸引年輕顧客",
-       "無人商店的營運不如預期輕鬆",
-       "感應器技術的發展歷程",
-       "如何防止商品遭到偷竊"
+       "嫌犯一定會被判處重刑",
+       "個人各自做出理性選擇，整體結果卻可能更差",
+       "保持沉默永遠是最好的策略",
+       "審訊者掌握了最後的決定權"
       ],
       "answer": "B",
       "skill": "main_idea",
       "explain": {
-       "zh": "全文先說優點，再列舉設備維護、失竊、年長顧客等問題，主旨是營運並不如預期輕鬆。",
-       "en": "The passage first lists advantages, then equipment upkeep, theft and elderly customers as problems; the main idea is that operation is harder than expected.",
-       "vi": "Bài viết nêu ưu điểm rồi liệt kê các vấn đề: bảo trì thiết bị, mất cắp, khách lớn tuổi; ý chính là vận hành không dễ như dự kiến."
+       "zh": "文章明說這個模型揭示「個體的理性選擇，未必能導出集體的最佳結果」。",
+       "en": "The text says the model shows that individually rational choices may not lead to the best collective outcome.",
+       "vi": "Bài viết nói mô hình cho thấy lựa chọn hợp lý của từng cá nhân chưa chắc dẫn đến kết quả tốt nhất cho tập thể."
       }
      },
      {
       "id": "RC1_q2",
       "no": 12,
-      "stem": "根據文章，業者省下的人事費用為什麼沒有帶來預期的利潤？",
+      "stem": "為什麼反覆互動能促成合作？",
       "options": [
-       "被設備維護等額外開銷抵銷",
-       "營業時間變短",
-       "顧客人數持續減少",
-       "員工薪資大幅提高"
+       "背叛的代價升高，彼此也有機會建立信任",
+       "嫌犯會被迫保持沉默",
+       "法律會因此減輕刑期",
+       "雙方不再需要任何溝通"
       ],
       "answer": "A",
       "skill": "detail",
       "explain": {
-       "zh": "文中說「省下的人事費用，往往被高昂的設備維護費抵銷」。",
-       "en": "The text says the savings in labour are often offset by costly equipment maintenance.",
-       "vi": "Bài viết nói chi phí nhân sự tiết kiệm được thường bị chi phí bảo trì thiết bị cao bù trừ."
+       "zh": "互動反覆發生時，彼此有了建立信任的籌碼，背叛的代價隨之升高，合作反而成為上策。",
+       "en": "With repeated interaction people can build trust and betrayal becomes costlier, so cooperation pays off.",
+       "vi": "Khi tương tác lặp lại, người ta có thể xây dựng niềm tin và cái giá của phản bội tăng lên, nên hợp tác thành thượng sách."
       }
      },
      {
       "id": "RC1_q3",
       "no": 13,
-      "stem": "文中提到「年長顧客」，是想說明什麼？",
+      "stem": "作者提到「現實中的人際關係並非一次性的博弈」，主要用意是什麼？",
       "options": [
-       "無人商店的服務對象以老人為主",
-       "老年人比較容易遭到詐騙",
-       "操作不便可能讓部分顧客卻步",
-       "年長者偏好二十四小時營業"
+       "否定經濟學模型的價值",
+       "證明人性本來就是善良的",
+       "說明這個模型在現實中有其限制與修正",
+       "建議廢除審訊制度"
       ],
       "answer": "C",
-      "skill": "inference",
+      "skill": "purpose",
       "explain": {
-       "zh": "年長顧客不熟悉操作而寧可去有店員的店，說明操作不便會讓部分顧客卻步。",
-       "en": "Elderly customers who are unfamiliar with the process go to staffed stores instead, showing that difficult operation can put some customers off.",
-       "vi": "Khách lớn tuổi không quen thao tác thà sang cửa hàng có nhân viên, cho thấy thao tác khó có thể khiến một số khách ngại."
+       "zh": "作者在肯定模型價值後，用「然而」指出現實是反覆互動，說明模型的適用限制與修正。",
+       "en": "After acknowledging the model's value, the author uses 「然而」 to point out its limits in repeated real-life interaction.",
+       "vi": "Sau khi thừa nhận giá trị của mô hình, tác giả dùng 「然而」 để chỉ ra giới hạn của nó trong quan hệ lặp lại ngoài đời."
       }
      }
     ]
    },
    {
     "id": "RC2",
-    "passage": "在超市與電商盛行的年代，傳統市場似乎註定走向沒落。但近年來，不少年輕人反而開始重新走進市場。他們並不是為了便宜，而是為了「人情味」：攤販記得你上次買過什麼，還會順口教你怎麼料理；挑選食材時，可以直接和種植者聊產地與季節。這些在冷冰冰的貨架前無法獲得的互動，成為市場最難被取代的價值。有學者指出，傳統市場若想永續經營，不該一味模仿超市的標準化，而應該把這種人與人之間的連結，轉化為獨特的競爭優勢。",
+    "passage": "新藥從實驗室走到病患手中，往往得歷經十年以上的漫長歷程：先在動物身上驗證安全性，再分三期進行人體試驗，最後還得通過主管機關的嚴格審查。這套程序看似繁瑣，實則是前人以慘痛教訓換來的防線。上世紀中葉，一種用於緩解孕吐的藥物因缺乏周全的檢驗而上市，導致數以千計的畸形兒誕生，成為醫藥史上永難抹滅的傷痛。然而，面對疫情這類迫在眉睫的危機，社會難免要求縮短等待時間。對此，專家主張：加速不等於放寬，應當是在不犧牲安全標準的前提下，讓各階段的審查平行進行，而非草草跳過任何一個環節。",
     "questions": [
      {
       "id": "RC2_q1",
       "no": 14,
-      "stem": "年輕人重新走進傳統市場，主要是為了什麼？",
+      "stem": "「這套程序看似繁瑣，實則是前人以慘痛教訓換來的防線」，意思是什麼？",
       "options": [
-       "享受人與人之間的互動",
-       "價格比較便宜",
-       "食材種類比超市多",
-       "避開網路購物的不便"
+       "繁瑣的審查有其必要，源自過去的重大傷害",
+       "審查程序應該盡量簡化",
+       "前人從不重視用藥安全",
+       "審查制度可有可無"
       ],
       "answer": "A",
-      "skill": "detail",
+      "skill": "inference",
       "explain": {
-       "zh": "文中說他們不是為了便宜，而是為了「人情味」。",
-       "en": "The text says they come not for low prices but for the human touch.",
-       "vi": "Bài viết nói họ đến không phải vì rẻ mà vì 「人情味」 (sự ấm áp giữa người với người)."
+       "zh": "後文舉孕吐藥的悲劇，說明嚴格審查是從慘痛教訓中得來，所以有其必要。",
+       "en": "The later example of the morning-sickness drug shows strict review was born from painful lessons, so it is necessary.",
+       "vi": "Ví dụ thuốc trị ốm nghén cho thấy việc thẩm định nghiêm ngặt có từ bài học đau thương nên là cần thiết."
       }
      },
      {
       "id": "RC2_q2",
       "no": 15,
-      "stem": "第二段中的「這些……互動」，指的是什麼？",
+      "stem": "專家所說的「加速不等於放寬」，指的是什麼？",
       "options": [
-       "攤販與顧客之間的交流",
-       "年輕人的消費習慣",
-       "超市的標準化服務",
-       "電商平台的優惠活動"
+       "讓各階段審查平行進行，但不降低安全標準",
+       "省略動物實驗以節省時間",
+       "放寬主管機關的審查規定",
+       "延後新藥的上市時間"
       ],
       "answer": "A",
-      "skill": "reference",
+      "skill": "detail",
       "explain": {
-       "zh": "「這些互動」指前面描述的攤販記得顧客、教人料理、與種植者聊天等交流。",
-       "en": "「這些互動」 refers to the exchanges just described: vendors remembering customers, teaching them to cook and chatting with growers.",
-       "vi": "「這些互動」 chỉ những trao đổi vừa nêu: người bán nhớ khách, chỉ cách nấu và trò chuyện với người trồng."
+       "zh": "專家主張在不犧牲安全標準的前提下，讓各階段審查平行進行，而非跳過環節。",
+       "en": "Experts propose running review stages in parallel without lowering safety standards, not skipping any step.",
+       "vi": "Chuyên gia đề xuất cho các giai đoạn thẩm định chạy song song mà không hạ chuẩn an toàn, không bỏ bước nào."
       }
      },
      {
       "id": "RC2_q3",
       "no": 16,
-      "stem": "學者對傳統市場的建議是什麼？",
+      "stem": "下列何者最能概括本文主旨？",
       "options": [
-       "發揮人際連結作為特色",
-       "全面模仿超市的經營方式",
-       "降低價格以搶回顧客",
-       "引進電商平台銷售"
+       "藥物審查必須兼顧速度與安全，不能以犧牲標準換取效率",
+       "疫情期間應完全取消臨床試驗",
+       "新藥研發只需要三年就能完成",
+       "動物試驗已經不再重要"
       ],
       "answer": "A",
       "skill": "main_idea",
       "explain": {
-       "zh": "學者主張把人與人之間的連結轉化為獨特的競爭優勢。",
-       "en": "The scholar says markets should turn human connection into a distinctive competitive advantage.",
-       "vi": "Học giả cho rằng chợ nên biến sự kết nối giữa người với người thành lợi thế cạnh tranh độc đáo."
+       "zh": "全文先說明審查的必要，再說明面對危機時如何加速而不放寬標準，主旨是兼顧速度與安全。",
+       "en": "The passage explains why review is necessary and how to speed it up without relaxing standards: balance speed and safety.",
+       "vi": "Bài viết giải thích vì sao cần thẩm định và cách tăng tốc mà không hạ chuẩn: cân bằng tốc độ và an toàn."
       }
      }
     ]
    },
    {
     "id": "RC3",
-    "passage": "所謂「翻轉教室」，是把傳統的教學流程倒過來：學生先在家觀看老師錄製的講解影片，到了課堂上，則把時間用來討論與實作。支持者認為，這種方式讓學生依自己的速度學習，老師也能更充分地掌握每個人的困難。然而，批評者指出，這種模式的前提是學生必須有自律的學習習慣。如果學生沒有事先看影片，課堂討論便難以展開，反而讓缺乏自律的學生落後得更多。可見翻轉教室並非萬靈丹，成效如何，還得看學生的條件與配套措施是否到位。",
+    "passage": "每逢春節，總有人感嘆「年味淡了」。過去，除夕前的幾天，家家戶戶忙著灑掃、蒸糕、貼春聯，全家老小各司其職，儀式感在忙碌中不言而喻。如今，年菜可以預購，紅包能以手機傳送，團圓飯甚至移師餐廳，省下的時間，卻似乎沒有換來更多的溫情。有學者指出，節慶的價值不在形式本身，而在於「共同勞動」所凝聚的情感連結：當忙碌從集體參與變成個人消費，儀式便容易流於形式。不過，也有人認為不必一味緬懷過去，傳統若要延續，就得允許它隨著生活方式而演變，關鍵在於是否還保有彼此相聚、互相牽掛的核心。",
     "questions": [
      {
       "id": "RC3_q1",
       "no": 17,
-      "stem": "在翻轉教室中，課堂時間主要用來做什麼？",
+      "stem": "根據文章，過去的「年味」主要來自什麼？",
       "options": [
-       "聽老師講解新課程",
-       "觀看講解影片",
-       "進行考試與評量",
-       "進行討論與實作"
+       "昂貴豐盛的年菜",
+       "高級餐廳的團圓飯",
+       "手機傳送的紅包",
+       "全家一起勞動所累積的情感連結"
       ],
       "answer": "D",
       "skill": "detail",
       "explain": {
-       "zh": "講解影片在家看，課堂時間用來討論與實作。",
-       "en": "The explanatory video is watched at home; class time is used for discussion and hands-on work.",
-       "vi": "Video giảng bài xem ở nhà; thời gian trên lớp dùng để thảo luận và thực hành."
+       "zh": "學者指出節慶的價值在於「共同勞動」所凝聚的情感連結。",
+       "en": "The scholar says the value of festivals lies in the emotional bonds built through shared labour.",
+       "vi": "Học giả cho rằng giá trị của lễ hội nằm ở sự gắn kết tình cảm nhờ cùng lao động."
       }
      },
      {
       "id": "RC3_q2",
       "no": 18,
-      "stem": "批評者擔心什麼？",
+      "stem": "「儀式便容易流於形式」的意思是什麼？",
       "options": [
-       "缺乏自律的學生會落後更多",
-       "老師錄製影片的負擔太重",
-       "學生在家沒有適當的設備",
-       "課堂討論過於熱烈"
+       "儀式只剩表面做法，失去原本的意義",
+       "儀式變得更加隆重",
+       "儀式被正式取消",
+       "儀式變得更省錢"
       ],
       "answer": "A",
-      "skill": "detail",
+      "skill": "idiom",
       "explain": {
-       "zh": "批評者指出缺乏自律的學生會落後得更多。",
-       "en": "Critics point out that students who lack self-discipline fall even further behind.",
-       "vi": "Người phản đối chỉ ra học sinh thiếu tự giác sẽ tụt lại xa hơn."
+       "zh": "「流於形式」指只剩表面的做法，缺少實質內容與感情。",
+       "en": "「流於形式」 means becoming a mere formality, with the substance gone.",
+       "vi": "「流於形式」 nghĩa là chỉ còn hình thức bề ngoài, mất đi nội dung thực chất."
       }
      },
      {
       "id": "RC3_q3",
       "no": 19,
-      "stem": "作者說翻轉教室「並非萬靈丹」，意思是什麼？",
+      "stem": "文末「也有人認為」所代表的看法是什麼？",
       "options": [
-       "這種方式完全沒有效果",
-       "它不能解決所有教學問題",
-       "這種方式不適合小學生",
-       "老師不需要再講課"
+       "應該完全恢復過去的過年方式",
+       "傳統可隨生活演變，重點是保留相聚牽掛的核心",
+       "春節這個節日應該被廢除",
+       "儀式愈複雜，傳統愈能延續"
       ],
       "answer": "B",
-      "skill": "inference",
+      "skill": "main_idea",
       "explain": {
-       "zh": "「萬靈丹」指能解決一切問題的辦法；並非萬靈丹，表示不能解決所有問題，成效還要看條件。",
-       "en": "A 「萬靈丹」 is a cure-all; saying it is not one means it cannot solve every problem and results depend on conditions.",
-       "vi": "「萬靈丹」 là thuốc chữa bách bệnh; nói nó không phải nghĩa là không giải quyết được mọi vấn đề, hiệu quả còn tùy điều kiện."
+       "zh": "這種看法認為不必一味緬懷過去，傳統可以演變，關鍵是保有相聚、牽掛的核心。",
+       "en": "This view says tradition may evolve as long as the core of gathering and caring is kept.",
+       "vi": "Quan điểm này cho rằng truyền thống có thể thay đổi, miễn là giữ được cốt lõi sum họp và quan tâm nhau."
       }
      }
     ]
    },
    {
     "id": "RC4",
-    "passage": "許多人把「完美主義」視為優點，認為追求完美的人做事嚴謹、標準高。但心理學家指出，完美主義其實有兩種：一種是「適應型」，會訂定高標準並享受達成目標的過程；另一種是「不適應型」，則是害怕失敗，一旦結果不如預期，便嚴厲苛責自己。後者往往因為擔心做不好而遲遲不敢動手，結果反而陷入拖延的惡性循環。因此，與其問「我是不是完美主義者」，不如問「我的高標準讓我更有動力，還是更有壓力」。",
+    "passage": "一杯咖啡看似只用了一杯水，實際上，從咖啡豆的栽種、加工到運輸，背後消耗的水量高達一百多公升。這種隱藏在商品生產過程中的水資源，被稱為「虛擬水」。這個概念提醒我們，缺水國家雖然境內水源有限，卻可能透過進口大量耗水的農產品，間接「輸入」水資源，緩解本地壓力。然而，這並非萬靈丹。長期仰賴進口，等於把糧食與水資源的命脈交到他人手中，一旦國際局勢動盪，後果不堪設想。因此，水資源的管理不能只著眼於「開源」，更要「節流」，並且從消費端反思：我們每天的選擇，究竟隱含了多少看不見的代價？",
     "questions": [
      {
       "id": "RC4_q1",
       "no": 20,
-      "stem": "「適應型」完美主義者的特點是什麼？",
+      "stem": "「虛擬水」指的是什麼？",
       "options": [
-       "害怕失敗而不敢嘗試",
-       "享受達成高標準目標的過程",
-       "容易苛責身邊的人",
-       "對成果完全不在乎"
+       "憑空想像出來的水源",
+       "商品生產過程中隱含消耗的水資源",
+       "網路上提供的用水資訊",
+       "儲存在水庫裡的備用水"
       ],
       "answer": "B",
       "skill": "detail",
       "explain": {
-       "zh": "適應型會訂定高標準並享受達成目標的過程。",
-       "en": "The adaptive type sets high standards and enjoys the process of reaching goals.",
-       "vi": "Kiểu thích ứng đặt tiêu chuẩn cao và tận hưởng quá trình đạt mục tiêu."
+       "zh": "文中定義：隱藏在商品生產過程中的水資源，稱為「虛擬水」。",
+       "en": "The text defines it as water hidden in the production process of goods.",
+       "vi": "Bài viết định nghĩa đó là lượng nước ẩn trong quá trình sản xuất hàng hóa."
       }
      },
      {
       "id": "RC4_q2",
       "no": 21,
-      "stem": "為什麼不適應型完美主義會導致拖延？",
+      "stem": "作者認為長期仰賴進口虛擬水有什麼風險？",
       "options": [
-       "缺乏相關能力",
-       "沒有訂定明確標準",
-       "認為時間總是很充裕",
-       "擔心做不好而遲遲不動手"
+       "本地水源會因此大幅增加",
+       "農產品價格一定會下降",
+       "運輸時間會變得更短",
+       "糧食與水資源受制於人，國際局勢動盪時後果嚴重"
       ],
       "answer": "D",
       "skill": "detail",
       "explain": {
-       "zh": "文中說他們因為擔心做不好而遲遲不敢動手，陷入拖延的惡性循環。",
-       "en": "They are afraid of doing badly and hesitate to start, falling into a vicious circle of procrastination.",
-       "vi": "Họ sợ làm không tốt nên chần chừ không dám bắt tay vào làm, rơi vào vòng luẩn quẩn trì hoãn."
+       "zh": "文中說這等於把命脈交到他人手中，一旦國際局勢動盪，後果不堪設想。",
+       "en": "It hands the lifeline to others; if the international situation turns unstable, the consequences are dire.",
+       "vi": "Điều đó giao huyết mạch cho người khác; nếu tình hình quốc tế bất ổn, hậu quả khôn lường."
       }
      },
      {
       "id": "RC4_q3",
       "no": 22,
-      "stem": "作者最後提出的問題，目的是什麼？",
+      "stem": "文末的提問，主要是想引導讀者做什麼？",
       "options": [
-       "測驗自己是否為完美主義者",
-       "判斷高標準帶來的是動力還是壓力",
-       "鼓勵人們降低所有標準",
-       "說明拖延是天生的性格"
+       "立刻停止飲用咖啡",
+       "從消費行為反思背後隱含的資源代價",
+       "計算每杯水的實際價格",
+       "要求政府增建水庫"
       ],
       "answer": "B",
       "skill": "purpose",
       "explain": {
-       "zh": "「與其問……不如問……」是建議用高標準帶來動力或壓力來判斷自己的狀態。",
-       "en": "The 「與其問……不如問……」 pattern suggests judging oneself by whether high standards bring motivation or pressure.",
-       "vi": "Cấu trúc 「與其問……不如問……」 gợi ý dùng việc tiêu chuẩn cao mang lại động lực hay áp lực để tự đánh giá."
+       "zh": "提問「我們每天的選擇隱含了多少看不見的代價」，是引導讀者從消費端反思。",
+       "en": "The question invites readers to reflect on the hidden resource costs of everyday consumption.",
+       "vi": "Câu hỏi dẫn dắt người đọc suy ngẫm về cái giá tài nguyên ẩn sau lựa chọn tiêu dùng hằng ngày."
       }
      }
     ]
    },
    {
     "id": "RC5",
-    "passage": "疫情期間，遠距工作一夕之間成為許多企業的常態。起初，員工們歡迎不用通勤的自由，企業也發現生產力並未下降。然而，時間一長，問題逐漸浮現：同事之間缺少偶然的閒聊，新進員工難以融入團隊，主管也不易察覺部屬的低潮。一項調查顯示，超過四成的遠距工作者表示「感到孤單」。因此，如今許多公司採取折衷的「混合辦公」，每週安排部分天數到辦公室，既保留彈性，又維繫團隊的凝聚力。",
+    "passage": "企業遭遇危機時，一句道歉往往決定了信譽是止血還是失血。公關學者歸納出有效道歉的三個要素：承認錯誤、說明補救、承擔責任。其中最容易被輕忽的是第一步。許多企業習慣使用「若造成困擾，深感抱歉」這類模稜兩可的說法，彷彿錯誤只是旁人的感受問題，而非自身的疏失，反而激起輿論更強烈的撻伐。相反地，坦率指出「我們做錯了什麼」，雖然短期內得面對批評，卻能迅速切斷謠言的蔓延。更重要的是，道歉之後的行動必須言行一致，否則再誠懇的措辭，也不過是粉飾太平。",
     "questions": [
      {
       "id": "RC5_q1",
       "no": 23,
-      "stem": "遠距工作初期，企業有什麼發現？",
+      "stem": "為什麼「若造成困擾，深感抱歉」這類說法容易招來批評？",
       "options": [
-       "員工離職率大幅上升",
-       "通勤時間反而變長",
-       "生產力沒有因此下降",
-       "團隊凝聚力明顯增強"
+       "道歉的篇幅過於冗長",
+       "語氣過於強硬，令人反感",
+       "把錯誤說成他人的感受，沒有承認自身疏失",
+       "沒有提到具體的補償金額"
       ],
       "answer": "C",
-      "skill": "detail",
+      "skill": "inference",
       "explain": {
-       "zh": "文中說「企業也發現生產力並未下降」。",
-       "en": "The text says companies found that productivity did not fall.",
-       "vi": "Bài viết nói các công ty nhận thấy năng suất không giảm."
+       "zh": "文中說這種說法彷彿錯誤只是旁人的感受問題，而非自身疏失，因此激起撻伐。",
+       "en": "It makes the mistake sound like others' feelings rather than the company's own fault, provoking criticism.",
+       "vi": "Cách nói này khiến lỗi như chỉ là cảm nhận của người khác chứ không phải lỗi của mình, nên bị chỉ trích."
       }
      },
      {
       "id": "RC5_q2",
       "no": 24,
-      "stem": "下列哪一項「不是」文中提到的遠距工作問題？",
+      "stem": "「粉飾太平」在文中的意思最接近下列何者？",
       "options": [
-       "新進員工難以融入團隊",
-       "主管不易察覺部屬的低潮",
-       "同事之間缺少偶然的閒聊",
-       "員工的薪資被調降"
+       "使社會恢復和平安定",
+       "真誠地改正自己的錯誤",
+       "大方公開事件的真相",
+       "用表面的話掩飾問題、製造沒事的假象"
       ],
       "answer": "D",
-      "skill": "detail",
+      "skill": "idiom",
       "explain": {
-       "zh": "文中沒有提到薪資被調降。",
-       "en": "Salary cuts are not mentioned anywhere in the text.",
-       "vi": "Bài viết không hề nhắc đến việc cắt giảm lương."
+       "zh": "「粉飾太平」是用表面功夫掩飾問題，裝出一切平安的樣子；文中指言行不一的道歉只是做表面功夫。",
+       "en": "「粉飾太平」 means whitewashing problems to look peaceful; here an insincere apology is just a façade.",
+       "vi": "「粉飾太平」 là tô vẽ bề ngoài để che giấu vấn đề; ở đây là lời xin lỗi hình thức, không đi đôi với hành động."
       }
      },
      {
       "id": "RC5_q3",
       "no": 25,
-      "stem": "「混合辦公」的做法是什麼？",
+      "stem": "本文對企業道歉的建議是什麼？",
       "options": [
-       "全面恢復到辦公室上班",
-       "完全由員工自行決定地點",
-       "每週部分天數回辦公室",
-       "改為輪班制度"
+       "盡量避免道歉以免承擔責任",
+       "只強調企業過去的貢獻",
+       "坦承錯誤，並以一致的行動兌現承諾",
+       "等輿論平息後再回應"
       ],
       "answer": "C",
-      "skill": "detail",
+      "skill": "main_idea",
       "explain": {
-       "zh": "混合辦公是每週安排部分天數到辦公室。",
-       "en": "Hybrid work means going to the office on part of the days each week.",
-       "vi": "Làm việc kết hợp là mỗi tuần đến văn phòng một số ngày."
+       "zh": "文章主張坦率承認錯誤，並且道歉之後必須言行一致。",
+       "en": "The article advises frankly admitting the mistake and following through with consistent action.",
+       "vi": "Bài viết khuyên thẳng thắn nhận lỗi và hành động nhất quán sau lời xin lỗi."
       }
      }
     ]

@@ -1,0 +1,178 @@
+{
+  "gap": [
+    {
+      "id": "RG3",
+      "passage": "都市更新向來是一把雙面刃。老舊社區經過重建，居住環境煥然一新，地方稅收也水漲船高；然而，原住戶卻往往得{1}遷出，因為翻新後的房價與租金遠非他們所能負擔，這種現象被稱為「仕紳化」。部分居民不甘心長年累積的人情網絡就此瓦解，於是組成自救會，向主管機關{2}，要求保障就地安置的權利。開發商則強調，若無法回收成本，更新計畫將{3}。雙方各執一詞，{4}，使工程一再延宕。有學者呼籲，與其讓衝突持續{5}，不如在規劃初期就邀請居民參與，共同擬定兼顧效益與公平的方案。",
+      "blanks": [
+        {"n": 1, "options": ["被迫", "自願", "嚮往", "樂意"], "answer": "A", "skill": "adverb",
+         "explain": {"zh": "房價租金遠超負擔，居民遷出並非出於本意，所以是「被迫」；其餘三項都表示心甘情願。",
+                     "en": "Unaffordable prices mean residents leave against their will: 「被迫」. The others imply willingness.",
+                     "vi": "Giá nhà tăng khiến cư dân phải rời đi ngoài ý muốn: 「被迫」. Các từ còn lại hàm ý tự nguyện."}},
+        {"n": 2, "options": ["陳情", "寒暄", "交班", "應酬"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "向主管機關表達訴求稱為「陳情」；「寒暄」「交班」「應酬」都不是向機關提出要求的行為。",
+                     "en": "Presenting demands to an authority is 「陳情」 (petition); the others are small talk, shift handover and social entertaining.",
+                     "vi": "Trình bày yêu cầu với cơ quan chức năng gọi là 「陳情」 (kiến nghị); các từ còn lại là xã giao, bàn giao ca, tiếp khách."}},
+        {"n": 3, "options": ["胎死腹中", "水到渠成", "後來居上", "一氣呵成"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「胎死腹中」比喻計畫尚未實現就失敗；前面「若無法回收成本」是假設不利，所以接此成語。其餘三個都是順利或成功之意。",
+                     "en": "「胎死腹中」 means a plan dies before it begins; the other idioms all denote smooth success.",
+                     "vi": "「胎死腹中」 chỉ kế hoạch thất bại trước khi thực hiện; các thành ngữ còn lại đều mang nghĩa suôn sẻ, thành công."}},
+        {"n": 4, "options": ["僵持不下", "一拍即合", "不謀而合", "心照不宣"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "雙方各執一詞導致工程延宕，是「僵持不下」；其餘三個都表示意見一致或默契。",
+                     "en": "Both sides sticking to their views and delaying work is 「僵持不下」 (deadlock); the rest mean agreement.",
+                     "vi": "Hai bên giữ nguyên lập trường làm công trình chậm trễ là 「僵持不下」 (giằng co); các từ còn lại chỉ sự đồng thuận."}},
+        {"n": 5, "options": ["惡化", "淨化", "強化", "同化"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "「衝突持續惡化」是變得更糟；學者的意思是避免衝突愈演愈烈。其餘三項語意不合。",
+                     "en": "「衝突持續惡化」 means the conflict keeps worsening, which the scholar wants to avoid.",
+                     "vi": "「衝突持續惡化」 nghĩa là xung đột ngày càng xấu đi, điều học giả muốn tránh."}}
+      ]
+    },
+    {
+      "id": "RG4",
+      "passage": "古人云：「紙上得來終覺淺，絕知此事要躬行。」這句話在數位時代更顯得{1}。網路上資訊垂手可得，許多人因而誤以為讀過幾篇文章便已{2}，但缺乏實作的知識，往往只是空中樓閣。以學習語言為例，背誦再多單字，倘若從不開口，遇到真實對話時仍會{3}，無法流暢表達。有經驗的老師因此主張「做中學」，鼓勵學生走出教室，在生活中{4}所學。當然，實踐並非要{5}理論，而是讓兩者相輔相成：理論提供方向，實踐則檢驗並修正方向。",
+      "blanks": [
+        {"n": 1, "options": ["發人深省", "不足為奇", "司空見慣", "無可厚非"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "引用名言後說它在今日更能「發人深省」（引人深思）；其餘三項語意不貼切。",
+                     "en": "The quote is even more thought-provoking now: 「發人深省」. The others do not fit.",
+                     "vi": "Câu danh ngôn càng đáng suy ngẫm hơn: 「發人深省」. Các từ còn lại không hợp."}},
+        {"n": 2, "options": ["融會貫通", "半途而廢", "舉棋不定", "忍氣吞聲"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「誤以為已融會貫通」指以為已徹底理解；其餘三個成語與「以為讀過就懂」無關。",
+                     "en": "They wrongly believe they have 「融會貫通」 (mastered it thoroughly). The others are unrelated.",
+                     "vi": "Họ lầm tưởng đã 「融會貫通」 (thông suốt). Các thành ngữ còn lại không liên quan."}},
+        {"n": 3, "options": ["語塞", "語重心長", "語無倫次地", "語帶雙關"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "「語塞」指想說卻說不出來，與「無法流暢表達」呼應；「語重心長」是誠懇勸告，「語帶雙關」是話中有雙層意思。",
+                     "en": "「語塞」 means being lost for words, matching 「cannot speak fluently」. The others mean earnest advice or double meaning.",
+                     "vi": "「語塞」 là nghẹn lời, khớp với 「không diễn đạt trôi chảy」. Các từ còn lại là lời khuyên tha thiết hoặc nói có hai nghĩa."}},
+        {"n": 4, "options": ["印證", "懷疑", "遺忘", "敷衍"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "在生活中「印證」所學是用實際經驗驗證知識；其餘三項不符合「做中學」的鼓勵。",
+                     "en": "Verifying what is learned through real life is 「印證」. The others contradict learning by doing.",
+                     "vi": "Dùng thực tế để kiểm chứng điều đã học là 「印證」. Các từ còn lại trái với học qua làm."}},
+        {"n": 5, "options": ["全盤否定", "全力支持", "逐步完善", "仔細研讀"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "「並非要全盤否定理論，而是讓兩者相輔相成」，語意通順；其餘選項放入後語意重複或矛盾。",
+                     "en": "「並非要全盤否定理論」 (not to reject theory wholesale) fits the contrast with 「相輔相成」.",
+                     "vi": "「並非要全盤否定理論」 (không phải phủ nhận hoàn toàn lý thuyết) khớp với ý 「相輔相成」."}}
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "id": "RC6",
+      "passage": "「破窗效應」源自一項社會心理學實驗：一輛車的車窗被打破後無人理會，不久整輛車便遭到洗劫。研究者據此推論，環境中的失序跡象會暗示規範已失效，進而誘發更多違規行為。這個理論後來被運用在城市治理上，例如迅速清除塗鴉、修復損壞的設施，以防止更大的破壞。然而，批評者指出，把犯罪率下降單純歸功於整頓環境，未免過於簡化，因為經濟、人口結構等因素同樣不容忽視。換言之，破窗效應揭示了環境線索的影響力，卻不宜被奉為放諸四海皆準的萬能法則。",
+      "questions": [
+        {"stem": "根據文章，「破窗效應」的核心觀點是什麼？",
+         "options": ["失序的環境會暗示規範失效，引發更多違規", "窗戶破損是犯罪的直接原因", "車輛最容易成為竊盜目標", "人口結構決定犯罪率"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文章說環境中的失序跡象會暗示規範已失效，進而誘發更多違規行為。",
+                     "en": "Signs of disorder suggest norms no longer apply and invite more violations.",
+                     "vi": "Dấu hiệu mất trật tự ngụ ý quy tắc không còn hiệu lực và kích thích thêm vi phạm."}},
+        {"stem": "批評者為何認為將犯罪率下降單純歸功於整頓環境過於簡化？",
+         "options": ["經濟與人口結構等因素也有影響", "整頓環境需要太多經費", "塗鴉與犯罪毫無關聯", "城市治理與犯罪無關"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "批評者指出經濟、人口結構等因素同樣不容忽視。",
+                     "en": "Critics note that economic and demographic factors also matter.",
+                     "vi": "Giới phê bình chỉ ra các yếu tố kinh tế, cơ cấu dân số cũng quan trọng."}},
+        {"stem": "「放諸四海皆準」在文中的意思最接近下列何者？",
+         "options": ["在任何情況都適用", "只適用於沿海城市", "只適用於實驗室", "已經被證明錯誤"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「放諸四海皆準」指在任何地方、任何情況都適用；文中說它不宜被奉為這樣的法則。",
+                     "en": "「放諸四海皆準」 means universally applicable; the text says it should not be treated as such.",
+                     "vi": "「放諸四海皆準」 nghĩa là đúng ở mọi nơi; bài viết nói không nên coi nó như thế."}}
+      ]
+    },
+    {
+      "id": "RC7",
+      "passage": "近年來，「斷捨離」風潮席捲各地。倡議者主張，人們被過多的物品綁架，唯有果斷捨棄不必要的東西，才能找回生活的主導權。這個觀點吸引了不少受夠雜亂的現代人，整理書籍也一度成為暢銷題材。然而，有心理學者提醒，物品並非都只是負擔，有些承載著記憶與情感，貿然丟棄可能留下遺憾。更值得留意的是，若把「少即是多」變成新的消費口號，人們反而可能為了追求極簡而購買昂貴的收納用品，與初衷背道而馳。真正的重點，或許不在於留下多少，而在於清楚知道自己為何留下。",
+      "questions": [
+        {"stem": "倡議者主張斷捨離的主要理由是什麼？",
+         "options": ["過多物品會讓人失去生活的主導權", "舊物品一定沒有價值", "丟東西能省下很多錢", "整理書籍能增加收入"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "倡議者認為人被物品綁架，捨棄才能找回生活主導權。",
+                     "en": "Advocates say people are held hostage by possessions and must discard to regain control.",
+                     "vi": "Người đề xướng cho rằng con người bị đồ vật trói buộc, phải bỏ bớt để lấy lại quyền chủ động."}},
+        {"stem": "「與初衷背道而馳」在文中指的是什麼情形？",
+         "options": ["為了極簡反而購買昂貴的收納用品", "把全部物品都丟掉", "不再閱讀任何書籍", "拒絕整理房間"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "追求極簡卻消費收納用品，結果與減少負擔的初衷相反。",
+                     "en": "Buying expensive storage to pursue minimalism defeats the original purpose.",
+                     "vi": "Mua đồ lưu trữ đắt tiền để theo đuổi tối giản đi ngược mục đích ban đầu."}},
+        {"stem": "作者最後的看法是什麼？",
+         "options": ["重點在於清楚自己為何留下物品", "應該盡量減少所有物品", "不應該整理任何東西", "收納用品愈貴愈好"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "結尾強調重點不在留下多少，而在知道為何留下。",
+                     "en": "The ending stresses knowing why you keep things rather than how many.",
+                     "vi": "Phần kết nhấn mạnh quan trọng là biết vì sao giữ lại chứ không phải giữ bao nhiêu."}}
+      ]
+    },
+    {
+      "id": "RC8",
+      "passage": "傳統觀念常把「天才」視為天生，彷彿成就全憑資質。但長期研究專家表現的心理學者發現，真正拉開差距的是「刻意練習」：針對自己的弱點設定明確目標，在略超出舒適圈的難度下反覆訓練，並立即取得回饋。單純重複已經熟練的動作，即使耗時再久，也只是原地踏步。這項發現讓人振奮，因為它意味著卓越並非遙不可及；卻也令人無處躲藏，因為它同時說明，缺乏成長往往不是因為能力不足，而是練習的方式不對。",
+      "questions": [
+        {"stem": "根據文章，「刻意練習」的特點是什麼？",
+         "options": ["針對弱點，在略超出舒適圈的難度下反覆訓練並取得回饋", "每天重複熟練的動作", "完全依靠天生資質", "避免任何困難的任務"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中列出：針對弱點、略超出舒適圈、反覆訓練、立即回饋。",
+                     "en": "It targets weaknesses, stretches slightly beyond comfort, repeats, and gets feedback.",
+                     "vi": "Nhắm vào điểm yếu, vượt nhẹ vùng an toàn, lặp lại và nhận phản hồi ngay."}},
+        {"stem": "「原地踏步」在文中的意思是什麼？",
+         "options": ["花很多時間卻沒有進步", "快速取得進展", "改變練習地點", "停止所有訓練"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「原地踏步」比喻沒有進展；文中指重複熟練動作即使耗時再久也沒有進步。",
+                     "en": "「原地踏步」 means making no progress despite effort.",
+                     "vi": "「原地踏步」 nghĩa là dậm chân tại chỗ, không tiến bộ dù mất nhiều thời gian."}},
+        {"stem": "作者為何說這項發現「令人無處躲藏」？",
+         "options": ["因為缺乏成長多半是練習方式的問題，而非能力不足", "因為天才確實存在", "因為練習必須在公開場合進行", "因為成功需要運氣"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "既然卓越可以靠正確練習達成，缺乏成長就不能再歸咎於能力，等於失去藉口。",
+                     "en": "If excellence comes from right practice, lack of growth can no longer be blamed on ability—no excuses.",
+                     "vi": "Nếu xuất sắc đến từ luyện tập đúng cách thì không thể đổ lỗi cho năng lực nữa—hết cớ."}}
+      ]
+    },
+    {
+      "id": "RC9",
+      "passage": "海洋塑膠污染已成為全球難題。大型垃圾在海浪與日曬下逐漸碎裂成直徑不到五毫米的「微塑膠」，不僅難以回收，還會被浮游生物誤食，沿著食物鏈層層累積，最終可能回到人類的餐桌。為此，多國陸續祭出限塑政策，但成效參差不齊：有些地區因配套不全，民眾轉而使用更耗資源的替代品，反而得不償失。專家強調，減量必須從源頭著手，並建立完善的回收體系，單靠宣導呼籲，無異於杯水車薪。",
+      "questions": [
+        {"stem": "微塑膠為何對人類也可能造成影響？",
+         "options": ["會被生物誤食並沿食物鏈累積", "會讓海水溫度上升", "會阻擋陽光進入海中", "會使魚類體型變大"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "微塑膠被浮游生物誤食，沿食物鏈累積，最終可能回到人類餐桌。",
+                     "en": "Microplastics are eaten by plankton and accumulate up the food chain to our tables.",
+                     "vi": "Vi nhựa bị sinh vật phù du ăn nhầm, tích tụ theo chuỗi thức ăn và có thể quay lại bàn ăn."}},
+        {"stem": "「得不償失」在文中指的是什麼情況？",
+         "options": ["改用更耗資源的替代品，付出的代價大於好處", "限塑政策成效極佳", "民眾完全不再使用塑膠", "回收體系已經建立"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「得不償失」指所得不如所失；替代品更耗資源，反而代價更大。",
+                     "en": "「得不償失」 means the loss outweighs the gain, as with costlier alternatives.",
+                     "vi": "「得不償失」 nghĩa là cái mất lớn hơn cái được, như khi dùng vật thay thế tốn tài nguyên hơn."}},
+        {"stem": "專家為什麼說「單靠宣導呼籲，無異於杯水車薪」？",
+         "options": ["只靠宣導力量太小，無法解決問題", "宣導的費用太昂貴", "民眾不願意聽取建議", "宣導會造成更多污染"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "「杯水車薪」比喻力量太小，無濟於事。",
+                     "en": "「杯水車薪」 is a drop in the bucket—too little to help.",
+                     "vi": "「杯水車薪」 là muối bỏ bể—quá nhỏ để giải quyết vấn đề."}}
+      ]
+    },
+    {
+      "id": "RC10",
+      "passage": "遠距工作在疫情期間成為常態，許多人原本期待能因此兼顧家庭與事業。實際上，工作與生活的界線卻變得模糊：訊息隨時可能彈出，下班後仍被期待迅速回覆，「隨時待命」逐漸內化為默契。有研究顯示，這種狀態會削弱員工的專注力，並提高倦怠的風險。因此，部分企業開始明訂「離線權」，規定非上班時間不得要求員工回覆訊息。這項措施看似限制了彈性，實則是以制度保護員工的休息，讓高效率建立在可持續的基礎上。",
+      "questions": [
+        {"stem": "遠距工作帶來的主要問題是什麼？",
+         "options": ["工作與生活界線模糊，隨時待命", "薪水明顯降低", "無法使用通訊軟體", "通勤時間大幅增加"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文中指出訊息隨時彈出、下班後仍被期待回覆，界線變得模糊。",
+                     "en": "Messages can arrive any time and replies are expected after hours; the boundary blurs.",
+                     "vi": "Tin nhắn đến bất cứ lúc nào và ngoài giờ vẫn bị kỳ vọng trả lời; ranh giới mờ đi."}},
+        {"stem": "「離線權」的目的為何？",
+         "options": ["以制度保障員工在非上班時間的休息", "增加員工的工作時數", "禁止員工遠距工作", "降低公司的營運成本"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "離線權規定非上班時間不得要求回覆，以制度保護休息。",
+                     "en": "The right to disconnect protects rest by barring after-hours demands.",
+                     "vi": "Quyền ngắt kết nối bảo vệ thời gian nghỉ bằng cách cấm yêu cầu trả lời ngoài giờ."}},
+        {"stem": "「隨時待命逐漸內化為默契」的意思是什麼？",
+         "options": ["大家漸漸把隨時要回應當成理所當然", "公司正式要求加班", "員工喜歡在家工作", "工作量因此減少"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "「內化為默契」指不需明說，大家就把隨時回應視為理所當然。",
+                     "en": "It means everyone silently takes being always available for granted.",
+                     "vi": "Nghĩa là mọi người ngầm coi việc luôn sẵn sàng là điều đương nhiên."}}
+      ]
+    }
+  ]
+}
