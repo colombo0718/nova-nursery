@@ -1,0 +1,178 @@
+{
+  "gap": [
+    {
+      "id": "RG9",
+      "passage": "都市農業近年在世界各地{1}，從屋頂菜園到室內植物工廠，形式多元。支持者指出，食物從產地運到餐桌，往往要行經上千公里，耗費大量能源，這正是「食物里程」居高不下的主因；若蔬菜就在城市裡生產，運輸成本便能大幅下降，{2}鮮度也更容易掌握。不過，都市土地寸土寸金，要種出足夠的糧食並不容易，因此各城市必須{3}，依屋頂、空地等條件選擇方式。農園也是交流的場所，孩子在這裡認識作物，等於{4}。都市農業雖無法完全取代傳統農業，但只要妥善規劃，對提升城市的糧食韌性仍能發揮{5}的作用。",
+      "blanks": [
+        {"n": 1, "options": ["蔚然成風", "日薄西山", "曇花一現", "江河日下"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「蔚然成風」指某種風氣逐漸盛行；其餘三個都表示衰落或短暫，與「形式愈來愈多元」矛盾。",
+                     "en": "「蔚然成風」 means a practice is becoming widespread; the others mean decline or a brief flash, contradicting increasing diversity.",
+                     "vi": "「蔚然成風」 nghĩa là dần thành phong trào phổ biến; các thành ngữ còn lại chỉ sự suy tàn hoặc thoáng qua, mâu thuẫn với việc ngày càng đa dạng."}},
+        {"n": 2, "options": ["而且", "反而", "否則", "即使"], "answer": "A", "skill": "conjunction",
+         "explain": {"zh": "前後兩句都是在說好處（成本下降、鮮度掌握），用「而且」表示遞進；「反而」「否則」「即使」都會造成語意矛盾。",
+                     "en": "Both clauses list benefits, so 「而且」 (moreover) adds to them; the others create a logical clash.",
+                     "vi": "Cả hai vế đều nêu lợi ích nên dùng 「而且」 (hơn nữa) để bổ sung; các liên từ còn lại làm câu mâu thuẫn."}},
+        {"n": 3, "options": ["因地制宜", "一成不變", "削足適履", "千篇一律"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「因地制宜」指依照各地實際條件採取合適辦法，與後文「依照屋頂、閒置空地等條件選擇」相符；其餘三個都是不顧條件、一味照搬的意思。",
+                     "en": "「因地制宜」 means adapting to local conditions, as the next clause describes; the others mean rigid or one-size-fits-all approaches.",
+                     "vi": "「因地制宜」 nghĩa là tùy điều kiện từng nơi mà chọn cách phù hợp, khớp với vế sau; các thành ngữ còn lại là rập khuôn, bất chấp điều kiện."}},
+        {"n": 4, "options": ["寓教於樂", "本末倒置", "走馬看花", "捨本逐末"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "孩子在農園玩著、種著就學到知識，正是「寓教於樂」；「本末倒置」「捨本逐末」是抓錯重點，「走馬看花」是粗略瀏覽。",
+                     "en": "Children learning while playing in the garden is 「寓教於樂」; the others mean mixing up priorities or skimming superficially.",
+                     "vi": "Trẻ vừa chơi vừa học trong vườn là 「寓教於樂」; các từ còn lại là đảo lộn gốc ngọn hoặc xem lướt qua."}},
+        {"n": 5, "options": ["舉足輕重", "微不足道", "無關緊要", "可有可無"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「舉足輕重」形容地位或作用重要，足以影響全局；其餘三個都表示不重要。",
+                     "en": "「舉足輕重」 means carrying great weight; the others all mean insignificant.",
+                     "vi": "「舉足輕重」 nghĩa là có vai trò quan trọng, ảnh hưởng lớn; các từ còn lại đều nghĩa là không đáng kể."}}
+      ]
+    },
+    {
+      "id": "RG10",
+      "passage": "志工服務看似只是付出時間，實則牽動著整個社會的信任網絡。災難發生時，總有人{1}地挺身而出，搬運物資、協助安置，讓受災者感受到陌生人的善意。長期投入社區關懷的志工，與居民{2}，信賴自然提高。研究發現，志工參與率較高的地區，居民對鄰居與制度的信任也較高。{3}，也有人質疑部分活動流於形式，只是為了累積時數或{4}。要避免這種現象，機構必須提供妥善訓練與回饋，讓志工感受到自己的付出確實被需要。唯有信任與善意彼此循環，社會才會愈來愈{5}，在危機來臨時發揮真正的凝聚力。",
+      "blanks": [
+        {"n": 1, "options": ["義不容辭", "無動於衷", "猶豫不決", "敷衍了事"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「義不容辭」指道義上不能推卻，形容毫不猶豫地承擔責任；其餘三個都不是「挺身而出」的樣子。",
+                     "en": "「義不容辭」 means duty-bound and unhesitating; the others (indifferent, hesitant, perfunctory) do not fit stepping forward.",
+                     "vi": "「義不容辭」 nghĩa là vì nghĩa không thể từ chối, hết lòng nhận trách nhiệm; các từ còn lại (thờ ơ, do dự, làm qua loa) không hợp với việc đứng ra giúp."}},
+        {"n": 2, "options": ["休戚與共", "形同陌路", "各自為政", "分道揚鑣"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「休戚與共」指彼此憂喜相關、禍福與共，能提高信賴；其餘三個都是疏離或分開的意思。",
+                     "en": "「休戚與共」 means sharing joys and sorrows, which builds trust; the others mean estrangement or going separate ways.",
+                     "vi": "「休戚與共」 nghĩa là chia vui sẻ buồn, làm tăng lòng tin; các thành ngữ còn lại chỉ sự xa cách, tách rời."}},
+        {"n": 3, "options": ["然而", "於是", "因此", "況且"], "answer": "A", "skill": "conjunction",
+         "explain": {"zh": "前文談志工的正面影響，後文轉為質疑，需要轉折連詞「然而」；「於是」「因此」表示順承，「況且」表示遞進。",
+                     "en": "The text turns from praise to doubt, so the contrastive 「然而」 is needed; the others signal result or addition.",
+                     "vi": "Đoạn văn chuyển từ khen sang nghi ngờ nên cần liên từ chuyển ý 「然而」; các từ còn lại chỉ kết quả hoặc bổ sung."}},
+        {"n": 4, "options": ["沽名釣譽", "無私奉獻", "見義勇為", "不求回報"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「沽名釣譽」指用手段騙取名聲，與「只是為了累積時數」並列，表示動機不純；其餘三個都是正面的動機。",
+                     "en": "「沽名釣譽」 means fishing for reputation, an impure motive paired with merely logging hours; the others are positive motives.",
+                     "vi": "「沽名釣譽」 nghĩa là chạy theo danh tiếng, động cơ không trong sáng; các từ còn lại đều là động cơ tích cực."}},
+        {"n": 5, "options": ["堅韌", "脆弱", "鬆散", "冷漠"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "信任與善意循環，社會才會更「堅韌」，才能在危機時凝聚；其餘三個都是負面的狀態。",
+                     "en": "Circulating trust makes a society more resilient: 「堅韌」. The others are negative states.",
+                     "vi": "Lòng tin và thiện chí lan tỏa làm xã hội thêm 「堅韌」 (bền bỉ); các từ còn lại đều là trạng thái tiêu cực."}}
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "id": "RC21",
+      "passage": "遠距醫療透過視訊與網路，讓病人不必長途奔波就能看診，對偏鄉居民與行動不便的長者而言，無異於雪中送炭。慢性病患者也可以在家量測血壓、血糖，由醫師定期追蹤，減少往返醫院的負擔。然而，這項服務並非萬能。醫師無法親手觸診，也難以進行需要儀器的檢查，若病情複雜，仍須回到診間；再者，個人健康資料在網路上傳輸，如何防止外洩，也是亟待解決的課題。此外，不熟悉智慧型裝置的長者，反而可能因科技門檻而被排除在外。因此，遠距醫療比較適合作為傳統門診的補充，而非全面的替代。",
+      "questions": [
+        {"stem": "本文的主旨是什麼？",
+         "options": ["遠距醫療帶來便利，但有其限制，適合作為門診的補充", "遠距醫療已經可以完全取代傳統門診", "偏鄉居民不應該使用遠距醫療", "個人健康資料不需要保護"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文章先肯定便利，再說明限制，最後結論是作為補充而非替代。",
+                     "en": "It praises convenience, lists limits, and concludes it should supplement rather than replace clinics.",
+                     "vi": "Bài khen sự tiện lợi, nêu hạn chế, rồi kết luận nên dùng để bổ sung chứ không thay thế."}},
+        {"stem": "下列何者是文中提到的遠距醫療限制？",
+         "options": ["醫師無法親手觸診", "病人必須長途奔波", "血壓與血糖無法在家量測", "醫師不能定期追蹤病人"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中明說醫師無法親手觸診，也難以進行需要儀器的檢查。",
+                     "en": "The text says doctors cannot examine by touch and struggle with instrument-based tests.",
+                     "vi": "Bài nêu bác sĩ không thể trực tiếp thăm khám bằng tay và khó thực hiện xét nghiệm cần thiết bị."}},
+        {"stem": "「無異於雪中送炭」的意思最接近下列何者？",
+         "options": ["在別人最需要的時候給予及時的幫助", "做了多餘而沒有用的事", "讓原本的問題變得更嚴重", "只在天氣寒冷時才有幫助"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「雪中送炭」比喻在人急需時給予援助，指遠距醫療幫助了偏鄉與行動不便者。",
+                     "en": "「雪中送炭」 means timely help in a moment of need, as telehealth is for remote or immobile patients.",
+                     "vi": "「雪中送炭」 nghĩa là giúp đúng lúc người đang cần, như y tế từ xa với người ở vùng xa hoặc đi lại khó."}}
+      ]
+    },
+    {
+      "id": "RC22",
+      "passage": "有人認為經典艱澀難懂，與現代生活毫不相干，不如把時間花在實用的資訊上。然而，經典之所以歷久彌新，正因為它們處理的是人類共通的課題，例如愛、死亡、權力與自由。時代雖然改變，這些困惑卻從未消失，不同世代的讀者在同一部作品裡，往往讀出截然不同的感悟。年輕時讀來只覺情節動人，中年再讀，卻可能發現字裡行間藏著對人性的洞察。當然，閱讀經典不必抱著朝聖的心情，更不該淪為炫耀學問的工具。重要的是帶著自己的生命經驗與作品對話，讓它成為思考的起點，而不是需要背誦的標準答案。",
+      "questions": [
+        {"stem": "作者認為經典值得閱讀的原因是什麼？",
+         "options": ["它們探討人類共通的課題，讀者能隨經驗讀出新意", "它們比實用資訊更容易理解", "它們能幫助讀者在考試中得高分", "它們的情節比現代作品更動人"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文中說經典處理共通課題，不同年紀的讀者會有不同感悟。",
+                     "en": "Classics address shared human questions, and readers find new meaning at different ages.",
+                     "vi": "Kinh điển bàn về các vấn đề chung của con người, mỗi độ tuổi lại cảm nhận khác."}},
+        {"stem": "根據文章，閱讀經典時不應該怎麼做？",
+         "options": ["把它當成炫耀學問的工具", "結合自己的生命經驗", "把它當作思考的起點", "與作品進行對話"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "作者說閱讀經典更不該淪為炫耀學問的工具。",
+                     "en": "The author says reading classics should not become a tool for showing off learning.",
+                     "vi": "Tác giả nói đọc kinh điển không nên biến thành công cụ khoe kiến thức."}},
+        {"stem": "「歷久彌新」在文中的意思最接近下列何者？",
+         "options": ["經過很長時間，價值依然不減、愈顯珍貴", "時間一久就被人遺忘", "內容需要不斷修改更新", "只有老年人才喜歡"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「歷久彌新」指經過長久歲月仍保有新鮮感與價值。",
+                     "en": "「歷久彌新」 means staying fresh and valuable over a long time.",
+                     "vi": "「歷久彌新」 nghĩa là trải qua thời gian dài vẫn giữ được giá trị và sự mới mẻ."}}
+      ]
+    },
+    {
+      "id": "RC23",
+      "passage": "共享經濟讓閒置的房間、車輛與工具得以流通，使用者不必擁有，只需付費使用，既降低成本，也減少資源浪費。對提供者而言，則多了一份額外的收入。然而，這種模式的另一面同樣值得注意。平台抽成之後，許多靠接單維生的工作者並未享有勞動保障，一旦發生意外，只能自行承擔風險；短租盛行也推升了房租，使當地居民難以負擔。有些城市因此開始規範業者，要求登記並繳稅。可見，共享經濟如同一把雙面刃，若只看其便利而忽視外部成本，恐怕適得其反。",
+      "questions": [
+        {"stem": "作者對共享經濟的看法最接近下列何者？",
+         "options": ["有利也有弊，應兼顧便利與外部成本", "完全沒有價值，應全面禁止", "只有好處，不需要規範", "只對提供者有利"],
+         "answer": "A", "skill": "attitude",
+         "explain": {"zh": "文章以「雙面刃」作比喻，並提醒不可忽視外部成本，態度是持平的。",
+                     "en": "The 'double-edged sword' image and the warning about external costs show a balanced view.",
+                     "vi": "Hình ảnh 'con dao hai lưỡi' cùng lời nhắc về chi phí ngoại tác cho thấy thái độ cân bằng."}},
+        {"stem": "文中提到靠接單維生的工作者面臨什麼問題？",
+         "options": ["缺乏勞動保障，風險須自行承擔", "收入遠高於一般工作者", "必須向使用者繳稅", "無法使用平台提供的服務"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說他們並未享有勞動保障，發生意外只能自行承擔風險。",
+                     "en": "They lack labor protections and bear accident risks themselves.",
+                     "vi": "Họ không được bảo vệ lao động và tự chịu rủi ro khi có tai nạn."}},
+        {"stem": "「恐怕適得其反」的意思最接近下列何者？",
+         "options": ["結果可能與原本期待的相反", "結果一定會非常成功", "結果和期待完全相同", "結果沒有人能夠預料"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「適得其反」指結果與原本的願望或做法相反。",
+                     "en": "「適得其反」 means the result is the opposite of the intent.",
+                     "vi": "「適得其反」 nghĩa là kết quả trái ngược với mong muốn ban đầu."}}
+      ]
+    },
+    {
+      "id": "RC24",
+      "passage": "面對海平面上升與極端降雨，許多沿海城市選擇加高堤防，因為這種做法看似一勞永逸，也容易讓居民安心。但專家提醒，堤防並非萬靈丹。它只是把水擋在外面，若上游洪水無處宣洩，水位反而會在堤內積聚；而一旦潰堤，災情往往比沒有堤防時更嚴重。更何況，過度依賴硬體工程，容易讓人低估風險，繼續在低窪地區開發。因此，氣候調適不能只靠築牆，還需配合濕地保育、透水鋪面與土地使用管制，讓水有地方可去，並教導居民避難。這種「與水共生」的思維，才是治本之道。",
+      "questions": [
+        {"stem": "作者主張氣候調適應該怎麼做？",
+         "options": ["結合工程、生態保育與土地管制等多種措施", "只要持續加高堤防就足夠", "讓居民全部遷離沿海地區", "完全放棄工程設施"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "作者強調不能只靠築牆，還需濕地、透水鋪面、土地管制與避難教育。",
+                     "en": "The author says walls alone are not enough; wetlands, permeable surfaces, land-use rules and evacuation training are needed.",
+                     "vi": "Tác giả nhấn mạnh không thể chỉ xây tường; cần cả đất ngập nước, mặt đường thấm, quản lý đất đai và huấn luyện sơ tán."}},
+        {"stem": "根據文章，過度依賴堤防可能造成什麼後果？",
+         "options": ["人們低估風險，繼續在低窪地區開發", "居民不再關心天氣變化", "上游洪水會完全消失", "海平面上升的速度會變慢"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "文中指出過度依賴硬體工程，容易讓人低估風險，繼續在低窪地區開發。",
+                     "en": "Over-reliance on hard engineering makes people underestimate risk and keep building in low-lying areas.",
+                     "vi": "Quá phụ thuộc công trình cứng khiến người ta đánh giá thấp rủi ro và tiếp tục xây dựng ở vùng trũng."}},
+        {"stem": "「看似一勞永逸」的意思最接近下列何者？",
+         "options": ["好像只要做一次就能永遠解決問題", "需要每天重複進行才有效", "花費很少卻沒有效果", "只能解決一小部分問題"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「一勞永逸」指辛苦一次，就能永遠不再費事；文中暗示這種想法過於樂觀。",
+                     "en": "「一勞永逸」 means one effort settles things for good; the text implies this is overly optimistic.",
+                     "vi": "「一勞永逸」 nghĩa là chỉ làm một lần là xong mãi mãi; bài ngụ ý cách nghĩ này quá lạc quan."}}
+      ]
+    },
+    {
+      "id": "RC25",
+      "passage": "全球約有七千種語言，其中近半數正面臨消失的危機。語言一旦無人使用，承載其中的歌謠、地名，以及與自然共處的知識也將隨之蕩然無存。許多方言的消逝，並非因為被明令禁止，而是年輕人認為學習強勢語言才有出路，家長也不再教孩子母語。要扭轉這個趨勢，單靠錄音存檔並不足夠，因為沒有日常使用的語言，就像標本一樣缺乏生命。比較有效的做法是讓方言重新進入生活，例如在學校開設母語課程、製作方言的影視與流行歌曲，使年輕人覺得它既實用又有趣。如此，語言才能薪火相傳。",
+      "questions": [
+        {"stem": "作者認為保存方言的關鍵是什麼？",
+         "options": ["讓方言重新回到日常生活中被使用", "盡量多做錄音存檔", "禁止年輕人學習強勢語言", "只在博物館展示方言"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "作者指出只靠錄音不夠，要讓方言重新進入生活。",
+                     "en": "Recordings alone are insufficient; dialects must return to daily life.",
+                     "vi": "Chỉ ghi âm là chưa đủ; phải đưa phương ngữ trở lại đời sống hằng ngày."}},
+        {"stem": "文中說許多方言消逝的主要原因是什麼？",
+         "options": ["年輕人認為學習強勢語言才有出路", "政府明令禁止使用方言", "方言本身太過簡單", "沒有人記錄過方言"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說並非被禁止，而是年輕人認為學強勢語言才有出路，家長也不教母語。",
+                     "en": "Not bans, but young people believing dominant languages offer better prospects, and parents stop teaching the mother tongue.",
+                     "vi": "Không phải do bị cấm, mà do người trẻ cho rằng học ngôn ngữ mạnh mới có tương lai và cha mẹ không dạy tiếng mẹ đẻ."}},
+        {"stem": "「語言才能薪火相傳」的意思最接近下列何者？",
+         "options": ["語言能一代一代延續下去", "語言需要用火焰來保存", "語言會變得愈來愈複雜", "語言只屬於上一代"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「薪火相傳」比喻學問、技藝或文化代代延續，不致斷絕。",
+                     "en": "「薪火相傳」 means knowledge or culture handed down from generation to generation.",
+                     "vi": "「薪火相傳」 nghĩa là học vấn, văn hóa được truyền nối qua các thế hệ."}}
+      ]
+    }
+  ]
+}

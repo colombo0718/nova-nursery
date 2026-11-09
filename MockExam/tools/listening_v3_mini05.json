@@ -1,0 +1,647 @@
+[
+ {
+  "id": "LD21",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "F",
+    "房東，我是三樓的住戶。浴室天花板最近一直滲水，牆面還長了黴斑，您能不能找人來看看？"
+   ],
+   [
+    "M",
+    "這件事我上週才聽說。我先問一下，會不會是你家浴室地板的防水層老化了？"
+   ],
+   [
+    "F",
+    "不太可能。滲水的位置在天花板，不是地板，而且樓上住戶上個月剛換過馬桶，我懷疑是他們施工不當。"
+   ],
+   [
+    "M",
+    "就算如此，也得先請師傅勘查，才知道責任在誰。如果是管線老舊，我來負擔；要是住戶自己弄壞的，就得自己付。"
+   ],
+   [
+    "F",
+    "這我理解。不過在查出原因以前，能不能先請人把滲水處理好？再拖下去，黴菌恐怕會影響健康。"
+   ],
+   [
+    "M",
+    "好，我明天就請水電師傅過去，費用我先墊，報告出來再算清楚。"
+   ],
+   [
+    "F",
+    "那就謝謝您了。另外，租約上寫的是修繕費超過三千元由房東負責，這次應該符合吧？"
+   ],
+   [
+    "M",
+    "沒錯，我記得很清楚。不過若確定是樓上施工造成的，我會向對方求償，你不必操心。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "房客為什麼認為問題可能不是出在自己家？",
+    "options": [
+     "滲水在天花板，而且樓上剛換過馬桶",
+     "浴室地板的防水層已經老化",
+     "她上個月自己動手修過浴室",
+     "房東的管線去年才重新施工"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "房客指出滲水點在天花板而非地板，又提到樓上剛換過馬桶，所以懷疑是樓上施工不當；地板防水層老化是房東的猜測，她並不同意。",
+     "en": "She points out that the leak is in the ceiling, not the floor, and that the upstairs neighbors just replaced their toilet, so she suspects their work. The aging floor waterproofing was the landlord's guess, which she rejects.",
+     "vi": "Cô chỉ ra rằng chỗ thấm nằm ở trần chứ không phải sàn, và nhà tầng trên vừa thay bồn cầu nên cô nghi họ thi công không đúng. Lớp chống thấm sàn bị lão hóa chỉ là phỏng đoán của chủ nhà mà cô không đồng ý."
+    }
+   },
+   {
+    "stem": "關於修繕費用，房東的態度是什麼？",
+    "options": [
+     "願意先墊付，查出原因後再分擔責任",
+     "堅持全部由房客自行負擔",
+     "要等樓上住戶先付錢才找師傅",
+     "報告出來之前一律不處理"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "房東說明天就請師傅，費用先墊，報告出來再算清楚，還會視情況向樓上求償，可見他願意先處理、事後依責任分擔。",
+     "en": "The landlord says he will send a plumber tomorrow, pay first and settle once the report is out, and even claim from the upstairs tenants if needed. He is willing to act first and share the cost by responsibility.",
+     "vi": "Chủ nhà nói ngày mai sẽ cho thợ đến, ứng tiền trước và tính toán sau khi có báo cáo, thậm chí đòi bồi thường từ nhà tầng trên nếu cần. Ông sẵn sàng xử lý trước rồi chia chi phí theo trách nhiệm."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD22",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "聽說總公司想派你去新加坡分公司，為期三年，你打算接受嗎？"
+   ],
+   [
+    "F",
+    "我還在掙扎。機會難得，可是我先生的工作走不開，孩子明年又要升國中。"
+   ],
+   [
+    "M",
+    "公司有提供什麼配套措施嗎？"
+   ],
+   [
+    "F",
+    "住宿、機票和子女學費補助都有，薪水還加成百分之三十，條件算優厚了。"
+   ],
+   [
+    "M",
+    "那聽起來沒什麼好猶豫的。"
+   ],
+   [
+    "F",
+    "話不能這麼說。三年以後我的位置還在不在，誰也說不準。上一位外派回來的前輩，就被調到不相干的部門。"
+   ],
+   [
+    "M",
+    "這倒是。不過我反而覺得，外派經驗是升遷的敲門磚，你若錯過，下次未必還有機會。"
+   ],
+   [
+    "F",
+    "你說得也有道理。我打算先跟家人商量，並且請人資把返任的安排白紙黑字寫清楚，再做決定。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "女士對公司提出的外派條件，最大的疑慮是什麼？",
+    "options": [
+     "回國以後的職位沒有保障",
+     "薪資加成的幅度太低",
+     "公司不負擔住宿費用",
+     "孩子的學費無人補助"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "住宿、機票、學費補助和薪資加成公司都提供了，女士擔心的是三年後位置還在不在，像前一位前輩回來就被調去不相干的部門。",
+     "en": "The company covers housing, flights, tuition and a pay increase. What worries her is whether her position will still exist after three years, as happened to the previous colleague who came back and was moved to an unrelated department.",
+     "vi": "Công ty đã lo chỗ ở, vé máy bay, học phí và tăng lương. Điều cô lo là sau ba năm vị trí của mình còn hay không, như đồng nghiệp trước khi về đã bị điều sang bộ phận chẳng liên quan."
+    }
+   },
+   {
+    "stem": "男士對這次外派的看法是什麼？",
+    "options": [
+     "認為這是難得的升遷機會，不該錯過",
+     "認為她應該為了家庭而拒絕",
+     "覺得公司開出的條件不夠好",
+     "認為前輩的遭遇值得她警惕"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "男士說外派經驗是升遷的敲門磚，錯過了下次未必有機會，顯然鼓勵她接受；他只是承認前輩的例子「這倒是」，並沒有因此反對。",
+     "en": "He calls overseas experience a stepping stone to promotion and says she may not get another chance, so he encourages her to accept. He only concedes the colleague's example without letting it change his view.",
+     "vi": "Anh nói kinh nghiệm đi nước ngoài là bước đệm để thăng tiến và bỏ lỡ thì chưa chắc còn cơ hội khác, tức là khuyến khích cô nhận. Anh chỉ thừa nhận ví dụ của người đi trước chứ không vì thế mà phản đối."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD23",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "F",
+    "教授，我想跟您討論論文題目。我原本研究的是網路購物的消費行為，但讀了不少文獻後，發現這個題目已經被寫得太多了。"
+   ],
+   [
+    "M",
+    "的確，這類主題很難提出新意。你有什麼新想法嗎？"
+   ],
+   [
+    "F",
+    "我想改做高齡者使用行動支付的障礙，因為我奶奶就是怕被騙，始終不敢用。"
+   ],
+   [
+    "M",
+    "這個切入點很貼近生活，不過資料可能不好蒐集。你打算怎麼找受訪者？"
+   ],
+   [
+    "F",
+    "我打算跟社區大學合作，訪談二十位六十五歲以上的長者，再搭配問卷。"
+   ],
+   [
+    "M",
+    "時間夠嗎？你下學期就要口試了，轉向等於幾乎要從頭來過。"
+   ],
+   [
+    "F",
+    "這點我也擔心，所以想請教您，原本蒐集的問卷資料，能不能改成對照組來使用？"
+   ],
+   [
+    "M",
+    "這個辦法可行，不至於白費功夫。不過你得在兩週內交出新的研究計畫，否則恐怕趕不上口試。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "學生為什麼想更換論文題目？",
+    "options": [
+     "原題目已有太多研究，很難提出新意",
+     "找不到願意受訪的對象",
+     "指導教授不同意原來的題目",
+     "原本的問卷資料遺失了"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "學生說讀了文獻後發現網路購物的題目寫得太多，教授也同意很難有新意；受訪者與時間是新題目才出現的問題。",
+     "en": "After reading the literature she found the online-shopping topic had been written about too much, and the professor agrees it is hard to be original. Finding interviewees and time pressure concern the new topic, not the reason for changing.",
+     "vi": "Sau khi đọc tài liệu, cô thấy đề tài mua sắm trực tuyến đã được viết quá nhiều, giáo sư cũng đồng ý là khó có điểm mới. Việc tìm người phỏng vấn và áp lực thời gian là vấn đề của đề tài mới, không phải lý do đổi."
+    }
+   },
+   {
+    "stem": "教授對學生的新方向，態度是什麼？",
+    "options": [
+     "認為可行，但時間緊迫，須盡快交計畫",
+     "完全反對，要求維持原題目",
+     "同意轉向，並答應延後口試",
+     "要求她放棄原本蒐集的資料"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "教授稱讚切入點貼近生活，認為把舊資料當對照組可行，但強調兩週內要交計畫，否則趕不上口試，可見是有條件地支持。",
+     "en": "He praises the angle as close to daily life and accepts using the old data as a control group, but insists on a new proposal within two weeks or she will miss the oral defense. His support is conditional.",
+     "vi": "Ông khen hướng tiếp cận gần gũi đời sống và chấp nhận dùng dữ liệu cũ làm nhóm đối chứng, nhưng nhấn mạnh phải nộp kế hoạch trong hai tuần, nếu không sẽ không kịp bảo vệ. Đó là sự ủng hộ có điều kiện."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD24",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "F",
+    "媽最近又在電話裡說她一個人在家悶得慌，我在想，要不要接她來跟我們一起住？"
+   ],
+   [
+    "M",
+    "我不反對，不過我們家只有三個房間，孩子明年要念高中，需要一間安靜的書房。"
+   ],
+   [
+    "F",
+    "那把儲藏室整理出來給媽住，也不是不行。"
+   ],
+   [
+    "M",
+    "空間還是其次。我比較擔心的是生活習慣不同。媽習慣早睡早起，電視聲音又開得很大，你確定大家都能適應嗎？"
+   ],
+   [
+    "F",
+    "所以我才想先試住一個月，不合適再讓她回去。"
+   ],
+   [
+    "M",
+    "這個辦法比較穩當。可是你哥哥那邊呢？他們有沒有意願輪流照顧？"
+   ],
+   [
+    "F",
+    "我打過電話了，他說工作太忙，頂多每個月出一點生活費。"
+   ],
+   [
+    "M",
+    "唉，又是這樣。算了，與其互相推託，不如我們先把話說清楚：白天你陪她，晚上的事我來分擔。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "男士最擔心的是什麼？",
+    "options": [
+     "兩代人的生活習慣不同",
+     "家裡沒有多餘的房間",
+     "孩子無法專心念書",
+     "母親的生活費用太高"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "男士明說空間還是其次，他比較擔心的是母親早睡早起、電視聲音大等生活習慣的差異。",
+     "en": "He says space is secondary; what he worries about more is the difference in habits, such as his mother going to bed early and keeping the television loud.",
+     "vi": "Anh nói không gian chỉ là thứ yếu, điều anh lo hơn là sự khác biệt về thói quen sinh hoạt, như mẹ ngủ sớm dậy sớm và mở tivi rất to."
+    }
+   },
+   {
+    "stem": "從對話可以知道，哥哥對照顧母親的態度是什麼？",
+    "options": [
+     "只願意出一點錢，不願輪流照顧",
+     "願意每週輪流接母親同住",
+     "認為母親應該自己搬去養老院",
+     "完全不願意提供任何協助"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "女士轉述哥哥說工作太忙，頂多每月出一點生活費，等於拒絕輪流照顧；男士的「又是這樣」也顯示他對此感到無奈。",
+     "en": "Her brother says he is too busy and will at most contribute some living expenses, which amounts to refusing to take turns. The man's remark that it is the same again shows his resignation.",
+     "vi": "Anh trai nói quá bận, cùng lắm mỗi tháng đóng chút tiền sinh hoạt, tức là từ chối thay phiên chăm sóc. Câu than thở của người chồng cũng cho thấy sự bất lực."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD25",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "下個月的社區義賣，場地我已經跟里長借好了，就是活動中心前面的廣場，只是得在早上七點前佈置完畢。"
+   ],
+   [
+    "F",
+    "好的。物資方面，居民捐的二手衣物已經收到兩百多件，但書籍和玩具還不夠。"
+   ],
+   [
+    "M",
+    "那我們再貼一次海報，順便請學校幫忙，在聯絡簿上通知家長。"
+   ],
+   [
+    "F",
+    "對了，上次義賣最大的問題是定價混亂，有人把外套賣五十元，有人卻賣兩百元，居民看了很不高興。"
+   ],
+   [
+    "M",
+    "這次統一由志工分類標價，衣物一律一百元以下，書籍每本二十元，不討價還價。"
+   ],
+   [
+    "F",
+    "那收益要用在哪裡？去年我們捐給獨居長者的送餐服務，今年呢？"
+   ],
+   [
+    "M",
+    "開會時大家傾向支持社區兒童課後陪讀，我個人也贊成，不過還沒有定案，要等週五的志工會議投票。"
+   ],
+   [
+    "F",
+    "好，那我先把物資清單和標價表整理出來，週五一併帶去。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "針對上次定價混亂的問題，這次打算怎麼處理？",
+    "options": [
+     "由志工統一分類標價，不討價還價",
+     "讓捐贈者自己決定售價",
+     "所有物品一律賣二十元",
+     "請里長協助訂定價格"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "男士說這次由志工分類統一標價，衣物一百元以下、書籍每本二十元，而且不討價還價，藉此避免價格不一的情況。",
+     "en": "He says volunteers will sort and price everything uniformly, clothes under one hundred dollars and books twenty each, with no haggling, to avoid inconsistent prices.",
+     "vi": "Anh nói lần này tình nguyện viên sẽ phân loại và định giá thống nhất, quần áo dưới một trăm đồng, sách hai mươi đồng một cuốn, không mặc cả, để tránh giá lộn xộn."
+    }
+   },
+   {
+    "stem": "關於義賣收益的用途，下列哪一項正確？",
+    "options": [
+     "傾向支持兒童課後陪讀，但尚待週五投票",
+     "已經決定捐給獨居長者送餐服務",
+     "已經確定用於兒童課後陪讀",
+     "將由里長決定如何使用"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "男士說大家傾向支持兒童課後陪讀，但還沒有定案，要等週五志工會議投票；送餐服務是去年的用途。",
+     "en": "He says people lean toward children's after-school tutoring but nothing is settled until the volunteer meeting votes on Friday. The meal-delivery service was last year's beneficiary.",
+     "vi": "Anh nói mọi người nghiêng về việc ủng hộ kèm trẻ sau giờ học nhưng chưa chốt, phải chờ cuộc họp tình nguyện viên bỏ phiếu vào thứ Sáu. Dịch vụ đưa cơm là khoản của năm ngoái."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM21",
+  "type": "monologue",
+  "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+  "text": "為了縮短旅客排隊的時間，國際機場今天宣布，第二航廈將新增十二座自動通關閘門，下個月一日起啟用。旅客只要事先完成臉部與護照資料的登錄，平均三十秒就能完成查驗，比人工櫃檯快了將近一半。移民署表示，目前尖峰時段的平均等候時間約為四十分鐘，新設備上線後，預計可縮短到二十分鐘以內。不過，這項服務暫時只開放十八歲以上、身高一百四十公分以上的旅客使用，未達標準的孩童仍須走人工通道。也有民眾擔心個人生物資料外洩。對此，主管機關保證，資料僅供查驗使用，旅客出境後七天內即會刪除，不會提供給其他單位。",
+  "questions": [
+   {
+    "stem": "機場新增自動通關閘門的主要目的是什麼？",
+    "options": [
+     "縮短旅客排隊等候的時間",
+     "減少機場人員的薪資支出",
+     "加強查驗旅客行李內容",
+     "增加國際航班的班次"
+    ],
+    "answer": "A",
+    "skill": "purpose",
+    "explain": {
+     "zh": "報導開頭就說，為了縮短旅客排隊的時間而新增閘門，並預計把尖峰等候時間從四十分鐘縮短到二十分鐘以內。",
+     "en": "The report opens by saying the gates are added to shorten queues, with peak waiting time expected to fall from forty minutes to under twenty.",
+     "vi": "Bản tin mở đầu nói việc lắp thêm cổng là để rút ngắn thời gian xếp hàng, dự kiến giờ cao điểm giảm từ bốn mươi phút xuống dưới hai mươi phút."
+    }
+   },
+   {
+    "stem": "根據報導，哪一類旅客目前還不能使用自動通關？",
+    "options": [
+     "身高未達一百四十公分的孩童",
+     "已經登錄過資料的旅客",
+     "超過六十五歲的長者",
+     "第一次出國的旅客"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "服務只開放十八歲以上、身高一百四十公分以上的旅客，未達標準的孩童仍須走人工通道；長者並沒有被排除。",
+     "en": "The service is open only to travelers aged eighteen and over and at least 140 centimeters tall, so children below the standard must still use the manual lane. Older people are not excluded.",
+     "vi": "Dịch vụ chỉ dành cho người từ mười tám tuổi và cao từ 140 cm trở lên, trẻ em chưa đạt chuẩn vẫn phải đi lối thủ công. Người lớn tuổi không bị loại trừ."
+    }
+   },
+   {
+    "stem": "針對民眾擔心的資料外洩問題，主管機關怎麼回應？",
+    "options": [
+     "資料只用於查驗，出境後七天內刪除",
+     "資料會永久保存以備查詢",
+     "資料將提供給航空公司使用",
+     "資料保存三十天後才會刪除"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "主管機關保證資料僅供查驗，旅客出境後七天內即刪除，也不交給其他單位。",
+     "en": "The authority promises the data is used only for checks, deleted within seven days after the traveler leaves, and not shared with other agencies.",
+     "vi": "Cơ quan chức năng cam kết dữ liệu chỉ dùng để kiểm tra, xóa trong vòng bảy ngày sau khi hành khách xuất cảnh và không chia sẻ cho đơn vị khác."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM22",
+  "type": "monologue",
+  "intro": "請聽這場演講，然後回答下面的三個問題。",
+  "text": "今天我想談談色彩如何左右我們的情緒與消費。心理學家發現，紅色容易使人心跳加快、產生急迫感，因此促銷標籤和折扣海報都是紅色；藍色則給人冷靜、可靠的印象，所以銀行與保險公司的標誌多半選用藍色。至於餐廳，暖色調的燈光能刺激食慾，卻不容易久坐，翻桌率自然提高。同樣一杯咖啡，裝在白色杯子裡，受測者覺得味道偏苦，換成透明杯子卻覺得比較順口。這說明消費者的判斷，往往不是來自商品本身，而是被周遭的視覺線索牽著走。我並不是要大家對顏色心存戒備，只是提醒各位，下次衝動購物以前，不妨先想想：我是真的需要，還是被顏色說服了？",
+  "questions": [
+   {
+    "stem": "銀行與保險公司的標誌為什麼多半選用藍色？",
+    "options": [
+     "藍色給人冷靜、可靠的印象",
+     "藍色能使人心跳加快",
+     "藍色可以刺激消費者的食慾",
+     "藍色的印刷成本比較低"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "演講者說藍色給人冷靜、可靠的印象，所以金融業常用；使人心跳加快的是紅色。",
+     "en": "The speaker says blue gives an impression of calm and reliability, which is why financial firms use it. It is red, not blue, that quickens the heartbeat.",
+     "vi": "Diễn giả nói màu xanh lam tạo ấn tượng bình tĩnh, đáng tin nên ngành tài chính hay dùng. Màu làm tim đập nhanh là màu đỏ chứ không phải xanh lam."
+    }
+   },
+   {
+    "stem": "暖色調的燈光對餐廳有什麼影響？",
+    "options": [
+     "客人不容易久坐，翻桌率提高",
+     "客人會因此留得更久",
+     "客人的食慾反而下降",
+     "客人覺得價格比較便宜"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "暖色調燈光刺激食慾，卻讓客人不容易久坐，所以翻桌率提高。",
+     "en": "Warm lighting stimulates appetite, yet customers are less inclined to linger, so tables turn over more often.",
+     "vi": "Ánh đèn tông ấm kích thích cảm giác thèm ăn, nhưng khách khó ngồi lâu nên lượng khách quay vòng tăng lên."
+    }
+   },
+   {
+    "stem": "演講者最後想提醒聽眾什麼？",
+    "options": [
+     "購物前先想想自己是否被視覺線索影響",
+     "應該完全避免接觸鮮豔的顏色",
+     "商家不應該使用任何色彩宣傳",
+     "購買商品時只需比較價格"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "演講者強調並不是要大家戒備顏色，而是提醒衝動購物前想一想，自己是真的需要還是被顏色說服。",
+     "en": "He stresses he is not asking people to fear colors, only to ask before an impulse purchase whether they truly need the item or were persuaded by color.",
+     "vi": "Ông nhấn mạnh không phải bảo mọi người đề phòng màu sắc, mà chỉ nhắc rằng trước khi mua theo cảm hứng hãy tự hỏi mình thật sự cần hay chỉ bị màu sắc thuyết phục."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM23",
+  "type": "monologue",
+  "intro": "請聽這則廣播，然後回答下面的三個問題。",
+  "text": "這裡是公所公告時間。為了協助長者跟上數位生活，本區公所將於下個月開辦樂齡數位課程，對象為六十歲以上的區民，共分為三個班：智慧型手機基礎班、行動支付與防詐班，以及視訊通話班。每班上課四週，每週一次，每次兩小時，名額各二十五人，額滿為止。報名方式有兩種：可以上公所網站填寫表單，也可以請家人陪同，攜帶身分證到一樓服務台登記。課程一律免費，但學員必須自備手機。特別提醒，由於去年各班都提前額滿，今年開放報名的第一週，每人只能報名一個班別，第二週起若還有名額，才能再報第二班。有意願的長輩，請把握機會，儘早報名。",
+  "questions": [
+   {
+    "stem": "每個班別總共上課多少小時？",
+    "options": [
+     "八小時",
+     "四小時",
+     "兩小時",
+     "二十五小時"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "每班上課四週，每週一次，每次兩小時，所以總共八小時；二十五是名額，不是時數。",
+     "en": "Each class meets once a week for four weeks, two hours each time, so eight hours in total. Twenty-five is the quota, not the hours.",
+     "vi": "Mỗi lớp học bốn tuần, mỗi tuần một buổi, mỗi buổi hai tiếng, tổng cộng tám tiếng. Hai mươi lăm là số chỗ chứ không phải số giờ."
+    }
+   },
+   {
+    "stem": "為什麼第一週每人只能報名一個班別？",
+    "options": [
+     "因為去年各班都提早額滿",
+     "因為每位學員只能上一個班",
+     "因為家人必須陪同報名",
+     "因為手機數量有限"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "廣播說去年各班都提前額滿，所以今年第一週限報一班，第二週起有名額才能再報第二班。",
+     "en": "Last year every class filled up early, so this year registration is limited to one class in the first week; a second class is allowed later only if seats remain.",
+     "vi": "Năm ngoái các lớp đều kín chỗ sớm nên năm nay tuần đầu mỗi người chỉ được đăng ký một lớp; từ tuần thứ hai nếu còn chỗ mới được đăng ký lớp thứ hai."
+    }
+   },
+   {
+    "stem": "關於這項課程，下列哪一項正確？",
+    "options": [
+     "課程不收費，但學員要自備手機",
+     "只能上網報名，不接受現場登記",
+     "課程提供手機供學員借用",
+     "六十歲以下的區民也可報名"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "報名可上網或到服務台，課程免費但須自備手機，對象限六十歲以上。",
+     "en": "Registration is possible online or at the counter, the course is free but participants bring their own phones, and it is for people aged sixty and above.",
+     "vi": "Có thể đăng ký trực tuyến hoặc tại quầy, khóa học miễn phí nhưng học viên phải tự mang điện thoại, và chỉ dành cho người từ sáu mươi tuổi trở lên."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM24",
+  "type": "monologue",
+  "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+  "text": "市府今天公布，公共自行車今年上半年的租借量突破兩千八百萬人次，比去年同期成長百分之二十二。市府分析，成長的原因除了油價上漲，也跟前三十分鐘免費的優惠有關，許多上班族把它當作通勤的最後一哩路。然而，租借量大增也帶來新的問題。車輛亂停亂放，占用了人行道和騎樓，行動不便者與推嬰兒車的家長經常被迫繞道，民眾的抱怨比去年增加了一倍。為此，市府決定自下個月起，在熱門站點加畫停車格，並對違規停放的使用者加收清潔費，累計三次者暫停使用。交通局長強調，鼓勵綠色運輸，並不等於放任無序，兩者必須同時兼顧。",
+  "questions": [
+   {
+    "stem": "市府認為租借量成長的原因是什麼？",
+    "options": [
+     "油價上漲，加上前三十分鐘免費",
+     "車輛數量增加了一倍",
+     "捷運票價大幅調漲",
+     "夏季天氣比去年涼爽"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "市府分析成長除了油價上漲，也和前三十分鐘免費的優惠有關；增加一倍的是民眾的抱怨，不是車輛。",
+     "en": "The city attributes the growth to higher fuel prices plus the free first thirty minutes. What doubled was the number of complaints, not the bicycles.",
+     "vi": "Thành phố cho rằng mức tăng đến từ giá xăng tăng cùng ưu đãi miễn phí ba mươi phút đầu. Thứ tăng gấp đôi là số lời phàn nàn chứ không phải số xe."
+    }
+   },
+   {
+    "stem": "市府打算如何改善亂停車的問題？",
+    "options": [
+     "加畫停車格，並對違規者加收清潔費",
+     "減少熱門站點的車輛數量",
+     "完全禁止在人行道旁租借",
+     "取消前三十分鐘免費的優惠"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "市府決定在熱門站點加畫停車格，對違規停放者加收清潔費，累計三次者暫停使用。",
+     "en": "The city will paint more parking spaces at popular stations and charge a cleaning fee for improper parking, suspending users after three violations.",
+     "vi": "Thành phố sẽ vạch thêm ô đỗ tại các trạm đông người, thu phí vệ sinh với người đỗ sai quy định và tạm ngưng quyền sử dụng sau ba lần vi phạm."
+    }
+   },
+   {
+    "stem": "交通局長的看法是什麼？",
+    "options": [
+     "推廣綠色運輸時，也必須維持秩序",
+     "為了秩序應該暫停公共自行車",
+     "亂停的問題不需要特別處理",
+     "綠色運輸比交通秩序更重要"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "局長說鼓勵綠色運輸不等於放任無序，兩者必須同時兼顧，也就是既要推廣又要維持秩序。",
+     "en": "The director says encouraging green transport does not mean tolerating disorder; both must be pursued together.",
+     "vi": "Cục trưởng nói khuyến khích giao thông xanh không có nghĩa là buông lỏng trật tự, cả hai phải được cân nhắc đồng thời."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM25",
+  "type": "monologue",
+  "intro": "請聽這段評論，然後回答下面的三個問題。",
+  "text": "近來「慢活」成了熱門話題，有人辭去高薪工作，搬到鄉下種菜、煮茶，過著不趕時間的日子。但我不免要問：慢活是不是只有付得起代價的人，才有資格選擇？對一位得同時打兩份工、還要接送孩子的單親媽媽來說，想慢下來談何容易。市面上已出現各種慢活商品，價格不菲，彷彿慢活也能靠消費買到。我認為，這其實誤解了慢活的本意。慢活的核心，並不是放慢工作的速度，也不是離開城市，而是不被外界的步調綁架，清楚知道自己要的是什麼。仍可以在通勤時專心喝完一杯茶，在晚餐時關掉手機好好聊天。把慢當作心態，而不是商品，它才不會變成少數人的特權。",
+  "questions": [
+   {
+    "stem": "作者提到單親媽媽，是想說明什麼？",
+    "options": [
+     "經濟壓力大的人很難選擇慢活",
+     "單親媽媽比別人更需要慢活",
+     "慢活只適合住在鄉下的人",
+     "打兩份工能讓生活更充實"
+    ],
+    "answer": "A",
+    "skill": "purpose",
+    "explain": {
+     "zh": "作者以必須打兩份工、接送孩子的單親媽媽為例，說明對負擔沉重的人而言，慢下來談何容易，慢活可能成為付得起代價者的選擇。",
+     "en": "The author uses a single mother with two jobs and school runs to show that slowing down is hardly easy for those under heavy burdens, so slow living may be a choice only for those who can afford it.",
+     "vi": "Tác giả lấy người mẹ đơn thân làm hai việc và đưa đón con làm ví dụ để cho thấy với người gánh nặng thì sống chậm đâu dễ, và sống chậm có thể chỉ là lựa chọn của người đủ khả năng."
+    }
+   },
+   {
+    "stem": "作者對市面上的「慢活商品」抱持什麼態度？",
+    "options": [
+     "認為這是對慢活本意的誤解",
+     "認為這些商品值得大力推廣",
+     "認為價格再低一些就合理",
+     "認為這能幫助大家真正慢下來"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "作者指出商品彷彿讓慢活能靠消費買到，並直言這誤解了慢活的本意，語氣帶有批評。",
+     "en": "He notes these products make it seem that slow living can be bought, and says plainly that this misreads its true meaning, a critical tone.",
+     "vi": "Tác giả chỉ ra các sản phẩm này khiến người ta tưởng sống chậm có thể mua được, và nói thẳng rằng đó là hiểu sai ý nghĩa của nó, với giọng phê phán."
+    }
+   },
+   {
+    "stem": "作者認為慢活的核心是什麼？",
+    "options": [
+     "不被外界步調綁架，清楚自己要什麼",
+     "放慢工作速度並離開城市",
+     "辭去工作，搬到鄉下生活",
+     "減少與他人的往來和交談"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "作者說核心不是放慢工作或離開城市，而是不被外界步調綁架、清楚知道自己要什麼。",
+     "en": "He says the core is not slowing work or leaving the city, but refusing to be hijacked by the outside pace and knowing what one wants.",
+     "vi": "Tác giả nói cốt lõi không phải làm chậm công việc hay rời thành phố, mà là không bị nhịp bên ngoài chi phối và biết rõ mình muốn gì."
+    }
+   }
+  ]
+ }
+]

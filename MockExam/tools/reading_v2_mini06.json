@@ -1,0 +1,178 @@
+{
+  "gap": [
+    {
+      "id": "RG11",
+      "passage": "近年來，「企業社會責任」成為商界的熱門詞彙，許多公司紛紛發表環保承諾，然而其中不乏{1}的例子：產品包裝印上綠葉圖案，製程卻依然高污染，這種手法被稱為「漂綠」。有些企業{2}，把一小部分的公益捐款大肆宣傳，卻對真正的環境衝擊避而不談。消費者若不加分辨，很容易被華麗的廣告所{3}。為了遏止這類行為，部分國家已立法要求企業{4}碳排放數據，並接受第三方查核。真正負責任的企業，應當做到言行一致，而不是{5}，只在口頭上表態。",
+      "blanks": [
+        {"n": 1, "options": ["名不符實", "實至名歸", "名列前茅", "聲名大噪"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "標榜環保、實際卻高污染，是名稱與實際不相符，故用「名不符實」；其餘三個都是正面評價。",
+                     "en": "Claiming to be green while polluting means the name does not match reality: 「名不符實」. The others are positive.",
+                     "vi": "Tự nhận thân thiện môi trường mà thực tế gây ô nhiễm là danh không xứng thực: 「名不符實」. Các thành ngữ còn lại mang nghĩa tích cực."}},
+        {"n": 2, "options": ["避重就輕", "直言不諱", "開誠布公", "據實以告"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "只宣傳小額捐款、迴避真正的衝擊，就是「避重就輕」；其餘三個都是坦白說出實情。",
+                     "en": "Promoting small donations while dodging the real impact is 「避重就輕」; the others mean speaking frankly.",
+                     "vi": "Chỉ khoe khoản quyên góp nhỏ mà né tác động thật là 「避重就輕」; các từ còn lại nghĩa là nói thẳng, nói thật."}},
+        {"n": 3, "options": ["蒙蔽", "啟迪", "彌補", "輔佐"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "「被……所蒙蔽」指被表象欺騙；「啟迪」是啟發，「彌補」是補足缺失，「輔佐」是協助。",
+                     "en": "Being misled by appearances: 「蒙蔽」. The others mean to enlighten, to make up for, to assist.",
+                     "vi": "Bị vẻ bề ngoài đánh lừa: 「蒙蔽」. Các từ còn lại là khai sáng, bù đắp, phụ tá."}},
+        {"n": 4, "options": ["揭露", "擱置", "迴避", "延攬"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "立法目的是遏止漂綠，所以要求企業「揭露」（公開）數據；「擱置」是放著不辦，「迴避」是躲開，「延攬」是招攬人才。",
+                     "en": "To curb greenwashing, firms must disclose data: 「揭露」. The others mean shelve, avoid, recruit.",
+                     "vi": "Để ngăn tẩy xanh, doanh nghiệp phải 「揭露」 (công bố) số liệu; các từ còn lại là gác lại, né tránh, chiêu mộ."}},
+        {"n": 5, "options": ["口惠而實不至", "一諾千金", "身體力行", "言出必行"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「口惠而實不至」指只說好聽的話卻沒有實際行動，與「只在口頭上表態」相符；其餘三個都是說到做到。",
+                     "en": "「口惠而實不至」 means kind words without real action; the others mean following through.",
+                     "vi": "「口惠而實不至」 nghĩa là chỉ hứa suông mà không làm; các từ còn lại nghĩa là nói là làm."}}
+      ]
+    },
+    {
+      "id": "RG12",
+      "passage": "博物館過去給人的印象是莊嚴而安靜的殿堂，如今數位科技正讓展間{1}。許多館方將館藏掃描成高解析度影像，上傳網路供全球觀眾瀏覽，即使身處偏遠地區，也能{2}，欣賞名畫的筆觸細節。擴增實境的導覽應用程式，更能在觀眾舉起手機時，讓沉睡千年的文物「活」起來。不過，也有人擔心隔著螢幕觀賞終究{3}，無法取代面對真跡時的震撼。館方因此強調，數位化不是要取代實體展覽，而是{4}，吸引更多人走進館內。如何在科技與原作之間取得平衡，並避免展覽流於{5}的炫技，是未來必須思考的課題。",
+      "blanks": [
+        {"n": 1, "options": ["煥然一新", "一成不變", "大同小異", "如出一轍"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "數位科技帶來新面貌，故用「煥然一新」；其餘三個都表示沒有變化或彼此相似。",
+                     "en": "Technology gives a fresh look: 「煥然一新」. The others mean unchanged or alike.",
+                     "vi": "Công nghệ số mang diện mạo mới: 「煥然一新」. Các từ còn lại nghĩa là không đổi hoặc giống nhau."}},
+        {"n": 2, "options": ["足不出戶", "不遠千里", "舟車勞頓", "長途跋涉"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "網路瀏覽使人不必出門就能欣賞，是「足不出戶」；其餘三個都強調旅途辛苦、遠行。",
+                     "en": "Viewing online means not leaving home: 「足不出戶」. The others stress arduous travel.",
+                     "vi": "Xem trực tuyến nên không cần ra khỏi nhà: 「足不出戶」. Các từ còn lại nhấn mạnh việc đi xa vất vả."}},
+        {"n": 3, "options": ["隔靴搔癢", "瞠目結舌", "迫不及待", "眾志成城"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「隔靴搔癢」比喻不夠貼切、未達核心，指螢幕觀賞無法取代真跡；其餘三個與語意無關。",
+                     "en": "「隔靴搔癢」 means falling short of the real thing, as a screen does of the original.",
+                     "vi": "「隔靴搔癢」 nghĩa là không chạm đến điều cốt lõi, như xem qua màn hình so với tác phẩm thật."}},
+        {"n": 4, "options": ["拋磚引玉", "畫蛇添足", "喧賓奪主", "本末倒置"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「拋磚引玉」指以較淺的東西引出更好的成果，此處數位展示吸引觀眾入館；其餘三個都是負面的做法。",
+                     "en": "「拋磚引玉」 means using a small offering to draw out something greater; the others are negative.",
+                     "vi": "「拋磚引玉」 nghĩa là dùng cái nhỏ để dẫn đến điều lớn hơn; các thành ngữ còn lại mang nghĩa tiêu cực."}},
+        {"n": 5, "options": ["華而不實", "腳踏實地", "返璞歸真", "實事求是"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「華而不實」指外表漂亮卻沒有內涵，與「炫技」相呼應；其餘三個都是踏實、樸素的意思。",
+                     "en": "「華而不實」 means showy without substance, matching mere technical showing off.",
+                     "vi": "「華而不實」 nghĩa là hào nhoáng mà rỗng, khớp với việc phô diễn kỹ thuật; các từ còn lại mang nghĩa thực chất, giản dị."}}
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "id": "RC26",
+      "passage": "不少家長與教練相信，少年運動員愈早投入高強度訓練，愈有機會成為頂尖選手。然而運動醫學的研究顯示，青少年的骨骼與關節尚在發育，若長期負荷過重，容易出現疲勞性骨折、肌腱發炎等慢性傷害，這些傷害往往悄悄累積，等到發現時已難以逆轉。此外，過早專攻單一項目，也會讓孩子因為枯燥與壓力而失去興趣，最終提前退出運動。這種急於求成、揠苗助長的做法，結果常常適得其反。專家建議，少年階段應多元嘗試不同運動，並安排充足的休息與睡眠，讓身體與心理都能穩定成長，競技水準才有長久發展的基礎。",
+      "questions": [
+        {"stem": "這篇文章的主要觀點是什麼？",
+         "options": ["少年過度訓練可能傷身又消磨興趣，應重視休息與多元發展", "愈早專攻單一項目，愈容易成為頂尖選手", "運動醫學的結論不適用於青少年", "家長不應讓孩子接觸任何運動"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "全文指出過度訓練會造成傷害並使孩子失去興趣，結尾建議休息與多元嘗試。",
+                     "en": "The passage says overtraining causes injury and loss of interest, and recommends rest and variety.",
+                     "vi": "Bài viết nêu tập luyện quá sức gây chấn thương và mất hứng thú, cuối bài khuyên nghỉ ngơi và thử nhiều môn."}},
+        {"stem": "文中提到的慢性傷害有什麼特點？",
+         "options": ["悄悄累積，發現時已難以逆轉", "只會發生在成年選手身上", "受傷當下立刻出現劇痛", "休息一天就能完全恢復"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說這些傷害往往悄悄累積，等到發現時已難以逆轉。",
+                     "en": "These injuries accumulate quietly and are hard to reverse once noticed.",
+                     "vi": "Các chấn thương này tích tụ âm thầm và khó phục hồi khi đã phát hiện."}},
+        {"stem": "「揠苗助長」在文中的意思最接近下列何者？",
+         "options": ["違反成長規律而強行催促，反而造成傷害", "細心照顧使孩子順利成長", "耐心等待最佳時機", "模仿成功選手的訓練方式"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「揠苗助長」比喻不顧事物發展規律、急於求成而壞事，與「適得其反」呼應。",
+                     "en": "「揠苗助長」 means forcing growth against its natural pace and ruining it.",
+                     "vi": "「揠苗助長」 nghĩa là nóng vội ép phát triển trái quy luật nên hỏng việc."}}
+      ]
+    },
+    {
+      "id": "RC27",
+      "passage": "所謂公民科學，是指讓非專業人士參與科學研究的模式。賞鳥者記錄候鳥出現的時間與地點，天文愛好者回報夜空中的異常亮點，這些零散的觀察一旦匯集成龐大的資料庫，就能讓研究者掌握單靠實驗室無法取得的大尺度變化。過去，學界對業餘研究者的資料不免有所保留，擔心品質參差不齊。如今，透過標準化的記錄格式與專家審核，資料的可信度已大幅提升。更重要的是，參與者在過程中培養了對自然的關懷，科學也因此走出象牙塔，成為公眾共同的事業。可見，集眾人之力所累積的成果，有時比少數專家的努力更為可觀。",
+      "questions": [
+        {"stem": "公民科學的資料為什麼對研究者有價值？",
+         "options": ["匯集後能呈現實驗室難以取得的大尺度變化", "取代了所有的實驗室研究", "只需要專家審核而不需要觀察", "能讓參與者獲得學位"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文中說零散觀察匯集成資料庫，能掌握單靠實驗室無法取得的大尺度變化。",
+                     "en": "Pooled observations reveal large-scale changes that labs alone cannot capture.",
+                     "vi": "Các quan sát rời rạc khi gộp lại cho thấy biến đổi quy mô lớn mà phòng thí nghiệm khó nắm bắt."}},
+        {"stem": "「品質參差不齊」的意思是什麼？",
+         "options": ["好壞不一，水準不整齊", "全部品質都很優良", "資料數量非常稀少", "格式完全一致"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「參差不齊」形容水準高低不一、不整齊。",
+                     "en": "「參差不齊」 means uneven in quality.",
+                     "vi": "「參差不齊」 nghĩa là chất lượng chỗ tốt chỗ kém, không đồng đều."}},
+        {"stem": "資料的可信度為什麼提高了？",
+         "options": ["採用標準化記錄格式並經過專家審核", "業餘研究者都成為專家", "資料量變得更少", "學界不再要求查證"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中指出透過標準化的記錄格式與專家審核，可信度大幅提升。",
+                     "en": "Standardized formats and expert review raised credibility.",
+                     "vi": "Định dạng ghi chép chuẩn hóa và sự thẩm định của chuyên gia giúp tăng độ tin cậy."}}
+      ]
+    },
+    {
+      "id": "RC28",
+      "passage": "行動支付與電子錢包的普及，使現金在許多城市的使用場合日漸縮減，有些國家甚至出現零現金商店。支持者認為，數位交易更便捷、可追蹤，有助於遏止洗錢與逃漏稅。然而，現金消失也帶來隱憂。首先，不熟悉科技的長者與低收入族群，可能因缺乏帳戶或裝置而被排除在交易體系之外。其次，一旦系統當機或遭駭客入侵，民眾便無法完成最基本的買賣。再者，每筆消費都留下紀錄，個人隱私恐怕蕩然無存。因此，不少學者主張，即使邁向無現金社會，政府也應保留現金的法定地位，作為最後的安全網，讓每個人都能不受阻礙地參與經濟生活。",
+      "questions": [
+        {"stem": "支持者為什麼贊成數位交易？",
+         "options": ["便捷且可追蹤，有助遏止洗錢與逃漏稅", "能讓現金價值上升", "可以保障個人隱私", "不需要任何系統運作"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說支持者認為數位交易更便捷、可追蹤，有助於遏止洗錢與逃漏稅。",
+                     "en": "Supporters say it is convenient, traceable and helps curb money laundering and tax evasion.",
+                     "vi": "Người ủng hộ cho rằng giao dịch số tiện lợi, truy vết được và giúp ngăn rửa tiền, trốn thuế."}},
+        {"stem": "「個人隱私恐怕蕩然無存」的意思是什麼？",
+         "options": ["隱私可能完全消失", "隱私將受到更好的保護", "隱私只會稍微減少", "隱私不再受人關心"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「蕩然無存」指完全沒有留下。",
+                     "en": "「蕩然無存」 means nothing remains at all.",
+                     "vi": "「蕩然無存」 nghĩa là hoàn toàn không còn lại gì."}},
+        {"stem": "學者主張保留現金的法定地位，原因是什麼？",
+         "options": ["讓不便使用數位工具的人仍能參與經濟生活", "讓政府能增加稅收", "鼓勵民眾減少消費", "避免行動支付被推廣"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "現金可作為最後的安全網，避免長者、低收入者與系統故障時的民眾被排除在交易之外。",
+                     "en": "Cash is a safety net so no one is shut out when lacking devices or when systems fail.",
+                     "vi": "Tiền mặt là lưới an toàn để không ai bị loại khỏi giao dịch khi thiếu thiết bị hoặc hệ thống hỏng."}}
+      ]
+    },
+    {
+      "id": "RC29",
+      "passage": "無障礙設計常被誤以為只是替身心障礙者加裝斜坡與扶手，實則它的受益者遠比想像中廣泛。推著嬰兒車的父母、拖著行李的旅客、暫時扭傷腳踝的人，都會因平緩的坡道與寬敞的電梯而受惠。這正是「通用設計」的精神：在規劃之初就考量不同使用者的需求，而非事後補強。事後修改不僅費用較高，往往也因空間限制而顧此失彼。有人批評，無障礙設施會增加建築成本，但從長遠來看，一座人人都能便利使用的建築，其效益與社會價值，絕非短期的預算數字所能衡量。因此，把無障礙視為基本條件而非額外的恩惠，才是真正的進步。",
+      "questions": [
+        {"stem": "文章舉嬰兒車與行李的例子，目的是什麼？",
+         "options": ["說明無障礙設計的受益者相當廣泛", "說明斜坡只適合短期使用", "批評旅客不遵守規定", "說明電梯的造價很低"],
+         "answer": "A", "skill": "purpose",
+         "explain": {"zh": "這些例子顯示不只身心障礙者，許多人都會受惠。",
+                     "en": "The examples show that many people, not only those with disabilities, benefit.",
+                     "vi": "Các ví dụ cho thấy không chỉ người khuyết tật mà nhiều người cũng được hưởng lợi."}},
+        {"stem": "為什麼作者主張在規劃之初就納入無障礙設計？",
+         "options": ["事後修改費用高，又常受空間限制", "事後修改完全不可能", "初期規劃可以省下所有成本", "法律禁止事後修改"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說事後修改費用較高，也常因空間限制而顧此失彼。",
+                     "en": "Retrofitting costs more and is often constrained by space.",
+                     "vi": "Sửa sau tốn kém hơn và thường bị giới hạn bởi không gian."}},
+        {"stem": "「顧此失彼」在文中的意思是什麼？",
+         "options": ["照顧了這一方面，卻忽略了另一方面", "同時照顧到所有方面", "只在乎對方的需求", "完全不需要考慮"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「顧此失彼」指注意了一邊卻漏掉另一邊，無法兼顧。",
+                     "en": "「顧此失彼」 means attending to one side while neglecting the other.",
+                     "vi": "「顧此失彼」 nghĩa là lo được bên này thì bỏ sót bên kia, không chu toàn."}}
+      ]
+    },
+    {
+      "id": "RC30",
+      "passage": "創作者很少憑空發想，多數靈感都來自前人的作品，那麼，從模仿到抄襲之間，界線究竟在哪裡？一般認為，借鏡他人的風格、主題或技法屬於正常的學習；但若直接複製具體的表達，例如整段文字或獨特的構圖，卻不註明來源，便越過了紅線。判斷的關鍵不在於「像不像」，而在於是否加入了自己的詮釋與轉化。有人將抄襲辯解為「致敬」，但真正的致敬會公開承認出處，並賦予作品新的意義。若只是換湯不換藥，就算掛上致敬之名，也難逃剽竊之嫌。創意的價值，正在於它有別於他人的獨到之處。",
+      "questions": [
+        {"stem": "根據文章，判斷模仿與抄襲的關鍵是什麼？",
+         "options": ["是否加入了自己的詮釋與轉化", "作品是否與原作相似", "作者是否已經成名", "作品的篇幅長短"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中明說關鍵不在「像不像」，而在是否加入自己的詮釋與轉化。",
+                     "en": "The key is not similarity but whether one adds personal interpretation and transformation.",
+                     "vi": "Mấu chốt không phải giống hay không mà là có thêm cách diễn giải và biến đổi của riêng mình hay không."}},
+        {"stem": "「換湯不換藥」的意思最接近下列何者？",
+         "options": ["只改變外表，實質內容沒有改變", "徹底改變內容與形式", "使用更好的材料", "同時改進方法與目標"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「換湯不換藥」比喻形式改了、本質不變。",
+                     "en": "「換湯不換藥」 means changing the form but not the substance.",
+                     "vi": "「換湯不換藥」 nghĩa là chỉ đổi hình thức, thực chất không đổi."}},
+        {"stem": "作者對於把抄襲說成「致敬」的態度是什麼？",
+         "options": ["不認同，認為缺乏出處與新意就是剽竊", "完全贊同，認為這是創意的表現", "沒有意見，認為與創作無關", "認為只要公開道歉即可"],
+         "answer": "A", "skill": "attitude",
+         "explain": {"zh": "作者指出真正的致敬要承認出處並賦予新意，否則仍難逃剽竊之嫌。",
+                     "en": "The author says true homage credits the source and adds meaning; otherwise it is still plagiarism.",
+                     "vi": "Tác giả cho rằng tri ân đúng nghĩa phải ghi nguồn và thêm ý nghĩa mới, nếu không vẫn là đạo văn."}}
+      ]
+    }
+  ]
+}

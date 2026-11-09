@@ -34,7 +34,7 @@ function render() {
     <span class="badge">TOCFL · Band C</span>
     <h1>${t.title}</h1>
     <p class="sub">${t.subtitle}</p>
-    ${[["full100", 1], ["full100b", 2]].map(([set, n]) => `
+    ${[["full100", 1], ["full100b", 2], ["full100c", 3]].map(([set, n]) => `
       <h2 style="margin-top:24px">${PAPER[LANG].replace("{n}", n)}</h2>
       ${link("full", t.fullExam, t.fullExamDesc, false, set)}
       <div class="grid">
@@ -43,7 +43,7 @@ function render() {
       </div>`).join("")}
     <h2 style="margin-top:28px">${t.halfTitle}</h2>
     <div class="grid">
-      ${["A", "B", "C", "D"].map((L, i) => link("full", t.halfA.replace("A", L), "", true, "mini0" + (i + 1))).join("")}
+      ${["A", "B", "C", "D", "E", "F"].map((L, i) => link("full", t.halfA.replace("A", L), "", true, "mini0" + (i + 1))).join("")}
     </div>
     <h2 style="margin-top:28px">${t.practiceTitle}</h2>
     <p class="sub">${t.practiceDesc}</p>

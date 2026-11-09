@@ -1,0 +1,1130 @@
+{
+ "set_id": "mini06",
+ "title": "Band C Mini Mock 06",
+ "qno_offset": {
+  "listening": 25
+ },
+ "listening": [
+  {
+   "id": "LD26",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "turns": [
+    [
+     "M",
+     "陳老闆，不好意思，這個月的蔬菜和海鮮價格得跟您調整一下，大概要漲百分之八。"
+    ],
+    [
+     "F",
+     "又漲？上次才調過，我的菜單價格根本跟不上你們的速度。"
+    ],
+    [
+     "M",
+     "我明白您的難處。可是今年天氣不穩，颱風連續毀了好幾批菜，油價也一直上漲，運費我們實在吸收不了。"
+    ],
+    [
+     "F",
+     "這些我都理解，但客人對漲價很敏感，我要是把餐點調貴，老顧客很可能就流失了。"
+    ],
+    [
+     "M",
+     "那這樣吧，如果您願意把訂貨量固定下來，每週不少於兩百公斤，我可以只漲百分之五。"
+    ],
+    [
+     "F",
+     "固定訂貨量風險太大，萬一週末生意不好，剩下的食材就全浪費了。"
+    ],
+    [
+     "M",
+     "那我們折衷一下，先簽三個月，期間價格不再變動，到期再重新談。"
+    ],
+    [
+     "F",
+     "這個方案可以考慮。不過我要加一個條件：品質不能打折，上次的魚就不夠新鮮。"
+    ],
+    [
+     "M",
+     "沒問題，我回去向公司報告，明天給您正式的報價單。"
+    ]
+   ],
+   "questions": [
+    {
+     "stem": "供應商為什麼要調漲價格？",
+     "options": [
+      "天氣不穩和油價上漲，成本增加了",
+      "老闆的訂貨量太少",
+      "餐廳把菜單價格調貴了",
+      "魚的品質有所提升"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "男士說颱風毀了好幾批菜，油價又上漲，運費無法吸收，所以必須漲價；菜單調價是老闆擔心的事，不是原因。",
+      "en": "The man says typhoons ruined several batches of vegetables and fuel prices keep rising, so he cannot absorb the freight costs. Raising menu prices is the owner's worry, not the cause.",
+      "vi": "Người đàn ông nói bão làm hỏng nhiều đợt rau, giá dầu lại tăng nên không thể gánh thêm phí vận chuyển. Việc tăng giá thực đơn là nỗi lo của bà chủ, không phải nguyên nhân."
+     }
+    },
+    {
+     "stem": "老闆對最後提出的三個月方案，態度如何？",
+     "options": [
+      "願意考慮，但要求品質不能下降",
+      "立刻同意，沒有任何條件",
+      "堅決反對，打算換供應商",
+      "只接受固定訂貨量的做法"
+     ],
+     "answer": "A",
+     "skill": "attitude",
+     "explain": {
+      "zh": "老闆說這個方案可以考慮，同時加了品質不能打折的條件，可見她是有保留的接受，而不是完全同意或拒絕。",
+      "en": "She says the plan is worth considering but adds a condition that quality must not slip. That is a conditional openness, neither full agreement nor refusal.",
+      "vi": "Bà chủ nói phương án này có thể cân nhắc, đồng thời thêm điều kiện chất lượng không được giảm. Đó là sự chấp nhận có điều kiện, không phải đồng ý hoàn toàn hay từ chối."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LD27",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "turns": [
+    [
+     "F",
+     "學長，我下週要去面試一家科技公司，有點緊張，可以請教你一些經驗嗎？"
+    ],
+    [
+     "M",
+     "當然。你先說說，準備得怎麼樣了？"
+    ],
+    [
+     "F",
+     "履歷已經修改好了，自我介紹也背熟了，可是我怕被問到不會的問題。"
+    ],
+    [
+     "M",
+     "我當年也有同樣的煩惱。其實面試官不見得要聽標準答案，他們更在意你怎麼思考。遇到不懂的，坦白說出來，再說明你會怎麼解決，反而加分。"
+    ],
+    [
+     "F",
+     "原來如此。那自我介紹是不是背得越熟越好？"
+    ],
+    [
+     "M",
+     "熟是要熟，但別像背書。背得太流暢，聽起來反而缺乏誠意。我建議你抓出三個重點，用自己的話說。"
+    ],
+    [
+     "F",
+     "還有一個問題，對方如果問我期望的薪資，我該怎麼回答？"
+    ],
+    [
+     "M",
+     "先上網查同業的行情，給一個範圍，不要講死數字，也不要一開口就殺價。"
+    ],
+    [
+     "F",
+     "謝謝學長，我回去就照你說的練習。"
+    ],
+    [
+     "M",
+     "加油，最重要的是展現熱忱，別忘了面試前先把公司的產品研究一遍。"
+    ]
+   ],
+   "questions": [
+    {
+     "stem": "學長認為面試官最在意什麼？",
+     "options": [
+      "應徵者如何思考和解決問題",
+      "有沒有標準答案",
+      "履歷的格式漂不漂亮",
+      "自我介紹背得夠不夠熟"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "學長說面試官不見得要聽標準答案，更在意你怎麼思考；不懂的問題坦白說明解決方式反而加分。",
+      "en": "The senior says interviewers do not necessarily want a model answer; they care more about how you think. Admitting you do not know and explaining how you would solve it earns points.",
+      "vi": "Đàn anh nói người phỏng vấn không nhất thiết cần đáp án chuẩn mà quan tâm hơn đến cách bạn suy nghĩ. Thẳng thắn nói không biết rồi nêu cách giải quyết còn được cộng điểm."
+     }
+    },
+    {
+     "stem": "對於自我介紹，學長的建議是什麼？",
+     "options": [
+      "抓出三個重點，用自己的話表達",
+      "盡量背得流暢，越熟越好",
+      "把內容縮短到一分鐘以內",
+      "避免提到過去的經驗"
+     ],
+     "answer": "A",
+     "skill": "purpose",
+     "explain": {
+      "zh": "學長提醒背得太流暢聽起來缺乏誠意，所以要抓三個重點、用自己的話說。",
+      "en": "He warns that an overly smooth recital sounds insincere, so she should pick three key points and say them in her own words.",
+      "vi": "Anh ấy nhắc rằng đọc thuộc quá trôi chảy nghe thiếu chân thành, nên hãy chọn ba ý chính và nói bằng lời của mình."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LD28",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "turns": [
+    [
+     "F",
+     "我算過了，如果買房，頭期款要三百多萬，每個月還要繳貸款，我們的存款幾乎會被掏空。"
+    ],
+    [
+     "M",
+     "可是租房子就像把錢丟進水裡，十年下來繳的租金也是一筆可觀的數字，最後什麼都沒留下。"
+    ],
+    [
+     "F",
+     "話不能這麼說，租屋比較自由。如果工作調動，或者孩子要換學區，搬家很方便，買了房就被綁住了。"
+    ],
+    [
+     "M",
+     "這點我同意，但是房價這幾年一直漲，再拖下去，可能連頭期款都付不起。"
+    ],
+    [
+     "F",
+     "房價會不會繼續漲還不一定，專家也說未來可能修正。再說，利率要是升高，月付金就會增加，到時壓力更大。"
+    ],
+    [
+     "M",
+     "那不如折衷一下，先找一間坪數小一點、離捷運近的房子，總價低，貸款壓力也輕。"
+    ],
+    [
+     "F",
+     "這個想法我可以接受，不過我們得先把緊急備用金留好，至少半年的生活費，不能全砸進去。"
+    ],
+    [
+     "M",
+     "好，那這個週末我們先去看幾間，順便向銀行諮詢貸款方案。"
+    ],
+    [
+     "F",
+     "嗯，不急著做決定，多比較總是不吃虧。"
+    ]
+   ],
+   "questions": [
+    {
+     "stem": "女士對買房有什麼顧慮？",
+     "options": [
+      "存款可能被掏空，利率升高後壓力更大",
+      "房子的坪數太小",
+      "捷運離家太遠",
+      "銀行不肯提供貸款"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "女士擔心頭期款會讓存款見底，而且利率上升月付金增加，壓力更大；坪數與捷運是男士折衷方案的內容。",
+      "en": "She worries the down payment would drain their savings and that rising interest rates would raise the monthly payment. Size and MRT access belong to the man's compromise.",
+      "vi": "Cô lo khoản trả trước sẽ vét cạn tiền tiết kiệm, và lãi suất tăng sẽ làm tiền trả hằng tháng nặng hơn. Diện tích nhỏ và gần tàu điện là nội dung phương án dung hòa của chồng."
+     }
+    },
+    {
+     "stem": "兩人最後達成了什麼共識？",
+     "options": [
+      "先看面積較小、交通方便的房子，並留好備用金",
+      "馬上簽約買下一間房子",
+      "決定繼續租屋十年",
+      "向父母借錢付頭期款"
+     ],
+     "answer": "A",
+     "skill": "main_idea",
+     "explain": {
+      "zh": "兩人折衷為先看小坪數、近捷運的房子，也同意保留半年生活費當備用金，並先向銀行諮詢；並未立刻決定買或不買。",
+      "en": "They compromise on viewing smaller homes near the MRT, keep at least six months of living costs in reserve, and consult a bank first. No final buy-or-rent decision is made yet.",
+      "vi": "Hai người dung hòa bằng cách xem nhà nhỏ hơn, gần tàu điện, giữ quỹ dự phòng ít nhất nửa năm và hỏi ngân hàng trước. Chưa quyết định cuối cùng là mua hay thuê."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LD29",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "turns": [
+    [
+     "M",
+     "王太太，社區管委會下週要開會討論裝監視器的事，您的看法如何？"
+    ],
+    [
+     "F",
+     "我是贊成的。上個月我家門口的腳踏車被偷，報警後才發現附近一支攝影機都沒有，根本無從查起。"
+    ],
+    [
+     "M",
+     "我也有同感，不過有些住戶反對，擔心隱私被侵犯，尤其是一樓的住戶，怕鏡頭對著自家窗戶。"
+    ],
+    [
+     "F",
+     "這個顧慮合理。是不是可以規定只拍公共區域，像大門、車道和電梯，並且畫面只保存三十天？"
+    ],
+    [
+     "M",
+     "對，而且調閱畫面要經過管委會同意，並留下紀錄，不能隨便讓人看。"
+    ],
+    [
+     "F",
+     "另一個問題是經費。如果全部由住戶平均分攤，有些人可能不願意。"
+    ],
+    [
+     "M",
+     "我聽說市政府有補助，最高可以補助一半，但是要先提出申請書，管委會得在月底前送件。"
+    ],
+    [
+     "F",
+     "那時間很緊迫。我建議這個週末先發一份問卷，讓大家表達意見，會議上才有依據。"
+    ],
+    [
+     "M",
+     "好主意，問卷我來設計，您幫忙在群組裡通知大家。"
+    ]
+   ],
+   "questions": [
+    {
+     "stem": "有些住戶反對裝監視器的主要原因是什麼？",
+     "options": [
+      "擔心隱私被侵犯",
+      "認為費用由市政府負擔",
+      "覺得小偷已經被抓到了",
+      "害怕管委會不開會"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "男士說反對者擔心隱私被侵犯，特別是一樓住戶怕鏡頭對著窗戶；補助與經費是另一個話題。",
+      "en": "The man says opponents fear invasion of privacy, especially ground-floor residents worried about cameras facing their windows. Funding is a separate topic.",
+      "vi": "Người đàn ông nói người phản đối lo bị xâm phạm quyền riêng tư, nhất là cư dân tầng một sợ camera hướng vào cửa sổ. Kinh phí là một vấn đề khác."
+     }
+    },
+    {
+     "stem": "兩人決定這個週末先做什麼？",
+     "options": [
+      "發問卷，了解住戶的意見",
+      "向市政府送出申請書",
+      "立刻報警處理失竊案",
+      "直接請廠商來安裝鏡頭"
+     ],
+     "answer": "A",
+     "skill": "purpose",
+     "explain": {
+      "zh": "女士建議週末先發問卷，讓會議有依據，男士也同意並負責設計；申請補助是月底前的事，不是這週末。",
+      "en": "She proposes sending a questionnaire this weekend so the meeting has a basis, and he agrees to design it. The subsidy application is due by month end, not this weekend.",
+      "vi": "Cô đề nghị cuối tuần này gửi bảng khảo sát để cuộc họp có cơ sở, anh đồng ý thiết kế. Hồ sơ xin hỗ trợ là việc trước cuối tháng, không phải cuối tuần này."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LD30",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "turns": [
+    [
+     "M",
+     "林老師，我讀完您的初稿了，整體架構很紮實，只是第三章有些地方我覺得稍嫌冗長。"
+    ],
+    [
+     "F",
+     "是嗎？那一章我花了最多心思，因為它是全書的核心論點，捨不得刪。"
+    ],
+    [
+     "M",
+     "我明白。不過讀者可能還沒進入狀況就失去耐心了。我建議把案例精簡，保留最有說服力的兩個，其餘移到附錄。"
+    ],
+    [
+     "F",
+     "這樣也行，只是附錄的圖表還要重新排版，會花一些時間。"
+    ],
+    [
+     "M",
+     "排版的事交給我們美編處理，您只要提供原始檔就好。"
+    ],
+    [
+     "F",
+     "說到時程，我下週要出國開會，月底前恐怕來不及，可以延到下個月初嗎？"
+    ],
+    [
+     "M",
+     "這就有點為難了，新書要趕在書展前上市，印刷排程已經排滿，最多只能延三天。"
+    ],
+    [
+     "F",
+     "三天太趕了。這樣吧，我先交修改後的第三章，其餘部分等出差回來再校對。"
+    ],
+    [
+     "M",
+     "可以，不過校樣出來後，請您務必在兩天內回覆。"
+    ],
+    [
+     "F",
+     "一言為定。"
+    ]
+   ],
+   "questions": [
+    {
+     "stem": "編輯建議怎麼處理第三章？",
+     "options": [
+      "精簡案例，只保留兩個，其餘放進附錄",
+      "整章刪掉",
+      "把案例增加到兩倍",
+      "改寫成全書的結論"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "編輯說該章稍嫌冗長，建議保留最有說服力的兩個案例，其餘移到附錄。",
+      "en": "The editor finds the chapter a bit long and suggests keeping the two most persuasive cases and moving the rest to the appendix.",
+      "vi": "Biên tập viên thấy chương này hơi dài, đề nghị giữ hai ví dụ thuyết phục nhất và chuyển phần còn lại vào phụ lục."
+     }
+    },
+    {
+     "stem": "編輯為什麼不能讓截稿日延後太久？",
+     "options": [
+      "新書必須趕在書展前上市，印刷排程已滿",
+      "美編要出國開會",
+      "作者的稿件品質不佳",
+      "出版社打算取消這本書"
+     ],
+     "answer": "A",
+     "skill": "inference",
+     "explain": {
+      "zh": "編輯說新書要趕在書展前上市，而且印刷排程已經排滿，所以最多只能延三天。出國開會的是作者。",
+      "en": "He explains the book must reach shelves before the book fair and the printing schedule is full, so only three days are possible. It is the author who is travelling.",
+      "vi": "Biên tập viên giải thích sách phải ra mắt trước hội sách và lịch in đã kín, nên chỉ lùi được ba ngày. Người đi công tác nước ngoài là tác giả."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LM26",
+   "type": "monologue",
+   "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+   "text": "一家跨國電子企業昨天宣布，將在中部科學園區投資新臺幣兩百億元興建新廠。公司表示，新廠完工後，將創造約三千個工作機會，其中八成會優先錄用本地居民。地方政府對此樂觀其成，認為這項投資有助於帶動周邊餐飲、交通和房市的發展。不過，也有環保團體提出質疑，擔心工廠用水量龐大，會加重當地缺水的壓力，要求企業公開環境影響評估報告。對此，企業代表回應，新廠將採用循環用水系統，用水量可比傳統工廠減少三成，並承諾每年公布環保成效。專家則提醒，企業在享受租稅優惠的同時，也應該落實對社區的承諾，才能真正達到互利共贏。",
+   "questions": [
+    {
+     "stem": "新廠完工後，預計創造多少個工作機會？",
+     "options": [
+      "約三千個",
+      "約兩百個",
+      "約八千個",
+      "約三十個"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "報導說新廠將創造約三千個工作機會；兩百億是投資金額，八成是優先錄用本地居民的比例。",
+      "en": "The report says about 3,000 jobs; 20 billion is the investment amount and 80 percent is the share reserved for local residents.",
+      "vi": "Bản tin nói khoảng ba nghìn việc làm; hai trăm tỉ là vốn đầu tư và tám mươi phần trăm là tỉ lệ ưu tiên tuyển người địa phương."
+     }
+    },
+    {
+     "stem": "環保團體擔心什麼問題？",
+     "options": [
+      "工廠用水量大，會加重缺水壓力",
+      "新廠的噪音太大",
+      "本地居民找不到工作",
+      "房價會因此下跌"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "環保團體擔心工廠用水量龐大，加重當地缺水壓力，並要求公開環評報告；房市被提到的是正面影響。",
+      "en": "Environmental groups fear the plant's huge water use will worsen local shortages and demand the impact assessment be published. The housing market was mentioned only as a benefit.",
+      "vi": "Các nhóm bảo vệ môi trường lo nhà máy dùng nhiều nước sẽ làm thiếu nước trầm trọng hơn và yêu cầu công bố báo cáo đánh giá tác động. Thị trường nhà ở chỉ được nhắc như một lợi ích."
+     }
+    },
+    {
+     "stem": "專家的看法是什麼？",
+     "options": [
+      "企業享受優惠時，也要落實對社區的承諾",
+      "租稅優惠應該全部取消",
+      "企業不應該在本地設廠",
+      "政府不必再監督企業"
+     ],
+     "answer": "A",
+     "skill": "attitude",
+     "explain": {
+      "zh": "專家提醒企業享受租稅優惠的同時，必須兌現對社區的承諾，才能互利共贏，並非要求取消優惠或反對設廠。",
+      "en": "The expert reminds firms that while enjoying tax breaks they must honour commitments to the community for a win-win. He is not calling for scrapping incentives or opposing the plant.",
+      "vi": "Chuyên gia nhắc doanh nghiệp rằng khi hưởng ưu đãi thuế cũng phải thực hiện cam kết với cộng đồng để đôi bên cùng có lợi, không phải đòi bỏ ưu đãi hay phản đối xây nhà máy."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LM27",
+   "type": "monologue",
+   "intro": "請聽這場演講，然後回答下面的三個問題。",
+   "text": "各位好，今天我想跟大家談談團隊中的「心理安全感」。所謂心理安全感，是指成員相信自己提出疑問、承認錯誤或表達不同意見時，不會遭到嘲笑或懲罰。研究發現，心理安全感高的團隊更常討論失誤，因為他們不怕被責備，所以問題能及早浮現，及時修正。那麼，主管該怎麼做呢？首先，要以身作則，主動承認自己的不足；其次，當有人提出壞消息時，先感謝對方，而不是急著追究責任；最後，要把犯錯視為學習的機會，而不是處罰的理由。心理安全感不是一蹴可幾的，需要長時間累積，但只要有一次處理不當，就可能毀於一旦。",
+   "questions": [
+    {
+     "stem": "根據演講，什麼是心理安全感？",
+     "options": [
+      "相信說出疑問或錯誤時，不會被嘲笑或懲罰",
+      "團隊成員之間絕對不會犯錯",
+      "主管對所有意見都完全同意",
+      "工作環境在物理上很安全"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "演講者定義：成員相信提出疑問、承認錯誤或表達不同意見時不會遭到嘲笑或懲罰。",
+      "en": "The speaker defines it as members believing that raising doubts, admitting mistakes or voicing disagreement will not bring ridicule or punishment.",
+      "vi": "Diễn giả định nghĩa đó là việc thành viên tin rằng khi nêu thắc mắc, thừa nhận sai sót hay bày tỏ ý kiến khác sẽ không bị chế giễu hay trừng phạt."
+     }
+    },
+    {
+     "stem": "研究發現，心理安全感高的團隊有什麼特點？",
+     "options": [
+      "更常討論失誤，問題能及早修正",
+      "很少遇到任何問題",
+      "成員傾向保持沉默",
+      "績效一定比別人差"
+     ],
+     "answer": "A",
+     "skill": "inference",
+     "explain": {
+      "zh": "研究發現，安全感高的團隊因為不怕被責備，更常討論失誤，所以問題及早浮現、及時修正。",
+      "en": "Research finds teams with high safety discuss mistakes more often because they fear no blame, so problems surface early and get fixed in time.",
+      "vi": "Nghiên cứu cho thấy nhóm có cảm giác an toàn cao bàn về sai sót nhiều hơn vì không sợ bị trách, nên vấn đề lộ ra sớm và được sửa kịp thời."
+     }
+    },
+    {
+     "stem": "演講者對建立心理安全感的看法是什麼？",
+     "options": [
+      "需要長期累積，但一次處理不當就可能前功盡棄",
+      "只要開一次會就能完成",
+      "與主管的態度沒有關係",
+      "一旦建立就不會消失"
+     ],
+     "answer": "A",
+     "skill": "attitude",
+     "explain": {
+      "zh": "演講者指出心理安全感不是一蹴可幾，要長時間累積，卻可能因一次處理不當毀於一旦。",
+      "en": "He says it cannot be achieved overnight and must be built up over time, yet one mishandled moment can destroy it.",
+      "vi": "Ông cho rằng không thể có ngay trong một sớm một chiều mà phải tích lũy lâu dài, nhưng chỉ một lần xử lý không đúng cũng có thể đổ bể."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LM28",
+   "type": "monologue",
+   "intro": "請聽這段廣播，然後回答下面的三個問題。",
+   "text": "本週末，老街文化節即將登場。活動從週六上午九點開始，一直持續到週日晚上十點，內容包括傳統手工藝展示、地方小吃市集，以及晚間的露天音樂會。其中最受矚目的，是週六下午三點的踩街遊行，將有二十多個社團參加。主辦單位提醒，活動期間，中山路從民生路口到文化路口將實施交通管制，車輛禁止通行，公車路線也會改道，改由中正路行駛。警方建議民眾盡量搭乘大眾運輸工具，因為附近停車位有限，週六下午預計會有嚴重塞車。另外，如果您打算開車前往，可以把車停在河濱公園的臨時停車場，再轉搭免費接駁車，大約十分鐘就能抵達會場。",
+   "questions": [
+    {
+     "stem": "文化節中最受矚目的活動是什麼？",
+     "options": [
+      "週六下午的踩街遊行",
+      "週日晚上的露天音樂會",
+      "傳統手工藝展示",
+      "地方小吃市集"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "廣播說最受矚目的是週六下午三點、有二十多個社團參加的踩街遊行；音樂會在晚間，只是其中一項活動。",
+      "en": "The broadcast says the most eye-catching event is the Saturday 3 p.m. parade with over twenty groups. The concert is just one of the evening items.",
+      "vi": "Đài nói sự kiện nổi bật nhất là cuộc diễu hành lúc ba giờ chiều thứ Bảy với hơn hai mươi câu lạc bộ tham gia. Buổi hòa nhạc chỉ là một hoạt động buổi tối."
+     }
+    },
+    {
+     "stem": "活動期間，公車會怎麼行駛？",
+     "options": [
+      "改道，由中正路通過",
+      "照常行駛中山路",
+      "全部停駛",
+      "只在週日改道"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "中山路實施管制、車輛禁止通行，公車路線因此改走中正路。",
+      "en": "One road section is closed to vehicles, so bus routes are diverted along another street.",
+      "vi": "Một đoạn đường bị cấm xe nên các tuyến xe buýt được chuyển hướng sang đường khác."
+     }
+    },
+    {
+     "stem": "對於打算開車的民眾，廣播提出什麼建議？",
+     "options": [
+      "把車停在臨時停車場，再轉搭免費接駁車",
+      "直接把車開進老街",
+      "在中山路路邊停車",
+      "改在週日晚上才出門"
+     ],
+     "answer": "A",
+     "skill": "purpose",
+     "explain": {
+      "zh": "因為附近停車位有限，建議開車者把車停在河濱公園臨時停車場，再轉搭約十分鐘的免費接駁車。",
+      "en": "Since parking nearby is limited, drivers are advised to park at the temporary lot by the riverside park and take the free shuttle of about ten minutes.",
+      "vi": "Vì chỗ đậu xe gần đó có hạn, người lái xe được khuyên đậu ở bãi tạm thời và đi xe đưa đón miễn phí khoảng mười phút."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LM29",
+   "type": "monologue",
+   "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+   "text": "環保署今天公布最新的空氣品質報告，指出今年前九個月，全國細懸浮微粒的平均濃度比五年前下降了百分之二十二，紅色警示的天數也從去年的二十三天減少到九天。官員表示，成效主要來自三方面：第一，工廠必須加裝即時監測設備；第二，老舊柴油貨車逐年淘汰，並補助業者換購電動車；第三，對違規排放的工廠加重罰則。然而，環保團體並不完全滿意，他們認為雖然平均數字漂亮，但工業區周邊的居民仍然飽受異味所苦，改善並不平均。專家則建議，政府應該把監測範圍擴大到小型工廠，因為小型工廠數量龐大，同樣是污染來源。",
+   "questions": [
+    {
+     "stem": "今年前九個月，紅色警示的天數有什麼變化？",
+     "options": [
+      "從二十三天減少到九天",
+      "從九天增加到二十三天",
+      "從二十二天減少到九天",
+      "維持在二十三天不變"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "報告指出紅色警示天數由去年的二十三天減為九天；百分之二十二是細懸浮微粒濃度的降幅。",
+      "en": "Red-alert days fell from 23 last year to 9. The 22 percent figure is the drop in fine-particle concentration.",
+      "vi": "Số ngày cảnh báo đỏ giảm từ hai mươi ba xuống chín. Con số hai mươi hai phần trăm là mức giảm nồng độ bụi mịn."
+     }
+    },
+    {
+     "stem": "下列哪一項不是官員提到的改善措施？",
+     "options": [
+      "禁止民眾騎乘機車",
+      "要求工廠加裝即時監測設備",
+      "淘汰老舊柴油貨車",
+      "對違規工廠加重罰則"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "官員列出的三項是即時監測、淘汰柴油貨車與補助換電動車、加重違規罰則；並沒有提到禁止騎機車。",
+      "en": "The three measures are real-time monitoring, phasing out old diesel trucks with subsidies for electric ones, and heavier penalties. Banning motorcycles was never mentioned.",
+      "vi": "Ba biện pháp là giám sát theo thời gian thực, loại bỏ xe tải diesel cũ kèm hỗ trợ đổi xe điện, và tăng mức phạt vi phạm. Việc cấm xe máy không hề được nhắc đến."
+     }
+    },
+    {
+     "stem": "環保團體對這份成績的看法是什麼？",
+     "options": [
+      "平均數字不錯，但改善並不平均",
+      "非常滿意，不需要再努力",
+      "認為數據全是假的",
+      "主張取消所有工廠"
+     ],
+     "answer": "A",
+     "skill": "attitude",
+     "explain": {
+      "zh": "環保團體承認平均數字漂亮，但指出工業區周邊居民仍受異味之苦，所以並不完全滿意。",
+      "en": "They admit the average looks good but note residents near industrial areas still suffer from odours, so they are not fully satisfied.",
+      "vi": "Họ thừa nhận con số trung bình đẹp nhưng chỉ ra cư dân quanh khu công nghiệp vẫn khổ vì mùi hôi, nên chưa hoàn toàn hài lòng."
+     }
+    }
+   ]
+  },
+  {
+   "id": "LM30",
+   "type": "monologue",
+   "intro": "請聽這段評論，然後回答下面的三個問題。",
+   "text": "電子書問世以來，關於它會不會取代紙本書的爭論從未停止。支持電子書的人說，出門旅行不必再背沉重的行李，字體大小還可以隨意調整，對視力不好的長輩特別友善。可是，紙本書的擁護者也有他們的理由：翻頁的觸感和油墨的味道，都是螢幕無法取代的。更重要的是，有研究指出，閱讀紙本時，讀者比較容易集中注意力，也比較記得住內容，因為螢幕上的訊息容易讓人隨手滑到別的頁面。我認為，與其爭論孰優孰劣，不如依照用途來選擇：查資料、通勤時閱讀，電子書方便又省空間；需要深入思考、反覆咀嚼的作品，則還是紙本更合適。兩者各有千秋，並非非此即彼。",
+   "questions": [
+    {
+     "stem": "電子書為什麼對視力不好的長輩特別友善？",
+     "options": [
+      "字體大小可以隨意調整",
+      "閱讀器的重量很輕",
+      "價格比紙本便宜很多",
+      "可以聽到作者朗讀"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "評論提到電子書的字體大小可以調整，所以對視力不好的長輩友善；輕便是出門旅行時的優點。",
+      "en": "The commentary says font size can be adjusted freely, which helps seniors with poor eyesight. Portability was a separate travel benefit.",
+      "vi": "Bài bình luận nói cỡ chữ có thể chỉnh tùy ý nên thân thiện với người lớn tuổi mắt kém. Sự gọn nhẹ là lợi ích khác khi đi du lịch."
+     }
+    },
+    {
+     "stem": "有研究指出，閱讀紙本書有什麼好處？",
+     "options": [
+      "比較容易專心，也比較記得住內容",
+      "閱讀速度比電子書快一倍",
+      "眼睛完全不會疲勞",
+      "可以同時查詢許多資料"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "研究指出讀紙本時較能集中注意力、記得更多，因為螢幕上的訊息容易讓人滑到別的頁面。",
+      "en": "Studies show readers of print concentrate better and remember more, since on-screen content tempts people to drift to other pages.",
+      "vi": "Nghiên cứu cho thấy đọc sách giấy dễ tập trung và nhớ nội dung hơn, vì thông tin trên màn hình dễ khiến người ta lướt sang trang khác."
+     }
+    },
+    {
+     "stem": "作者的主要立場是什麼？",
+     "options": [
+      "兩者各有優點，應依用途選擇",
+      "電子書遲早會取代紙本書",
+      "紙本書永遠比電子書好",
+      "讀者不應該使用電子書"
+     ],
+     "answer": "A",
+     "skill": "main_idea",
+     "explain": {
+      "zh": "作者認為與其爭論誰好誰壞，不如依用途選擇，兩者各有千秋，並非非此即彼。",
+      "en": "The author thinks it is better to choose by purpose than to argue which is superior; each has its strengths and it is not either-or.",
+      "vi": "Tác giả cho rằng thay vì tranh cãi cái nào hơn, nên chọn theo mục đích; mỗi loại đều có điểm mạnh và không phải chuyện chọn một bỏ một."
+     }
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "gap": [
+   {
+    "id": "RG11",
+    "passage": "近年來，「企業社會責任」成為商界的熱門詞彙，許多公司紛紛發表環保承諾，然而其中不乏{1}的例子：產品包裝印上綠葉圖案，製程卻依然高污染，這種手法被稱為「漂綠」。有些企業{2}，把一小部分的公益捐款大肆宣傳，卻對真正的環境衝擊避而不談。消費者若不加分辨，很容易被華麗的廣告所{3}。為了遏止這類行為，部分國家已立法要求企業{4}碳排放數據，並接受第三方查核。真正負責任的企業，應當做到言行一致，而不是{5}，只在口頭上表態。",
+    "blanks": [
+     {
+      "n": 1,
+      "options": [
+       "名不符實",
+       "實至名歸",
+       "名列前茅",
+       "聲名大噪"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "標榜環保、實際卻高污染，是名稱與實際不相符，故用「名不符實」；其餘三個都是正面評價。",
+       "en": "Claiming to be green while polluting means the name does not match reality: 「名不符實」. The others are positive.",
+       "vi": "Tự nhận thân thiện môi trường mà thực tế gây ô nhiễm là danh không xứng thực: 「名不符實」. Các thành ngữ còn lại mang nghĩa tích cực."
+      }
+     },
+     {
+      "n": 2,
+      "options": [
+       "避重就輕",
+       "直言不諱",
+       "開誠布公",
+       "據實以告"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "只宣傳小額捐款、迴避真正的衝擊，就是「避重就輕」；其餘三個都是坦白說出實情。",
+       "en": "Promoting small donations while dodging the real impact is 「避重就輕」; the others mean speaking frankly.",
+       "vi": "Chỉ khoe khoản quyên góp nhỏ mà né tác động thật là 「避重就輕」; các từ còn lại nghĩa là nói thẳng, nói thật."
+      }
+     },
+     {
+      "n": 3,
+      "options": [
+       "蒙蔽",
+       "啟迪",
+       "彌補",
+       "輔佐"
+      ],
+      "answer": "A",
+      "skill": "vocab",
+      "explain": {
+       "zh": "「被……所蒙蔽」指被表象欺騙；「啟迪」是啟發，「彌補」是補足缺失，「輔佐」是協助。",
+       "en": "Being misled by appearances: 「蒙蔽」. The others mean to enlighten, to make up for, to assist.",
+       "vi": "Bị vẻ bề ngoài đánh lừa: 「蒙蔽」. Các từ còn lại là khai sáng, bù đắp, phụ tá."
+      }
+     },
+     {
+      "n": 4,
+      "options": [
+       "揭露",
+       "擱置",
+       "迴避",
+       "延攬"
+      ],
+      "answer": "A",
+      "skill": "verb",
+      "explain": {
+       "zh": "立法目的是遏止漂綠，所以要求企業「揭露」（公開）數據；「擱置」是放著不辦，「迴避」是躲開，「延攬」是招攬人才。",
+       "en": "To curb greenwashing, firms must disclose data: 「揭露」. The others mean shelve, avoid, recruit.",
+       "vi": "Để ngăn tẩy xanh, doanh nghiệp phải 「揭露」 (công bố) số liệu; các từ còn lại là gác lại, né tránh, chiêu mộ."
+      }
+     },
+     {
+      "n": 5,
+      "options": [
+       "口惠而實不至",
+       "一諾千金",
+       "身體力行",
+       "言出必行"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「口惠而實不至」指只說好聽的話卻沒有實際行動，與「只在口頭上表態」相符；其餘三個都是說到做到。",
+       "en": "「口惠而實不至」 means kind words without real action; the others mean following through.",
+       "vi": "「口惠而實不至」 nghĩa là chỉ hứa suông mà không làm; các từ còn lại nghĩa là nói là làm."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RG12",
+    "passage": "博物館過去給人的印象是莊嚴而安靜的殿堂，如今數位科技正讓展間{1}。許多館方將館藏掃描成高解析度影像，上傳網路供全球觀眾瀏覽，即使身處偏遠地區，也能{2}，欣賞名畫的筆觸細節。擴增實境的導覽應用程式，更能在觀眾舉起手機時，讓沉睡千年的文物「活」起來。不過，也有人擔心隔著螢幕觀賞終究{3}，無法取代面對真跡時的震撼。館方因此強調，數位化不是要取代實體展覽，而是{4}，吸引更多人走進館內。如何在科技與原作之間取得平衡，並避免展覽流於{5}的炫技，是未來必須思考的課題。",
+    "blanks": [
+     {
+      "n": 1,
+      "options": [
+       "煥然一新",
+       "一成不變",
+       "大同小異",
+       "如出一轍"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "數位科技帶來新面貌，故用「煥然一新」；其餘三個都表示沒有變化或彼此相似。",
+       "en": "Technology gives a fresh look: 「煥然一新」. The others mean unchanged or alike.",
+       "vi": "Công nghệ số mang diện mạo mới: 「煥然一新」. Các từ còn lại nghĩa là không đổi hoặc giống nhau."
+      }
+     },
+     {
+      "n": 2,
+      "options": [
+       "足不出戶",
+       "不遠千里",
+       "舟車勞頓",
+       "長途跋涉"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "網路瀏覽使人不必出門就能欣賞，是「足不出戶」；其餘三個都強調旅途辛苦、遠行。",
+       "en": "Viewing online means not leaving home: 「足不出戶」. The others stress arduous travel.",
+       "vi": "Xem trực tuyến nên không cần ra khỏi nhà: 「足不出戶」. Các từ còn lại nhấn mạnh việc đi xa vất vả."
+      }
+     },
+     {
+      "n": 3,
+      "options": [
+       "隔靴搔癢",
+       "瞠目結舌",
+       "迫不及待",
+       "眾志成城"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「隔靴搔癢」比喻不夠貼切、未達核心，指螢幕觀賞無法取代真跡；其餘三個與語意無關。",
+       "en": "「隔靴搔癢」 means falling short of the real thing, as a screen does of the original.",
+       "vi": "「隔靴搔癢」 nghĩa là không chạm đến điều cốt lõi, như xem qua màn hình so với tác phẩm thật."
+      }
+     },
+     {
+      "n": 4,
+      "options": [
+       "拋磚引玉",
+       "畫蛇添足",
+       "喧賓奪主",
+       "本末倒置"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「拋磚引玉」指以較淺的東西引出更好的成果，此處數位展示吸引觀眾入館；其餘三個都是負面的做法。",
+       "en": "「拋磚引玉」 means using a small offering to draw out something greater; the others are negative.",
+       "vi": "「拋磚引玉」 nghĩa là dùng cái nhỏ để dẫn đến điều lớn hơn; các thành ngữ còn lại mang nghĩa tiêu cực."
+      }
+     },
+     {
+      "n": 5,
+      "options": [
+       "華而不實",
+       "腳踏實地",
+       "返璞歸真",
+       "實事求是"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「華而不實」指外表漂亮卻沒有內涵，與「炫技」相呼應；其餘三個都是踏實、樸素的意思。",
+       "en": "「華而不實」 means showy without substance, matching mere technical showing off.",
+       "vi": "「華而不實」 nghĩa là hào nhoáng mà rỗng, khớp với việc phô diễn kỹ thuật; các từ còn lại mang nghĩa thực chất, giản dị."
+      }
+     }
+    ]
+   }
+  ],
+  "comp": [
+   {
+    "id": "RC26",
+    "passage": "不少家長與教練相信，少年運動員愈早投入高強度訓練，愈有機會成為頂尖選手。然而運動醫學的研究顯示，青少年的骨骼與關節尚在發育，若長期負荷過重，容易出現疲勞性骨折、肌腱發炎等慢性傷害，這些傷害往往悄悄累積，等到發現時已難以逆轉。此外，過早專攻單一項目，也會讓孩子因為枯燥與壓力而失去興趣，最終提前退出運動。這種急於求成、揠苗助長的做法，結果常常適得其反。專家建議，少年階段應多元嘗試不同運動，並安排充足的休息與睡眠，讓身體與心理都能穩定成長，競技水準才有長久發展的基礎。",
+    "questions": [
+     {
+      "stem": "這篇文章的主要觀點是什麼？",
+      "options": [
+       "少年過度訓練可能傷身又消磨興趣，應重視休息與多元發展",
+       "愈早專攻單一項目，愈容易成為頂尖選手",
+       "運動醫學的結論不適用於青少年",
+       "家長不應讓孩子接觸任何運動"
+      ],
+      "answer": "A",
+      "skill": "main_idea",
+      "explain": {
+       "zh": "全文指出過度訓練會造成傷害並使孩子失去興趣，結尾建議休息與多元嘗試。",
+       "en": "The passage says overtraining causes injury and loss of interest, and recommends rest and variety.",
+       "vi": "Bài viết nêu tập luyện quá sức gây chấn thương và mất hứng thú, cuối bài khuyên nghỉ ngơi và thử nhiều môn."
+      }
+     },
+     {
+      "stem": "文中提到的慢性傷害有什麼特點？",
+      "options": [
+       "悄悄累積，發現時已難以逆轉",
+       "只會發生在成年選手身上",
+       "受傷當下立刻出現劇痛",
+       "休息一天就能完全恢復"
+      ],
+      "answer": "A",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中說這些傷害往往悄悄累積，等到發現時已難以逆轉。",
+       "en": "These injuries accumulate quietly and are hard to reverse once noticed.",
+       "vi": "Các chấn thương này tích tụ âm thầm và khó phục hồi khi đã phát hiện."
+      }
+     },
+     {
+      "stem": "「揠苗助長」在文中的意思最接近下列何者？",
+      "options": [
+       "違反成長規律而強行催促，反而造成傷害",
+       "細心照顧使孩子順利成長",
+       "耐心等待最佳時機",
+       "模仿成功選手的訓練方式"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「揠苗助長」比喻不顧事物發展規律、急於求成而壞事，與「適得其反」呼應。",
+       "en": "「揠苗助長」 means forcing growth against its natural pace and ruining it.",
+       "vi": "「揠苗助長」 nghĩa là nóng vội ép phát triển trái quy luật nên hỏng việc."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC27",
+    "passage": "所謂公民科學，是指讓非專業人士參與科學研究的模式。賞鳥者記錄候鳥出現的時間與地點，天文愛好者回報夜空中的異常亮點，這些零散的觀察一旦匯集成龐大的資料庫，就能讓研究者掌握單靠實驗室無法取得的大尺度變化。過去，學界對業餘研究者的資料不免有所保留，擔心品質參差不齊。如今，透過標準化的記錄格式與專家審核，資料的可信度已大幅提升。更重要的是，參與者在過程中培養了對自然的關懷，科學也因此走出象牙塔，成為公眾共同的事業。可見，集眾人之力所累積的成果，有時比少數專家的努力更為可觀。",
+    "questions": [
+     {
+      "stem": "公民科學的資料為什麼對研究者有價值？",
+      "options": [
+       "匯集後能呈現實驗室難以取得的大尺度變化",
+       "取代了所有的實驗室研究",
+       "只需要專家審核而不需要觀察",
+       "能讓參與者獲得學位"
+      ],
+      "answer": "A",
+      "skill": "main_idea",
+      "explain": {
+       "zh": "文中說零散觀察匯集成資料庫，能掌握單靠實驗室無法取得的大尺度變化。",
+       "en": "Pooled observations reveal large-scale changes that labs alone cannot capture.",
+       "vi": "Các quan sát rời rạc khi gộp lại cho thấy biến đổi quy mô lớn mà phòng thí nghiệm khó nắm bắt."
+      }
+     },
+     {
+      "stem": "「品質參差不齊」的意思是什麼？",
+      "options": [
+       "好壞不一，水準不整齊",
+       "全部品質都很優良",
+       "資料數量非常稀少",
+       "格式完全一致"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「參差不齊」形容水準高低不一、不整齊。",
+       "en": "「參差不齊」 means uneven in quality.",
+       "vi": "「參差不齊」 nghĩa là chất lượng chỗ tốt chỗ kém, không đồng đều."
+      }
+     },
+     {
+      "stem": "資料的可信度為什麼提高了？",
+      "options": [
+       "採用標準化記錄格式並經過專家審核",
+       "業餘研究者都成為專家",
+       "資料量變得更少",
+       "學界不再要求查證"
+      ],
+      "answer": "A",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中指出透過標準化的記錄格式與專家審核，可信度大幅提升。",
+       "en": "Standardized formats and expert review raised credibility.",
+       "vi": "Định dạng ghi chép chuẩn hóa và sự thẩm định của chuyên gia giúp tăng độ tin cậy."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC28",
+    "passage": "行動支付與電子錢包的普及，使現金在許多城市的使用場合日漸縮減，有些國家甚至出現零現金商店。支持者認為，數位交易更便捷、可追蹤，有助於遏止洗錢與逃漏稅。然而，現金消失也帶來隱憂。首先，不熟悉科技的長者與低收入族群，可能因缺乏帳戶或裝置而被排除在交易體系之外。其次，一旦系統當機或遭駭客入侵，民眾便無法完成最基本的買賣。再者，每筆消費都留下紀錄，個人隱私恐怕蕩然無存。因此，不少學者主張，即使邁向無現金社會，政府也應保留現金的法定地位，作為最後的安全網，讓每個人都能不受阻礙地參與經濟生活。",
+    "questions": [
+     {
+      "stem": "支持者為什麼贊成數位交易？",
+      "options": [
+       "便捷且可追蹤，有助遏止洗錢與逃漏稅",
+       "能讓現金價值上升",
+       "可以保障個人隱私",
+       "不需要任何系統運作"
+      ],
+      "answer": "A",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中說支持者認為數位交易更便捷、可追蹤，有助於遏止洗錢與逃漏稅。",
+       "en": "Supporters say it is convenient, traceable and helps curb money laundering and tax evasion.",
+       "vi": "Người ủng hộ cho rằng giao dịch số tiện lợi, truy vết được và giúp ngăn rửa tiền, trốn thuế."
+      }
+     },
+     {
+      "stem": "「個人隱私恐怕蕩然無存」的意思是什麼？",
+      "options": [
+       "隱私可能完全消失",
+       "隱私將受到更好的保護",
+       "隱私只會稍微減少",
+       "隱私不再受人關心"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「蕩然無存」指完全沒有留下。",
+       "en": "「蕩然無存」 means nothing remains at all.",
+       "vi": "「蕩然無存」 nghĩa là hoàn toàn không còn lại gì."
+      }
+     },
+     {
+      "stem": "學者主張保留現金的法定地位，原因是什麼？",
+      "options": [
+       "讓不便使用數位工具的人仍能參與經濟生活",
+       "讓政府能增加稅收",
+       "鼓勵民眾減少消費",
+       "避免行動支付被推廣"
+      ],
+      "answer": "A",
+      "skill": "inference",
+      "explain": {
+       "zh": "現金可作為最後的安全網，避免長者、低收入者與系統故障時的民眾被排除在交易之外。",
+       "en": "Cash is a safety net so no one is shut out when lacking devices or when systems fail.",
+       "vi": "Tiền mặt là lưới an toàn để không ai bị loại khỏi giao dịch khi thiếu thiết bị hoặc hệ thống hỏng."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC29",
+    "passage": "無障礙設計常被誤以為只是替身心障礙者加裝斜坡與扶手，實則它的受益者遠比想像中廣泛。推著嬰兒車的父母、拖著行李的旅客、暫時扭傷腳踝的人，都會因平緩的坡道與寬敞的電梯而受惠。這正是「通用設計」的精神：在規劃之初就考量不同使用者的需求，而非事後補強。事後修改不僅費用較高，往往也因空間限制而顧此失彼。有人批評，無障礙設施會增加建築成本，但從長遠來看，一座人人都能便利使用的建築，其效益與社會價值，絕非短期的預算數字所能衡量。因此，把無障礙視為基本條件而非額外的恩惠，才是真正的進步。",
+    "questions": [
+     {
+      "stem": "文章舉嬰兒車與行李的例子，目的是什麼？",
+      "options": [
+       "說明無障礙設計的受益者相當廣泛",
+       "說明斜坡只適合短期使用",
+       "批評旅客不遵守規定",
+       "說明電梯的造價很低"
+      ],
+      "answer": "A",
+      "skill": "purpose",
+      "explain": {
+       "zh": "這些例子顯示不只身心障礙者，許多人都會受惠。",
+       "en": "The examples show that many people, not only those with disabilities, benefit.",
+       "vi": "Các ví dụ cho thấy không chỉ người khuyết tật mà nhiều người cũng được hưởng lợi."
+      }
+     },
+     {
+      "stem": "為什麼作者主張在規劃之初就納入無障礙設計？",
+      "options": [
+       "事後修改費用高，又常受空間限制",
+       "事後修改完全不可能",
+       "初期規劃可以省下所有成本",
+       "法律禁止事後修改"
+      ],
+      "answer": "A",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中說事後修改費用較高，也常因空間限制而顧此失彼。",
+       "en": "Retrofitting costs more and is often constrained by space.",
+       "vi": "Sửa sau tốn kém hơn và thường bị giới hạn bởi không gian."
+      }
+     },
+     {
+      "stem": "「顧此失彼」在文中的意思是什麼？",
+      "options": [
+       "照顧了這一方面，卻忽略了另一方面",
+       "同時照顧到所有方面",
+       "只在乎對方的需求",
+       "完全不需要考慮"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「顧此失彼」指注意了一邊卻漏掉另一邊，無法兼顧。",
+       "en": "「顧此失彼」 means attending to one side while neglecting the other.",
+       "vi": "「顧此失彼」 nghĩa là lo được bên này thì bỏ sót bên kia, không chu toàn."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC30",
+    "passage": "創作者很少憑空發想，多數靈感都來自前人的作品，那麼，從模仿到抄襲之間，界線究竟在哪裡？一般認為，借鏡他人的風格、主題或技法屬於正常的學習；但若直接複製具體的表達，例如整段文字或獨特的構圖，卻不註明來源，便越過了紅線。判斷的關鍵不在於「像不像」，而在於是否加入了自己的詮釋與轉化。有人將抄襲辯解為「致敬」，但真正的致敬會公開承認出處，並賦予作品新的意義。若只是換湯不換藥，就算掛上致敬之名，也難逃剽竊之嫌。創意的價值，正在於它有別於他人的獨到之處。",
+    "questions": [
+     {
+      "stem": "根據文章，判斷模仿與抄襲的關鍵是什麼？",
+      "options": [
+       "是否加入了自己的詮釋與轉化",
+       "作品是否與原作相似",
+       "作者是否已經成名",
+       "作品的篇幅長短"
+      ],
+      "answer": "A",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中明說關鍵不在「像不像」，而在是否加入自己的詮釋與轉化。",
+       "en": "The key is not similarity but whether one adds personal interpretation and transformation.",
+       "vi": "Mấu chốt không phải giống hay không mà là có thêm cách diễn giải và biến đổi của riêng mình hay không."
+      }
+     },
+     {
+      "stem": "「換湯不換藥」的意思最接近下列何者？",
+      "options": [
+       "只改變外表，實質內容沒有改變",
+       "徹底改變內容與形式",
+       "使用更好的材料",
+       "同時改進方法與目標"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「換湯不換藥」比喻形式改了、本質不變。",
+       "en": "「換湯不換藥」 means changing the form but not the substance.",
+       "vi": "「換湯不換藥」 nghĩa là chỉ đổi hình thức, thực chất không đổi."
+      }
+     },
+     {
+      "stem": "作者對於把抄襲說成「致敬」的態度是什麼？",
+      "options": [
+       "不認同，認為缺乏出處與新意就是剽竊",
+       "完全贊同，認為這是創意的表現",
+       "沒有意見，認為與創作無關",
+       "認為只要公開道歉即可"
+      ],
+      "answer": "A",
+      "skill": "attitude",
+      "explain": {
+       "zh": "作者指出真正的致敬要承認出處並賦予新意，否則仍難逃剽竊之嫌。",
+       "en": "The author says true homage credits the source and adds meaning; otherwise it is still plagiarism.",
+       "vi": "Tác giả cho rằng tri ân đúng nghĩa phải ghi nguồn và thêm ý nghĩa mới, nếu không vẫn là đạo văn."
+      }
+     }
+    ]
+   }
+  ]
+ }
+}
