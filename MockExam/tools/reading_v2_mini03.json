@@ -1,0 +1,178 @@
+{
+  "gap": [
+    {
+      "id": "RG5",
+      "passage": "近年來，數位遊牧者帶著筆電{1}各地，只要有穩定的網路，便能在海濱小鎮或山城老街一邊工作一邊生活。他們的到來為偏鄉注入了消費力，咖啡館與民宿的生意因此{2}。然而，當外來者人數激增，租金節節上漲，本地居民反而成了被{3}的一群。有些社區因而訂下規範，要求長期居留者參與公共事務，期望外來者不只是過客。這種做法若能落實，雙方便可{4}，使遊牧者的專業與地方的人情味相得益彰；倘若只是一味收取費用，卻對在地文化{5}，這段關係終究難以長久。",
+      "blanks": [
+        {"n": 1, "options": ["穿梭", "鎮守", "封鎖", "隔絕"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "遊牧者在各地之間來來去去，用「穿梭」最貼切；「鎮守」是駐守一地，「封鎖」「隔絕」語意不合。",
+                     "en": "Nomads move back and forth between places, so 「穿梭」 fits. 「鎮守」 means guarding one place; the other two make no sense here.",
+                     "vi": "Người du mục kỹ thuật số đi lại giữa nhiều nơi nên dùng 「穿梭」 (len lỏi, qua lại). 「鎮守」 là trấn giữ một nơi; hai từ còn lại không hợp nghĩa."}},
+        {"n": 2, "options": ["欣欣向榮", "門可羅雀", "一蹶不振", "日薄西山"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "外來消費力帶動生意，所以是「欣欣向榮」（興旺）；其餘三個都形容冷清或衰敗。",
+                     "en": "Outside spending boosts business, hence 「欣欣向榮」 (thriving). The other idioms describe emptiness or decline.",
+                     "vi": "Sức mua từ bên ngoài làm việc kinh doanh phát đạt, nên dùng 「欣欣向榮」 (hưng thịnh). Ba thành ngữ còn lại chỉ sự vắng vẻ hoặc suy tàn."}},
+        {"n": 3, "options": ["排擠", "擁戴", "禮遇", "栽培"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "租金上漲使本地居民住不下去，是被「排擠」；其餘三項都是正面對待，與「反而」的轉折不符。",
+                     "en": "Rising rents push locals out: 「排擠」. The others are positive treatment and clash with the contrast marker 「反而」.",
+                     "vi": "Giá thuê tăng đẩy người dân địa phương ra ngoài lề: 「排擠」. Các từ còn lại mang nghĩa tích cực, trái với ý đối lập của 「反而」."}},
+        {"n": 4, "options": ["互利共生", "水火不容", "同床異夢", "兩敗俱傷"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "規範落實後雙方「相得益彰」，因此是「互利共生」；其餘三個都表示對立或各懷心思。",
+                     "en": "If the rules work, both sides gain: 「互利共生」 (mutual benefit). The rest mean hostility, hidden disagreement or mutual loss.",
+                     "vi": "Nếu quy định được thực thi, hai bên cùng có lợi: 「互利共生」. Các thành ngữ còn lại chỉ đối nghịch, mỗi người một ý hoặc cùng thiệt hại."}},
+        {"n": 5, "options": ["漠不關心", "體貼入微", "感同身受", "珍惜愛護"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「只一味收取費用」，對在地文化卻「漠不關心」，才會導致關係難長久；其餘三項都是關懷，語意相反。",
+                     "en": "Only collecting fees while being 「漠不關心」 (indifferent) to local culture leaves the relationship fragile. The others express care.",
+                     "vi": "Chỉ thu phí mà 「漠不關心」 (thờ ơ) với văn hóa địa phương thì quan hệ khó bền. Các từ còn lại thể hiện sự quan tâm, trái nghĩa."}}
+      ]
+    },
+    {
+      "id": "RG6",
+      "passage": "走進超市，貨架上的食品包裝五花八門，消費者往往仰賴標示來判斷商品的{1}。成分、產地、保存期限等資訊，本應讓人一目了然，但部分業者卻刻意以小字{2}關鍵內容，或用「天然」「無添加」等模糊字眼{3}。這些做法一旦曝光，不僅損及品牌形象，更可能讓多年累積的信任{4}。相反地，願意主動公開原料來源與檢驗報告的業者，雖然短期內成本增加，卻能贏得顧客長期的青睞。主管機關也應加強抽驗，對違規者從重處罰，才能杜絕投機者{5}。",
+      "blanks": [
+        {"n": 1, "options": ["優劣", "勝負", "盈虧", "得失"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "判斷商品品質好壞用「優劣」；「勝負」指比賽結果，「盈虧」指賺賠，「得失」指利弊，搭配都不自然。",
+                     "en": "Judging the quality of a product is 「優劣」. 「勝負」 is win or lose, 「盈虧」 profit or loss, 「得失」 gains and losses.",
+                     "vi": "Đánh giá chất lượng hàng hóa dùng 「優劣」 (hay dở). 「勝負」 là thắng thua, 「盈虧」 là lời lỗ, 「得失」 là được mất."}},
+        {"n": 2, "options": ["掩蓋", "彰顯", "宣揚", "闡述"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "刻意用小字讓重要內容不易被看見，是「掩蓋」；其餘三項都是讓內容更明顯。",
+                     "en": "Using tiny print to hide key content is 「掩蓋」 (cover up). The others mean to highlight or explain.",
+                     "vi": "Cố ý dùng chữ nhỏ để khó thấy nội dung quan trọng là 「掩蓋」 (che giấu). Các từ còn lại nghĩa là làm nổi bật hoặc trình bày."}},
+        {"n": 3, "options": ["混淆視聽", "開誠布公", "言簡意賅", "直截了當"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "用模糊字眼讓消費者分不清真相，是「混淆視聽」；其餘三個都表示坦率或簡潔。",
+                     "en": "Vague wording that blurs the truth is 「混淆視聽」. The others mean frank or concise.",
+                     "vi": "Dùng từ mơ hồ khiến người tiêu dùng không rõ sự thật là 「混淆視聽」. Các thành ngữ còn lại chỉ sự thẳng thắn hoặc ngắn gọn."}},
+        {"n": 4, "options": ["毀於一旦", "與日俱增", "根深蒂固", "方興未艾"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "做法曝光「損及形象」，多年信任因此「毀於一旦」；其餘三個都是增長或穩固之意。",
+                     "en": "After exposure, years of trust are 「毀於一旦」 (destroyed in an instant). The others denote growth or firmness.",
+                     "vi": "Sau khi bị phanh phui, lòng tin tích lũy nhiều năm 「毀於一旦」 (sụp đổ trong chốc lát). Các từ còn lại chỉ sự tăng trưởng hay vững chắc."}},
+        {"n": 5, "options": ["魚目混珠", "洞若觀火", "守株待兔", "鳳毛麟角"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「魚目混珠」指以假冒真，正是投機者的手法；「洞若觀火」是看得透徹，「守株待兔」是不勞而獲，「鳳毛麟角」是稀少珍貴。",
+                     "en": "「魚目混珠」 means passing off fakes as genuine, the trick of opportunists. The others mean seeing clearly, waiting for luck, or rarity.",
+                     "vi": "「魚目混珠」 là lấy giả làm thật, đúng thủ đoạn của kẻ đầu cơ. Các từ còn lại nghĩa là nhìn thấu, ôm cây đợi thỏ, hoặc hiếm có."}}
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "id": "RC11",
+      "passage": "研究顯示，居住在公園與綠地附近的居民，罹患憂鬱症與心血管疾病的比例較低。原因不僅在於綠地提供運動空間，更在於自然景觀能降低壓力荷爾蒙，並促進鄰里互動。然而，綠地的分布往往不均：高價地段樹木成蔭，低收入社區卻只能與柏油路為伴。這使得健康的落差與貧富的落差互相疊加，形成難以打破的惡性循環。因此，都市規劃者主張，綠地應被視為與醫院、學校同等重要的公共基礎建設，而非可有可無的點綴。與其等到居民生病後再投入醫療資源，不如在規劃之初就未雨綢繆，讓每個人都能就近享有一片綠意。",
+      "questions": [
+        {"stem": "根據文章，綠地有益居民健康的原因是什麼？",
+         "options": ["提供運動空間、降低壓力並促進鄰里互動", "能直接治癒心血管疾病", "讓房價下跌而減輕負擔", "吸引更多醫院在附近設立"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說綠地既提供運動空間，也能降低壓力荷爾蒙並促進鄰里互動。",
+                     "en": "Green space offers room for exercise, lowers stress hormones and encourages neighbourly contact.",
+                     "vi": "Không gian xanh vừa có chỗ vận động, vừa giảm hormone căng thẳng và thúc đẩy giao lưu hàng xóm."}},
+        {"stem": "作者說「健康的落差與貧富的落差互相疊加」，意思最接近什麼？",
+         "options": ["低收入社區綠地少，健康條件也更差，不平等因而加深", "有錢人比窮人更不愛運動", "貧富差距會自動縮小健康差距", "健康的人通常比較富有"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "低收入社區少有綠地，健康更差，使原本的貧富差距又添上健康差距，形成惡性循環。",
+                     "en": "Poorer areas have less greenery and worse health, so the two gaps reinforce each other.",
+                     "vi": "Khu thu nhập thấp ít cây xanh và sức khỏe kém hơn, khiến hai khoảng cách chồng lên nhau."}},
+        {"stem": "「未雨綢繆」在文中的意思是什麼？",
+         "options": ["在問題發生前事先做好準備", "下雨時才趕緊補救", "把資源集中在醫療上", "等居民要求後再規劃"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「未雨綢繆」指在下雨前先修補門窗，比喻事先預防；文中與「等到生病後再投入」形成對比。",
+                     "en": "「未雨綢繆」 means preparing before trouble comes, in contrast with acting only after people fall ill.",
+                     "vi": "「未雨綢繆」 nghĩa là chuẩn bị trước khi sự cố xảy ra, đối lập với việc chờ đến khi bệnh mới đầu tư."}}
+      ]
+    },
+    {
+      "id": "RC12",
+      "passage": "自亞當．斯密提出分工理論以來，專業化被視為提升效率的不二法門。工廠裡每個人只負責一道工序，產量因此倍增。然而，當問題日益複雜，過度專精也出現隱憂：專家往往只見樹木，不見森林，面對跨領域的挑戰時容易顧此失彼。於是有人推崇「通才」，認為廣泛涉獵才能融合不同視角，激發創新。但通才若淪為樣樣通、樣樣鬆，同樣難以勝任深度工作。較務實的看法是「T型人才」：在一個領域紮根夠深，同時具備橫向溝通的廣度。換言之，專才與通才並非二選一，而是深度與廣度如何配比的問題。",
+      "questions": [
+        {"stem": "作者對專才與通才之爭的看法是什麼？",
+         "options": ["兩者不必二選一，關鍵是深度與廣度的配比", "專才永遠優於通才", "通才比專才更有效率", "分工理論已完全過時"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "結尾明說專才與通才並非二選一，而是深度與廣度如何配比。",
+                     "en": "The ending says it is not either-or but a matter of balancing depth and breadth.",
+                     "vi": "Phần kết nói không phải chọn một trong hai mà là cân đối giữa chiều sâu và chiều rộng."}},
+        {"stem": "「顧此失彼」在文中形容什麼情況？",
+         "options": ["只專注一方面，卻忽略了其他方面", "同時兼顧所有事情而且順利", "放棄所有工作", "與同事合作愉快"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「顧此失彼」指照顧了這一邊卻疏忽另一邊；專家遇到跨領域問題時便會如此。",
+                     "en": "「顧此失彼」 means attending to one thing while neglecting another, as specialists do with cross-field problems.",
+                     "vi": "「顧此失彼」 nghĩa là lo bên này bỏ bên kia, như chuyên gia gặp vấn đề liên ngành."}},
+        {"stem": "根據文章，「通才」可能面臨什麼風險？",
+         "options": ["什麼都懂一點，卻難以勝任深度工作", "無法與他人溝通", "不願意學習新知", "只能在工廠裡工作"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說通才若淪為樣樣通、樣樣鬆，難以勝任深度工作。",
+                     "en": "A generalist who knows a little of everything may be unable to do deep work.",
+                     "vi": "Người biết mỗi thứ một chút có thể không đảm đương được công việc chuyên sâu."}}
+      ]
+    },
+    {
+      "id": "RC13",
+      "passage": "古蹟修復長期面臨一道難題：該盡量「修舊如舊」，還是讓建築重現當年的完整面貌？國際上的《威尼斯憲章》主張尊重原有材料與歷史痕跡，後世添加的部分應能清楚辨識，以免誤導觀者。然而，若一座廟宇的樑柱早已腐朽，堅持不更換勢必加速坍塌；全面換新，又恐怕使歷史價值蕩然無存。有些專家因此提出折衷之道：以可逆的工法補強結構，並完整記錄每一次修繕。這樣即使日後技術進步，也有機會重新修正，不至於留下無法挽回的遺憾。真實性不僅在於磚瓦是否為原件，也在於是否誠實交代了建築走過的歲月。",
+      "questions": [
+        {"stem": "《威尼斯憲章》對後世添加的部分有何主張？",
+         "options": ["應能清楚辨識，以免誤導觀者", "應完全模仿原貌，不留痕跡", "應全部拆除", "應由屋主自行決定"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說後世添加的部分應能清楚辨識，以免誤導觀者。",
+                     "en": "Later additions should be clearly distinguishable so viewers are not misled.",
+                     "vi": "Phần được thêm vào sau này phải dễ nhận biết để không gây hiểu lầm cho người xem."}},
+        {"stem": "「歷史價值蕩然無存」的意思是什麼？",
+         "options": ["歷史價值完全消失", "歷史價值大幅提升", "歷史價值難以估算", "歷史價值受到保護"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「蕩然無存」指原有的東西完全不存在；全面換新會使歷史價值消失殆盡。",
+                     "en": "「蕩然無存」 means nothing remains at all; total replacement would erase the historic value.",
+                     "vi": "「蕩然無存」 nghĩa là chẳng còn gì; thay mới toàn bộ sẽ làm mất hết giá trị lịch sử."}},
+        {"stem": "作者認為「真實性」還包含什麼？",
+         "options": ["誠實交代建築經歷過的修繕與歲月", "所有材料都必須是新的", "建築外觀要完全恢復當年樣貌", "修復過程應保密"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "結尾指出真實性不只看磚瓦是否為原件，也看是否誠實交代建築走過的歲月，與完整記錄修繕相呼應。",
+                     "en": "Authenticity also means honestly accounting for the building's history, matching the call to record every repair.",
+                     "vi": "Tính xác thực còn là trung thực về lịch sử của công trình, khớp với việc ghi chép đầy đủ mọi lần tu sửa."}}
+      ]
+    },
+    {
+      "id": "RC14",
+      "passage": "動物園是否應該存在，社會各界見仁見智。支持者強調，動物園是保育瀕危物種的最後防線，圈養繁殖計畫曾讓不少動物免於絕種，園區的展覽也培養了孩子對生命的關懷。反對者則質疑，動物被迫離開原生棲地，在狹小空間內出現重複踱步等異常行為，所謂教育不過是以牠們的自由換取人類的娛樂。近年來，不少動物園轉型，縮減展出的物種，擴大每種動物的活動空間，並將門票收入投入野外保育。這是否足以平息爭議，仍有待觀察，但至少顯示：問題的關鍵不在於存或廢，而在於動物園能否名副其實地以動物福祉為先。",
+      "questions": [
+        {"stem": "支持動物園存在的人提出什麼理由？",
+         "options": ["圈養繁殖能保育瀕危物種並培養孩子的生命關懷", "動物園門票收入很高", "動物在狹小空間裡更快樂", "野外棲地已經不再需要保護"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "支持者認為動物園是保育瀕危物種的最後防線，展覽也培養孩子對生命的關懷。",
+                     "en": "Supporters say zoos are a last line of defence for endangered species and teach children to care for life.",
+                     "vi": "Phía ủng hộ cho rằng vườn thú là tuyến phòng thủ cuối cùng cho loài nguy cấp và giúp trẻ biết quan tâm đến sự sống."}},
+        {"stem": "「見仁見智」在文中的意思最接近什麼？",
+         "options": ["不同的人有不同的看法", "大家的意見完全一致", "專家有最後決定權", "問題已經解決"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「見仁見智」指同一件事，不同人有不同見解；後文正反雙方意見相左。",
+                     "en": "「見仁見智」 means different people see the same matter differently, as the two camps show.",
+                     "vi": "「見仁見智」 nghĩa là mỗi người một cách nhìn về cùng một việc, như hai phe trong bài."}},
+        {"stem": "作者認為爭議的關鍵是什麼？",
+         "options": ["動物園是否真正以動物福祉為優先", "動物園的數量是否足夠", "門票價格是否合理", "孩子是否喜歡動物"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "結尾說關鍵不在存或廢，而在於能否名副其實地以動物福祉為先。",
+                     "en": "The ending says the key is not existence but whether zoos genuinely put animal welfare first.",
+                     "vi": "Phần kết nói mấu chốt không phải tồn tại hay bỏ mà là có thật sự đặt phúc lợi động vật lên trước."}}
+      ]
+    },
+    {
+      "id": "RC15",
+      "passage": "我們每天都在用個人資料換取便利：定位換來導航，瀏覽紀錄換來精準推薦，指紋換來免密碼登入。多數人認為這筆交易划算，因而爽快地按下「同意」。問題在於，這些資料一旦被彙整，便能拼湊出一個人的作息、健康與財務狀況，甚至被用來預測其行為。更令人憂心的是，使用者通常缺乏議價能力：不同意條款，就無法使用服務。因此，隱私保護不應只倚賴個人的警覺，而須由法規課責企業，明定資料蒐集的範圍與用途。與其事後亡羊補牢，不如及早立法防患未然；否則所謂的「同意」，不過是別無選擇下的點頭。",
+      "questions": [
+        {"stem": "作者認為資料被彙整後可能造成什麼問題？",
+         "options": ["能拼湊出個人作息與財務等狀況，甚至預測行為", "使用者會得到更低的價格", "服務速度會變慢", "資料會自動被刪除"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說資料彙整後可拼湊出作息、健康與財務，甚至預測行為。",
+                     "en": "Combined data can reveal routines, health and finances, and even predict behaviour.",
+                     "vi": "Dữ liệu tổng hợp có thể phác họa thói quen, sức khỏe, tài chính và thậm chí dự đoán hành vi."}},
+        {"stem": "作者為何說「同意」不過是別無選擇下的點頭？",
+         "options": ["不同意條款就無法使用服務，使用者缺乏議價空間", "使用者不識字", "條款內容非常簡短", "企業會給予使用者補償"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "文中指出使用者缺乏議價能力，不同意就不能使用，所以同意並非真正自由的選擇。",
+                     "en": "Users cannot bargain: refusing means losing the service, so consent is not a free choice.",
+                     "vi": "Người dùng không có khả năng mặc cả: không đồng ý thì không dùng được dịch vụ, nên sự đồng ý không thật sự tự do."}},
+        {"stem": "「與其事後亡羊補牢，不如及早立法防患未然」表達了作者什麼態度？",
+         "options": ["主張應事先以法規預防，而非出事後才補救", "認為出事後補救最有效", "反對任何法律管制", "認為個人警覺已經足夠"],
+         "answer": "A", "skill": "attitude",
+         "explain": {"zh": "「亡羊補牢」是出事後才補救，「防患未然」是事先預防；作者明顯偏好後者並主張立法。",
+                     "en": "The author prefers prevention through law over fixing things after harm is done.",
+                     "vi": "Tác giả ưu tiên phòng ngừa bằng luật hơn là khắc phục sau khi đã xảy ra thiệt hại."}}
+      ]
+    }
+  ]
+}

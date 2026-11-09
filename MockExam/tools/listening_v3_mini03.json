@@ -1,0 +1,651 @@
+[
+ {
+  "id": "LD11",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "王小姐，我看了合約草稿，有一條寫著「提前解約，押金概不退還」，這會不會太苛刻了？"
+   ],
+   [
+    "F",
+    "這是房東一貫的規定，主要是怕租客住不到半年就走，空屋期的損失沒人負擔。"
+   ],
+   [
+    "M",
+    "我能理解，不過我的工作可能會被外派，萬一真的要搬，兩個月的押金就全泡湯了。"
+   ],
+   [
+    "F",
+    "這樣吧，如果您提前一個月通知，我可以去跟房東商量，只扣一個月的押金。"
+   ],
+   [
+    "M",
+    "那就好多了。另外，合約上寫水電費按實際用量計算，可是這間房子並沒有獨立電表，要怎麼算呢？"
+   ],
+   [
+    "F",
+    "這一點確實疏忽了，目前是依坪數與人數平均分攤，我再請房東補寫清楚。"
+   ],
+   [
+    "M",
+    "麻煩您了。在這些條款修改之前，我先不簽，免得日後起爭執。"
+   ],
+   [
+    "F",
+    "沒問題，我明天跟房東確認，下午就把修改版傳給您。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "這位先生為什麼擔心押金拿不回來？",
+    "options": [
+     "工作可能被外派，得提前解約",
+     "房東打算調漲房租",
+     "房子的設備有嚴重瑕疵",
+     "空屋期的損失由他負擔"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "男士說工作可能被外派，萬一要搬就得提前解約，兩個月押金會泡湯。空屋期損失是房東擔心的事，不是男士的理由。",
+     "en": "The man says he may be sent abroad for work, so he might have to terminate early and lose two months of deposit. The vacancy loss is the landlord's worry, not his reason.",
+     "vi": "Người đàn ông nói công việc có thể bị điều đi nơi khác nên có thể phải chấm dứt hợp đồng sớm và mất hai tháng tiền đặt cọc. Thiệt hại do nhà trống là mối lo của chủ nhà, không phải lý do của anh."
+    }
+   },
+   {
+    "stem": "這位先生最後決定怎麼做？",
+    "options": [
+     "等條款修改清楚之後再簽約",
+     "馬上簽約，日後再補充條款",
+     "放棄這間房子，另外找房",
+     "自己出錢裝設獨立電表"
+    ],
+    "answer": "A",
+    "skill": "purpose",
+    "explain": {
+     "zh": "男士說在條款修改之前先不簽，免得日後起爭執，可見他打算等修改版確認後再決定。",
+     "en": "He says he will not sign until the clauses are revised, to avoid disputes later, so he will wait for the amended version before deciding.",
+     "vi": "Anh nói trước khi các điều khoản được sửa thì chưa ký, để tránh tranh chấp về sau, tức là anh sẽ chờ bản sửa đổi rồi mới quyết định."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD12",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "下週三就是口試了，你的簡報我看過，整體架構不錯，不過問題意識還不夠鮮明。"
+   ],
+   [
+    "F",
+    "老師，您的意思是，我應該在開頭就說清楚這個研究為什麼值得做嗎？"
+   ],
+   [
+    "M",
+    "沒錯。委員們一定會問：前人已經做過類似的研究，你的貢獻到底在哪裡？這一點要有備而來。"
+   ],
+   [
+    "F",
+    "其實我一直擔心樣本數太少，只有三十位受訪者，委員會不會認為說服力不足？"
+   ],
+   [
+    "M",
+    "質性研究本來就不追求樣本多，重點是資料夠不夠深入。你只要誠實交代研究的限制，反而是加分。"
+   ],
+   [
+    "F",
+    "原來如此。那我是不是該把結論部分縮短，多留一點時間回答問題？"
+   ],
+   [
+    "M",
+    "對，口試總共只有四十分鐘，簡報控制在十五分鐘以內，剩下的時間才是真正的交鋒。"
+   ],
+   [
+    "F",
+    "好的，我今晚就修改，明天再請您陪我模擬一次。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "老師認為這份簡報最需要加強什麼？",
+    "options": [
+     "說明這項研究的價值與貢獻",
+     "增加受訪者的人數",
+     "把結論的部分加長",
+     "重新設計整體的架構"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "老師說整體架構不錯，但問題意識不夠鮮明，要說清楚研究的貢獻在哪裡。所以不用換架構，也不是要加長結論。",
+     "en": "The teacher says the structure is fine but the research question is not sharp enough; the student must show what the study contributes. The structure need not change, and the conclusion is to be shortened.",
+     "vi": "Thầy nói cấu trúc tổng thể khá tốt nhưng ý thức vấn đề chưa rõ, cần nêu rõ đóng góp của nghiên cứu. Không cần đổi cấu trúc, và phần kết luận còn phải rút ngắn."
+    }
+   },
+   {
+    "stem": "對於樣本數太少的問題，老師的看法是什麼？",
+    "options": [
+     "質性研究重深度，坦承限制反而加分",
+     "必須補到一百位，否則無法通過",
+     "最好完全不要在簡報中提到",
+     "委員通常不會在意研究方法"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "老師說質性研究不追求樣本多，重點是資料夠深入，誠實交代限制反而是加分，所以並非必須增加人數，也不是要隱瞞。",
+     "en": "He says qualitative research does not chase large samples; depth matters, and honestly stating limitations earns credit. So more subjects are not required and the issue should not be hidden.",
+     "vi": "Thầy nói nghiên cứu định tính không cần nhiều mẫu mà cần dữ liệu sâu, thành thật nêu hạn chế còn được cộng điểm. Vì vậy không bắt buộc thêm người và cũng không nên che giấu."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD13",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "F",
+    "王主委，我收到通知，說下個月起停車費從一千五漲到兩千二，漲幅快五成，是不是太突然了？"
+   ],
+   [
+    "M",
+    "我理解您的感受。不過社區的地下室去年漏水整修，花了不少錢，加上保全費用也調高，帳目確實吃緊。"
+   ],
+   [
+    "F",
+    "但是整修費，不是已經從公共基金支出了嗎？"
+   ],
+   [
+    "M",
+    "基金只夠支付一半，剩下的缺口，委員會討論之後，才決定從停車費來補。"
+   ],
+   [
+    "F",
+    "可是這樣對只有一輛車的家庭很不公平，他們得和有兩三輛車的住戶分攤同樣的漲幅。"
+   ],
+   [
+    "M",
+    "這一點您說得有道理。其實委員會也在考慮，第二個車位收費高一些，第一個車位只小幅調整。"
+   ],
+   [
+    "F",
+    "如果是這樣，我可以接受。不過希望下次住戶大會之前，能把完整的收支明細公開。"
+   ],
+   [
+    "M",
+    "好，我會在大會前一週貼在公布欄，也寄給每一戶。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "社區調漲停車費的主要原因是什麼？",
+    "options": [
+     "整修漏水加上保全費用，資金出現缺口",
+     "委員們想要提高自己的報酬",
+     "社區的車位數量逐年減少",
+     "政府規定停車費必須統一"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "主委說地下室漏水整修花費大、保全費也調高，公共基金只夠付一半，缺口才由停車費補。",
+     "en": "The chairman says the basement leak repairs were costly and security fees rose; the public fund covered only half, so parking fees fill the gap.",
+     "vi": "Chủ nhiệm nói việc sửa tầng hầm bị dột tốn nhiều, phí bảo vệ cũng tăng, quỹ chung chỉ đủ trả một nửa nên phần thiếu được bù bằng phí đậu xe."
+    }
+   },
+   {
+    "stem": "這位住戶最後的態度是什麼？",
+    "options": [
+     "若採分級收費便可接受，但要求公開帳目",
+     "仍然全面反對，要求撤回調漲",
+     "同意調漲，也不需要任何說明",
+     "要求停車費改由基金全額負擔"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "住戶聽到第二個車位收費較高、第一個小幅調整後說可以接受，同時要求大會前公開收支明細。",
+     "en": "After hearing the second space would cost more and the first only slightly more, she says she can accept it, but asks for the full accounts to be made public before the meeting.",
+     "vi": "Nghe nói chỗ đậu thứ hai thu cao hơn còn chỗ thứ nhất chỉ tăng nhẹ, cô nói có thể chấp nhận, nhưng yêu cầu công khai bảng thu chi trước đại hội."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD14",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "F",
+    "陳先生您好，這裡是旅行社。因為颱風外圍環流的影響，原訂後天出發的花蓮行，太魯閣園區可能會封閉。"
+   ],
+   [
+    "M",
+    "那怎麼辦？我們一家六口，請了三天假，很難改期。"
+   ],
+   [
+    "F",
+    "我們有兩個方案。第一，日期照舊，但把太魯閣改成台東的海岸線與溫泉，費用不變。"
+   ],
+   [
+    "M",
+    "第二個方案呢？"
+   ],
+   [
+    "F",
+    "第二，延後一週出發。不過下週是連假，房價比較高，旅館要補差額，每人大約八百元。"
+   ],
+   [
+    "M",
+    "延期的話，原本的訂金會怎麼處理？"
+   ],
+   [
+    "F",
+    "訂金可以直接轉到新的日期，不需要另外再付。"
+   ],
+   [
+    "M",
+    "我父母年紀大了，一路折騰也累，我傾向第一個方案，只是台東的行程能不能少走點路？"
+   ],
+   [
+    "F",
+    "沒問題，我請同事重新安排，今天下班前把新行程寄給您。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "關於延後一週出發的方案，下列何者正確？",
+    "options": [
+     "旅館要補差額，但訂金可轉到新日期",
+     "費用完全不變，也不必補差額",
+     "原本的訂金會被全數沒收",
+     "新日期的房價比平常便宜"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "女士說延期要補旅館差額，每人約八百元，但原本的訂金可直接轉到新日期，不用另付。",
+     "en": "She says the delay means paying a hotel difference of about 800 per person, but the original deposit transfers to the new date without extra payment.",
+     "vi": "Cô nói hoãn lại phải bù chênh lệch tiền khách sạn khoảng 800 mỗi người, nhưng tiền đặt cọc cũ được chuyển sang ngày mới, không phải trả thêm."
+    }
+   },
+   {
+    "stem": "陳先生為什麼傾向選擇第一個方案？",
+    "options": [
+     "假期很難改，而且父母年長不宜太勞累",
+     "因為他特別想去看太魯閣",
+     "因為第一個方案的費用比較低",
+     "因為台東的連假房價較便宜"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "陳先生說請了三天假很難改期，又說父母年紀大、一路折騰會累，所以偏好日期不變的方案。他並沒有說費用比較低，費用只是不變。",
+     "en": "He says his leave is hard to change and that his elderly parents would tire from the hassle, so he prefers keeping the dates. He never says it is cheaper; the cost simply stays the same.",
+     "vi": "Ông nói đã xin nghỉ ba ngày khó đổi, và bố mẹ lớn tuổi đi lại vất vả sẽ mệt, nên thích phương án giữ nguyên ngày. Ông không nói rẻ hơn, chi phí chỉ là không đổi."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD15",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "你的募資簡報我看完了，產品介紹很吸引人，可是投資人最在意的獲利模式，你只用了一頁帶過。"
+   ],
+   [
+    "F",
+    "因為我們目前還在累積用戶，營收不是重點，我想先強調成長的速度。"
+   ],
+   [
+    "M",
+    "這個邏輯在早期沒錯，但投資人會問：用戶增加之後，錢從哪裡來？沒有清楚的答案，成長數字再漂亮也很難說服人。"
+   ],
+   [
+    "F",
+    "您說得對。那我是不是該加上預估的付費轉換率？"
+   ],
+   [
+    "M",
+    "可以，但要有依據。你們試用期的資料有嗎？"
+   ],
+   [
+    "F",
+    "有，大約百分之六的試用者轉為付費，不過樣本只有兩個月。"
+   ],
+   [
+    "M",
+    "那就照實呈現，並且註明數據的期間。誇大的預測，專業的投資人一眼就看穿了。"
+   ],
+   [
+    "F",
+    "明白，我會把獲利模式擴充成三頁，下週一前請您再看一次。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "顧問對這份簡報最主要的批評是什麼？",
+    "options": [
+     "獲利模式交代得太簡略",
+     "產品介紹缺乏吸引力",
+     "成長速度說得太誇張",
+     "簡報頁數遠遠不足三頁"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "顧問說產品介紹很吸引人，但投資人最在意的獲利模式只用一頁帶過，沒有說清楚用戶增加後錢從哪裡來。",
+     "en": "The adviser says the product intro is attractive, but the business model, which investors care about most, gets only one page and does not explain where money comes from.",
+     "vi": "Cố vấn nói phần giới thiệu sản phẩm rất hấp dẫn, nhưng mô hình lợi nhuận mà nhà đầu tư quan tâm nhất chỉ được lướt qua một trang, chưa nói rõ tiền đến từ đâu."
+    }
+   },
+   {
+    "stem": "對於付費轉換率的數據，顧問建議怎麼做？",
+    "options": [
+     "照實呈現並註明統計期間",
+     "把百分之六調高再報告",
+     "暫時不放，等累積一年再說",
+     "只強調數字而省略期間"
+    ],
+    "answer": "A",
+    "skill": "purpose",
+    "explain": {
+     "zh": "顧問說要照實呈現並註明數據期間，因為誇大的預測專業投資人一眼就看穿，所以不能調高或隱瞞。",
+     "en": "He says to present the figure honestly and state the period, because professional investors spot exaggerated forecasts at once. So it should not be inflated or concealed.",
+     "vi": "Ông nói hãy trình bày trung thực và ghi rõ thời gian số liệu, vì nhà đầu tư chuyên nghiệp nhìn là biết dự báo thổi phồng. Vì vậy không nên tăng số hay giấu giếm."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM11",
+  "type": "monologue",
+  "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+  "text": "接下來為您報導一則農業新聞。強烈颱風昨天掃過中南部，農委會今天初步統計，農作物損失已超過十二億元，其中以香蕉與蔬菜受創最嚴重。為協助農民恢復生產，政府宣布啟動現金救助，受災面積達百分之二十以上的農民，每公頃可領取最高三萬元。然而，不少農民表示，申請手續繁瑣，必須先由公所派員勘查，再等待核定，緩不濟急。有種植葉菜類的農民指出，這類作物生長期短，若補助拖到一個月後才下來，就錯過了補種的時機，救助的意義也就大打折扣。對此，農委會回應，將簡化勘查流程，並開放農民以照片先行申報，預計下週一起受理。",
+  "questions": [
+   {
+    "stem": "農民要領到現金救助，必須符合什麼條件？",
+    "options": [
+     "受災面積達百分之二十以上",
+     "農作物損失超過十二億元",
+     "種植的作物是香蕉或蔬菜",
+     "必須先拿到最高三萬元"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "報導說受災面積達百分之二十以上的農民，每公頃可領最高三萬元。十二億元是全體損失的統計，不是領取條件。",
+     "en": "The report says farmers whose damaged area reaches 20 percent or more can receive up to 30,000 per hectare. The 1.2 billion figure is the total loss, not a condition.",
+     "vi": "Bản tin nói nông dân có diện tích thiệt hại từ 20 phần trăm trở lên được nhận tối đa 30.000 mỗi hecta. Con số 1,2 tỷ là tổng thiệt hại, không phải điều kiện."
+    }
+   },
+   {
+    "stem": "為什麼補助太慢對種植葉菜類的農民特別不利？",
+    "options": [
+     "作物生長期短，晚領補助就錯過補種時機",
+     "葉菜類的損失金額比香蕉更大",
+     "葉菜類不在補助的範圍之內",
+     "公所不派人勘查葉菜類農田"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "農民指出葉菜類生長期短，補助若拖一個月才下來，就錯過補種時機，救助意義大打折扣。",
+     "en": "A farmer says leafy vegetables grow quickly, so if aid arrives a month later the replanting window is missed and the relief loses much of its meaning.",
+     "vi": "Nông dân nói rau ăn lá có chu kỳ sinh trưởng ngắn, nếu một tháng sau mới có hỗ trợ thì đã lỡ thời vụ trồng lại, ý nghĩa của cứu trợ giảm nhiều."
+    }
+   },
+   {
+    "stem": "農委會對農民的抱怨做出了什麼回應？",
+    "options": [
+     "簡化勘查流程，開放先用照片申報",
+     "取消公所派員勘查的規定",
+     "把補助金額提高到每公頃六萬元",
+     "要求農民等到下個月再提出申請"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "農委會表示將簡化勘查流程，並開放農民以照片先行申報，預計下週一起受理。並沒有說提高金額或取消勘查。",
+     "en": "The council says it will simplify inspections and let farmers file first with photos, accepting applications from next Monday. It does not mention raising the amount or abolishing inspections.",
+     "vi": "Hội đồng nông nghiệp cho biết sẽ đơn giản hóa khảo sát và cho nông dân khai báo trước bằng ảnh, tiếp nhận từ thứ Hai tuần sau. Không nói tăng mức hỗ trợ hay bỏ khảo sát."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM12",
+  "type": "monologue",
+  "intro": "請聽這段演講，然後回答下面的三個問題。",
+  "text": "各位同學，很多人考前習慣熬夜苦讀，以為多讀一小時就能多記一點。但睡眠科學告訴我們，這其實是個誤會。學習的當下，資訊只是暫時存放在大腦的海馬迴；到了深層睡眠階段，大腦才會把這些內容搬運到長期儲存的區域，這個過程叫作「記憶鞏固」。至於夢境最豐富的快速動眼期，則和情緒的整理，以及創意的連結有關。換句話說，熬夜犧牲的不只是休息，而是學習成果本身。我並不是鼓勵大家不用功，而是建議把最後一晚的時間，分一部分還給睡眠。考前至少睡滿六小時，往往比多讀兩小時更有效。",
+  "questions": [
+   {
+    "stem": "根據講者，深層睡眠時大腦會做什麼？",
+    "options": [
+     "把暫存的資訊搬到長期儲存區域",
+     "整理情緒並產生創意的連結",
+     "讓夢境變得更加豐富",
+     "清除白天學過的全部內容"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "講者說學習當下資訊暫存在海馬迴，到了深層睡眠，大腦才把內容搬運到長期儲存區域，叫記憶鞏固。情緒與創意則是快速動眼期的事。",
+     "en": "The speaker says information is first held temporarily in the hippocampus, and during deep sleep the brain moves it to long-term storage, called consolidation. Emotion and creativity belong to REM sleep.",
+     "vi": "Diễn giả nói thông tin lúc học chỉ lưu tạm ở hồi hải mã, đến giai đoạn ngủ sâu não mới chuyển vào vùng lưu trữ lâu dài, gọi là củng cố trí nhớ. Cảm xúc và sáng tạo thuộc giai đoạn ngủ mơ."
+    }
+   },
+   {
+    "stem": "快速動眼期和什麼有關？",
+    "options": [
+     "情緒的整理與創意的連結",
+     "長期記憶的搬運工作",
+     "暫時存放資訊的海馬迴",
+     "提高考前的專注時間"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "講者說夢境最豐富的快速動眼期與情緒的整理、創意的連結有關；搬運記憶是深層睡眠的工作。",
+     "en": "The speaker says REM sleep, rich in dreams, is linked to processing emotion and forming creative connections; moving memories is the job of deep sleep.",
+     "vi": "Diễn giả nói giai đoạn ngủ mơ nhiều giấc mơ liên quan đến việc xử lý cảm xúc và kết nối sáng tạo; việc chuyển trí nhớ là của giấc ngủ sâu."
+    }
+   },
+   {
+    "stem": "講者對考前的建議是什麼？",
+    "options": [
+     "不必完全放棄讀書，但要保留足夠的睡眠",
+     "最好整晚不睡，把書全部讀完",
+     "考前不要再讀書，專心睡覺",
+     "每天只睡六小時，其餘時間都念書"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "講者說自己不是鼓勵不用功，而是建議把最後一晚分一部分還給睡眠，至少睡滿六小時，往往比多讀兩小時有效。",
+     "en": "He says he is not telling students to stop studying; he suggests giving part of the last night back to sleep, at least six hours, which often beats two more hours of study.",
+     "vi": "Ông nói không khuyên đừng học, mà gợi ý dành một phần đêm cuối cho giấc ngủ, ít nhất sáu tiếng, thường hiệu quả hơn học thêm hai tiếng."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM13",
+  "type": "monologue",
+  "intro": "請聽這則廣播，然後回答下面的三個問題。",
+  "text": "各位讀者請注意，本館自下個月一日起，將實施三項新制度。第一，自習室座位改為線上預約，每人每天最多預約四小時，若開始後三十分鐘仍未報到，系統會自動釋出座位，讓候補的讀者使用。第二，為配合考生需求，週五與週六的開放時間延長至晚間十點，但是週日反而提早在下午五點閉館，以便館員進行書籍整理。第三，電子書借閱冊數由三本增加為八本，借期也從七天延長為十四天，不過熱門書籍可能需要排隊等候。此外，請讀者留意，預約座位後若臨時無法前來，務必提前取消，累計三次未到者，將暫停預約權限一個月。感謝您的配合。",
+  "questions": [
+   {
+    "stem": "預約了自習室座位卻遲遲沒到，會發生什麼事？",
+    "options": [
+     "開始三十分鐘後座位會被釋出給候補者",
+     "座位會自動保留整整四個小時",
+     "系統會立刻暫停預約一個月",
+     "館員會打電話提醒讀者前來"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "廣播說開始後三十分鐘仍未報到，系統會自動釋出座位給候補讀者。暫停一個月是累計三次未到才會發生。",
+     "en": "The announcement says that if you have not checked in 30 minutes after the start, the system releases the seat to someone on standby. A one-month suspension happens only after three no-shows.",
+     "vi": "Thông báo nói nếu sau 30 phút kể từ giờ bắt đầu vẫn chưa có mặt, hệ thống tự động nhả chỗ cho người chờ. Bị đình chỉ một tháng chỉ xảy ra sau ba lần vắng mặt."
+    }
+   },
+   {
+    "stem": "關於開放時間的調整，下列何者正確？",
+    "options": [
+     "週日會比平常提早閉館",
+     "週五與週六提早到五點閉館",
+     "週日延長到晚間十點",
+     "每天都延長到晚間十點"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "廣播說週五與週六延長到晚間十點，但週日反而提早在下午五點閉館，以便整理書籍。",
+     "en": "It says Friday and Saturday hours extend to 10 p.m., but Sunday closes early at 5 p.m. so staff can sort books.",
+     "vi": "Thông báo nói thứ Sáu và thứ Bảy kéo dài đến 10 giờ tối, nhưng Chủ nhật lại đóng cửa sớm lúc 5 giờ chiều để nhân viên sắp xếp sách."
+    }
+   },
+   {
+    "stem": "廣播最後特別提醒讀者什麼？",
+    "options": [
+     "預約後若不能來，要提前取消",
+     "電子書最多只能借三本",
+     "熱門書籍不需要排隊等候",
+     "自習室每天只能預約兩小時"
+    ],
+    "answer": "A",
+    "skill": "purpose",
+    "explain": {
+     "zh": "廣播最後提醒，預約座位後若臨時無法前來務必提前取消，因為累計三次未到會被暫停預約。電子書其實增加為八本。",
+     "en": "The final reminder is to cancel in advance if you cannot come, since three no-shows lead to suspension. E-book loans actually rise to eight.",
+     "vi": "Lời nhắc cuối là nếu không thể đến thì phải hủy trước, vì ba lần vắng mặt sẽ bị đình chỉ. Số sách điện tử thực ra tăng lên tám cuốn."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM14",
+  "type": "monologue",
+  "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+  "text": "接下來為您報導一則勞動新聞。外送平台業者與外送員之間的爭議持續延燒。外送員團體今天上街抗議，指控平台單方面調降每單的報酬，同時以演算法派單，規則卻不透明，讓他們無法判斷為何有人訂單不斷、有人整天沒單。平台業者則回應，外送員是「承攬關係」，並非員工，可以自由決定上線時間，因此不適用勞基法的工時與加班規定。勞動部官員表示，將研議專法，要求平台公開派單的基本規則，並為外送員提供職災保險。不過學者提醒，若只強調保障而忽略彈性，可能反而讓許多把外送當作兼差的人退出市場。如何拿捏，恐怕是立法時最棘手的難題。",
+  "questions": [
+   {
+    "stem": "外送員團體為什麼上街抗議？",
+    "options": [
+     "報酬被調降，而且派單規則不透明",
+     "平台強迫他們每天加班工作",
+     "平台拒絕讓他們自由上線",
+     "政府取消了職災保險"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "外送員指控平台單方面調降每單報酬，又以不透明的演算法派單。自由上線反而是平台強調的優點，並非抗議理由。",
+     "en": "Couriers accuse the platform of unilaterally cutting pay per order and using an opaque algorithm to assign orders. Freedom to log in is what the platform stresses, not their complaint.",
+     "vi": "Tài xế tố nền tảng đơn phương hạ thù lao mỗi đơn và dùng thuật toán chia đơn thiếu minh bạch. Tự do lên mạng là điều nền tảng nhấn mạnh, không phải lý do phản đối."
+    }
+   },
+   {
+    "stem": "平台業者為什麼說勞基法的規定不適用？",
+    "options": [
+     "他們認為外送員是承攬關係，不是員工",
+     "他們認為外送員的工時一向很短",
+     "他們已經提供了職災保險",
+     "他們說外送員全是兼差的人"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "業者回應外送員是「承攬關係」，並非員工，可自由決定上線時間，所以不適用勞基法的工時與加班規定。",
+     "en": "The operator says couriers are contractors rather than employees and choose when to log in, so working-hour and overtime rules in the labor law do not apply.",
+     "vi": "Nhà điều hành đáp rằng tài xế là quan hệ nhận thầu, không phải nhân viên, tự quyết giờ lên mạng nên quy định giờ làm và tăng ca của luật lao động không áp dụng."
+    }
+   },
+   {
+    "stem": "學者提出了什麼擔憂？",
+    "options": [
+     "過度保障、缺乏彈性，可能讓兼差者離開",
+     "專法會讓平台的派單變得更不公開",
+     "外送員不需要任何保險的保障",
+     "政府根本沒有能力制定專法"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "學者提醒若只強調保障而忽略彈性，可能讓許多把外送當兼差的人退出市場，所以立法需要拿捏平衡。",
+     "en": "The scholar warns that stressing protection while ignoring flexibility could push out many people who deliver as a side job, so lawmakers must strike a balance.",
+     "vi": "Học giả cảnh báo nếu chỉ nhấn mạnh bảo vệ mà bỏ qua tính linh hoạt, nhiều người làm thêm có thể rời thị trường, nên lập pháp cần cân nhắc."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM15",
+  "type": "monologue",
+  "intro": "請聽這段評論，然後回答下面的三個問題。",
+  "text": "近年來，老屋活化蔚為風潮，許多閒置的舊廠房與日式宿舍，搖身一變成為文創園區或咖啡館，吸引大批遊客。這固然是好事，但我認為，我們不該只看到表面的熱鬧。有些案子為了迎合觀光，把老屋外觀保留，內部卻被改得面目全非，空有舊時的軀殼，卻失去了原有的生活記憶。更令人憂心的是，一旦老屋變熱門，周邊租金隨之上漲，原本住在附近的老店與居民，反而被迫搬離，這難道是活化的初衷嗎？真正成功的再利用，應該讓在地居民參與規畫，讓老屋繼續和社區產生連結，而不只是一個拍照打卡的背景。唯有如此，歷史才不會變成商品。",
+  "questions": [
+   {
+    "stem": "作者批評有些老屋活化案的什麼問題？",
+    "options": [
+     "只保留外觀，卻失去原有的生活記憶",
+     "完全拆除舊建築，改建成新大樓",
+     "沒有吸引到足夠的觀光遊客",
+     "把內部保留，外觀卻全部改掉"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "作者說有些案子保留外觀，內部卻改得面目全非，只剩舊時軀殼，失去生活記憶。選項中把外觀與內部說反的不符合原文。",
+     "en": "The author says some projects keep the facade but gut the interior, leaving an empty shell with no lived memory. Saying the interior was kept and the exterior changed reverses the text.",
+     "vi": "Tác giả phê phán một số dự án giữ mặt tiền nhưng bên trong bị thay đổi hoàn toàn, chỉ còn cái vỏ cũ mà mất ký ức đời sống. Cách nói ngược lại, giữ bên trong đổi bên ngoài, là sai."
+    }
+   },
+   {
+    "stem": "作者為什麼說老屋變熱門後令人憂心？",
+    "options": [
+     "租金上漲，老店與居民可能被迫搬離",
+     "遊客太少，老屋又被閒置",
+     "政府不再補助老屋的維護",
+     "咖啡館變得太多而互相競爭"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "作者說老屋熱門後周邊租金上漲，原本住在附近的老店與居民反而被迫搬離，這違背活化的初衷。",
+     "en": "The author says popularity pushes up nearby rents and forces long-time shops and residents to leave, which contradicts the purpose of revitalization.",
+     "vi": "Tác giả nói khi nhà cổ nổi tiếng, giá thuê xung quanh tăng khiến cửa hàng lâu năm và cư dân buộc phải dọn đi, trái với mục đích ban đầu của việc hồi sinh."
+    }
+   },
+   {
+    "stem": "作者認為怎樣才算成功的老屋再利用？",
+    "options": [
+     "讓居民參與規畫，並與社區保持連結",
+     "盡量增加遊客拍照打卡的人數",
+     "把老屋全部改成咖啡館或商店",
+     "保留外觀並盡快提高租金收入"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "作者主張成功的再利用應讓在地居民參與規畫，讓老屋繼續與社區產生連結，而不只是拍照背景，歷史才不會變成商品。",
+     "en": "He argues success means letting local residents join the planning and keeping the building tied to the community, not just a photo backdrop, so that history does not become a commodity.",
+     "vi": "Tác giả cho rằng thành công là để cư dân địa phương tham gia quy hoạch và giữ cho ngôi nhà gắn kết với cộng đồng, không chỉ làm phông chụp ảnh, để lịch sử không bị biến thành hàng hóa."
+    }
+   }
+  ]
+ }
+]

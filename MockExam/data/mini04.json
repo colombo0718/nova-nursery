@@ -1,0 +1,1318 @@
+{
+ "set_id": "mini04",
+ "title": "Band C Mini Mock 04",
+ "listening": [
+  {
+   "id": "LD16",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "audio": "audio/mini04/LD16.mp3",
+   "duration": 66.5,
+   "script": [
+    {
+     "spk": "M",
+     "text": "聽說你下個月就要離開公司了，是真的嗎？"
+    },
+    {
+     "spk": "F",
+     "text": "對，我已經向主管遞了辭呈。其實我一直想轉行做教育，這次總算下定決心了。"
+    },
+    {
+     "spk": "M",
+     "text": "太突然了！那你手上的專案怎麼辦？聽說客戶資料庫才剛整理到一半。"
+    },
+    {
+     "spk": "F",
+     "text": "別擔心，這兩週我會把進度表和聯絡窗口整理成交接手冊，你有空再來看看。"
+    },
+    {
+     "spk": "M",
+     "text": "好的。對了，主管有沒有提過誰會接你的位子？"
+    },
+    {
+     "spk": "F",
+     "text": "他私下問過我的意見，我推薦了你。不過最後還是要看人事部的評估，你得有心理準備。"
+    },
+    {
+     "spk": "M",
+     "text": "我當然想試試，只是怕經驗不夠，帶不動整個團隊。"
+    },
+    {
+     "spk": "F",
+     "text": "經驗可以慢慢累積，你做事細心，又肯負責，這兩點比資歷更難得。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LD16_q1",
+     "no": 26,
+     "stem": "這位女士為什麼要離職？",
+     "options": [
+      "她想轉行從事教育工作",
+      "她和主管意見不合",
+      "客戶資料庫出了問題",
+      "她打算出國進修"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "女士說自己一直想轉行做教育，這次下定決心；客戶資料庫只是她要交接的工作，並不是離職原因。",
+      "en": "She says she has long wanted to switch to education and has finally made up her mind. The client database is merely something she must hand over, not the reason she is leaving.",
+      "vi": "Cô ấy nói vẫn luôn muốn chuyển sang làm giáo dục và nay đã quyết tâm. Cơ sở dữ liệu khách hàng chỉ là việc cần bàn giao, không phải lý do nghỉ việc."
+     },
+     "audio": "audio/mini04/LD16_q1.mp3",
+     "duration": 21.67
+    },
+    {
+     "id": "LD16_q2",
+     "no": 27,
+     "stem": "男士目前最擔心的是什麼？",
+     "options": [
+      "交接手冊寫得不夠清楚",
+      "自己經驗不足，帶不動團隊",
+      "人事部不願意公布結果",
+      "客戶會跟著女士離開"
+     ],
+     "answer": "B",
+     "skill": "inference",
+     "explain": {
+      "zh": "男士說怕經驗不夠、帶不動整個團隊，可見他擔心的是自己能力與經驗；女士則回應資歷不如細心負責重要。",
+      "en": "He says he fears his experience is too thin to lead the whole team, so his worry is about his own readiness. The woman replies that being careful and responsible matters more than seniority.",
+      "vi": "Anh ấy nói sợ kinh nghiệm chưa đủ để dẫn dắt cả nhóm, nên điều anh lo là năng lực của bản thân. Cô đáp rằng sự cẩn thận và trách nhiệm quý hơn thâm niên."
+     },
+     "audio": "audio/mini04/LD16_q2.mp3",
+     "duration": 22.46
+    }
+   ]
+  },
+  {
+   "id": "LD17",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "audio": "audio/mini04/LD17.mp3",
+   "duration": 61.03,
+   "script": [
+    {
+     "spk": "F",
+     "text": "你好，我想把週四下午的門診改到下週，不知道還有沒有名額？"
+    },
+    {
+     "spk": "M",
+     "text": "請問您掛的是哪一科？"
+    },
+    {
+     "spk": "F",
+     "text": "骨科，李醫師。"
+    },
+    {
+     "spk": "M",
+     "text": "李醫師下週二上午和週五下午還有空位，不過週五的病人比較多，可能要等比較久。"
+    },
+    {
+     "spk": "F",
+     "text": "那就週二上午吧。對了，我上個月在別家醫院做的檢查，需要帶報告來嗎？"
+    },
+    {
+     "spk": "M",
+     "text": "最好帶著，醫師可以直接參考，省得重複檢查。"
+    },
+    {
+     "spk": "F",
+     "text": "還有一件事，我買的商業保險，這類復健治療能給付嗎？"
+    },
+    {
+     "spk": "M",
+     "text": "這得看您的保單條款。建議您先向保險公司確認，再請醫師開立診斷證明，申請理賠時才用得上。"
+    },
+    {
+     "spk": "F",
+     "text": "好，我知道了，謝謝。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LD17_q1",
+     "no": 28,
+     "stem": "女士為什麼沒有選週五下午？",
+     "options": [
+      "因為李醫師那天不看診",
+      "因為她週五要去別家醫院",
+      "因為那天病人較多，可能要等很久",
+      "因為週五沒有空位"
+     ],
+     "answer": "C",
+     "skill": "detail",
+     "explain": {
+      "zh": "櫃檯人員說週五的病人比較多，可能要等比較久，所以女士選了週二上午；週五下午其實還有空位。",
+      "en": "The clerk says Friday is busier and the wait may be long, so she picks Tuesday morning. Friday afternoon does in fact still have openings.",
+      "vi": "Nhân viên nói thứ Sáu đông bệnh nhân hơn, có thể phải chờ lâu nên cô chọn sáng thứ Ba. Chiều thứ Sáu thực ra vẫn còn chỗ."
+     },
+     "audio": "audio/mini04/LD17_q1.mp3",
+     "duration": 24.29
+    },
+    {
+     "id": "LD17_q2",
+     "no": 29,
+     "stem": "關於檢查報告和保險，醫院人員給了什麼建議？",
+     "options": [
+      "重新做一次檢查，再申請理賠",
+      "由醫院直接替她辦理理賠",
+      "帶上次的報告，並先向保險公司確認給付",
+      "改掛其他科別比較省錢"
+     ],
+     "answer": "C",
+     "skill": "detail",
+     "explain": {
+      "zh": "人員說最好帶著之前的報告，可以避免重複檢查；保險能否給付要看保單，請她先向保險公司確認，並請醫師開診斷證明。",
+      "en": "He advises bringing the earlier report to avoid repeat tests, and says coverage depends on her policy, so she should check with the insurer first and get a medical certificate from the doctor.",
+      "vi": "Anh ta khuyên mang theo kết quả cũ để khỏi kiểm tra lại, và nói việc chi trả tùy hợp đồng nên cô cần hỏi công ty bảo hiểm trước và nhờ bác sĩ cấp giấy chẩn đoán."
+     },
+     "audio": "audio/mini04/LD17_q2.mp3",
+     "duration": 28.61
+    }
+   ]
+  },
+  {
+   "id": "LD18",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "audio": "audio/mini04/LD18.mp3",
+   "duration": 65.2,
+   "script": [
+    {
+     "spk": "M",
+     "text": "學姐，下學期的校園音樂節，學務處說經費最多只能補助三萬元。"
+    },
+    {
+     "spk": "F",
+     "text": "才三萬？去年可是補助了五萬。光是場地和音響租下來就快兩萬了。"
+    },
+    {
+     "spk": "M",
+     "text": "所以我想，要不要找附近的店家贊助？用海報和攤位換一點資金。"
+    },
+    {
+     "spk": "F",
+     "text": "這主意不錯，不過要小心，別讓活動變成廣告大會，失去音樂節原有的味道。"
+    },
+    {
+     "spk": "M",
+     "text": "說得也是。那我們限制贊助商的數量，最多五家，好嗎？"
+    },
+    {
+     "spk": "F",
+     "text": "可以。另外，我擔心戶外活動遇到下雨，應該先準備雨天備案。"
+    },
+    {
+     "spk": "M",
+     "text": "我已經問過了，體育館可以借用，但是得在兩週前提出申請。"
+    },
+    {
+     "spk": "F",
+     "text": "那你今天就把申請書遞出去，免得到時候來不及。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LD18_q1",
+     "no": 30,
+     "stem": "男士為什麼提議找店家贊助？",
+     "options": [
+      "學務處禁止社團租借場地",
+      "他想讓活動更熱鬧",
+      "學校的補助比去年少，不夠支付開銷",
+      "有店家主動提出要求"
+     ],
+     "answer": "C",
+     "skill": "inference",
+     "explain": {
+      "zh": "補助只有三萬元，比去年少了兩萬，而租場地和音響就快兩萬，所以男士才想靠贊助補足資金。",
+      "en": "The subsidy is only 30,000, down from last year, and venue and sound rental alone take nearly 20,000, so he wants sponsors to fill the funding gap.",
+      "vi": "Kinh phí hỗ trợ chỉ còn ba vạn, ít hơn năm ngoái, mà thuê địa điểm và âm thanh đã gần hai vạn, nên anh muốn tìm nhà tài trợ bù vào."
+     },
+     "audio": "audio/mini04/LD18_q1.mp3",
+     "duration": 24.07
+    },
+    {
+     "id": "LD18_q2",
+     "no": 31,
+     "stem": "女士對找店家贊助的看法是什麼？",
+     "options": [
+      "贊成，但要避免活動過度商業化",
+      "堅決反對，認為會浪費時間",
+      "希望贊助商越多越好",
+      "建議改成向學生收費"
+     ],
+     "answer": "A",
+     "skill": "attitude",
+     "explain": {
+      "zh": "女士說這主意不錯，但提醒別讓活動變成廣告大會，可見她贊成但有所保留。",
+      "en": "She calls it a good idea but warns against turning the event into an advertising show, so she agrees with reservations.",
+      "vi": "Cô nói ý tưởng này hay nhưng nhắc đừng để sự kiện thành buổi quảng cáo, tức là đồng ý nhưng có dè chừng."
+     },
+     "audio": "audio/mini04/LD18_q2.mp3",
+     "duration": 24.91
+    }
+   ]
+  },
+  {
+   "id": "LD19",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "audio": "audio/mini04/LD19.mp3",
+   "duration": 62.16,
+   "script": [
+    {
+     "spk": "M",
+     "text": "你好，我是昨天入住的房客，房間的熱水器壞了，洗澡只有冷水。"
+    },
+    {
+     "spk": "F",
+     "text": "真的很抱歉！我馬上請師傅過去看看，大概半小時內會到。"
+    },
+    {
+     "spk": "M",
+     "text": "其實我昨晚就向櫃檯反映過了，可是一直沒有人來處理。"
+    },
+    {
+     "spk": "F",
+     "text": "這點是我們疏忽了，昨晚值班的是臨時員工，可能沒有交接清楚。"
+    },
+    {
+     "spk": "M",
+     "text": "我們這趟是帶長輩來的，他們受了涼，我覺得很過意不去。"
+    },
+    {
+     "spk": "F",
+     "text": "這樣吧，除了修理，我願意退還這兩晚住宿費的一半，另外再送你們一份早餐券，您覺得如何？"
+    },
+    {
+     "spk": "M",
+     "text": "我希望能全額退還昨晚的費用，因為昨晚根本沒辦法正常盥洗。"
+    },
+    {
+     "spk": "F",
+     "text": "這個我需要跟總公司確認，但我會盡量爭取，一小時內回覆您。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LD19_q1",
+     "no": 32,
+     "stem": "昨晚的問題為什麼沒有被處理？",
+     "options": [
+      "值班的臨時員工可能沒有交接清楚",
+      "師傅正好在休假",
+      "房客沒有通知櫃檯",
+      "民宿沒有備用的熱水器"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "女士承認昨晚值班的是臨時員工，可能沒有交接清楚；男士其實昨晚就向櫃檯反映過了。",
+      "en": "She admits the night-shift worker was temporary and the handover may have been unclear. The guest did report the problem to the front desk last night.",
+      "vi": "Cô thừa nhận nhân viên trực đêm là người tạm thời, có thể bàn giao chưa rõ. Khách thực ra đã báo với quầy lễ tân từ tối qua."
+     },
+     "audio": "audio/mini04/LD19_q1.mp3",
+     "duration": 22.92
+    },
+    {
+     "id": "LD19_q2",
+     "no": 33,
+     "stem": "男士最後提出什麼要求？",
+     "options": [
+      "全額退還昨晚的住宿費",
+      "退還兩晚費用的一半",
+      "免費升級房型",
+      "贈送更多早餐券"
+     ],
+     "answer": "A",
+     "skill": "purpose",
+     "explain": {
+      "zh": "女士提議退兩晚的一半並送早餐券，但男士希望的是全額退還昨晚的費用，因為昨晚無法正常盥洗。",
+      "en": "She offers half of two nights plus a breakfast voucher, but he asks for a full refund of last night, since he could not wash properly.",
+      "vi": "Cô đề nghị hoàn một nửa tiền hai đêm và tặng phiếu ăn sáng, nhưng anh muốn hoàn toàn bộ tiền đêm qua vì không thể tắm rửa bình thường."
+     },
+     "audio": "audio/mini04/LD19_q2.mp3",
+     "duration": 20.64
+    }
+   ]
+  },
+  {
+   "id": "LD20",
+   "type": "dialogue",
+   "intro": "請聽這段對話，然後回答下面的兩個問題。",
+   "audio": "audio/mini04/LD20.mp3",
+   "duration": 69.93,
+   "script": [
+    {
+     "spk": "F",
+     "text": "王先生，謝謝您抽空過來。今天想跟您聊聊小宇最近的學習狀況。"
+    },
+    {
+     "spk": "M",
+     "text": "老師請說。我也發現他這學期成績掉得很快，尤其是數學。"
+    },
+    {
+     "spk": "F",
+     "text": "我觀察到，他的基礎概念其實不差，問題是上課容易分心，作業也常常拖到最後一刻才交。"
+    },
+    {
+     "spk": "M",
+     "text": "唉，回家以後他不是打電動就是滑手機，我說了也沒用。"
+    },
+    {
+     "spk": "F",
+     "text": "責罵恐怕效果有限。我建議跟他一起訂規則，例如寫完功課才能使用三十分鐘的螢幕時間。"
+    },
+    {
+     "spk": "M",
+     "text": "讓他自己參與訂規則？我怕他只會討價還價。"
+    },
+    {
+     "spk": "F",
+     "text": "剛開始難免如此，不過孩子參與了決定，才比較願意遵守。學校也有課後輔導，您可以考慮讓他參加。"
+    },
+    {
+     "spk": "M",
+     "text": "好，我回去先跟他談談，再決定要不要報名。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LD20_q1",
+     "no": 34,
+     "stem": "老師認為小宇成績下滑的主要原因是什麼？",
+     "options": [
+      "數學基礎概念很差",
+      "老師教學進度太快",
+      "上課分心，作業又經常拖延",
+      "缺乏課後輔導"
+     ],
+     "answer": "C",
+     "skill": "main_idea",
+     "explain": {
+      "zh": "老師說他的基礎概念其實不差，問題在於上課容易分心，作業也拖到最後才交。",
+      "en": "The teacher says his basic concepts are actually fine; the trouble is that he gets distracted in class and leaves homework until the last minute.",
+      "vi": "Cô giáo nói nền tảng của em thực ra không kém, vấn đề là hay mất tập trung trên lớp và để bài tập đến phút chót."
+     },
+     "audio": "audio/mini04/LD20_q1.mp3",
+     "duration": 23.69
+    },
+    {
+     "id": "LD20_q2",
+     "no": 35,
+     "stem": "老師對於責罵孩子抱持什麼態度？",
+     "options": [
+      "認為這是最快的辦法",
+      "主張完全不要管他",
+      "建議由學校出面處罰",
+      "認為效果有限，不如一起訂規則"
+     ],
+     "answer": "D",
+     "skill": "attitude",
+     "explain": {
+      "zh": "老師說責罵恐怕效果有限，並建議和孩子一起訂規則，讓他參與決定。",
+      "en": "She says scolding is probably of limited effect and suggests setting rules together so the child takes part in the decision.",
+      "vi": "Cô nói la mắng e rằng hiệu quả hạn chế, và đề nghị cùng em đặt ra quy tắc để em tham gia quyết định."
+     },
+     "audio": "audio/mini04/LD20_q2.mp3",
+     "duration": 23.83
+    }
+   ]
+  },
+  {
+   "id": "LM16",
+   "type": "monologue",
+   "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+   "audio": "audio/mini04/LM16.mp3",
+   "duration": 77.18,
+   "script": [
+    {
+     "spk": "",
+     "text": "接下來為您報導水情消息。受到連續三個月降雨偏少的影響，南部主要水庫的蓄水量已降到百分之二十八，創下近十年同期新低。水利單位今天宣布，從下週一起，將針對部分地區實施分區供水，每週停水兩天，每次約十個小時，詳細的區域與時段會公布在官方網站。官員強調，這項措施並非隨意限水，而是為了避免水庫提前見底，爭取更多等待降雨的時間。不過，不少民眾擔心，停水會影響生活作息，工廠和餐廳的損失更是難以估計。對此，水利單位呼籲用戶事先儲水，並鼓勵各行業循環使用生產用水。氣象專家則指出，下個月中旬以前，仍不太可能出現足以解渴的豪雨。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LM16_q1",
+     "no": 36,
+     "stem": "南部主要水庫目前的蓄水量大約是多少？",
+     "options": [
+      "百分之二十八",
+      "百分之十",
+      "百分之五十",
+      "百分之七十二"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "報導說蓄水量降到百分之二十八，創近十年同期新低；其他數字如兩天、十個小時是停水的安排。",
+      "en": "The report says storage has fallen to 28%, a ten-year low for this time of year. Numbers like two days and ten hours describe the outage schedule.",
+      "vi": "Bản tin nói lượng nước trữ đã xuống 28%, thấp nhất trong mười năm cùng kỳ. Hai ngày, mười giờ là lịch cắt nước."
+     },
+     "audio": "audio/mini04/LM16_q1.mp3",
+     "duration": 19.78
+    },
+    {
+     "id": "LM16_q2",
+     "no": 37,
+     "stem": "官員為什麼要實施分區供水？",
+     "options": [
+      "降低工廠的用水成本",
+      "整修老舊的供水管線",
+      "懲罰浪費用水的民眾",
+      "避免水庫提前見底，爭取等待降雨的時間"
+     ],
+     "answer": "D",
+     "skill": "purpose",
+     "explain": {
+      "zh": "官員強調分區供水是為了避免水庫提前見底，替降雨爭取更多時間，而不是隨意限水。",
+      "en": "Officials stress the measure is meant to keep reservoirs from running dry too early and buy time for rain, not to ration arbitrarily.",
+      "vi": "Quan chức nhấn mạnh biện pháp nhằm tránh hồ cạn sớm và kéo dài thời gian chờ mưa, không phải hạn chế tùy tiện."
+     },
+     "audio": "audio/mini04/LM16_q2.mp3",
+     "duration": 24.14
+    },
+    {
+     "id": "LM16_q3",
+     "no": 38,
+     "stem": "根據氣象專家的看法，接下來的降雨情況如何？",
+     "options": [
+      "本週末就會有豪雨",
+      "下個月中旬前不太可能有足夠的大雨",
+      "降雨量會比往年更多",
+      "雨季已經提前結束"
+     ],
+     "answer": "B",
+     "skill": "inference",
+     "explain": {
+      "zh": "專家指出，下個月中旬以前仍不太可能出現足以解渴的豪雨，表示短期內缺水問題不易緩解。",
+      "en": "The expert says a heavy downpour big enough to ease the shortage is unlikely before mid next month, so relief is not near.",
+      "vi": "Chuyên gia nói trước giữa tháng sau khó có mưa lớn đủ giải khát, nghĩa là thiếu nước chưa sớm được giải quyết."
+     },
+     "audio": "audio/mini04/LM16_q3.mp3",
+     "duration": 25.44
+    }
+   ]
+  },
+  {
+   "id": "LM17",
+   "type": "monologue",
+   "intro": "請聽這場演講，然後回答下面的三個問題。",
+   "audio": "audio/mini04/LM17.mp3",
+   "duration": 74.5,
+   "script": [
+    {
+     "spk": "",
+     "text": "各位同學大家好，今天我想談談城市的熱島效應。所謂熱島效應，是指都市中心的氣溫，明顯高於周圍郊區的現象，有時溫差甚至超過五度。造成這種現象的原因主要有三個：第一，柏油路和水泥建築吸收大量熱量，到了夜晚才慢慢釋放；第二，高樓林立，阻擋了風的流動，熱空氣無法散去；第三，冷氣機和汽車排出的廢熱，又讓城市雪上加霜。很多人以為，只要多裝冷氣就能解決問題，其實這只是治標不治本。真正有效的做法，是增加公園綠地、推廣屋頂花園，並且在街道兩旁多種樹木，讓植物的蒸散作用幫忙降溫。城市規劃者若能及早著手，將可大幅減輕夏季的用電負擔。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LM17_q1",
+     "no": 39,
+     "stem": "下列哪一項是造成熱島效應的原因？",
+     "options": [
+      "郊區的樹木太多",
+      "夜晚路燈的熱度太高",
+      "城市的降雨量偏少",
+      "高樓阻擋了風，使熱空氣散不出去"
+     ],
+     "answer": "D",
+     "skill": "detail",
+     "explain": {
+      "zh": "演講提到高樓林立阻擋了風的流動，熱空氣無法散去；郊區樹木多並不是原因，反而植物有助降溫。",
+      "en": "The speaker says tall buildings block airflow so hot air cannot escape. Trees are a remedy, not a cause.",
+      "vi": "Diễn giả nói nhà cao tầng cản gió khiến không khí nóng không thoát được. Cây xanh là giải pháp chứ không phải nguyên nhân."
+     },
+     "audio": "audio/mini04/LM17_q1.mp3",
+     "duration": 23.23
+    },
+    {
+     "id": "LM17_q2",
+     "no": 40,
+     "stem": "演講者如何看待「多裝冷氣」這個做法？",
+     "options": [
+      "是最有效的方法",
+      "會讓氣溫迅速下降",
+      "只能暫時緩解，不能根本解決",
+      "應該由政府全面禁止"
+     ],
+     "answer": "C",
+     "skill": "attitude",
+     "explain": {
+      "zh": "演講者說這只是治標不治本，表示冷氣無法根本解決問題，廢熱還會讓情況更糟。",
+      "en": "He calls it treating the symptom rather than the cause; air conditioners emit waste heat and make things worse.",
+      "vi": "Ông gọi đó là chữa ngọn không chữa gốc; máy lạnh còn thải nhiệt làm tình hình tệ hơn."
+     },
+     "audio": "audio/mini04/LM17_q2.mp3",
+     "duration": 23.3
+    },
+    {
+     "id": "LM17_q3",
+     "no": 41,
+     "stem": "演講者建議用什麼方式降低城市溫度？",
+     "options": [
+      "擴建更多的柏油道路",
+      "減少郊區的公園",
+      "增加綠地、屋頂花園與行道樹",
+      "全面禁止汽車進入市區"
+     ],
+     "answer": "C",
+     "skill": "main_idea",
+     "explain": {
+      "zh": "他建議增加公園綠地、推廣屋頂花園，並在街道兩旁多種樹，讓植物蒸散作用降溫。",
+      "en": "He recommends more parks, rooftop gardens and street trees so plant transpiration cools the city.",
+      "vi": "Ông đề nghị thêm công viên, vườn trên mái và cây ven đường để thực vật thoát hơi nước làm mát."
+     },
+     "audio": "audio/mini04/LM17_q3.mp3",
+     "duration": 24.19
+    }
+   ]
+  },
+  {
+   "id": "LM18",
+   "type": "monologue",
+   "intro": "請聽這則廣播，然後回答下面的三個問題。",
+   "audio": "audio/mini04/LM18.mp3",
+   "duration": 77.38,
+   "script": [
+    {
+     "spk": "",
+     "text": "各位聽眾晚安，市立歷史博物館為配合暑假，推出古文明之夜夜間特展，展期從七月十日到八月三十一日，每週五、六晚上開放，時間是六點到九點半。夜間的展場燈光經過特別設計，參觀者可以拿著手電筒，近距離欣賞出土的青銅器與玉器。特別提醒大家，由於夜間人數受到管制，每場限額兩百人，一律採網路預約，現場不售票。預約成功後，請在入場前十五分鐘報到，逾時將視同放棄。此外，為了保護文物，展場內禁止使用閃光燈，也不開放飲食。另外，六十五歲以上的長者可享半價優惠，但仍須事先上網登記，不能臨時到場購票。想體驗不一樣的博物館之夜，別忘了趕快上網預約喔。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LM18_q1",
+     "no": 42,
+     "stem": "想參加這個夜間特展，應該怎麼做？",
+     "options": [
+      "直接到現場購票",
+      "事先在網路上預約",
+      "打電話給博物館登記",
+      "向學校申請團體名額"
+     ],
+     "answer": "B",
+     "skill": "detail",
+     "explain": {
+      "zh": "廣播說一律採網路預約，現場不售票。",
+      "en": "The broadcast says admission is by online reservation only and no tickets are sold on site.",
+      "vi": "Phát thanh nói chỉ nhận đặt trước trên mạng, không bán vé tại chỗ."
+     },
+     "audio": "audio/mini04/LM18_q1.mp3",
+     "duration": 22.54
+    },
+    {
+     "id": "LM18_q2",
+     "no": 43,
+     "stem": "預約成功的觀眾如果太晚到，會有什麼結果？",
+     "options": [
+      "必須補繳罰款",
+      "只能參觀一半的展區",
+      "可以改到隔天入場",
+      "預約會被視同放棄"
+     ],
+     "answer": "D",
+     "skill": "detail",
+     "explain": {
+      "zh": "要求在入場前十五分鐘報到，逾時將視同放棄。",
+      "en": "Visitors must check in fifteen minutes before entry; being late is treated as giving up the reservation.",
+      "vi": "Phải có mặt trước giờ vào mười lăm phút; trễ sẽ bị coi như bỏ đặt chỗ."
+     },
+     "audio": "audio/mini04/LM18_q2.mp3",
+     "duration": 22.1
+    },
+    {
+     "id": "LM18_q3",
+     "no": 44,
+     "stem": "關於長者優惠，下列哪一項正確？",
+     "options": [
+      "到場出示證件就能買半價票",
+      "仍須事先上網登記才能享有半價",
+      "長者可以免費入場",
+      "長者不需要預約"
+     ],
+     "answer": "B",
+     "skill": "inference",
+     "explain": {
+      "zh": "廣播說長者可享半價，但須事先上網登記，不能臨時到場購票，所以到場買票是行不通的。",
+      "en": "Seniors get half price but must register online beforehand; they cannot simply buy tickets at the door.",
+      "vi": "Người cao tuổi được nửa giá nhưng phải đăng ký trước trên mạng, không thể mua vé tại chỗ."
+     },
+     "audio": "audio/mini04/LM18_q3.mp3",
+     "duration": 24.55
+    }
+   ]
+  },
+  {
+   "id": "LM19",
+   "type": "monologue",
+   "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+   "audio": "audio/mini04/LM19.mp3",
+   "duration": 76.18,
+   "script": [
+    {
+     "spk": "",
+     "text": "警政署今天公布最新統計，今年上半年，六十歲以上長者遭詐騙的案件，比去年同期增加了百分之十八，平均每位受害者損失約四十萬元。常見的手法包括假冒檢警人員，謊稱帳戶涉案，要求民眾把存款交給所謂的監管人員；另一種則是假投資，以高報酬為誘餌，讓長者一步步投入積蓄。警方分析，詐騙集團之所以鎖定長者，是因為長者往往有一筆退休金，又不熟悉網路，容易因為害怕而失去判斷。警方呼籲，凡是接到自稱公家機關、要求匯款的電話，一律先掛斷，再撥打一六五反詐騙專線查證。同時也提醒子女，多花點時間陪伴父母，並教導他們辨識詐騙話術，才是最有效的防線。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LM19_q1",
+     "no": 45,
+     "stem": "今年上半年長者受騙的案件有什麼變化？",
+     "options": [
+      "比去年同期減少百分之十八",
+      "比去年同期增加百分之十八",
+      "與去年同期差不多",
+      "增加了四十萬件"
+     ],
+     "answer": "B",
+     "skill": "detail",
+     "explain": {
+      "zh": "統計顯示案件增加了百分之十八；四十萬元是平均每位受害者的損失，不是案件數。",
+      "en": "Cases rose 18% year on year. The 400,000 figure is the average loss per victim, not the number of cases.",
+      "vi": "Số vụ tăng 18% so với cùng kỳ. Bốn mươi vạn là thiệt hại trung bình mỗi nạn nhân, không phải số vụ."
+     },
+     "audio": "audio/mini04/LM19_q1.mp3",
+     "duration": 24.6
+    },
+    {
+     "id": "LM19_q2",
+     "no": 46,
+     "stem": "詐騙集團為什麼常鎖定長者下手？",
+     "options": [
+      "長者喜歡投資高風險商品",
+      "長者不願意和家人聯絡",
+      "長者常常主動撥打專線",
+      "長者有退休金，又不熟悉網路"
+     ],
+     "answer": "D",
+     "skill": "inference",
+     "explain": {
+      "zh": "警方分析長者往往有一筆退休金，又不熟悉網路，容易因害怕而失去判斷。",
+      "en": "Police note that seniors often hold retirement savings, are unfamiliar with the internet and easily lose judgment out of fear.",
+      "vi": "Cảnh sát phân tích người cao tuổi thường có tiền hưu, không rành mạng và dễ mất phán đoán vì sợ hãi."
+     },
+     "audio": "audio/mini04/LM19_q2.mp3",
+     "duration": 25.34
+    },
+    {
+     "id": "LM19_q3",
+     "no": 47,
+     "stem": "警方認為什麼才是最有效的防線？",
+     "options": [
+      "加重詐騙者的刑罰",
+      "禁止長者使用手機",
+      "把存款全部交給警方保管",
+      "子女多陪伴並教導父母辨識話術"
+     ],
+     "answer": "D",
+     "skill": "main_idea",
+     "explain": {
+      "zh": "報導最後提醒子女多陪伴父母，教他們辨識詐騙話術，才是最有效的防線。",
+      "en": "The report ends by saying children spending time with parents and teaching them to spot scam tactics is the most effective defence.",
+      "vi": "Cuối bản tin nhắc con cái dành thời gian bên cha mẹ và dạy nhận biết lời lẽ lừa đảo mới là tuyến phòng thủ hiệu quả nhất."
+     },
+     "audio": "audio/mini04/LM19_q3.mp3",
+     "duration": 24.1
+    }
+   ]
+  },
+  {
+   "id": "LM20",
+   "type": "monologue",
+   "intro": "請聽這段評論，然後回答下面的三個問題。",
+   "audio": "audio/mini04/LM20.mp3",
+   "duration": 76.22,
+   "script": [
+    {
+     "spk": "",
+     "text": "近年來，短影音迅速竄紅，許多人利用通勤或睡前的零碎時間，一滑就是一兩個小時，相對地，願意靜下心讀完一本書的人卻越來越少。有人因此憂心，短影音正在摧毀閱讀的習慣。我認為，這種說法未免過於悲觀。短影音本身並沒有錯，它提供了便利的資訊與娛樂，甚至有些創作者會藉由影片推薦好書，引起讀者的興趣。真正的問題在於，演算法不斷推送刺激的內容，讓我們的注意力被切割得支離破碎，漸漸失去了深度思考的耐性。要改善這種情況，與其一味禁止，不如替自己設定使用時間，並且刻意安排一段不受打擾的閱讀時光。畢竟，工具如何影響生活，最後還是取決於使用的人。"
+    }
+   ],
+   "questions": [
+    {
+     "id": "LM20_q1",
+     "no": 48,
+     "stem": "說話者對「短影音正在摧毀閱讀習慣」這種說法有什麼看法？",
+     "options": [
+      "認為過於悲觀",
+      "完全同意",
+      "認為毫無道理",
+      "覺得與自己無關"
+     ],
+     "answer": "A",
+     "skill": "attitude",
+     "explain": {
+      "zh": "說話者直接說這種說法未免過於悲觀，並指出短影音本身沒有錯。",
+      "en": "The speaker says this view is overly pessimistic and notes that short videos are not wrong in themselves.",
+      "vi": "Người nói cho rằng quan điểm này quá bi quan và nhấn mạnh bản thân video ngắn không có lỗi."
+     },
+     "audio": "audio/mini04/LM20_q1.mp3",
+     "duration": 22.34
+    },
+    {
+     "id": "LM20_q2",
+     "no": 49,
+     "stem": "說話者認為真正的問題是什麼？",
+     "options": [
+      "短影音的內容都缺乏知識",
+      "演算法讓注意力破碎，使人失去深度思考的耐性",
+      "創作者不推薦書籍",
+      "人們沒有時間通勤"
+     ],
+     "answer": "B",
+     "skill": "main_idea",
+     "explain": {
+      "zh": "他指出演算法不斷推送刺激內容，把注意力切割得支離破碎，人漸漸失去深度思考的耐性。",
+      "en": "He says algorithms keep pushing stimulating content, fragmenting attention until people lose the patience for deep thinking.",
+      "vi": "Ông cho rằng thuật toán liên tục đẩy nội dung kích thích, làm vụn sự chú ý khiến người ta mất kiên nhẫn suy nghĩ sâu."
+     },
+     "audio": "audio/mini04/LM20_q2.mp3",
+     "duration": 25.32
+    },
+    {
+     "id": "LM20_q3",
+     "no": 50,
+     "stem": "說話者提出了什麼改善的做法？",
+     "options": [
+      "自己設定使用時間，並安排不受打擾的閱讀時間",
+      "完全禁止孩子看短影音",
+      "改用長影片取代書籍",
+      "請創作者減少發片"
+     ],
+     "answer": "A",
+     "skill": "detail",
+     "explain": {
+      "zh": "他說與其一味禁止，不如替自己設定使用時間，並刻意安排一段不受打擾的閱讀時光。",
+      "en": "He says that rather than banning outright, people should set time limits for themselves and deliberately schedule undisturbed reading time.",
+      "vi": "Ông nói thay vì cấm hoàn toàn, nên tự đặt giới hạn thời gian dùng và chủ động sắp xếp thời gian đọc không bị quấy rầy."
+     },
+     "audio": "audio/mini04/LM20_q3.mp3",
+     "duration": 24.98
+    }
+   ]
+  }
+ ],
+ "reading": {
+  "gap": [
+   {
+    "id": "RG7",
+    "passage": "假新聞的威力，不在於它多麼高明，而在於傳播速度遠遠超過查證。一則聳動的消息只要配上「震驚」的標題，便能在短時間內{1}，許多人未經思索就轉發，結果以訛傳訛，謠言愈傳愈離譜。媒體素養教育因此格外重要，它教導大眾面對資訊時不可{2}，而應先檢視來源、比對不同報導。有些人只挑選符合自己立場的內容閱讀，久而久之便陷入「同溫層」，對相反的意見{3}。平台業者雖已設立查核機制，{4}的內容仍層出不窮。專家呼籲，唯有每位使用者都願意{5}，才能真正降低假訊息的傷害。",
+    "blanks": [
+     {
+      "id": "RG7_b1",
+      "no": 1,
+      "n": 1,
+      "options": [
+       "銷聲匿跡",
+       "不脛而走",
+       "石沉大海",
+       "默默無聞"
+      ],
+      "answer": "B",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「不脛而走」形容消息沒有人刻意推動卻傳得很快，與「傳播速度超過查證」呼應；其餘三個都表示消失或沒人注意。",
+       "en": "「不脛而走」 describes news spreading fast on its own; the others mean vanishing or going unnoticed.",
+       "vi": "「不脛而走」 chỉ tin tức lan nhanh như có chân; các thành ngữ còn lại nghĩa là biến mất hoặc không ai biết đến."
+      },
+      "answer_word": "不脛而走",
+      "vocab_level": "outside-8000"
+     },
+     {
+      "id": "RG7_b2",
+      "no": 2,
+      "n": 2,
+      "options": [
+       "一籌莫展",
+       "當機立斷",
+       "照單全收",
+       "責無旁貸"
+      ],
+      "answer": "C",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「照單全收」指不加選擇地全部接受；後文說「而應先檢視來源」，正好形成對比。",
+       "en": "「照單全收」 means accepting everything uncritically, contrasting with checking sources first.",
+       "vi": "「照單全收」 nghĩa là tiếp nhận tất cả không chọn lọc, đối lập với việc kiểm tra nguồn trước."
+      },
+      "answer_word": "照單全收",
+      "vocab_level": "outside-8000"
+     },
+     {
+      "id": "RG7_b3",
+      "no": 3,
+      "n": 3,
+      "options": [
+       "洗耳恭聽",
+       "刮目相看",
+       "充耳不聞",
+       "禮賢下士"
+      ],
+      "answer": "C",
+      "skill": "idiom",
+      "explain": {
+       "zh": "只讀同溫層內容的人，對相反意見會「充耳不聞」（故意不聽）；其餘三個表示認真聆聽或尊重他人。",
+       "en": "People in an echo chamber turn a deaf ear to opposing views: 「充耳不聞」. The others express attentive listening or respect.",
+       "vi": "Người ở trong vòng tròn đồng quan điểm sẽ 「充耳不聞」 (làm ngơ) trước ý kiến trái chiều; các từ còn lại mang nghĩa lắng nghe, tôn trọng."
+      },
+      "answer_word": "充耳不聞",
+      "vocab_level": "outside-8000"
+     },
+     {
+      "id": "RG7_b4",
+      "no": 4,
+      "n": 4,
+      "options": [
+       "以假亂真",
+       "貨真價實",
+       "名副其實",
+       "言之有物"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「以假亂真」指假的東西做得像真的，用來形容假訊息；其餘三個都帶有真實、有內容的意思。",
+       "en": "「以假亂真」 means fakes passing as genuine; the others describe authentic or substantive things.",
+       "vi": "「以假亂真」 chỉ đồ giả trông như thật; các từ còn lại mang nghĩa thật sự, có nội dung."
+      },
+      "answer_word": "以假亂真",
+      "vocab_level": "outside-8000"
+     },
+     {
+      "id": "RG7_b5",
+      "no": 5,
+      "n": 5,
+      "options": [
+       "捏造",
+       "追捧",
+       "轉嫁",
+       "查證"
+      ],
+      "answer": "D",
+      "skill": "verb",
+      "explain": {
+       "zh": "要降低假訊息的傷害，使用者必須願意「查證」；「捏造」是憑空編造，「追捧」是熱烈跟隨，「轉嫁」是把責任推給別人。",
+       "en": "To reduce harm, users must be willing to verify: 「查證」. The others mean fabricate, chase after, or shift blame.",
+       "vi": "Muốn giảm tác hại, người dùng phải sẵn lòng 「查證」 (xác minh); các từ còn lại là bịa đặt, đua theo, đổ trách nhiệm."
+      },
+      "answer_word": "查證",
+      "vocab_level": "outside-8000"
+     }
+    ]
+   },
+   {
+    "id": "RG8",
+    "passage": "臺灣已邁入高齡社會，失能長者的照顧問題日益{1}。許多家庭由中年子女肩負照護責任，白天上班、夜裡看護，長期下來身心俱疲，甚至不得不離職，陷入「照顧者貧窮」的困境。政府雖推動社區式照顧據點，希望讓長者能「在地老化」，但人力短缺始終是瓶頸，薪資偏低使年輕人{2}。外籍看護工填補了部分缺口，卻{3}語言與文化磨合的課題。面對龐大需求，單靠公部門恐怕{4}，必須結合民間資源與科技輔具。唯有在問題惡化前{5}，建立完善的支持系統，高齡社會才不致成為家庭的沉重負擔。",
+    "blanks": [
+     {
+      "id": "RG8_b1",
+      "no": 6,
+      "n": 1,
+      "options": [
+       "悠閒",
+       "渺茫",
+       "迫切",
+       "零星"
+      ],
+      "answer": "C",
+      "skill": "vocab",
+      "explain": {
+       "zh": "高齡化使照顧需求愈來愈急，所以說問題「日益迫切」；「悠閒」「渺茫」「零星」都不符合語意。",
+       "en": "Ageing makes the need ever more urgent: 「迫切」. The others (leisurely, slim, sporadic) do not fit.",
+       "vi": "Già hóa khiến nhu cầu ngày càng cấp bách: 「迫切」. Các từ còn lại (nhàn nhã, mong manh, lẻ tẻ) không hợp."
+      },
+      "answer_word": "迫切",
+      "vocab_level": "Level4"
+     },
+     {
+      "id": "RG8_b2",
+      "no": 7,
+      "n": 2,
+      "options": [
+       "望而卻步",
+       "躍躍欲試",
+       "趨之若鶩",
+       "蜂擁而至"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "薪資偏低讓年輕人「望而卻步」（看了就退縮）；其餘三個都是爭相投入的意思，與人力短缺矛盾。",
+       "en": "Low pay makes young people shrink back: 「望而卻步」. The others mean rushing in eagerly, contradicting the labor shortage.",
+       "vi": "Lương thấp khiến người trẻ 「望而卻步」 (chùn bước); các thành ngữ còn lại nghĩa là đổ xô vào, mâu thuẫn với tình trạng thiếu nhân lực."
+      },
+      "answer_word": "望而卻步",
+      "vocab_level": "outside-8000"
+     },
+     {
+      "id": "RG8_b3",
+      "no": 8,
+      "n": 3,
+      "options": [
+       "免除",
+       "抵銷",
+       "迴避",
+       "衍生"
+      ],
+      "answer": "D",
+      "skill": "verb",
+      "explain": {
+       "zh": "「衍生」指由原有事物進一步產生新的問題；引進外籍看護後又產生磨合課題，語意通順。",
+       "en": "「衍生」 means giving rise to new issues, which fits the cultural adjustment problems that follow.",
+       "vi": "「衍生」 nghĩa là phát sinh thêm vấn đề mới, khớp với các vấn đề thích nghi ngôn ngữ và văn hóa."
+      },
+      "answer_word": "衍生",
+      "vocab_level": "Level5"
+     },
+     {
+      "id": "RG8_b4",
+      "no": 9,
+      "n": 4,
+      "options": [
+       "綽綽有餘",
+       "迎刃而解",
+       "水到渠成",
+       "獨木難支"
+      ],
+      "answer": "D",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「獨木難支」比喻一個人或單位的力量不足以支撐大局；後文要求結合民間資源，與此呼應。",
+       "en": "「獨木難支」 means one party alone cannot hold things up, matching the call to involve private resources.",
+       "vi": "「獨木難支」 nghĩa là một mình khó gánh vác nổi, khớp với lời kêu gọi huy động nguồn lực tư nhân."
+      },
+      "answer_word": "獨木難支",
+      "vocab_level": "outside-8000"
+     },
+     {
+      "id": "RG8_b5",
+      "no": 10,
+      "n": 5,
+      "options": [
+       "亡羊補牢",
+       "未雨綢繆",
+       "臨陣磨槍",
+       "坐享其成"
+      ],
+      "answer": "B",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「在問題惡化前」要提前準備，正是「未雨綢繆」；「亡羊補牢」是出事後才補救，「臨陣磨槍」是臨時抱佛腳，「坐享其成」是不勞而獲。",
+       "en": "Preparing before problems worsen is 「未雨綢繆」; the others mean fixing after the loss, last-minute cramming, or reaping without effort.",
+       "vi": "Chuẩn bị trước khi vấn đề trầm trọng là 「未雨綢繆」; các từ còn lại là mất bò mới lo làm chuồng, nước đến chân mới nhảy, không làm mà hưởng."
+      },
+      "answer_word": "未雨綢繆",
+      "vocab_level": "outside-8000"
+     }
+    ]
+   }
+  ],
+  "comp": [
+   {
+    "id": "RC16",
+    "passage": "太陽能與風力發電是減碳的主力，但它們有一個先天的弱點：發電量取決於天氣，而非用電需求。晴朗的正午，太陽能板大量產電，電力卻可能供過於求；入夜或無風時，發電量驟降，電網又面臨缺口。這種「間歇性」使電力調度變得棘手。目前的解方之一是儲能，將多餘的電力暫存起來，在尖峰時段釋放，然而大型電池造價高昂，且存放時間有限。另一條思路是擴大電網的範圍，讓不同地區的天氣互相補位。可見，再生能源的推廣不能只談裝置容量，若缺乏穩定供電的配套，綠電恐怕只是紙上談兵。",
+    "questions": [
+     {
+      "id": "RC16_q1",
+      "no": 11,
+      "stem": "根據文章，再生能源的「間歇性」指的是什麼？",
+      "options": [
+       "發電設備需要定期停機維修",
+       "發電量隨天氣變化，與用電需求不一定吻合",
+       "電力價格每天都在波動",
+       "電網只能在夜間運作"
+      ],
+      "answer": "B",
+      "skill": "main_idea",
+      "explain": {
+       "zh": "文章開頭指出發電量取決於天氣，而非用電需求，這就是間歇性。",
+       "en": "Output depends on the weather rather than demand; that is intermittency.",
+       "vi": "Sản lượng phụ thuộc thời tiết chứ không theo nhu cầu dùng điện; đó là tính gián đoạn."
+      }
+     },
+     {
+      "id": "RC16_q2",
+      "no": 12,
+      "stem": "文中提到儲能的限制是什麼？",
+      "options": [
+       "大型電池造價高，且存放時間有限",
+       "只能在白天使用",
+       "會讓發電量變得更不穩定",
+       "必須擴大電網才能運作"
+      ],
+      "answer": "A",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中說大型電池造價高昂，且存放時間有限。",
+       "en": "Large batteries are costly and can store power only for a limited time.",
+       "vi": "Pin cỡ lớn có giá thành cao và thời gian lưu trữ có hạn."
+      }
+     },
+     {
+      "id": "RC16_q3",
+      "no": 13,
+      "stem": "「綠電恐怕只是紙上談兵」的意思最接近下列何者？",
+      "options": [
+       "已經被大量實際運用",
+       "將被其他能源完全取代",
+       "只有理論與計畫，卻無法實際發揮作用",
+       "價格會比傳統電力便宜"
+      ],
+      "answer": "C",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「紙上談兵」比喻只會空談理論、不能解決實際問題；缺乏穩定供電配套，綠電就難以落實。",
+       "en": "「紙上談兵」 means theory without practical results; without stable supply, green power stays on paper.",
+       "vi": "「紙上談兵」 chỉ lý thuyết suông không áp dụng được; thiếu hạ tầng cấp điện ổn định thì điện xanh khó thành hiện thực."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC17",
+    "passage": "翻譯不僅是語言的轉換，更是文化的搬運。許多詞語在另一種語言中找不到完全對應的說法，例如中文的「緣分」，英文只能用「fate」或「destiny」勉強近似，卻丟失了人與人偶然相遇的溫度。譯者因此常面臨兩難：忠於原文，讀者可能一頭霧水；調整成讀者熟悉的說法，又可能抹去原作的異國風味。優秀的譯者往往在兩者間尋求平衡，必要時加上註解，讓讀者既能順暢閱讀，又不致曲解原意。換言之，翻譯的高明之處不在於逐字對照，而在於讓不同文化背景的人也能心領神會。",
+    "questions": [
+     {
+      "id": "RC17_q1",
+      "no": 14,
+      "stem": "文章為什麼以「緣分」為例？",
+      "options": [
+       "說明有些詞語在另一種語言中難以完整傳達",
+       "說明英文比中文更精確",
+       "說明譯者不應加註解",
+       "說明這個詞很少被使用"
+      ],
+      "answer": "A",
+      "skill": "purpose",
+      "explain": {
+       "zh": "「緣分」在英文中只能近似翻譯，丟失了偶然相遇的溫度，用來說明詞語難以完全對應。",
+       "en": "The word can only be approximated in English, showing that some terms do not translate fully.",
+       "vi": "Từ này chỉ được dịch gần đúng sang tiếng Anh, cho thấy có từ không thể chuyển tải trọn vẹn."
+      }
+     },
+     {
+      "id": "RC17_q2",
+      "no": 15,
+      "stem": "「讀者可能一頭霧水」的意思是什麼？",
+      "options": [
+       "讀者看不懂，感到困惑",
+       "讀者非常感動",
+       "讀者讀得很快",
+       "讀者要求重新翻譯"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「一頭霧水」形容完全摸不著頭緒、困惑不解。",
+       "en": "「一頭霧水」 means being completely confused.",
+       "vi": "「一頭霧水」 nghĩa là hoàn toàn mơ hồ, không hiểu gì."
+      }
+     },
+     {
+      "id": "RC17_q3",
+      "no": 16,
+      "stem": "作者認為優秀翻譯的關鍵是什麼？",
+      "options": [
+       "讓不同文化的讀者也能領會原意，而非逐字對照",
+       "完全保留原文的每個字詞",
+       "一律改成讀者熟悉的說法",
+       "避免翻譯有文化色彩的作品"
+      ],
+      "answer": "A",
+      "skill": "main_idea",
+      "explain": {
+       "zh": "結尾強調高明之處不在逐字對照，而在讓人心領神會。",
+       "en": "The ending says skill lies not in word-for-word matching but in helping people grasp the meaning.",
+       "vi": "Phần kết nhấn mạnh cái hay không nằm ở dịch từng chữ mà ở việc giúp người đọc thấu hiểu ý nghĩa."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC18",
+    "passage": "現代運動賽事早已不只是體能的較量，而是一門龐大的生意。轉播權利金、贊助廣告與周邊商品，為主辦單位帶來可觀收益，也讓頂尖選手得以專職訓練。然而，商業化的代價逐漸浮現：為了配合電視轉播的黃金時段，比賽時間常被迫更動，選手得在不利的氣溫下上場；票價一路攀升，讓忠實的老球迷望而生畏。更令人憂心的是，當勝負牽動巨額利益，運動精神可能被功利考量取代。有評論者主張，商業與競技並非勢不兩立，關鍵在於收益是否回饋基層，讓更多人有機會親近運動。",
+    "questions": [
+     {
+      "id": "RC18_q1",
+      "no": 17,
+      "stem": "根據文章，商業化帶來了哪些負面影響？",
+      "options": [
+       "選手無法專職訓練",
+       "贊助商紛紛撤出",
+       "轉播權利金大幅下降",
+       "賽程遷就轉播，票價上漲"
+      ],
+      "answer": "D",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中指出比賽時間為配合轉播而更動，票價也一路攀升。",
+       "en": "Schedules bend to broadcasters and ticket prices keep climbing.",
+       "vi": "Lịch thi đấu bị điều chỉnh theo truyền hình và giá vé liên tục tăng."
+      }
+     },
+     {
+      "id": "RC18_q2",
+      "no": 18,
+      "stem": "「商業與競技並非勢不兩立」的意思是什麼？",
+      "options": [
+       "兩者可以並存，不一定互相排斥",
+       "兩者永遠無法合作",
+       "商業一定會取代競技",
+       "競技不需要任何收益"
+      ],
+      "answer": "A",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「勢不兩立」指雙方無法同時存在；「並非勢不兩立」即兩者可以並存。",
+       "en": "「勢不兩立」 means irreconcilable; saying they are not so means they can coexist.",
+       "vi": "「勢不兩立」 nghĩa là không thể cùng tồn tại; phủ định nó tức là hai bên có thể song hành."
+      }
+     },
+     {
+      "id": "RC18_q3",
+      "no": 19,
+      "stem": "文中評論者的看法是什麼？",
+      "options": [
+       "應該完全禁止商業贊助",
+       "只要收益能回饋基層，商業化也能帶來好處",
+       "票價愈高愈能提升水準",
+       "運動精神早已不重要"
+      ],
+      "answer": "B",
+      "skill": "attitude",
+      "explain": {
+       "zh": "評論者認為關鍵在收益是否回饋基層，讓更多人親近運動。",
+       "en": "The commentator says the key is whether revenue is returned to grassroots sport.",
+       "vi": "Nhà bình luận cho rằng mấu chốt là lợi nhuận có được đem lại cho phong trào cơ sở hay không."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC19",
+    "passage": "社群媒體讓人隨時窺見他人的生活，卻也悄悄助長了比較心理。心理學家指出，人們在網路上展示的多半是精心挑選的亮點：旅遊的美照、升遷的喜訊、完美的餐點。當我們拿自己平凡的日常，去對照別人經過修飾的精華，很容易覺得自己黯然失色。長期下來，可能產生焦慮與自卑，甚至為了維持形象而刻意包裝生活，形成惡性循環。要跳脫這個陷阱，首先要提醒自己，螢幕上的畫面只是一個人生活的片段，而非全貌。此外，適度減少滑手機的時間，把注意力移回現實中的人際互動，也能讓心境平靜許多。",
+    "questions": [
+     {
+      "id": "RC19_q1",
+      "no": 20,
+      "stem": "為什麼拿自己的日常與他人的網路貼文比較，容易讓人自卑？",
+      "options": [
+       "因為別人的生活真的比較完美",
+       "因為比較的對象是經過挑選與修飾的精華",
+       "因為貼文數量太多",
+       "因為自己很少使用社群媒體"
+      ],
+      "answer": "B",
+      "skill": "inference",
+      "explain": {
+       "zh": "文章說別人展示的是精心挑選、修飾過的亮點，拿平凡日常去比，基準並不對等。",
+       "en": "Others post curated highlights, so comparing them with your ordinary life is an unfair benchmark.",
+       "vi": "Người khác đăng những điểm nổi bật đã chọn lọc, nên so với đời thường của mình là không công bằng."
+      }
+     },
+     {
+      "id": "RC19_q2",
+      "no": 21,
+      "stem": "「覺得自己黯然失色」的意思最接近下列何者？",
+      "options": [
+       "覺得自己光彩奪目",
+       "覺得眼前一片昏暗",
+       "覺得別人不如自己",
+       "覺得自己相形之下遜色"
+      ],
+      "answer": "D",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「黯然失色」指與他人比較後顯得遜色、失去光彩。",
+       "en": "「黯然失色」 means looking dull or inferior by comparison.",
+       "vi": "「黯然失色」 nghĩa là so sánh với người khác thì trở nên mờ nhạt, kém cỏi."
+      }
+     },
+     {
+      "id": "RC19_q3",
+      "no": 22,
+      "stem": "文章最後一段的目的是什麼？",
+      "options": [
+       "批評所有使用社群媒體的人",
+       "提供面對社群媒體比較心理的建議",
+       "介紹新的手機功能",
+       "說明心理學家的研究方法"
+      ],
+      "answer": "B",
+      "skill": "purpose",
+      "explain": {
+       "zh": "最後提醒畫面只是片段，並建議減少滑手機、回到現實互動，屬於提出對策。",
+       "en": "It reminds readers that posts are fragments and suggests cutting screen time: practical advice.",
+       "vi": "Đoạn cuối nhắc rằng hình ảnh chỉ là mảnh ghép và khuyên giảm lướt điện thoại: đưa ra lời khuyên."
+      }
+     }
+    ]
+   },
+   {
+    "id": "RC20",
+    "passage": "在機器量產的時代，傳統手工藝正面臨青黃不接的窘境。一個手工編織的竹籃，可能耗費數天工夫，售價卻難以與工廠製品競爭；年輕人看著微薄的收入，自然不願投入需要多年磨練的學徒生涯。師傅年事已高，技藝若無人承接，恐怕將隨著他們的離去而失傳。近年來，一些地方嘗試轉個方向：把工藝融入設計，開發符合現代生活的產品，並透過體驗課程讓大眾親手感受製作的樂趣。這些做法未必能讓每項技藝起死回生，但至少讓人們重新看見，手作的價值不只在於實用，更在於其中凝聚的時間與心意。",
+    "questions": [
+     {
+      "id": "RC20_q1",
+      "no": 23,
+      "stem": "年輕人不願投入傳統手工藝的原因是什麼？",
+      "options": [
+       "工廠會提供更多教學",
+       "手工藝已經不受大眾歡迎",
+       "收入微薄，且學徒階段需要多年磨練",
+       "師傅不願意教導"
+      ],
+      "answer": "C",
+      "skill": "detail",
+      "explain": {
+       "zh": "文中說年輕人看著微薄的收入，不願投入需要多年磨練的學徒生涯。",
+       "en": "Low income and a years-long apprenticeship deter young people.",
+       "vi": "Thu nhập thấp và giai đoạn học nghề kéo dài nhiều năm khiến người trẻ không muốn theo."
+      }
+     },
+     {
+      "id": "RC20_q2",
+      "no": 24,
+      "stem": "「青黃不接」在文中指的是什麼情形？",
+      "options": [
+       "竹籃的顏色變得不好看",
+       "產品供過於求",
+       "年輕人與老人互相學習",
+       "老一輩逐漸凋零，新一代卻還沒接上"
+      ],
+      "answer": "D",
+      "skill": "idiom",
+      "explain": {
+       "zh": "「青黃不接」原指舊糧吃完、新糧未熟，比喻人才或物資一時接濟不上；文中指師傅老去而傳人不足。",
+       "en": "「青黃不接」 means the old supply is gone before the new arrives; here masters age while successors are lacking.",
+       "vi": "「青黃不接」 nghĩa là lớp cũ hết mà lớp mới chưa kịp nối; ở đây là thợ già mà người kế nghiệp thiếu."
+      }
+     },
+     {
+      "id": "RC20_q3",
+      "no": 25,
+      "stem": "作者認為手作的價值在於什麼？",
+      "options": [
+       "價格比工廠製品便宜",
+       "製作速度非常快",
+       "不只實用，更凝聚了時間與心意",
+       "能完全取代機器生產"
+      ],
+      "answer": "C",
+      "skill": "main_idea",
+      "explain": {
+       "zh": "結尾說手作的價值不只在實用，更在於凝聚的時間與心意。",
+       "en": "The ending says handmade value lies beyond utility, in the time and care it embodies.",
+       "vi": "Phần kết nói giá trị đồ thủ công không chỉ ở tính hữu dụng mà còn ở thời gian và tâm ý kết tinh trong đó."
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

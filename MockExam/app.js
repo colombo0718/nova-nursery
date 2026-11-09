@@ -1,7 +1,8 @@
 /* Mock exam engine — Nova Nursery. No framework, no build. */
 const params = new URLSearchParams(location.search);
 const SET = params.get("set") || "mini01";
-const SET_IDS = SET === "full100" ? ["mini01", "mini02"] : SET.split("+");   // full100 = both half sets: 50 listening + 50 reading
+const SET_ALIAS = { full100: "mini01+mini02", full100b: "mini03+mini04", all: "mini01+mini02+mini03+mini04" };
+const SET_IDS = (SET_ALIAS[SET] || SET).split("+");   // full100 / full100b = two half sets (50 listening + 50 reading); all = every set (practice)
 const MODE = params.get("mode") || "full";
 const FAST = params.get("fast") === "1"; // test hook: 16x audio, short countdown
 const SECONDS_PER_READING_Q = 72;       // official: 50 questions / 60 minutes

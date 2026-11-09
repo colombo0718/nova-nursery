@@ -25,6 +25,7 @@ function link(mode, label, desc, secondary, set = "full100") {
   return `<a class="card" href="exam.html?set=${set}&mode=${mode}" style="display:block">
     <h2>${label}</h2>${desc ? `<p>${desc}</p>` : ""}<span class="btn ${secondary ? "secondary" : ""} small">${T().start} →</span></a>`;
 }
+const PAPER = { en: "Paper {n} (100 questions)", vi: "Đề {n} (100 câu)", zh: "第 {n} 套（100 題）" };
 function render() {
   const t = T();
   document.title = t.title + " — Nova Nursery";
@@ -33,23 +34,24 @@ function render() {
     <span class="badge">TOCFL · Band C</span>
     <h1>${t.title}</h1>
     <p class="sub">${t.subtitle}</p>
-    ${link("full", t.fullExam, t.fullExamDesc)}
-    <div class="grid">
-      ${link("listening", t.listeningOnly, "", true)}
-      ${link("reading", t.readingOnly, "", true)}
-    </div>
+    ${[["full100", 1], ["full100b", 2]].map(([set, n]) => `
+      <h2 style="margin-top:24px">${PAPER[LANG].replace("{n}", n)}</h2>
+      ${link("full", t.fullExam, t.fullExamDesc, false, set)}
+      <div class="grid">
+        ${link("listening", t.listeningOnly, "", true, set)}
+        ${link("reading", t.readingOnly, "", true, set)}
+      </div>`).join("")}
     <h2 style="margin-top:28px">${t.halfTitle}</h2>
     <div class="grid">
-      ${link("full", t.halfA, "", true, "mini01")}
-      ${link("full", t.halfB, "", true, "mini02")}
+      ${["A", "B", "C", "D"].map((L, i) => link("full", t.halfA.replace("A", L), "", true, "mini0" + (i + 1))).join("")}
     </div>
     <h2 style="margin-top:28px">${t.practiceTitle}</h2>
     <p class="sub">${t.practiceDesc}</p>
     <div class="grid">
-      ${link("p-dialogue", t.pDialogue, "", true)}
-      ${link("p-monologue", t.pMonologue, "", true)}
-      ${link("p-gap", t.pGap, "", true)}
-      ${link("p-comp", t.pComp, "", true)}
+      ${link("p-dialogue", t.pDialogue, "", true, "all")}
+      ${link("p-monologue", t.pMonologue, "", true, "all")}
+      ${link("p-gap", t.pGap, "", true, "all")}
+      ${link("p-comp", t.pComp, "", true, "all")}
     </div>
     <p class="notice" style="margin-top:24px">${t.disclaimer}</p>`;
 }

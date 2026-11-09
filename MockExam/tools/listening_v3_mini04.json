@@ -1,0 +1,651 @@
+[
+ {
+  "id": "LD16",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "聽說你下個月就要離開公司了，是真的嗎？"
+   ],
+   [
+    "F",
+    "對，我已經向主管遞了辭呈。其實我一直想轉行做教育，這次總算下定決心了。"
+   ],
+   [
+    "M",
+    "太突然了！那你手上的專案怎麼辦？聽說客戶資料庫才剛整理到一半。"
+   ],
+   [
+    "F",
+    "別擔心，這兩週我會把進度表和聯絡窗口整理成交接手冊，你有空再來看看。"
+   ],
+   [
+    "M",
+    "好的。對了，主管有沒有提過誰會接你的位子？"
+   ],
+   [
+    "F",
+    "他私下問過我的意見，我推薦了你。不過最後還是要看人事部的評估，你得有心理準備。"
+   ],
+   [
+    "M",
+    "我當然想試試，只是怕經驗不夠，帶不動整個團隊。"
+   ],
+   [
+    "F",
+    "經驗可以慢慢累積，你做事細心，又肯負責，這兩點比資歷更難得。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "這位女士為什麼要離職？",
+    "options": [
+     "她想轉行從事教育工作",
+     "她和主管意見不合",
+     "客戶資料庫出了問題",
+     "她打算出國進修"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "女士說自己一直想轉行做教育，這次下定決心；客戶資料庫只是她要交接的工作，並不是離職原因。",
+     "en": "She says she has long wanted to switch to education and has finally made up her mind. The client database is merely something she must hand over, not the reason she is leaving.",
+     "vi": "Cô ấy nói vẫn luôn muốn chuyển sang làm giáo dục và nay đã quyết tâm. Cơ sở dữ liệu khách hàng chỉ là việc cần bàn giao, không phải lý do nghỉ việc."
+    }
+   },
+   {
+    "stem": "男士目前最擔心的是什麼？",
+    "options": [
+     "自己經驗不足，帶不動團隊",
+     "交接手冊寫得不夠清楚",
+     "人事部不願意公布結果",
+     "客戶會跟著女士離開"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "男士說怕經驗不夠、帶不動整個團隊，可見他擔心的是自己能力與經驗；女士則回應資歷不如細心負責重要。",
+     "en": "He says he fears his experience is too thin to lead the whole team, so his worry is about his own readiness. The woman replies that being careful and responsible matters more than seniority.",
+     "vi": "Anh ấy nói sợ kinh nghiệm chưa đủ để dẫn dắt cả nhóm, nên điều anh lo là năng lực của bản thân. Cô đáp rằng sự cẩn thận và trách nhiệm quý hơn thâm niên."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD17",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "F",
+    "你好，我想把週四下午的門診改到下週，不知道還有沒有名額？"
+   ],
+   [
+    "M",
+    "請問您掛的是哪一科？"
+   ],
+   [
+    "F",
+    "骨科，李醫師。"
+   ],
+   [
+    "M",
+    "李醫師下週二上午和週五下午還有空位，不過週五的病人比較多，可能要等比較久。"
+   ],
+   [
+    "F",
+    "那就週二上午吧。對了，我上個月在別家醫院做的檢查，需要帶報告來嗎？"
+   ],
+   [
+    "M",
+    "最好帶著，醫師可以直接參考，省得重複檢查。"
+   ],
+   [
+    "F",
+    "還有一件事，我買的商業保險，這類復健治療能給付嗎？"
+   ],
+   [
+    "M",
+    "這得看您的保單條款。建議您先向保險公司確認，再請醫師開立診斷證明，申請理賠時才用得上。"
+   ],
+   [
+    "F",
+    "好，我知道了，謝謝。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "女士為什麼沒有選週五下午？",
+    "options": [
+     "因為那天病人較多，可能要等很久",
+     "因為李醫師那天不看診",
+     "因為她週五要去別家醫院",
+     "因為週五沒有空位"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "櫃檯人員說週五的病人比較多，可能要等比較久，所以女士選了週二上午；週五下午其實還有空位。",
+     "en": "The clerk says Friday is busier and the wait may be long, so she picks Tuesday morning. Friday afternoon does in fact still have openings.",
+     "vi": "Nhân viên nói thứ Sáu đông bệnh nhân hơn, có thể phải chờ lâu nên cô chọn sáng thứ Ba. Chiều thứ Sáu thực ra vẫn còn chỗ."
+    }
+   },
+   {
+    "stem": "關於檢查報告和保險，醫院人員給了什麼建議？",
+    "options": [
+     "帶上次的報告，並先向保險公司確認給付",
+     "重新做一次檢查，再申請理賠",
+     "由醫院直接替她辦理理賠",
+     "改掛其他科別比較省錢"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "人員說最好帶著之前的報告，可以避免重複檢查；保險能否給付要看保單，請她先向保險公司確認，並請醫師開診斷證明。",
+     "en": "He advises bringing the earlier report to avoid repeat tests, and says coverage depends on her policy, so she should check with the insurer first and get a medical certificate from the doctor.",
+     "vi": "Anh ta khuyên mang theo kết quả cũ để khỏi kiểm tra lại, và nói việc chi trả tùy hợp đồng nên cô cần hỏi công ty bảo hiểm trước và nhờ bác sĩ cấp giấy chẩn đoán."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD18",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "學姐，下學期的校園音樂節，學務處說經費最多只能補助三萬元。"
+   ],
+   [
+    "F",
+    "才三萬？去年可是補助了五萬。光是場地和音響租下來就快兩萬了。"
+   ],
+   [
+    "M",
+    "所以我想，要不要找附近的店家贊助？用海報和攤位換一點資金。"
+   ],
+   [
+    "F",
+    "這主意不錯，不過要小心，別讓活動變成廣告大會，失去音樂節原有的味道。"
+   ],
+   [
+    "M",
+    "說得也是。那我們限制贊助商的數量，最多五家，好嗎？"
+   ],
+   [
+    "F",
+    "可以。另外，我擔心戶外活動遇到下雨，應該先準備雨天備案。"
+   ],
+   [
+    "M",
+    "我已經問過了，體育館可以借用，但是得在兩週前提出申請。"
+   ],
+   [
+    "F",
+    "那你今天就把申請書遞出去，免得到時候來不及。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "男士為什麼提議找店家贊助？",
+    "options": [
+     "學校的補助比去年少，不夠支付開銷",
+     "學務處禁止社團租借場地",
+     "他想讓活動更熱鬧",
+     "有店家主動提出要求"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "補助只有三萬元，比去年少了兩萬，而租場地和音響就快兩萬，所以男士才想靠贊助補足資金。",
+     "en": "The subsidy is only 30,000, down from last year, and venue and sound rental alone take nearly 20,000, so he wants sponsors to fill the funding gap.",
+     "vi": "Kinh phí hỗ trợ chỉ còn ba vạn, ít hơn năm ngoái, mà thuê địa điểm và âm thanh đã gần hai vạn, nên anh muốn tìm nhà tài trợ bù vào."
+    }
+   },
+   {
+    "stem": "女士對找店家贊助的看法是什麼？",
+    "options": [
+     "贊成，但要避免活動過度商業化",
+     "堅決反對，認為會浪費時間",
+     "希望贊助商越多越好",
+     "建議改成向學生收費"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "女士說這主意不錯，但提醒別讓活動變成廣告大會，可見她贊成但有所保留。",
+     "en": "She calls it a good idea but warns against turning the event into an advertising show, so she agrees with reservations.",
+     "vi": "Cô nói ý tưởng này hay nhưng nhắc đừng để sự kiện thành buổi quảng cáo, tức là đồng ý nhưng có dè chừng."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD19",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "M",
+    "你好，我是昨天入住的房客，房間的熱水器壞了，洗澡只有冷水。"
+   ],
+   [
+    "F",
+    "真的很抱歉！我馬上請師傅過去看看，大概半小時內會到。"
+   ],
+   [
+    "M",
+    "其實我昨晚就向櫃檯反映過了，可是一直沒有人來處理。"
+   ],
+   [
+    "F",
+    "這點是我們疏忽了，昨晚值班的是臨時員工，可能沒有交接清楚。"
+   ],
+   [
+    "M",
+    "我們這趟是帶長輩來的，他們受了涼，我覺得很過意不去。"
+   ],
+   [
+    "F",
+    "這樣吧，除了修理，我願意退還這兩晚住宿費的一半，另外再送你們一份早餐券，您覺得如何？"
+   ],
+   [
+    "M",
+    "我希望能全額退還昨晚的費用，因為昨晚根本沒辦法正常盥洗。"
+   ],
+   [
+    "F",
+    "這個我需要跟總公司確認，但我會盡量爭取，一小時內回覆您。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "昨晚的問題為什麼沒有被處理？",
+    "options": [
+     "值班的臨時員工可能沒有交接清楚",
+     "師傅正好在休假",
+     "房客沒有通知櫃檯",
+     "民宿沒有備用的熱水器"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "女士承認昨晚值班的是臨時員工，可能沒有交接清楚；男士其實昨晚就向櫃檯反映過了。",
+     "en": "She admits the night-shift worker was temporary and the handover may have been unclear. The guest did report the problem to the front desk last night.",
+     "vi": "Cô thừa nhận nhân viên trực đêm là người tạm thời, có thể bàn giao chưa rõ. Khách thực ra đã báo với quầy lễ tân từ tối qua."
+    }
+   },
+   {
+    "stem": "男士最後提出什麼要求？",
+    "options": [
+     "全額退還昨晚的住宿費",
+     "退還兩晚費用的一半",
+     "免費升級房型",
+     "贈送更多早餐券"
+    ],
+    "answer": "A",
+    "skill": "purpose",
+    "explain": {
+     "zh": "女士提議退兩晚的一半並送早餐券，但男士希望的是全額退還昨晚的費用，因為昨晚無法正常盥洗。",
+     "en": "She offers half of two nights plus a breakfast voucher, but he asks for a full refund of last night, since he could not wash properly.",
+     "vi": "Cô đề nghị hoàn một nửa tiền hai đêm và tặng phiếu ăn sáng, nhưng anh muốn hoàn toàn bộ tiền đêm qua vì không thể tắm rửa bình thường."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LD20",
+  "type": "dialogue",
+  "intro": "請聽這段對話，然後回答下面的兩個問題。",
+  "turns": [
+   [
+    "F",
+    "王先生，謝謝您抽空過來。今天想跟您聊聊小宇最近的學習狀況。"
+   ],
+   [
+    "M",
+    "老師請說。我也發現他這學期成績掉得很快，尤其是數學。"
+   ],
+   [
+    "F",
+    "我觀察到，他的基礎概念其實不差，問題是上課容易分心，作業也常常拖到最後一刻才交。"
+   ],
+   [
+    "M",
+    "唉，回家以後他不是打電動就是滑手機，我說了也沒用。"
+   ],
+   [
+    "F",
+    "責罵恐怕效果有限。我建議跟他一起訂規則，例如寫完功課才能使用三十分鐘的螢幕時間。"
+   ],
+   [
+    "M",
+    "讓他自己參與訂規則？我怕他只會討價還價。"
+   ],
+   [
+    "F",
+    "剛開始難免如此，不過孩子參與了決定，才比較願意遵守。學校也有課後輔導，您可以考慮讓他參加。"
+   ],
+   [
+    "M",
+    "好，我回去先跟他談談，再決定要不要報名。"
+   ]
+  ],
+  "questions": [
+   {
+    "stem": "老師認為小宇成績下滑的主要原因是什麼？",
+    "options": [
+     "上課分心，作業又經常拖延",
+     "數學基礎概念很差",
+     "老師教學進度太快",
+     "缺乏課後輔導"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "老師說他的基礎概念其實不差，問題在於上課容易分心，作業也拖到最後才交。",
+     "en": "The teacher says his basic concepts are actually fine; the trouble is that he gets distracted in class and leaves homework until the last minute.",
+     "vi": "Cô giáo nói nền tảng của em thực ra không kém, vấn đề là hay mất tập trung trên lớp và để bài tập đến phút chót."
+    }
+   },
+   {
+    "stem": "老師對於責罵孩子抱持什麼態度？",
+    "options": [
+     "認為效果有限，不如一起訂規則",
+     "認為這是最快的辦法",
+     "主張完全不要管他",
+     "建議由學校出面處罰"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "老師說責罵恐怕效果有限，並建議和孩子一起訂規則，讓他參與決定。",
+     "en": "She says scolding is probably of limited effect and suggests setting rules together so the child takes part in the decision.",
+     "vi": "Cô nói la mắng e rằng hiệu quả hạn chế, và đề nghị cùng em đặt ra quy tắc để em tham gia quyết định."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM16",
+  "type": "monologue",
+  "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+  "text": "接下來為您報導水情消息。受到連續三個月降雨偏少的影響，南部主要水庫的蓄水量已降到百分之二十八，創下近十年同期新低。水利單位今天宣布，從下週一起，將針對部分地區實施分區供水，每週停水兩天，每次約十個小時，詳細的區域與時段會公布在官方網站。官員強調，這項措施並非隨意限水，而是為了避免水庫提前見底，爭取更多等待降雨的時間。不過，不少民眾擔心，停水會影響生活作息，工廠和餐廳的損失更是難以估計。對此，水利單位呼籲用戶事先儲水，並鼓勵各行業循環使用生產用水。氣象專家則指出，下個月中旬以前，仍不太可能出現足以解渴的豪雨。",
+  "questions": [
+   {
+    "stem": "南部主要水庫目前的蓄水量大約是多少？",
+    "options": [
+     "百分之二十八",
+     "百分之十",
+     "百分之五十",
+     "百分之七十二"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "報導說蓄水量降到百分之二十八，創近十年同期新低；其他數字如兩天、十個小時是停水的安排。",
+     "en": "The report says storage has fallen to 28%, a ten-year low for this time of year. Numbers like two days and ten hours describe the outage schedule.",
+     "vi": "Bản tin nói lượng nước trữ đã xuống 28%, thấp nhất trong mười năm cùng kỳ. Hai ngày, mười giờ là lịch cắt nước."
+    }
+   },
+   {
+    "stem": "官員為什麼要實施分區供水？",
+    "options": [
+     "避免水庫提前見底，爭取等待降雨的時間",
+     "降低工廠的用水成本",
+     "整修老舊的供水管線",
+     "懲罰浪費用水的民眾"
+    ],
+    "answer": "A",
+    "skill": "purpose",
+    "explain": {
+     "zh": "官員強調分區供水是為了避免水庫提前見底，替降雨爭取更多時間，而不是隨意限水。",
+     "en": "Officials stress the measure is meant to keep reservoirs from running dry too early and buy time for rain, not to ration arbitrarily.",
+     "vi": "Quan chức nhấn mạnh biện pháp nhằm tránh hồ cạn sớm và kéo dài thời gian chờ mưa, không phải hạn chế tùy tiện."
+    }
+   },
+   {
+    "stem": "根據氣象專家的看法，接下來的降雨情況如何？",
+    "options": [
+     "下個月中旬前不太可能有足夠的大雨",
+     "本週末就會有豪雨",
+     "降雨量會比往年更多",
+     "雨季已經提前結束"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "專家指出，下個月中旬以前仍不太可能出現足以解渴的豪雨，表示短期內缺水問題不易緩解。",
+     "en": "The expert says a heavy downpour big enough to ease the shortage is unlikely before mid next month, so relief is not near.",
+     "vi": "Chuyên gia nói trước giữa tháng sau khó có mưa lớn đủ giải khát, nghĩa là thiếu nước chưa sớm được giải quyết."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM17",
+  "type": "monologue",
+  "intro": "請聽這場演講，然後回答下面的三個問題。",
+  "text": "各位同學大家好，今天我想談談城市的熱島效應。所謂熱島效應，是指都市中心的氣溫，明顯高於周圍郊區的現象，有時溫差甚至超過五度。造成這種現象的原因主要有三個：第一，柏油路和水泥建築吸收大量熱量，到了夜晚才慢慢釋放；第二，高樓林立，阻擋了風的流動，熱空氣無法散去；第三，冷氣機和汽車排出的廢熱，又讓城市雪上加霜。很多人以為，只要多裝冷氣就能解決問題，其實這只是治標不治本。真正有效的做法，是增加公園綠地、推廣屋頂花園，並且在街道兩旁多種樹木，讓植物的蒸散作用幫忙降溫。城市規劃者若能及早著手，將可大幅減輕夏季的用電負擔。",
+  "questions": [
+   {
+    "stem": "下列哪一項是造成熱島效應的原因？",
+    "options": [
+     "高樓阻擋了風，使熱空氣散不出去",
+     "郊區的樹木太多",
+     "夜晚路燈的熱度太高",
+     "城市的降雨量偏少"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "演講提到高樓林立阻擋了風的流動，熱空氣無法散去；郊區樹木多並不是原因，反而植物有助降溫。",
+     "en": "The speaker says tall buildings block airflow so hot air cannot escape. Trees are a remedy, not a cause.",
+     "vi": "Diễn giả nói nhà cao tầng cản gió khiến không khí nóng không thoát được. Cây xanh là giải pháp chứ không phải nguyên nhân."
+    }
+   },
+   {
+    "stem": "演講者如何看待「多裝冷氣」這個做法？",
+    "options": [
+     "只能暫時緩解，不能根本解決",
+     "是最有效的方法",
+     "會讓氣溫迅速下降",
+     "應該由政府全面禁止"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "演講者說這只是治標不治本，表示冷氣無法根本解決問題，廢熱還會讓情況更糟。",
+     "en": "He calls it treating the symptom rather than the cause; air conditioners emit waste heat and make things worse.",
+     "vi": "Ông gọi đó là chữa ngọn không chữa gốc; máy lạnh còn thải nhiệt làm tình hình tệ hơn."
+    }
+   },
+   {
+    "stem": "演講者建議用什麼方式降低城市溫度？",
+    "options": [
+     "增加綠地、屋頂花園與行道樹",
+     "擴建更多的柏油道路",
+     "減少郊區的公園",
+     "全面禁止汽車進入市區"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "他建議增加公園綠地、推廣屋頂花園，並在街道兩旁多種樹，讓植物蒸散作用降溫。",
+     "en": "He recommends more parks, rooftop gardens and street trees so plant transpiration cools the city.",
+     "vi": "Ông đề nghị thêm công viên, vườn trên mái và cây ven đường để thực vật thoát hơi nước làm mát."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM18",
+  "type": "monologue",
+  "intro": "請聽這則廣播，然後回答下面的三個問題。",
+  "text": "各位聽眾晚安，市立歷史博物館為配合暑假，推出古文明之夜夜間特展，展期從七月十日到八月三十一日，每週五、六晚上開放，時間是六點到九點半。夜間的展場燈光經過特別設計，參觀者可以拿著手電筒，近距離欣賞出土的青銅器與玉器。特別提醒大家，由於夜間人數受到管制，每場限額兩百人，一律採網路預約，現場不售票。預約成功後，請在入場前十五分鐘報到，逾時將視同放棄。此外，為了保護文物，展場內禁止使用閃光燈，也不開放飲食。另外，六十五歲以上的長者可享半價優惠，但仍須事先上網登記，不能臨時到場購票。想體驗不一樣的博物館之夜，別忘了趕快上網預約喔。",
+  "questions": [
+   {
+    "stem": "想參加這個夜間特展，應該怎麼做？",
+    "options": [
+     "事先在網路上預約",
+     "直接到現場購票",
+     "打電話給博物館登記",
+     "向學校申請團體名額"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "廣播說一律採網路預約，現場不售票。",
+     "en": "The broadcast says admission is by online reservation only and no tickets are sold on site.",
+     "vi": "Phát thanh nói chỉ nhận đặt trước trên mạng, không bán vé tại chỗ."
+    }
+   },
+   {
+    "stem": "預約成功的觀眾如果太晚到，會有什麼結果？",
+    "options": [
+     "預約會被視同放棄",
+     "必須補繳罰款",
+     "只能參觀一半的展區",
+     "可以改到隔天入場"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "要求在入場前十五分鐘報到，逾時將視同放棄。",
+     "en": "Visitors must check in fifteen minutes before entry; being late is treated as giving up the reservation.",
+     "vi": "Phải có mặt trước giờ vào mười lăm phút; trễ sẽ bị coi như bỏ đặt chỗ."
+    }
+   },
+   {
+    "stem": "關於長者優惠，下列哪一項正確？",
+    "options": [
+     "仍須事先上網登記才能享有半價",
+     "到場出示證件就能買半價票",
+     "長者可以免費入場",
+     "長者不需要預約"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "廣播說長者可享半價，但須事先上網登記，不能臨時到場購票，所以到場買票是行不通的。",
+     "en": "Seniors get half price but must register online beforehand; they cannot simply buy tickets at the door.",
+     "vi": "Người cao tuổi được nửa giá nhưng phải đăng ký trước trên mạng, không thể mua vé tại chỗ."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM19",
+  "type": "monologue",
+  "intro": "請聽這則新聞報導，然後回答下面的三個問題。",
+  "text": "警政署今天公布最新統計，今年上半年，六十歲以上長者遭詐騙的案件，比去年同期增加了百分之十八，平均每位受害者損失約四十萬元。常見的手法包括假冒檢警人員，謊稱帳戶涉案，要求民眾把存款交給所謂的監管人員；另一種則是假投資，以高報酬為誘餌，讓長者一步步投入積蓄。警方分析，詐騙集團之所以鎖定長者，是因為長者往往有一筆退休金，又不熟悉網路，容易因為害怕而失去判斷。警方呼籲，凡是接到自稱公家機關、要求匯款的電話，一律先掛斷，再撥打一六五反詐騙專線查證。同時也提醒子女，多花點時間陪伴父母，並教導他們辨識詐騙話術，才是最有效的防線。",
+  "questions": [
+   {
+    "stem": "今年上半年長者受騙的案件有什麼變化？",
+    "options": [
+     "比去年同期增加百分之十八",
+     "比去年同期減少百分之十八",
+     "與去年同期差不多",
+     "增加了四十萬件"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "統計顯示案件增加了百分之十八；四十萬元是平均每位受害者的損失，不是案件數。",
+     "en": "Cases rose 18% year on year. The 400,000 figure is the average loss per victim, not the number of cases.",
+     "vi": "Số vụ tăng 18% so với cùng kỳ. Bốn mươi vạn là thiệt hại trung bình mỗi nạn nhân, không phải số vụ."
+    }
+   },
+   {
+    "stem": "詐騙集團為什麼常鎖定長者下手？",
+    "options": [
+     "長者有退休金，又不熟悉網路",
+     "長者喜歡投資高風險商品",
+     "長者不願意和家人聯絡",
+     "長者常常主動撥打專線"
+    ],
+    "answer": "A",
+    "skill": "inference",
+    "explain": {
+     "zh": "警方分析長者往往有一筆退休金，又不熟悉網路，容易因害怕而失去判斷。",
+     "en": "Police note that seniors often hold retirement savings, are unfamiliar with the internet and easily lose judgment out of fear.",
+     "vi": "Cảnh sát phân tích người cao tuổi thường có tiền hưu, không rành mạng và dễ mất phán đoán vì sợ hãi."
+    }
+   },
+   {
+    "stem": "警方認為什麼才是最有效的防線？",
+    "options": [
+     "子女多陪伴並教導父母辨識話術",
+     "加重詐騙者的刑罰",
+     "禁止長者使用手機",
+     "把存款全部交給警方保管"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "報導最後提醒子女多陪伴父母，教他們辨識詐騙話術，才是最有效的防線。",
+     "en": "The report ends by saying children spending time with parents and teaching them to spot scam tactics is the most effective defence.",
+     "vi": "Cuối bản tin nhắc con cái dành thời gian bên cha mẹ và dạy nhận biết lời lẽ lừa đảo mới là tuyến phòng thủ hiệu quả nhất."
+    }
+   }
+  ]
+ },
+ {
+  "id": "LM20",
+  "type": "monologue",
+  "intro": "請聽這段評論，然後回答下面的三個問題。",
+  "text": "近年來，短影音迅速竄紅，許多人利用通勤或睡前的零碎時間，一滑就是一兩個小時，相對地，願意靜下心讀完一本書的人卻越來越少。有人因此憂心，短影音正在摧毀閱讀的習慣。我認為，這種說法未免過於悲觀。短影音本身並沒有錯，它提供了便利的資訊與娛樂，甚至有些創作者會藉由影片推薦好書，引起讀者的興趣。真正的問題在於，演算法不斷推送刺激的內容，讓我們的注意力被切割得支離破碎，漸漸失去了深度思考的耐性。要改善這種情況，與其一味禁止，不如替自己設定使用時間，並且刻意安排一段不受打擾的閱讀時光。畢竟，工具如何影響生活，最後還是取決於使用的人。",
+  "questions": [
+   {
+    "stem": "說話者對「短影音正在摧毀閱讀習慣」這種說法有什麼看法？",
+    "options": [
+     "認為過於悲觀",
+     "完全同意",
+     "認為毫無道理",
+     "覺得與自己無關"
+    ],
+    "answer": "A",
+    "skill": "attitude",
+    "explain": {
+     "zh": "說話者直接說這種說法未免過於悲觀，並指出短影音本身沒有錯。",
+     "en": "The speaker says this view is overly pessimistic and notes that short videos are not wrong in themselves.",
+     "vi": "Người nói cho rằng quan điểm này quá bi quan và nhấn mạnh bản thân video ngắn không có lỗi."
+    }
+   },
+   {
+    "stem": "說話者認為真正的問題是什麼？",
+    "options": [
+     "演算法讓注意力破碎，使人失去深度思考的耐性",
+     "短影音的內容都缺乏知識",
+     "創作者不推薦書籍",
+     "人們沒有時間通勤"
+    ],
+    "answer": "A",
+    "skill": "main_idea",
+    "explain": {
+     "zh": "他指出演算法不斷推送刺激內容，把注意力切割得支離破碎，人漸漸失去深度思考的耐性。",
+     "en": "He says algorithms keep pushing stimulating content, fragmenting attention until people lose the patience for deep thinking.",
+     "vi": "Ông cho rằng thuật toán liên tục đẩy nội dung kích thích, làm vụn sự chú ý khiến người ta mất kiên nhẫn suy nghĩ sâu."
+    }
+   },
+   {
+    "stem": "說話者提出了什麼改善的做法？",
+    "options": [
+     "自己設定使用時間，並安排不受打擾的閱讀時間",
+     "完全禁止孩子看短影音",
+     "改用長影片取代書籍",
+     "請創作者減少發片"
+    ],
+    "answer": "A",
+    "skill": "detail",
+    "explain": {
+     "zh": "他說與其一味禁止，不如替自己設定使用時間，並刻意安排一段不受打擾的閱讀時光。",
+     "en": "He says that rather than banning outright, people should set time limits for themselves and deliberately schedule undisturbed reading time.",
+     "vi": "Ông nói thay vì cấm hoàn toàn, nên tự đặt giới hạn thời gian dùng và chủ động sắp xếp thời gian đọc không bị quấy rầy."
+    }
+   }
+  ]
+ }
+]

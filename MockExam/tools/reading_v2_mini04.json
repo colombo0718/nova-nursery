@@ -1,0 +1,178 @@
+{
+  "gap": [
+    {
+      "id": "RG7",
+      "passage": "假新聞的威力，不在於它多麼高明，而在於傳播速度遠遠超過查證。一則聳動的消息只要配上「震驚」的標題，便能在短時間內{1}，許多人未經思索就轉發，結果以訛傳訛，謠言愈傳愈離譜。媒體素養教育因此格外重要，它教導大眾面對資訊時不可{2}，而應先檢視來源、比對不同報導。有些人只挑選符合自己立場的內容閱讀，久而久之便陷入「同溫層」，對相反的意見{3}。平台業者雖已設立查核機制，{4}的內容仍層出不窮。專家呼籲，唯有每位使用者都願意{5}，才能真正降低假訊息的傷害。",
+      "blanks": [
+        {"n": 1, "options": ["不脛而走", "銷聲匿跡", "石沉大海", "默默無聞"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「不脛而走」形容消息沒有人刻意推動卻傳得很快，與「傳播速度超過查證」呼應；其餘三個都表示消失或沒人注意。",
+                     "en": "「不脛而走」 describes news spreading fast on its own; the others mean vanishing or going unnoticed.",
+                     "vi": "「不脛而走」 chỉ tin tức lan nhanh như có chân; các thành ngữ còn lại nghĩa là biến mất hoặc không ai biết đến."}},
+        {"n": 2, "options": ["照單全收", "一籌莫展", "當機立斷", "責無旁貸"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「照單全收」指不加選擇地全部接受；後文說「而應先檢視來源」，正好形成對比。",
+                     "en": "「照單全收」 means accepting everything uncritically, contrasting with checking sources first.",
+                     "vi": "「照單全收」 nghĩa là tiếp nhận tất cả không chọn lọc, đối lập với việc kiểm tra nguồn trước."}},
+        {"n": 3, "options": ["充耳不聞", "洗耳恭聽", "刮目相看", "禮賢下士"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "只讀同溫層內容的人，對相反意見會「充耳不聞」（故意不聽）；其餘三個表示認真聆聽或尊重他人。",
+                     "en": "People in an echo chamber turn a deaf ear to opposing views: 「充耳不聞」. The others express attentive listening or respect.",
+                     "vi": "Người ở trong vòng tròn đồng quan điểm sẽ 「充耳不聞」 (làm ngơ) trước ý kiến trái chiều; các từ còn lại mang nghĩa lắng nghe, tôn trọng."}},
+        {"n": 4, "options": ["以假亂真", "貨真價實", "名副其實", "言之有物"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「以假亂真」指假的東西做得像真的，用來形容假訊息；其餘三個都帶有真實、有內容的意思。",
+                     "en": "「以假亂真」 means fakes passing as genuine; the others describe authentic or substantive things.",
+                     "vi": "「以假亂真」 chỉ đồ giả trông như thật; các từ còn lại mang nghĩa thật sự, có nội dung."}},
+        {"n": 5, "options": ["查證", "捏造", "追捧", "轉嫁"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "要降低假訊息的傷害，使用者必須願意「查證」；「捏造」是憑空編造，「追捧」是熱烈跟隨，「轉嫁」是把責任推給別人。",
+                     "en": "To reduce harm, users must be willing to verify: 「查證」. The others mean fabricate, chase after, or shift blame.",
+                     "vi": "Muốn giảm tác hại, người dùng phải sẵn lòng 「查證」 (xác minh); các từ còn lại là bịa đặt, đua theo, đổ trách nhiệm."}}
+      ]
+    },
+    {
+      "id": "RG8",
+      "passage": "臺灣已邁入高齡社會，失能長者的照顧問題日益{1}。許多家庭由中年子女肩負照護責任，白天上班、夜裡看護，長期下來身心俱疲，甚至不得不離職，陷入「照顧者貧窮」的困境。政府雖推動社區式照顧據點，希望讓長者能「在地老化」，但人力短缺始終是瓶頸，薪資偏低使年輕人{2}。外籍看護工填補了部分缺口，卻{3}語言與文化磨合的課題。面對龐大需求，單靠公部門恐怕{4}，必須結合民間資源與科技輔具。唯有在問題惡化前{5}，建立完善的支持系統，高齡社會才不致成為家庭的沉重負擔。",
+      "blanks": [
+        {"n": 1, "options": ["迫切", "悠閒", "渺茫", "零星"], "answer": "A", "skill": "vocab",
+         "explain": {"zh": "高齡化使照顧需求愈來愈急，所以說問題「日益迫切」；「悠閒」「渺茫」「零星」都不符合語意。",
+                     "en": "Ageing makes the need ever more urgent: 「迫切」. The others (leisurely, slim, sporadic) do not fit.",
+                     "vi": "Già hóa khiến nhu cầu ngày càng cấp bách: 「迫切」. Các từ còn lại (nhàn nhã, mong manh, lẻ tẻ) không hợp."}},
+        {"n": 2, "options": ["望而卻步", "躍躍欲試", "趨之若鶩", "蜂擁而至"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "薪資偏低讓年輕人「望而卻步」（看了就退縮）；其餘三個都是爭相投入的意思，與人力短缺矛盾。",
+                     "en": "Low pay makes young people shrink back: 「望而卻步」. The others mean rushing in eagerly, contradicting the labor shortage.",
+                     "vi": "Lương thấp khiến người trẻ 「望而卻步」 (chùn bước); các thành ngữ còn lại nghĩa là đổ xô vào, mâu thuẫn với tình trạng thiếu nhân lực."}},
+        {"n": 3, "options": ["衍生", "免除", "抵銷", "迴避"], "answer": "A", "skill": "verb",
+         "explain": {"zh": "「衍生」指由原有事物進一步產生新的問題；引進外籍看護後又產生磨合課題，語意通順。",
+                     "en": "「衍生」 means giving rise to new issues, which fits the cultural adjustment problems that follow.",
+                     "vi": "「衍生」 nghĩa là phát sinh thêm vấn đề mới, khớp với các vấn đề thích nghi ngôn ngữ và văn hóa."}},
+        {"n": 4, "options": ["獨木難支", "綽綽有餘", "迎刃而解", "水到渠成"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「獨木難支」比喻一個人或單位的力量不足以支撐大局；後文要求結合民間資源，與此呼應。",
+                     "en": "「獨木難支」 means one party alone cannot hold things up, matching the call to involve private resources.",
+                     "vi": "「獨木難支」 nghĩa là một mình khó gánh vác nổi, khớp với lời kêu gọi huy động nguồn lực tư nhân."}},
+        {"n": 5, "options": ["未雨綢繆", "亡羊補牢", "臨陣磨槍", "坐享其成"], "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「在問題惡化前」要提前準備，正是「未雨綢繆」；「亡羊補牢」是出事後才補救，「臨陣磨槍」是臨時抱佛腳，「坐享其成」是不勞而獲。",
+                     "en": "Preparing before problems worsen is 「未雨綢繆」; the others mean fixing after the loss, last-minute cramming, or reaping without effort.",
+                     "vi": "Chuẩn bị trước khi vấn đề trầm trọng là 「未雨綢繆」; các từ còn lại là mất bò mới lo làm chuồng, nước đến chân mới nhảy, không làm mà hưởng."}}
+      ]
+    }
+  ],
+  "comp": [
+    {
+      "id": "RC16",
+      "passage": "太陽能與風力發電是減碳的主力，但它們有一個先天的弱點：發電量取決於天氣，而非用電需求。晴朗的正午，太陽能板大量產電，電力卻可能供過於求；入夜或無風時，發電量驟降，電網又面臨缺口。這種「間歇性」使電力調度變得棘手。目前的解方之一是儲能，將多餘的電力暫存起來，在尖峰時段釋放，然而大型電池造價高昂，且存放時間有限。另一條思路是擴大電網的範圍，讓不同地區的天氣互相補位。可見，再生能源的推廣不能只談裝置容量，若缺乏穩定供電的配套，綠電恐怕只是紙上談兵。",
+      "questions": [
+        {"stem": "根據文章，再生能源的「間歇性」指的是什麼？",
+         "options": ["發電量隨天氣變化，與用電需求不一定吻合", "發電設備需要定期停機維修", "電力價格每天都在波動", "電網只能在夜間運作"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "文章開頭指出發電量取決於天氣，而非用電需求，這就是間歇性。",
+                     "en": "Output depends on the weather rather than demand; that is intermittency.",
+                     "vi": "Sản lượng phụ thuộc thời tiết chứ không theo nhu cầu dùng điện; đó là tính gián đoạn."}},
+        {"stem": "文中提到儲能的限制是什麼？",
+         "options": ["大型電池造價高，且存放時間有限", "只能在白天使用", "會讓發電量變得更不穩定", "必須擴大電網才能運作"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說大型電池造價高昂，且存放時間有限。",
+                     "en": "Large batteries are costly and can store power only for a limited time.",
+                     "vi": "Pin cỡ lớn có giá thành cao và thời gian lưu trữ có hạn."}},
+        {"stem": "「綠電恐怕只是紙上談兵」的意思最接近下列何者？",
+         "options": ["只有理論與計畫，卻無法實際發揮作用", "已經被大量實際運用", "將被其他能源完全取代", "價格會比傳統電力便宜"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「紙上談兵」比喻只會空談理論、不能解決實際問題；缺乏穩定供電配套，綠電就難以落實。",
+                     "en": "「紙上談兵」 means theory without practical results; without stable supply, green power stays on paper.",
+                     "vi": "「紙上談兵」 chỉ lý thuyết suông không áp dụng được; thiếu hạ tầng cấp điện ổn định thì điện xanh khó thành hiện thực."}}
+      ]
+    },
+    {
+      "id": "RC17",
+      "passage": "翻譯不僅是語言的轉換，更是文化的搬運。許多詞語在另一種語言中找不到完全對應的說法，例如中文的「緣分」，英文只能用「fate」或「destiny」勉強近似，卻丟失了人與人偶然相遇的溫度。譯者因此常面臨兩難：忠於原文，讀者可能一頭霧水；調整成讀者熟悉的說法，又可能抹去原作的異國風味。優秀的譯者往往在兩者間尋求平衡，必要時加上註解，讓讀者既能順暢閱讀，又不致曲解原意。換言之，翻譯的高明之處不在於逐字對照，而在於讓不同文化背景的人也能心領神會。",
+      "questions": [
+        {"stem": "文章為什麼以「緣分」為例？",
+         "options": ["說明有些詞語在另一種語言中難以完整傳達", "說明英文比中文更精確", "說明譯者不應加註解", "說明這個詞很少被使用"],
+         "answer": "A", "skill": "purpose",
+         "explain": {"zh": "「緣分」在英文中只能近似翻譯，丟失了偶然相遇的溫度，用來說明詞語難以完全對應。",
+                     "en": "The word can only be approximated in English, showing that some terms do not translate fully.",
+                     "vi": "Từ này chỉ được dịch gần đúng sang tiếng Anh, cho thấy có từ không thể chuyển tải trọn vẹn."}},
+        {"stem": "「讀者可能一頭霧水」的意思是什麼？",
+         "options": ["讀者看不懂，感到困惑", "讀者非常感動", "讀者讀得很快", "讀者要求重新翻譯"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「一頭霧水」形容完全摸不著頭緒、困惑不解。",
+                     "en": "「一頭霧水」 means being completely confused.",
+                     "vi": "「一頭霧水」 nghĩa là hoàn toàn mơ hồ, không hiểu gì."}},
+        {"stem": "作者認為優秀翻譯的關鍵是什麼？",
+         "options": ["讓不同文化的讀者也能領會原意，而非逐字對照", "完全保留原文的每個字詞", "一律改成讀者熟悉的說法", "避免翻譯有文化色彩的作品"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "結尾強調高明之處不在逐字對照，而在讓人心領神會。",
+                     "en": "The ending says skill lies not in word-for-word matching but in helping people grasp the meaning.",
+                     "vi": "Phần kết nhấn mạnh cái hay không nằm ở dịch từng chữ mà ở việc giúp người đọc thấu hiểu ý nghĩa."}}
+      ]
+    },
+    {
+      "id": "RC18",
+      "passage": "現代運動賽事早已不只是體能的較量，而是一門龐大的生意。轉播權利金、贊助廣告與周邊商品，為主辦單位帶來可觀收益，也讓頂尖選手得以專職訓練。然而，商業化的代價逐漸浮現：為了配合電視轉播的黃金時段，比賽時間常被迫更動，選手得在不利的氣溫下上場；票價一路攀升，讓忠實的老球迷望而生畏。更令人憂心的是，當勝負牽動巨額利益，運動精神可能被功利考量取代。有評論者主張，商業與競技並非勢不兩立，關鍵在於收益是否回饋基層，讓更多人有機會親近運動。",
+      "questions": [
+        {"stem": "根據文章，商業化帶來了哪些負面影響？",
+         "options": ["賽程遷就轉播，票價上漲", "選手無法專職訓練", "贊助商紛紛撤出", "轉播權利金大幅下降"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中指出比賽時間為配合轉播而更動，票價也一路攀升。",
+                     "en": "Schedules bend to broadcasters and ticket prices keep climbing.",
+                     "vi": "Lịch thi đấu bị điều chỉnh theo truyền hình và giá vé liên tục tăng."}},
+        {"stem": "「商業與競技並非勢不兩立」的意思是什麼？",
+         "options": ["兩者可以並存，不一定互相排斥", "兩者永遠無法合作", "商業一定會取代競技", "競技不需要任何收益"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「勢不兩立」指雙方無法同時存在；「並非勢不兩立」即兩者可以並存。",
+                     "en": "「勢不兩立」 means irreconcilable; saying they are not so means they can coexist.",
+                     "vi": "「勢不兩立」 nghĩa là không thể cùng tồn tại; phủ định nó tức là hai bên có thể song hành."}},
+        {"stem": "文中評論者的看法是什麼？",
+         "options": ["只要收益能回饋基層，商業化也能帶來好處", "應該完全禁止商業贊助", "票價愈高愈能提升水準", "運動精神早已不重要"],
+         "answer": "A", "skill": "attitude",
+         "explain": {"zh": "評論者認為關鍵在收益是否回饋基層，讓更多人親近運動。",
+                     "en": "The commentator says the key is whether revenue is returned to grassroots sport.",
+                     "vi": "Nhà bình luận cho rằng mấu chốt là lợi nhuận có được đem lại cho phong trào cơ sở hay không."}}
+      ]
+    },
+    {
+      "id": "RC19",
+      "passage": "社群媒體讓人隨時窺見他人的生活，卻也悄悄助長了比較心理。心理學家指出，人們在網路上展示的多半是精心挑選的亮點：旅遊的美照、升遷的喜訊、完美的餐點。當我們拿自己平凡的日常，去對照別人經過修飾的精華，很容易覺得自己黯然失色。長期下來，可能產生焦慮與自卑，甚至為了維持形象而刻意包裝生活，形成惡性循環。要跳脫這個陷阱，首先要提醒自己，螢幕上的畫面只是一個人生活的片段，而非全貌。此外，適度減少滑手機的時間，把注意力移回現實中的人際互動，也能讓心境平靜許多。",
+      "questions": [
+        {"stem": "為什麼拿自己的日常與他人的網路貼文比較，容易讓人自卑？",
+         "options": ["因為比較的對象是經過挑選與修飾的精華", "因為別人的生活真的比較完美", "因為貼文數量太多", "因為自己很少使用社群媒體"],
+         "answer": "A", "skill": "inference",
+         "explain": {"zh": "文章說別人展示的是精心挑選、修飾過的亮點，拿平凡日常去比，基準並不對等。",
+                     "en": "Others post curated highlights, so comparing them with your ordinary life is an unfair benchmark.",
+                     "vi": "Người khác đăng những điểm nổi bật đã chọn lọc, nên so với đời thường của mình là không công bằng."}},
+        {"stem": "「覺得自己黯然失色」的意思最接近下列何者？",
+         "options": ["覺得自己相形之下遜色", "覺得自己光彩奪目", "覺得眼前一片昏暗", "覺得別人不如自己"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「黯然失色」指與他人比較後顯得遜色、失去光彩。",
+                     "en": "「黯然失色」 means looking dull or inferior by comparison.",
+                     "vi": "「黯然失色」 nghĩa là so sánh với người khác thì trở nên mờ nhạt, kém cỏi."}},
+        {"stem": "文章最後一段的目的是什麼？",
+         "options": ["提供面對社群媒體比較心理的建議", "批評所有使用社群媒體的人", "介紹新的手機功能", "說明心理學家的研究方法"],
+         "answer": "A", "skill": "purpose",
+         "explain": {"zh": "最後提醒畫面只是片段，並建議減少滑手機、回到現實互動，屬於提出對策。",
+                     "en": "It reminds readers that posts are fragments and suggests cutting screen time: practical advice.",
+                     "vi": "Đoạn cuối nhắc rằng hình ảnh chỉ là mảnh ghép và khuyên giảm lướt điện thoại: đưa ra lời khuyên."}}
+      ]
+    },
+    {
+      "id": "RC20",
+      "passage": "在機器量產的時代，傳統手工藝正面臨青黃不接的窘境。一個手工編織的竹籃，可能耗費數天工夫，售價卻難以與工廠製品競爭；年輕人看著微薄的收入，自然不願投入需要多年磨練的學徒生涯。師傅年事已高，技藝若無人承接，恐怕將隨著他們的離去而失傳。近年來，一些地方嘗試轉個方向：把工藝融入設計，開發符合現代生活的產品，並透過體驗課程讓大眾親手感受製作的樂趣。這些做法未必能讓每項技藝起死回生，但至少讓人們重新看見，手作的價值不只在於實用，更在於其中凝聚的時間與心意。",
+      "questions": [
+        {"stem": "年輕人不願投入傳統手工藝的原因是什麼？",
+         "options": ["收入微薄，且學徒階段需要多年磨練", "工廠會提供更多教學", "手工藝已經不受大眾歡迎", "師傅不願意教導"],
+         "answer": "A", "skill": "detail",
+         "explain": {"zh": "文中說年輕人看著微薄的收入，不願投入需要多年磨練的學徒生涯。",
+                     "en": "Low income and a years-long apprenticeship deter young people.",
+                     "vi": "Thu nhập thấp và giai đoạn học nghề kéo dài nhiều năm khiến người trẻ không muốn theo."}},
+        {"stem": "「青黃不接」在文中指的是什麼情形？",
+         "options": ["老一輩逐漸凋零，新一代卻還沒接上", "竹籃的顏色變得不好看", "產品供過於求", "年輕人與老人互相學習"],
+         "answer": "A", "skill": "idiom",
+         "explain": {"zh": "「青黃不接」原指舊糧吃完、新糧未熟，比喻人才或物資一時接濟不上；文中指師傅老去而傳人不足。",
+                     "en": "「青黃不接」 means the old supply is gone before the new arrives; here masters age while successors are lacking.",
+                     "vi": "「青黃不接」 nghĩa là lớp cũ hết mà lớp mới chưa kịp nối; ở đây là thợ già mà người kế nghiệp thiếu."}},
+        {"stem": "作者認為手作的價值在於什麼？",
+         "options": ["不只實用，更凝聚了時間與心意", "價格比工廠製品便宜", "製作速度非常快", "能完全取代機器生產"],
+         "answer": "A", "skill": "main_idea",
+         "explain": {"zh": "結尾說手作的價值不只在實用，更在於凝聚的時間與心意。",
+                     "en": "The ending says handmade value lies beyond utility, in the time and care it embodies.",
+                     "vi": "Phần kết nói giá trị đồ thủ công không chỉ ở tính hữu dụng mà còn ở thời gian và tâm ý kết tinh trong đó."}}
+      ]
+    }
+  ]
+}
